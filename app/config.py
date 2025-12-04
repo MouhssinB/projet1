@@ -48,10 +48,43 @@ class Settings(BaseSettings):
     azure_speech_endpoint: Optional[str] = None
 
     # Azure Storage
+    azure_storage_connection_string: Optional[str] = None
+    azure_storage_account_name: Optional[str] = None
+    azure_storage_container_name: Optional[str] = None
+    azure_storage_base_blob_folder: Optional[str] = None
+    azure_fileshare_name: Optional[str] = None
     azure_fileshare_mount_point: str = "/mnt/storage"
 
     # Application Insights
     applicationinsights_connection_string: Optional[str] = None
+
+    # Forms and External URLs
+    url_forms_eval: Optional[str] = None
+
+    # Logging Configuration
+    pythonunbuffered: str = "1"
+    async_log_queue_size: int = 5000
+    async_log_batch_size: int = 50
+    async_log_flush_interval: float = 3.0
+    taille_fichiers_max_mb_rotation: int = 5
+
+    # OAuth2 Gauthiq - Additional
+    gauthiq_habilitation_endpoint: str = "/api/habilitations"
+
+    # Session Configuration - Additional
+    session_max_age_hours: int = 1
+    session_cookie_path: str = "/"
+    session_type: str = "filesystem"
+    session_file_dir: str = "flask_session/"
+    session_file_threshold: int = 100
+    session_use_signer: bool = True
+    session_permanent: bool = True
+
+    # Server Configuration
+    port: int = 5000
+    gunicorn_workers: int = 4
+    gunicorn_threads: int = 2
+    gunicorn_timeout: int = 600
 
     # CORS
     cors_origins: list[str] = ["*"]
