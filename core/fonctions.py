@@ -18,7 +18,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any, Dict, List, Tuple, Union
 import os 
-from flask import current_app , session, redirect
+# Flask removed - migrated to FastAPI
 from dotenv import load_dotenv
 from azure.storage.blob import BlobServiceClient, ContentSettings
 from azure.identity import DefaultAzureCredential   
@@ -316,7 +316,7 @@ def log_to_journal(user, mail, event, stats={}, note_user=None):
                                         note_user = note_trouvee
                                         # Marquer l'index de la ligne à supprimer (converti depuis reversed)
                                         ligne_note_a_supprimer = len(lignes) - 1 - idx
-                                        current_app.logger.info(f"✅ Note utilisateur récupérée depuis journal: {note_user} (il y a {diff_seconds:.0f}s)")
+                                        logger.info(f"✅ Note utilisateur récupérée depuis journal: {note_user} (il y a {diff_seconds:.0f}s)")
                                         break
                                 elif diff_seconds > 120:
                                     # Si on dépasse 120 secondes, arrêter la recherche
@@ -345,10 +345,10 @@ def log_to_journal(user, mail, event, stats={}, note_user=None):
                                     'nombre_mots_vous', 'nombre_total_echanges'
                                 ])
                         
-                        current_app.logger.info(f"🗑️ Ligne 'note utilisateur' supprimée du journal après récupération")
+                        logger.info(f"🗑️ Ligne 'note utilisateur' supprimée du journal après récupération")
                         
                 except Exception as e:
-                    current_app.logger.warning(f"⚠️ Erreur lors de la recherche/suppression de note utilisateur: {str(e)}")
+                    logger.warning(f"⚠️ Erreur lors de la recherche/suppression de note utilisateur: {str(e)}")
         
         # Définir les colonnes du fichier CSV
         columns = [
@@ -393,25 +393,23 @@ def log_to_journal(user, mail, event, stats={}, note_user=None):
                 nombre_total_echanges
             ])
         
-        current_app.logger.info(f"Événement enregistré dans le journal: {user}, {event}")
-        
-        # Réinitialiser la note de session uniquement après la génération de synthèse
-        if event == 'génération de synthèse' and 'user_rating' in session:
-            session.pop('user_rating')            
-            session.modified = True
-            current_app.logger.info("Note utilisateur de la session réinitialisée après synthèse")
-            
-    except Exception as e:
-        current_app.logger.error(f"Erreur lors de l'enregistrement dans le journal: {str(e)}")
+        logger.info(f"Événement enregistré dans le journal: {user}, {event}")
 
-def init_session_lists():
-    """Initialise les listes de fichiers en session"""
-    if 'history_conv' not in session:
-        session['history_conv'] = []
-    if 'history_eval' not in session:
-        session['history_eval'] = []
-    if 'faq_history' not in session:
-        session['faq_history'] = []
+    except Exception as e:
+        logger.error(f"Erreur lors de l'enregistrement dans le journal: {str(e)}")
+
+def init_session_lists(session_data: Dict[str, Any]):
+    """Initialise les listes de fichiers en session
+
+    Args:
+        session_data: Dictionnaire de session FastAPI
+    """
+    if 'history_conv' not in session_data:
+        session_data['history_conv'] = []
+    if 'history_eval' not in session_data:
+        session_data['history_eval'] = []
+    if 'faq_history' not in session_data:
+        session_data['faq_history'] = []
     
 
 def init_azure_blob_client():
@@ -427,52 +425,33 @@ def init_azure_blob_client():
             blob_service_client = BlobServiceClient.from_connection_string(connection_string)
         return blob_service_client
     except Exception as e:
-        current_app.logger.error(f"Failed to initialize Azure Blob client: {str(e)}")
+        logger.error(f"Failed to initialize Azure Blob client: {str(e)}")
         return None
 
-    """
-    Récupère un fichier depuis Azure Blob Storage
-    """
-    try:
-        if file_type == 'conversation':
-            azure_path = f"{user_folder}/conversations/{filename}"
-        elif file_type == 'synthese':
-            azure_path = f"{user_folder}/syntheses/{filename}"
-        else:
-            raise ValueError(f"Type de fichier non supporté: {file_type}")
-        
-        blob_service_client = init_azure_blob_client()
-        if not blob_service_client:
-            return False, None
-            
-        blob_client = blob_service_client.get_blob_client(container=container_name, blob=azure_path)
-        
-        if not blob_client.exists():
-            current_app.logger.warning(f"Fichier non trouvé sur Azure: {azure_path}")
-            return False, None
-        
-        content = blob_client.download_blob().readall()
-        if isinstance(content, bytes):
-            content = content.decode('utf-8')
-            
-        return True, content
-    except Exception as e:
-        current_app.logger.error(f"Erreur lors de la récupération Azure de {filename}: {str(e)}")
-        return False, None
 
-def restore_profil_manager_from_session(profil_manager):
-    """Restaure le profil_manager depuis les données de session"""
-    if 'profile_data' in session:
-        profile_data = session['profile_data']
+def restore_profil_manager_from_session(profil_manager, session_data: Dict[str, Any]):
+    """Restaure le profil_manager depuis les données de session
+
+    Args:
+        profil_manager: Instance du gestionnaire de profil
+        session_data: Dictionnaire de session FastAPI
+    """
+    if 'profile_data' in session_data:
+        profile_data = session_data['profile_data']
         type_personne = profile_data.get('type_personne', 'Particulier')
-      
+
         profil_manager._profil = profile_data.get('profil_dict')
         profil_manager._prompt = profile_data.get('prompt')
 
-def save_profil_manager_to_session(profil_manager):
-    """Sauvegarde le profil_manager actuel dans la session"""
+def save_profil_manager_to_session(profil_manager, session_data: Dict[str, Any]):
+    """Sauvegarde le profil_manager actuel dans la session
+
+    Args:
+        profil_manager: Instance du gestionnaire de profil
+        session_data: Dictionnaire de session FastAPI
+    """
     if profil_manager:
-        session['profile_data'] = {
+        session_data['profile_data'] = {
             'type_personne': profil_manager.get_profil_type,
             'profil_dict': profil_manager.profil,
             'person_details': profil_manager.get_person_details(),
@@ -482,12 +461,16 @@ def save_profil_manager_to_session(profil_manager):
             'liste_questions': profil_manager.liste_questions,
             'prompt': profil_manager.prompt
         }
-        session.modified = True
 
-def init_session_profile(default_profil):
-    """Initialise le profil de session pour l'utilisateur"""
-    if 'profile_data' not in session:
-        session['profile_data'] = {
+def init_session_profile(default_profil, session_data: Dict[str, Any]):
+    """Initialise le profil de session pour l'utilisateur
+
+    Args:
+        default_profil: Profil par défaut
+        session_data: Dictionnaire de session FastAPI
+    """
+    if 'profile_data' not in session_data:
+        session_data['profile_data'] = {
             'type_personne': default_profil.get_profil_type,
             'profil_dict': default_profil.profil,
             'person_details': default_profil.get_person_details(),
@@ -497,28 +480,34 @@ def init_session_profile(default_profil):
             'liste_questions': default_profil.liste_questions,
             'prompt': default_profil.prompt
         }
-    restore_profil_manager_from_session(default_profil)
+    restore_profil_manager_from_session(default_profil, session_data)
 
 def save_user_rating_to_file(note_data):
     """
     Sauvegarde la note utilisateur dans note_users.json
     """
-    NOTE_USERS_FILE = os.path.join(current_app.root_path, "data", "suivis", "note_users.json")
+    # Utilise le chemin du projet (2 niveaux au-dessus de ce fichier)
+    project_root = Path(__file__).parent.parent
+    NOTE_USERS_FILE = project_root / "data" / "suivis" / "note_users.json"
+
     try:
-        if os.path.exists(NOTE_USERS_FILE):
+        if NOTE_USERS_FILE.exists():
             with open(NOTE_USERS_FILE, 'r', encoding='utf-8') as f:
                 notes = json.load(f)
         else:
             notes = []
-        
+
         notes.append(note_data)
-        
+
+        # Créer les répertoires si nécessaire
+        NOTE_USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
+
         with open(NOTE_USERS_FILE, 'w', encoding='utf-8') as f:
             json.dump(notes, f, indent=2, ensure_ascii=False)
-            
-        current_app.logger.info("Note utilisateur sauvegardée avec succès.")
+
+        logger.info("Note utilisateur sauvegardée avec succès.")
     except Exception as e:
-        current_app.logger.error(f"Erreur lors de la sauvegarde de la note utilisateur: {str(e)}")
+        logger.error(f"Erreur lors de la sauvegarde de la note utilisateur: {str(e)}")
 
 
 def charger_documents_reference():
@@ -617,7 +606,7 @@ def generate_blob_url_with_sas(blob_name, container_name, expiry_hours=24):
         return blob_url
         
     except Exception as e:
-        current_app.logger.error(f"Erreur lors de la génération de l'URL SAS: {str(e)}")
+        logger.error(f"Erreur lors de la génération de l'URL SAS: {str(e)}")
         return None
     
 def get_user_folder_path(user_email):

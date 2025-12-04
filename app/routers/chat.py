@@ -427,7 +427,8 @@ async def synthetiser(
             conversation_history,
             client,
             references,
-            profil_manager
+            profil_manager,
+            request.session
         )
 
         # Générer le rapport HTML

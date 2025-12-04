@@ -16,7 +16,8 @@ from datetime import datetime
 from pathlib import Path
 import openai
 from openai import AzureOpenAI
-from flask import session, current_app
+# Flask removed - migrated to FastAPI
+from typing import Dict, Any
 from .prompt_synthese import construire_prompt_synthese
 from .fonctions_fileshare import save_file_to_azure
 
@@ -249,18 +250,19 @@ def historique_remap_roles(history):
     return historique, historique_formate
 
 
-def synthese_2(history, client, documents_reference, profil_manager):
+def synthese_2(history, client, documents_reference, profil_manager, session_data: Dict[str, Any] = None):
     """
     Effectue une évaluation unique sur tout l'historique de la conversation
     en utilisant les documents de référence Groupama.
     VERSION AMÉLIORÉE avec garantie de JSON valide.
-    
+
     Args:
         history: Historique de la conversation
         client: Client OpenAI configuré
         documents_reference: Documents de référence chargés
         profil_manager: Manager des profils clients
-    
+        session_data: Dictionnaire de session FastAPI (optionnel)
+
     Returns:
         dict: Résultats d'évaluation structurés pour automatisation
     """
@@ -297,8 +299,8 @@ Vous DEVEZ répondre EXCLUSIVEMENT avec un objet JSON valide.
     
     # Sauvegarde du prompt pour debugging dans Azure FileShare
     try:
-        user_folder = session.get('user_folder', None)
-        
+        user_folder = session_data.get('user_folder', None) if session_data else None
+
         if user_folder:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"prompt_synthese_{timestamp}.txt"
