@@ -32,13 +32,15 @@ WORKDIR /app
 USER default
 
 # Copier les fichiers de l'application
+COPY app/ /app/app/
 COPY auth/ /app/auth/
 COPY core/ /app/core/
 COPY data/ /app/data/
 COPY static/ /app/static/
 COPY templates/ /app/templates/
 # COPY tests/ /app/tests/  # Tests non nécessaires en production
-COPY app.py .
+COPY main_fastapi.py .
+COPY pyproject.toml .
 COPY requirements.txt .
 
 # Installer les dépendances Python
@@ -48,13 +50,11 @@ RUN pip install --no-cache-dir --upgrade pip==25.1.1 && \
     uv init . && \
     pip list
 
-# Exposer le port utilisé par Flask
-EXPOSE 5000
+# Exposer le port utilisé par FastAPI
+EXPOSE 8000
 
-# Variables d'environnement pour Flask
-ENV FLASK_APP=app.py
-ENV FLASK_RUN_HOST=0.0.0.0
-ENV FLASK_ENV=production
+# Variables d'environnement pour FastAPI
+ENV PORT=8000
 
 # Variables d'environnement pour les certificats SSL (utilisation des certificats système RedHat)
 ENV SSL_CERT_FILE=/etc/ssl/certs/ca-bundle.trust.crt
@@ -64,4 +64,3 @@ ENV PYTHONHTTPSVERIFY=1
 
 # Commande de démarrage (utilise le script d'entrée pour gérer le FileShare)
 CMD ["/app/docker-entrypoint.sh"]
-
