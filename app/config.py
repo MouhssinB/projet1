@@ -15,6 +15,11 @@ class Settings(BaseSettings):
     app_version: str = "2.0.0"
     debug: bool = False
 
+    # Mode d'authentification : "local" ou "production"
+    # local : gauthiq sans SSL (développement uniquement)
+    # production : gauthiq avec SSL sécurisé
+    auth_mode: str = "production"
+
     # Security
     secret_key: str
     session_lifetime_hours: int = 24
@@ -110,6 +115,25 @@ class Settings(BaseSettings):
     def session_max_age(self) -> int:
         """Retourne la durée de session en secondes"""
         return self.session_lifetime_hours * 3600
+
+    def is_local_auth_mode(self) -> bool:
+        """Vérifie si on est en mode authentification local (sans SSL)"""
+        return self.auth_mode.lower() == "local"
+
+    def is_production_auth_mode(self) -> bool:
+        """Vérifie si on est en mode authentification production (avec SSL)"""
+        return self.auth_mode.lower() == "production"
+
+    def get_auth_ssl_verify(self) -> bool:
+        """
+        Retourne la configuration SSL pour l'authentification selon le mode.
+
+        - Mode local : SSL désactivé (False)
+        - Mode production : SSL activé (True)
+        """
+        if self.is_local_auth_mode():
+            return False
+        return self.gauthiq_ssl_verify
 
 
 @lru_cache()
