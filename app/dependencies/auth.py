@@ -33,9 +33,12 @@ def get_oauth_client():
         _oauth_instance = OAuth(config)
 
         # Configuration du client OAuth
+        # Utilise le mode d'authentification (local ou production)
+        ssl_verify = settings.get_auth_ssl_verify()
+
         client_kwargs = {
             "scope": "openid profile email",
-            "verify": settings.gauthiq_ssl_verify,
+            "verify": ssl_verify,
             "timeout": 30,
         }
 
@@ -91,12 +94,15 @@ async def get_user_habilitations(
     }
 
     try:
+        # Utilise le mode d'authentification pour SSL
+        ssl_verify = settings.get_auth_ssl_verify()
+
         response = requests.get(
             api_url,
             params=params,
             headers=headers,
             timeout=10,
-            verify=settings.gauthiq_ssl_verify,
+            verify=ssl_verify,
         )
 
         if response.status_code == 200:
