@@ -1,0 +1,150 @@
+
+# Synthèse des garanties santé Groupama GSA3 
+## SOINS COURANTS
+
+- **Honoraires médicaux** (généralistes, spécialistes, radiologues) :
+  - Niveau 1 : 100% BR
+  - Niveau 2 : 150% BR
+  - Niveau 3 : 170% BR
+  - Niveau 4 : 300% BR
+  - Médecin DPTAM : 100% BR (Niveau1), 130% BR (Niveau2), 150% BR (Niveau3), 200% BR (Niveau4)
+  - Médecin non DPTAM : BR pour tous niveaux
+
+- **Honoraires paramédicaux** :
+  - Psychologues référencés : BR pour tous niveaux
+  - Auxiliaires médicaux : 100% BR (Niveau1), 130% BR (Niveau2), 150% BR (Niveau3), 300% BR (Niveau4)
+
+- **Médicaments prescrits et remboursés** : 100% BR pour tous niveaux
+
+- **Analyses et examens de laboratoire** : Niveau1=100% BR , Niveau2=130% BR , Niveau3=150% BR , Niveau4=300% BR
+
+- **Matériel médical** (hors optique, dentaire, aide auditive) : 100% BR (Niveau1), 130% BR (Niveau2), 150% BR (Niveau3), 300% BR (Niveau4)
+
+- **Frais de transport médicaux** : 100% BR (Niveau1), 130% BR (Niveau2), 150% BR (Niveau3), 300% BR (Niveau4)
+
+- **Cures thermales** :
+  - Frais thermaux : BR pour tous niveaux
+  - Hébergement/transport : 100% BR pour tous niveaux
+  - Autres : BR (Niveau1), BR+80€ (Niveau2), BR+100€ (Niveau3), BR+185€ (Niveau4)
+
+## MEDECINE DOUCE
+
+- **Séances par professionnel RPPS** (ostéopathie, acupuncture, etc.) :
+  - Niveau1 : pas de remboursement
+  - Niveau2 : 2 séances à 50€
+  - Niveau3 : 3 séances à 50€
+  - Niveau4 : 3 séances à 60€
+
+- **Prescriptions non prises en charge par le RO** :
+  - Pharmacie non remboursée : Niveau1 : -, Niveau2 : 40€, Niveau3 : 50€, Niveau4 : 100€
+
+## NAISSANCE
+
+- **Forfait naissance/adoption (enfant < 11 ans)** :
+  - Niveau1 : -
+  - Niveau2 : 100€
+  - Niveau3 : 120€
+  - Niveau4 : 200€
+
+## OPTIQUE
+
+- *Un équipement tous les deux ans (sauf enfant < 16 ans : 1/an)*
+
+- **Equipements 100% Santé** : Frais réels dans la limite des prix réglementaires
+
+- **Equipements hors 100% Santé** :
+  - **Adulte** :
+    - Opticiens Sévéane (Monture) : 100% BR (Niveau1), 65€ (Niveau2), 100€ (Niveau3/Niveau4)
+    - Opticiens Sévéane (Verres) : 100% BR (Niveau1), prise en charge intégrale (Niveau2 à Niveau4)
+    - Autres opticiens (monture + 2 verres simples) :
+      - Niveau1 : 100% BR
+      - Niveau2 : monture 110€ + 200€
+      - Niveau3 : monture 150€ + 230€
+      - Niveau4 : monture 170€ + 250€
+  - **Enfant** :
+    - Opticiens Sévéane (Monture) : 100% BR (Niveau1), 30€ (Niveau2), 50€ (Niveau3), 100€ (Niveau4)
+    - Opticiens Sévéane (Verres) : 100% BR (Niveau1), prise en charge intégrale (Niveau2 à Niveau4)
+    - Autres opticiens (monture + 2 verres simples) :
+      - Niveau1 : 100% BR
+      - Niveau2 : monture 75€ + 200€
+      - Niveau3 : monture 100€ + 200€
+      - Niveau4 : monture 155€ + 200€
+
+- **Lentilles correctrices** (forfait/an/bénéficiaire) :
+  - Niveau1 : 100% BR
+  - Niveau2 : 80€
+  - Niveau3 : 95€
+  - Niveau4 : 155€
+  - Opticiens Sévéane : Niveau2 : 65€, Niveau3 : 80€, Niveau4 : 145€
+
+- **Opération des défauts visuels** (2 forfaits/bénéficiaire/contrat) :
+  - Niveau1 : -
+  - Niveau2 : 155€
+  - Niveau3 : 230€
+  - Niveau4 : 460€
+
+## AUDIOLOGIE
+
+- *1 aide auditive/oreille/4 ans*
+
+- **Equipements 100% Santé** : Frais réels dans la limite des prix réglementaires
+
+- **Equipements hors 100% Santé** :
+  - Aide auditive adulte (par oreille, part RO incluse) : 400€ (Niveau1), 500€ (Niveau2), 750€ (Niveau3), 1000€ (Niveau4)
+  - Aide auditive enfant/handicap visuel : 1400€ (Niveau1), 1600€ (Niveau2), 1700€ (Niveau3/Niveau4)
+  - Piles/accessoires : 100% BR (Niveau1), 130% BR (Niveau2), 150% BR (Niveau3), 300% BR (Niveau4)
+  - Réseau Sévéane : inclus tous niveaux
+
+## DENTAIRE
+
+- **Soins courants** : 100% BR tous niveaux
+- **Inlay/Onlay** : 100% BR (Niveau1), 100% BR + 35€ (Niveau2), 100% BR + 70€ (Niveau3), 100% BR + 100€ (Niveau4)
+- **Orthodontie** :
+  - Prise en charge RO : 100% BR (Niveau1), 200% BR (Niveau2), 300% BR (Niveau3), 400% BR (Niveau4)
+  - Non prise en charge RO (>18 ans) : Niveau3 : 300€, Niveau4 : 600€
+- **Prothèses RO** :
+  - 100% santé : Frais réels dans la limite HLF
+  - Hors 100% santé : 100% BR (Niveau1), 200% BR (Niveau2), 250% BR (Niveau3), 350% BR (Niveau4)
+  - Plafond annuel prothèses : Niveau2 : 400€, Niveau3 : 600€, Niveau4 : 900€
+- **Implant** (2/2 ans) : Niveau2 : 100€, Niveau3 : 300€, Niveau4 : 600€
+- **Prévention dentaire** :
+  - Bilan annuel >24 ans : 25€ tous niveaux
+  - Parodontie : Niveau2 : 30€, Niveau3 : 60€, Niveau4 : 100€
+
+## HOSPITALISATION
+
+- *Prise en charge dès le 1er jour*
+
+- **Honoraires de soins** :
+  - Médecin DPTAM : 100% BR (Niveau1), 170% BR (Niveau2), 220% BR (Niveau3), 400% BR (Niveau4)
+  - Médecin non DPTAM : 100% BR (Niveau1), 150% BR (Niveau2), 200% BR (Niveau3/Niveau4)
+- **Frais de séjour** : 100% BR tous niveaux
+- **Forfait journalier hospitalier** : Frais réels tous niveaux
+
+- **Chambre particulière avec nuitée** : Niveau2 : 35€/jour, Niveau3 : 65€/jour, Niveau4 : 95€/jour
+- **Chambre particulière ambulatoire** : Niveau2 : 20€/jour, Niveau3 : 35€/jour, Niveau4 : 50€/jour
+- **Frais TV/wifi/téléphone/journaux** : Niveau3 : 5€/jour, Niveau4 : 15€/jour
+- **Lit et repas accompagnant** : Niveau2 : 20€/jour, Niveau3 : 25€/jour, Niveau4 : 50€/jour
+
+## ASSISTANCE ET SERVICES
+
+- **Assistance Mutuaide** : inclus tous niveaux
+- **Aide-ménagère/garde à domicile** (2/an/bénéficiaire) : 20h (Niveau1), 25h (Niveau2), 30h (Niveau3), 35h (Niveau4)
+- **Garde animaux/livraison médicaments/repas** (2/an/bénéficiaire) : 300€ tous niveaux
+- **Relai moi** : inclus tous niveaux
+- **Téléconsultation médicale** : Niveau1 : 6 téléconsultations/an/bénéficiaire majeur
+- **Espace client santé sécurisé** : inclus tous niveaux
+
+---
+
+**Abréviations :**
+- BR : Base de remboursement du régime obligatoire
+- RO : Régime obligatoire
+- FR : Frais réels (remboursement intégral)
+- DPTAM : Dispositif de pratique tarifaire maîtrisée
+- HLF : Honoraires Limites de Facturation
+
+**Remarques :**
+- Les garanties exprimées en % de la BR incluent le remboursement du RO.
+- Les équipements optiques sont remboursés tous les 2 ans (sauf enfants <16 ans : 1/an).
+- Les plafonds, forfaits et conditions sont à vérifier dans la documentation officielle.

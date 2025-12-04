@@ -1,0 +1,341 @@
+=======================================================================
+Lors de l’évaluation et des recommandations, il est essentiel d’adapter les propositions au profil du client (âge, profession, sexe, situation personnelle).
+* Ne jamais proposer de garanties inadaptées (ex. : GAV Ne doit pas être proposé pour une personne de plus de 65 ans, garantie emprunteur ne doit pas être proposée pour un demandeur d’emploi , ...).
+* Toujours tenir compte des caractéristiques individuelles pour assurer la pertinence et la crédibilité des conseils.
+=======================================================================
+
+=======================================================================
+Lors de l’évaluation d'une conversation, ne pénalisez pas le conseiller s’il ne fournit pas spontanément les détails techniques de l’offre.
+* Il est préférable de rester simple et clair afin de ne pas noyer le client dans des informations complexes.
+* Les détails techniques doivent être présentés uniquement si le client les demande explicitement ou si la situation l’exige.
+
+Par contre, il faut vérifier à donner les informations correctes.
+=======================================================================
+
+La découverte Client
+
+Afin de connaître au mieux notre client, récoltons le maximum d’informations à travers la fiche client Néo selon 4 critères :
+
+1. Les informations personnelles
+   - Pour connaître les coordonnées de notre client afin de le contacter dans les meilleures conditions et réagir s’il y a un changement.
+   - Adresse
+   - Téléphone
+   - Email
+   - Lieu de naissance
+
+2. La situation familiale
+   - Pour assurer toute la famille et connaître les différents besoins pour les enfants (dentition, lunettes, etc.) comme pour les parents (aidants/aidés, etc.) et proposer des garanties au plus près de la famille.
+   - Conjoint
+   - Enfants
+   - Parents
+   - Grands parents
+   - Personnes en situation de handicap
+
+3. La situation professionnelle
+   - Pour connaître l’activité de notre client et par exemple anticiper ses besoins en prévoyance dans les meilleures conditions.
+   - En activité
+   - Départ à la retraite
+   - En retraite
+   - Sans activité
+
+4. Les Projets / Activités (onglet potentiel Néo)
+   - Pour assurer notre client selon ses activités/loisirs ou lors d’un éventuel départ en vacances.
+   - Changement de véhicule
+   - Déménagement
+   - Activités et loisirs
+   - Autres projets (travaux, voyages, financement des études, départ des enfants de la maison…)
+
+Pour chacun de ces critères, creusons les différents sujets afin de déterminer des solutions adaptées à notre client.
+
+Exemples :
+- Si votre client nous donne son lieu de naissance, demandons-lui s’il a encore de la famille là-bas afin de déterminer si ses parents sont de potentiels aidés et donc un client en situation d’aidant.
+- Si votre client a pour projet de partir en vacances, conseillons-le pour le protéger et lui recommander par exemple la téléconsultation médicale.
+- Si votre client sera prochainement à la retraite, et ainsi déterminer son besoin de changer d’assurance santé pour l’adapter.
+- Si votre client a des enfants, c’est le moment de vérifier que sa famille est bien protégée par une GAV (et sur la bonne formule!) et qu’a-t-il mis en place pour préparer ses obsèques (à pondérer en fonction de l’âge).
+
+==================================================
+
+{
+  "Pourquoi une découverte globale ?": "Une découverte complète et approfondie optimise les potentialités de rebond plutôt qu’une simple réponse aux questions du client.",
+  "Créons le rebond": "Questionnons notre client nous permet de mieux le connaître, de découvrir ce qu’il détient à la concurrence, de prendre connaissance de ses projets et donc de détecter des opportunités commerciales pour éveiller ses besoins et lui proposer les offres adaptées.",
+  "Santé": {
+    "En cas de maladie": [
+      "Pourquoi avez-vous choisi votre contrat actuel ?",
+      "Vous recherchez des garanties « complètes » ou des garanties « coup dur » ?",
+      "Qu’est-ce qui vous ferait changer d’assureur ?",
+      "Comment avez-vous connu Groupama ?",
+      "Qu'est-ce qui vous motive pour aller à la rencontre d'autres assureurs ? Quelles couvertures vous manquent actuellement ?",
+      "Qui souhaitez-vous protéger avec votre complémentaire santé ?",
+      "Combien de fois par an consultez-vous un spécialiste ?",
+      "Avez-vous des dépenses en matière de lunettes ou lentilles ?",
+      "Avez-vous déjà eu des frais dentaires ? En avez-vous prévu prochainement ?"
+    ]
+  },
+  "Décès/Obsèques": {
+    "En cas de décès": [
+      "Qu’avez-vous mis en place pour préparer vos obsèques ?",
+      "Si vos enfants souhaitent poursuivre des études, comment se passera le financement ? Qu’avez-vous prévu ?",
+      "Et en ce qui concerne votre bien immobilier, en cas de décès, de nouvelles dépenses apparaissent, qu’avez-vous mis en place pour y faire face ?",
+      "A qui avez-vous fait part de vos dernières volontés en cas de décès ?"
+    ]
+  },
+  "Garantie des Accidents de la Vie": {
+    "En cas d’accident/invalidité": [
+      "Qu’avez-vous mis en place pour faire face à une situation d’accident et/ou d’invalidité ?",
+      "Financer une aide à domicile en cas d’éventuel handicap lourd est essentiel. Comment êtes-vous couvert ?",
+      "Il faut se préparer à une éventuelle reconversion, le financement peut être important si on n’est pas couvert. Que pensez-vous faire si cet aléa devait arriver ?",
+      "Si un accident devait survenir et générer un handicap, comment êtes-vous couvert afin d’éviter des frais et charges supplémentaires ?",
+      "Si vous deviez être handicapé, savez-vous qu’une garde à domicile de vos enfants est possible ?"
+    ]
+  },
+  "Téléassistance": {
+    "Face à un éventuel aidant": [
+      "Avez-vous des proches qui ont besoin de votre aide régulièrement ?",
+      "Un enfant en situation de handicap ? Nécessitant une aide au quotidien ?",
+      "Des parents âgés et nécessitant d’une aide au quotidien ? Pour le ménage, les courses, les démarches administratives,...",
+      "Vous souhaitez lutter contre leur sentiment d’isolement...",
+      "Vous craignez un risque de chute ?",
+      "Savez-vous que les parents de votre conjoint peuvent bénéficier d’une portabilité de vos assistances Santé ?"
+    ]
+  }
+}
+
+==================================================
+
+Méthode de construction d'une accroche commerciale
+
+En Appel Sortant :
+- La préparation de l'accroche commerciale est essentielle car elle suscite l'intérêt de notre client dès les premières secondes.
+- On se présente clairement : « Bonjour, je suis X votre conseiller Groupama »
+- On annonce l'objectif de l'appel et surtout l'intérêt pour notre client : « je vous appelle (pour vous proposer un rendez-vous personnalisé) afin de faire le point sur votre protection et celle de vos proches. Un rendez-vous de prévoyance permet d’anticiper sereinement l’avenir et de faire les bons choix dès aujourd’hui, en vous présentant des solutions claires, avantageuses et potentiellement plus économiques »
+- On utilise toujours le présent et on bannit « je me permets » « je ne vous dérange pas », nous sommes légitimes de contacter nos clients pour servir leurs intérêts : « avez-vous quelques instants à m’accorder ? » « Quand êtes-vous disponible ? »
+
+En Agence, visite spontanée de notre client ou en Appel Entrant :
+- Notre premier acte sera de répondre à la demande de notre client et d’écouter chacune de ses requêtes.
+- N’hésitons pas à prendre des notes et à le questionner pour éveiller d’autres besoins « tout à l’heure vous m’avez dit que ..., vous pouvez m’en dire plus ? »
+
+En Agence sur rendez-vous :
+- Il est important de préparer son entretien à l’aide de la fiche client NÉO.
+- Relions l’ensemble des informations de notre client afin de le questionner, en fonction des critères, ainsi éveiller les besoins qu’il peut avoir et lui proposer les solutions adaptées.
+
+==================================================
+
+{
+  "Exemples d'accroches commerciales": [
+    {
+      "Introduction": "Bonjour, je suis ...... votre conseiller Groupama, je vous appelle",
+      "Accroche": "Parce qu’un accident de la vie peut tout remettre en question, il est essentiel que vos garanties prévoyance soient en phase avec votre situation actuelle. Prenons quelques minutes pour vérifier ensemble que vous et vos proches êtes bien protégés ? Je vous propose un rendez-vous personnalisé pour faire le point, actualiser vos informations et vous présenter des solutions simples, efficaces et potentiellement plus avantageuses. Quel créneau vous convient le mieux cette semaine ?"
+    },
+    {
+      "Accroche": "Pour faire un bilan concernant votre mutuelle actuelle, j’ai une solution qui peut alléger vos dépenses de santé et est adaptée à vos besoins. L’objectif c’est de vous permettre d’être mieux remboursé, sans vous ruiner. J’en profite également, êtes-vous sûr que vos garanties prévoyance sont toujours adaptées ? Je vous propose un RDV pour faire le point. Un créneau cette semaine ?"
+    },
+    {
+      "Exemple d’accroche pour les jeunes actifs (25-40 ans)": "Quand on démarre dans la vie professionnelle, on pense à l’avenir... mais rarement aux imprévus. Prenons quelques minutes pour vérifier que vous êtes bien couvert ? Je vous propose un rendez-vous simple et rapide. Quel créneau vous conviendrait ?"
+    },
+    {
+      "Exemple d’accroche pour les parents (protection des proches)": "Votre famille compte sur vous chaque jour. Et si on s’assure ensemble qu’elle est aussi bien protégée en cas de coup dur ? Je vous propose un rendez-vous personnalisé pour faire le bilan. Quel moment vous conviendrait ?"
+    },
+    {
+      "Exemple d’accroche pour senior ou proche de la retraite": "Avec les années, vos besoins évoluent. Votre prévoyance aussi doit s’ajuster. Je vous propose un rendez-vous pour faire un bilan clair et adapté à votre situation actuelle. Quand êtes-vous disponible cette semaine ?"
+    }
+  ]
+}
+
+==================================================
+
+{
+  "Méthode ACTE": {
+    "A": "Accepter l’objection de notre client, que l’on soit d’accord, que l’on comprenne ou non l’objection.",
+    "C": "Creuser celle-ci, permet de vérifier s’il s’agit d’une vraie objection ou d’une objection de fuite.",
+    "T": "Traiter l’objection de notre client.",
+    "E": "Enchaîner l’objection de notre client."
+  },
+  "Je veux réfléchir": [
+    "Je comprends tout à fait, c’est normal de vouloir prendre le temps de réfléchir.",
+    "Qu’est-ce qui vous fait hésiter aujourd’hui ?",
+    "Merci pour votre transparence. Si le contenu des garanties n’est pas clair, je peux vous réexpliquer les points essentiels en quelques minutes.",
+    "Si votre budget est tendu, nous pouvons ajuster ensemble la solution pour qu’elle reste protectrice mais adaptée à vos besoins car notre offre est la plus modulable du marché, cela nous permet de vous proposer une couverture personnalisée.",
+    "Et si on sécurisait déjà l’essentiel aujourd’hui ? Cela vous permet de bénéficier de la protection dès maintenant et nous pourrons ajuster les garanties par la suite.",
+    "Je vous remets le devis, je peux également préparer les éléments nécessaires, il vous suffit de me confirmer que cela vous convient."
+  ],
+  "Je ne suis pas intéressé": [
+    "J’entends,",
+    "Pourquoi/ pour quelles raisons n’êtes-vous pas intéressé ? Comment êtes-vous protégé actuellement ?",
+    "L’objectif de mon appel n’est pas de vous vendre un produit mais de m’assurer de l’efficience de vos différentes couvertures en cas d’incident via votre contrat Santé.",
+    "C’est une manière simple pour vous de déterminer si dans les moments du quotidien, vous êtes couvert comme vous le souhaitez."
+  ],
+  "Je n’ai pas le temps": [
+    "Je comprends, votre emploi du temps doit être bien chargé. On court tous après le temps aujourd’hui.",
+    "Quand vous me dites que vous n’avez pas le temps, est-ce en ce moment ou plutôt sur l’ensemble de la semaine ? Nous pouvons prendre RDV en dehors des horaires classiques, comme en fin de journée ou sur la pause déjeuner ? Ou le samedi ?",
+    "L’idée c’est justement de vous faire gagner du temps à l’avenir, en anticipant les imprévus et en évitant des démarches urgentes en cas de souci. Le RDV est sans engagement, on peut même le faire par téléphone pour que ce soit plus simple pour vous.",
+    "Je vous propose qu’on cale déjà un court créneau, quitte à l’ajuster si besoin ? Est-ce que jeudi en fin de journée ou vendredi sur le temps de midi, vous convient ?"
+  ]
+}
+
+==================================================
+
+Méthode de traitement des objections
+
+Méthode ACTE :
+- Accepter l’objection de notre client, que l’on soit d’accord, que l’on comprenne ou non l’objection.
+- Creuser celle-ci, permet de vérifier s’il s’agit d’une vraie objection ou d’une objection de fuite.
+- Traiter l’objection de notre client.
+- Enchaîner l’objection de notre client.
+
+Je suis chez un autre concurrent moins cher pour cette couverture :
+- J’entends,
+- Où détenez-vous votre contrat ? Quelles garanties avez-vous ? Qu’est-ce qui vous ferait changer d’assureur ?
+- Le prix est une chose en effet, êtes-vous certain que les garanties soient identiques ? En termes de service, de relation de confiance ou encore de réactivité, technicité de votre interlocuteur sont des éléments à intégrer dans votre réflexion.
+- Je vous propose de comparer autour d’un rendez-vous ce que vous avez actuellement et ce que je peux vous proposer.
+- Nous pourrons ainsi identifier dans les situations du quotidien (ex : un accident à la maison, un problème de santé, etc) si vous êtes bien protégé comme vous le pensez et surtout comme vous le souhaitez. Je peux vous proposer d’adapter notre offre à vos besoins car elle est personnalisable et modulable à tout moment.
+
+Je n’ai pas les moyens :
+- Je comprends tout à fait,
+- Quel est votre budget pour cette assurance ?
+- Si c’est plus simple, je vous propose d’échanger lors d’un entretien au sein de mon Agence à ....
+- Et nous pourrons ainsi vous proposer des garanties adaptées à votre budget et selon vos besoins grâce à notre offre modulable, ce qui vous permet de vous offrir la protection suffisante face aux désagréments du quotidien sans « casser le porte-monnaie ».
+
+C’est cher !
+- Je comprends tout à fait, le budget est un point important, surtout dans le contexte actuel.
+- Quand vous dites que c’est cher, est-ce que vous comparez par rapport à un autre contrat que vous détenez ? à un budget que vous vous êtes fixé ? Ou plutôt à la valeur perçue par rapport aux garanties proposées ?
+- C’est vrai qu’un contrat de prévoyance peut représenter un certain coût, mais vous garantissez votre tranquillité d’esprit.
+- En cas d’incident ou d’imprévu, les conséquences financières peuvent être bien plus lourde que la cotisation elle-même. Regardons pour ajuster les garanties ensemble pour qu’elles restent protectrices mais plus accessible, notre offre étant ajustable en continu. L’idée est d'avoir un bon équilibre entre protection et budget.
+- Je vous propose qu’on revoie ensemble votre niveau de garantie, pour comment optimiser le tarif sans sacrifier l’essentiel. Je vous prépare un devis ajusté et on regarde ça ensemble rapidement. Demain en fin de journée ?
+
+==================================================
+
+Le closing : les étapes clés et efficace
+
+- Vérification des besoins et de la compréhension
+  Avant de conclure, assurons-nous que tout a bien été compris en reformulant les besoins du client pour confirmer la compréhension mutuelle.
+  « Est-ce que tout est clair pour vous ? »
+  « Avez-vous besoin que je revienne sur certaines garanties ? », « Vous m’avez bien dit que ... »
+
+- Validation de l’intérêt du client :
+  Vérifions que la solution présentée répond aux attentes du client et demandons un feedback direct sur l’intérêt du client.
+  « Qu’est-ce que vous pensez de la solution qu’on vient de voir ensemble ? »
+  « Ce que l’on a vu ensemble correspond à ce que vous recherchez ? »
+
+- Traitement des objections éventuelles restantes
+  Si le client a encore des objections, traitons-les avec la méthode ACTE.
+
+- Proposition d’un engagement clair
+  « Je vais vous demander votre CNI pour pouvoir acter la proposition ? » « A quelle date faisons-nous démarrer le contrat ? »
+  « Cette offre est valable jusqu’à la fin du mois dans le cadre du lancement, c’est le bon moment pour en profiter »
+
+- Remerciements et valorisation
+  « Merci de votre confiance ! Comme je vous le disais tout à l’heure n’hésitez pas à utiliser l’espace client Santé et/ou l’Application Groupama & Moi pour retrouver vos facilement vos documents, faire une demande de prise en charge en toute simplicité, suivre vos remboursements et consulter les demandes de reste à charge, avec un détail à chaque étape pour vous permettre de suivre vos demandes de manière complète. »
+
+==================================================
+
+5. Des offres Groupama adaptées à nos cibles
+Les avantages concurrentiels des offres Groupama
+
+Si vous êtes équipé en santé et prévoyance, vous pouvez cumuler les heures d’assistance de chaque contrat ! (garde d’enfant, téléassistance, aide-ménagère et portage de repas/médicament)
+
+Groupama Santé Active
+- Personnalisation de l’offre : composez votre mutuelle Santé sur-mesure en fonction de vos besoins, en optique, dentaire, soins courants, médecine douce ou hospitalisation, et selon votre budget.
+- Relai-moi : pour faire un don à vos proches de vos prestations d’assistance.
+- Assistance à domicile : en cas d’hospitalisation, Groupama vous fait bénéficier d’aide à domicile pour vous remettre (97% des clients bénéficiaires en sont satisfaits!).
+
+Garantie des Accidents de la Vie
+- Indemnisation jusqu’à 2M€ : disposez en cas de coup dur d’une des indemnisations les plus élevées du marché et permettant de couvrir le préjudice subi.
+- Indemnisation dès 1% : vous êtes indemnisé sur les conséquences d’un accident même pour une « légère » invalidité.
+- Adaptation à la structure familiale : avec mon contrat GAV je choisis la formule adaptée à ma situation familiale : je peux choisir de me protéger comme de protéger toute ma famille (conjoint, enfants, petits-enfants).
+
+Assurance décès
+- Fiscalité avantageuse : la garantie de transmettre un capital qui n’entre pas dans la succession et qui n’est, dans la plupart des cas, soumis à aucun impôt.
+- Avance possible sur le capital jusqu’à 3 000 € pour assumer les premières dépenses (frais d’obsèques, paiement des factures...).
+- Souplesse du contrat : possibilité de choisir et de faire évoluer à tout moment la formule de couverture, le montant du capital et/ou de la rente d’éducation ainsi que le(s) bénéficiaire(s).
+- La rente éducation : pour protéger l’avenir de vos enfants, jusqu’à leurs 21 ou 26 ans (si poursuite des études) en leur versant une rente de 50 et 1 000€ par mois.
+- Le triplement du capital : en cas de décès par accident.
+- Une avance de Capital jusqu’à 3 000€ : Pour assumer les premières dépenses (frais d’obsèques, paiement des factures...).
+
+Assurance Obsèques
+- Montant du capital garanti : le montant qui sera versé au(x) bénéficiaire(s) désigné(s) sera identique à celui que vous avez choisi à l’adhésion ou modifié en cours de vie du contrat.
+- Surplus de capital versé à la personne de votre choix si le capital choisi à la souscription est supérieur aux frais d’obsèques acquittés au décès.
+- Couverture immédiate en cas de décès accidentel, et au bout de 12 mois en cas de décès par maladie.
+
+
+
+Recommendations par situations du client : 
+
+***si le client est un Etudiant : 
+** Humain : Engagement RSE dans l’avenir des jeunes
+** Conseil :Être conseillé pour comprendre l’offre GSA en montrant les préoccupations actuelles des jeunes  et y répondre
+** Prévention/Sport : Engagement dans la prévention/sensibilisation sur les bienfaits du sports. Prise en charge des abonnements sportifs selon conditions 
+** Parcours de vie personnalisé : Conseil et accompagnement au moment de l’entrée sur le marché du travail post étude 
+** Médecin par tchat : Proposer des outils accessibles et dans l’air du temps 
+
+***si le client est un Actif : 
+** Conseil: Être conseiller sur ce sont pourquoi je suis assuré afin de comprendre le coût
+** Médecine douce : Être remboursé de toutes mes séances selon mes besoins sans être fixé à un nombre maximum
+** Sport : Conseil concernant la reprise sportive du client 
+** Parcours de vie personnalisé : Valorisation de la proximité et qualité de conseil en personnalisant la GSA en fonction des moment de vie du sociétaire 
+** Accès au soin et plateforme : Proposer un réseau Sévéane présent dans tous les territoires , -  Outils pour simulation de remboursement 
+** Communication :  
+	Envoi d’une communication ressentant tous les services à disposition (ex: remboursement…) pour faciliter la vie du sociétaire 
+	- Podcast de professionnels de santé pour se renseigner 
+	Communication post-soin: - Appel systématique post opération 
+
+*** si le client est un retraité : 
+** Conseil : - Fournir des explications claires dans un langage que le client connait / - Être aidé à personnaliser mes offres selon mes besoins de santé
+** Prévention : Être conseillé pour éviter des sinistres 
+** Sport et personnalisation : Proposer des activité sportives en fonction de l'âge et de l’état de santé de mon client 
+** Médecine douce: Proposition large de médecine douce pour améliorer la qualité de vie de nos sociétaires .- Remboursement des 3 séances à 60€ selon formule souscrite 
+
+*** pour tout les clients
+** Conseil : Vulgarisation/ Lisibilité/ Pédagogie/ 
+** Comprendre : Ce pourquoi je suis couvert / Être conseiller pour personnaliser mon contrat
+** Sport : Conseil, accompagnement et prise en charge des activité sportives adaptés aux besoins du sociétaire 
+** Parcours de vie personnalisé :- Valorisation du conseil en personnalisant l’offre en fonction des moment de vie du sociétaire 
+** Médecine douce: - Proposition large de séance sans restreinte de remboursement en personnalisant selon les besoins 
+
+
+
+=================================================
+
+charte interne relation client
+Des objectifs clés et des attitudes pour tenir notre promesse auprès de chaque client
+
+# Nos objectifs de qualité de service . Être toujours là pour nos clients, c'est :
+
+ * Apporter un conseil régulier et de qualité  
+ * Étre disponible et réactif sur les canaux à distance
+ * Étre humain et efficace lors des coups durs et moments clés  
+
+Je suis toujours là pour mes clients
+
+# "4 attitudes" 
+### Je fais preuve d'empathie
+- Je me mets toujours à l'écoute du client et je fais mon maximum pour qu'il se sente compris, soutenu et pris en charge.
+- J'écoute activement mon client, je pose des questions, et je reformule sa demande.
+- Je montre au client qu'on lui accorde de l'importance, en lui donnant des signes concrets d'attention.
+- Je m'assure que mon client se sente compris, même en cas de mécontentement.
+- J'utilise des mots simples et non techniques.
+
+---
+
+### Je m'adapte à la situation de chaque client
+
+- J'exploite les informations sur la fiche de mon client, et je l'enrichis à chaque occasion.
+- J'actionne les gestes commerciaux et dérogations pour débloquer une situation ou éviter une insatisfaction.
+- Je vais au-delà de la demande initiale, en anticipant un besoin ou une prochaine étape à venir.
+
+---
+
+### Je facilite les démarches
+- Je me rends accessible et je veille à réduire l'effort à fournir par le client, et j'anticipe ses besoins. J'apporte des réponses simples et complètes à ses demandes. Enfin, je m'assure toujours de bien avoir résolu son problème.
+- J'accompagne rapidement et efficacement mon client dès le premier contact sur les canaux où l'on peut me joindre.
+- J'exprime clairement les prochaines étapes et les délais associés, et je les respecte.
+- Je tiens proactivement mon client informé à chaque étape clé.
+
+---
+
+### Je joue collectif
+- Je mets tout en œuvre avec toutes les parties prenantes pour tenir nos engagements envers le client, et je valorise toujours le travail de mes collègues auprès du client.
+- Je traite directement une demande si je peux la résoudre sans la transférer.
+- Je facilite le passage de relai en partageant les informations clés à mes collègues.
+- J'écoute mes collègues avec attention et je tiens compte de leurs contraintes et priorités.
+
+

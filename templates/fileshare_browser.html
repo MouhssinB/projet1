@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorateur FileShare - Administration Groupama</title>
+    <style>
+        :root {
+            --groupama-green: #007A33;
+            --groupama-dark-green: #005A25;
+            --groupama-red: #E30613;
+            --groupama-gray: #F5F5F5;
+            --groupama-dark-gray: #333333;
+            --shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--groupama-gray);
+            color: var(--groupama-dark-gray);
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--groupama-green) 0%, var(--groupama-dark-green) 100%);
+            color: white;
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            font-weight: 300;
+        }
+        
+        .header-info {
+            text-align: right;
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        .breadcrumb {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .breadcrumb-link {
+            color: var(--groupama-green);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 5px 10px;
+            border-radius: 5px;
+            transition: all 0.2s;
+        }
+        
+        .breadcrumb-link:hover {
+            background: rgba(0, 122, 51, 0.1);
+        }
+        
+        .breadcrumb-separator {
+            color: #999;
+        }
+        
+        .breadcrumb-current {
+            color: var(--groupama-dark-gray);
+            font-weight: 600;
+        }
+        
+        .toolbar {
+            padding: 20px 30px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 30px;
+            font-size: 0.9em;
+        }
+        
+        .stat-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .stat-label {
+            color: #666;
+        }
+        
+        .stat-value {
+            font-weight: 600;
+            color: var(--groupama-green);
+        }
+        
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .btn {
+            padding: 10px 20px;
+            border-radius: 25px;
+            border: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: var(--groupama-green);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: var(--groupama-dark-green);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 122, 51, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .file-list {
+            display: grid;
+            gap: 10px;
+        }
+        
+        .file-item {
+            display: grid;
+            grid-template-columns: 50px 1fr 150px 180px 120px;
+            gap: 15px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            align-items: center;
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        
+        .file-item:hover {
+            background: #f8f9fa;
+            border-color: var(--groupama-green);
+            transform: translateX(5px);
+        }
+        
+        .file-icon {
+            font-size: 32px;
+            text-align: center;
+        }
+        
+        .file-name {
+            font-weight: 500;
+            color: var(--groupama-dark-gray);
+            word-break: break-word;
+        }
+        
+        .file-size {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .file-date {
+            color: #666;
+            font-size: 0.85em;
+        }
+        
+        .file-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+        }
+        
+        .action-btn {
+            padding: 6px 12px;
+            border-radius: 15px;
+            border: none;
+            font-size: 0.85em;
+            cursor: pointer;
+            transition: all 0.2s;
+            font-weight: 600;
+        }
+        
+        .action-download {
+            background: var(--groupama-green);
+            color: white;
+        }
+        
+        .action-download:hover {
+            background: var(--groupama-dark-green);
+        }
+        
+        .action-delete {
+            background: var(--groupama-red);
+            color: white;
+        }
+        
+        .action-delete:hover {
+            background: #b8050f;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #999;
+        }
+        
+        .empty-state-icon {
+            font-size: 64px;
+            margin-bottom: 20px;
+            opacity: 0.5;
+        }
+        
+        .empty-state-text {
+            font-size: 1.2em;
+        }
+        
+        /* Styles pour la gestion du guide utilisateur */
+        .guide-management {
+            background: linear-gradient(135deg, #fff9e6 0%, #fffbf0 100%);
+            border-left: 4px solid #ffa500;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(255, 165, 0, 0.15);
+        }
+        
+        .guide-header {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #cc8400;
+        }
+        
+        .guide-content {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .guide-status {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ffe0b3;
+        }
+        
+        .guide-current {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background: #f0f8f0;
+            border-radius: 6px;
+            border: 1px solid var(--groupama-green);
+            margin-bottom: 10px;
+        }
+        
+        .guide-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .guide-name {
+            font-weight: 600;
+            color: var(--groupama-dark-gray);
+        }
+        
+        .guide-actions {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .guide-upload-zone {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px dashed #ccc;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .guide-upload-zone:hover {
+            border-color: var(--groupama-green);
+            background: #f8fff8;
+        }
+        
+        .guide-upload-zone.dragover {
+            border-color: var(--groupama-green);
+            background: #e8f5e9;
+        }
+        
+        .upload-icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        
+        .upload-text {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        .upload-hint {
+            color: #999;
+            font-size: 0.8em;
+            margin-top: 5px;
+        }
+        
+        .no-guide {
+            text-align: center;
+            padding: 15px;
+            color: #999;
+            font-style: italic;
+        }
+        
+        @media (max-width: 768px) {
+            .file-item {
+                grid-template-columns: 40px 1fr 80px;
+                gap: 10px;
+            }
+            
+            .file-date {
+                display: none;
+            }
+            
+            .toolbar {
+                flex-direction: column;
+                gap: 15px;
+                align-items: stretch;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .guide-current {
+                flex-direction: column;
+                gap: 10px;
+                align-items: flex-start;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div>
+                <h1>🗂️ Explorateur FileShare</h1>
+                <div style="margin-top: 8px; opacity: 0.9;">Share: <strong>{{ share_name }}</strong></div>
+            </div>
+            <div class="header-info">
+                <div>Administration Groupama</div>
+                <div style="margin-top: 5px;">Accès administrateur</div>
+            </div>
+        </div>
+        
+        <!-- Breadcrumb -->
+        <div class="breadcrumb">
+            <div class="breadcrumb-item">
+                <a href="{{ url_for('admin_fileshare_browser') }}" class="breadcrumb-link">
+                    🏠 Racine
+                </a>
+            </div>
+            
+            {% for item in breadcrumb %}
+            <span class="breadcrumb-separator">›</span>
+            <div class="breadcrumb-item">
+                <a href="{{ url_for('admin_fileshare_browser', path=item.path) }}" class="breadcrumb-link">
+                    {{ item.name }}
+                </a>
+            </div>
+            {% endfor %}
+            
+            {% if current_path %}
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current">{{ current_path.split('/')[-1] }}</span>
+            {% endif %}
+        </div>
+        
+        <!-- Toolbar -->
+        <div class="toolbar">
+            <div class="stats">
+                <div class="stat-item">
+                    <span class="stat-label">Éléments:</span>
+                    <span class="stat-value">{{ items|length }}</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Taille totale:</span>
+                    <span class="stat-value">{{ "%.2f"|format(total_size / 1024 / 1024) }} Mo</span>
+                </div>
+            </div>
+            
+            <div class="actions">
+                {% if current_path %}
+                <a href="{{ url_for('admin_fileshare_browser', path='/'.join(current_path.split('/')[:-1])) }}" class="btn btn-secondary">
+                    ⬆️ Niveau supérieur
+                </a>
+                {% endif %}
+                <a href="{{ url_for('admin_page') }}" class="btn btn-primary">
+                    🔙 Retour admin
+                </a>
+            </div>
+        </div>
+        
+        <!-- Content -->
+        <div class="content">
+            <!-- Gestion du Guide Utilisateur (visible uniquement à la racine) -->
+            {% if not current_path %}
+            <div class="guide-management">
+                <div class="guide-header">
+                    📖 Gestion du Guide Utilisateur
+                </div>
+                <div class="guide-content">
+                    {% if guide_exists %}
+                    <div class="guide-status">
+                        <div class="guide-current">
+                            <div class="guide-info">
+                                <span style="font-size: 24px;">✅</span>
+                                <div>
+                                    <div class="guide-name">{{ guide_filename }}</div>
+                                    <div style="font-size: 0.85em; color: #666;">Guide actuellement actif</div>
+                                </div>
+                            </div>
+                            <div class="guide-actions">
+                                <button class="action-btn action-download" onclick="downloadGuide()">
+                                    ⬇️ Télécharger
+                                </button>
+                                <button class="action-btn action-delete" onclick="deleteGuide()">
+                                    🗑️ Supprimer
+                                </button>
+                            </div>
+                        </div>
+                        <div style="font-size: 0.85em; color: #666; text-align: center;">
+                            Pour remplacer le guide, uploadez un nouveau fichier PDF ci-dessous
+                        </div>
+                    </div>
+                    {% else %}
+                    <div class="guide-status">
+                        <div class="no-guide">
+                            ⚠️ Aucun guide utilisateur n'est actuellement disponible
+                        </div>
+                    </div>
+                    {% endif %}
+                    
+                    <!-- Zone d'upload -->
+                    <div class="guide-upload-zone" id="guideUploadZone" onclick="document.getElementById('guideFileInput').click()">
+                        <div class="upload-icon">📤</div>
+                        <div class="upload-text">
+                            <strong>Cliquez ici ou glissez-déposez</strong> pour uploader un nouveau guide
+                        </div>
+                        <div class="upload-hint">Format accepté : PDF uniquement</div>
+                        <input type="file" id="guideFileInput" accept=".pdf" style="display: none;" onchange="uploadGuideFile(this)">
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            
+            <!-- Message informatif si on est à la racine -->
+            {% if not current_path %}
+            <div style="background: linear-gradient(135deg, #e7f3ff 0%, #f0f7ff 100%);
+                        border-left: 4px solid #4A90E2;
+                        padding: 15px 20px;
+                        margin-bottom: 20px;
+                        border-radius: 8px;
+                        box-shadow: 0 2px 8px rgba(74, 144, 226, 0.1);">
+                <div style="display: flex; align-items: center; gap: 12px;">
+                    <div style="font-size: 24px;">💡</div>
+                    <div style="flex: 1;">
+                        <strong style="color: #2c5aa0; font-size: 1.05em;">Information :</strong>
+                        <span style="color: #555; margin-left: 8px;">
+                            Les fichiers de logs et suivis sont accessibles dans
+                            <a href="{{ url_for('admin_fileshare_browser', path='admin') }}"
+                               style="color: #4A90E2; 
+                                      font-weight: 600; 
+                                      text-decoration: none;
+                                      border-bottom: 2px solid #4A90E2;
+                                      padding-bottom: 1px;
+                                      transition: all 0.2s;">
+                                📁 admin/
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            
+            {% if items %}
+            <div class="file-list">
+                {% for item in items %}
+                <div class="file-item" 
+                     {% if item.is_directory %}
+                     onclick="window.location.href='{{ url_for('admin_fileshare_browser', path=item.path) }}'"
+                     {% endif %}>
+                    
+                    <div class="file-icon">
+                        {% if item.is_directory %}
+                        📁
+                        {% elif item.name.endswith('.csv') %}
+                        📊
+                        {% elif item.name.endswith('.log') %}
+                        📝
+                        {% elif item.name.endswith('.json') %}
+                        📋
+                        {% elif item.name.endswith('.html') %}
+                        🌐
+                        {% else %}
+                        📄
+                        {% endif %}
+                    </div>
+                    
+                    <div class="file-name">{{ item.name }}</div>
+                    
+                    <div class="file-size">
+                        {% if item.is_directory %}
+                        <em>Dossier</em>
+                        {% else %}
+                        {{ "%.2f"|format(item.size / 1024) }} Ko
+                        {% endif %}
+                    </div>
+                    
+                    <div class="file-date">
+                        {% if item.last_modified %}
+                        {{ item.last_modified.strftime('%d/%m/%Y %H:%M') }}
+                        {% else %}
+                        -
+                        {% endif %}
+                    </div>
+                    
+                    <div class="file-actions" onclick="event.stopPropagation();">
+                        {% if not item.is_directory %}
+                        <button class="action-btn action-download" 
+                                onclick="downloadFile('{{ item.path }}')">
+                            ⬇️ Télécharger
+                        </button>
+                        {% endif %}
+                        <button class="action-btn action-delete" 
+                                onclick="deleteItem('{{ item.path }}', {{ 'true' if item.is_directory else 'false' }}, '{{ item.name }}')">
+                            🗑️ Supprimer
+                        </button>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% else %}
+            <div class="empty-state">
+                <div class="empty-state-icon">📂</div>
+                <div class="empty-state-text">Ce répertoire est vide</div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    
+    <script>
+        // === GESTION DU GUIDE UTILISATEUR ===
+        
+        function downloadGuide() {
+            window.location.href = '{{ url_for('serve_guide') }}';
+        }
+        
+        async function deleteGuide() {
+            if (!confirm('Êtes-vous sûr de vouloir supprimer le guide utilisateur ?\n\nCette action est irréversible.')) {
+                return;
+            }
+            
+            try {
+                const response = await fetch('{{ url_for('admin_delete_guide') }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    alert('✓ Guide supprimé avec succès');
+                    location.reload();
+                } else {
+                    alert(`Erreur lors de la suppression : ${data.error}`);
+                }
+            } catch (error) {
+                alert(`Erreur : ${error.message}`);
+            }
+        }
+        
+        async function uploadGuideFile(input) {
+            const file = input.files[0];
+            if (!file) return;
+            
+            if (!file.name.toLowerCase().endsWith('.pdf')) {
+                alert('⚠️ Seuls les fichiers PDF sont acceptés');
+                input.value = '';
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            try {
+                const response = await fetch('{{ url_for('admin_upload_guide') }}', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    alert('✓ Guide uploadé avec succès');
+                    location.reload();
+                } else {
+                    alert(`Erreur lors de l'upload : ${data.error}`);
+                }
+            } catch (error) {
+                alert(`Erreur : ${error.message}`);
+            } finally {
+                input.value = '';
+            }
+        }
+        
+        // Drag & Drop pour le guide
+        const uploadZone = document.getElementById('guideUploadZone');
+        if (uploadZone) {
+            uploadZone.addEventListener('dragover', (e) => {
+                e.preventDefault();
+                uploadZone.classList.add('dragover');
+            });
+            
+            uploadZone.addEventListener('dragleave', () => {
+                uploadZone.classList.remove('dragover');
+            });
+            
+            uploadZone.addEventListener('drop', (e) => {
+                e.preventDefault();
+                uploadZone.classList.remove('dragover');
+                
+                const files = e.dataTransfer.files;
+                if (files.length > 0) {
+                    const fileInput = document.getElementById('guideFileInput');
+                    fileInput.files = files;
+                    uploadGuideFile(fileInput);
+                }
+            });
+        }
+        
+        // === GESTION DES FICHIERS DU FILESHARE ===
+        
+        function downloadFile(path) {
+            window.location.href = '{{ url_for('admin_fileshare_download') }}?path=' + encodeURIComponent(path);
+        }
+        
+        async function deleteItem(path, isDirectory, name) {
+            const type = isDirectory ? 'dossier' : 'fichier';
+            const confirmation = confirm(`Êtes-vous sûr de vouloir supprimer ce ${type} ?\n\n${name}\n\nCette action est irréversible.`);
+            
+            if (!confirmation) return;
+            
+            try {
+                const response = await fetch('{{ url_for('admin_fileshare_delete') }}', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        path: path,
+                        is_directory: isDirectory
+                    })
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    alert(`${type.charAt(0).toUpperCase() + type.slice(1)} supprimé avec succès`);
+                    location.reload();
+                } else {
+                    alert(`Erreur lors de la suppression : ${data.error}`);
+                }
+            } catch (error) {
+                alert(`Erreur : ${error.message}`);
+            }
+        }
+        
+        // Raccourci clavier : touche retour arrière pour remonter d'un niveau
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Backspace' && e.target.tagName !== 'INPUT' && e.target.tagName !== 'TEXTAREA') {
+                {% if current_path %}
+                window.location.href = '{{ url_for('admin_fileshare_browser', path='/'.join(current_path.split('/')[:-1])) }}';
+                {% endif %}
+            }
+        });
+    </script>
+</body>
+</html>

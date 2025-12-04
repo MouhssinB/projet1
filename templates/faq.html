@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ - Expert Santé Groupama</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Variables de couleurs Groupama */
+        :root {
+            --groupama-green: #0a6e46;
+            --groupama-green-light: #4a8b5e;
+            --groupama-green-dark: #085839;
+            --groupama-green-bg: #e8f5e8;
+            --groupama-white: #ffffff;
+            --groupama-gray-light: #f5f8f2;
+            --groupama-gray: #666666;
+            --groupama-text: #4a4a4a;
+        }
+        
+        body {
+            background-color: var(--groupama-gray-light);
+            color: var(--groupama-text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        /* Logo Groupama */
+        .groupama-logo {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            width: 120px;
+            height: auto;
+            z-index: 1000;
+            filter: drop-shadow(0 2px 5px rgba(0,0,0,0.1));
+        }
+        
+        .faq-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 80px 20px 20px 20px; /* Padding-top pour éviter le logo */
+        }
+        
+        .faq-header {
+            background: linear-gradient(135deg, var(--groupama-green) 0%, var(--groupama-green-light) 100%);
+            color: var(--groupama-white);
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(10, 110, 70, 0.2);
+        }
+        
+        .chat-container {
+            background: var(--groupama-white);
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            border: 1px solid rgba(10, 110, 70, 0.1);
+        }
+        
+        .chat-header {
+            background: var(--groupama-green);
+            color: var(--groupama-white);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .chat-messages {
+            height: 600px;
+            overflow-y: auto;
+            padding: 20px;
+            background: var(--groupama-gray-light);
+        }
+        
+        .message {
+            margin-bottom: 20px;
+            padding: 0;
+            border-radius: 10px;
+            max-width: 85%;
+            word-wrap: break-word;
+        }
+        
+        .user-message {
+            margin-left: auto;
+            text-align: right;
+        }
+        
+        .expert-message {
+            margin-right: auto;
+        }
+        
+        .message-bubble {
+            padding: 15px 20px;
+            border-radius: 15px;
+            position: relative;
+        }
+        
+        .user-message .message-bubble {
+            background: linear-gradient(135deg, var(--groupama-green), var(--groupama-green-dark));
+            color: var(--groupama-white);
+            border-bottom-right-radius: 5px;
+        }
+        
+        .expert-message .message-bubble {
+            background: var(--groupama-white);
+            border: 1px solid rgba(10, 110, 70, 0.2);
+            box-shadow: 0 2px 5px rgba(10, 110, 70, 0.1);
+            border-bottom-left-radius: 5px;
+        }
+        
+        .message-header {
+            font-weight: bold;
+            margin-bottom: 8px;
+            font-size: 0.85em;
+            opacity: 0.8;
+        }
+        
+        .message-content {
+            line-height: 1.6;
+        }
+        
+        /* Formatage spécial pour les réponses d'expert - Couleurs Groupama */
+        .expert-content h1, .expert-content h2, .expert-content h3 {
+            color: var(--groupama-green);
+            margin: 15px 0 10px 0;
+            font-weight: 600;
+        }
+        
+        .expert-content h1 { font-size: 1.4em; }
+        .expert-content h2 { font-size: 1.3em; }
+        .expert-content h3 { font-size: 1.2em; }
+        
+        .expert-content ul, .expert-content ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        
+        .expert-content li {
+            margin: 8px 0;
+            line-height: 1.5;
+        }
+        
+        .expert-content strong {
+            color: var(--groupama-green);
+            font-weight: 600;
+        }
+        
+        .expert-content p {
+            margin: 12px 0;
+            text-align: justify;
+        }
+        
+        /* Styles pour le formatage avancé */
+        .expert-content .section-title {
+            color: var(--groupama-green);
+            font-size: 1.3em;
+            font-weight: 700;
+            margin: 20px 0 15px 0;
+            padding: 10px 0 5px 0;
+            border-bottom: 2px solid var(--groupama-green);
+            display: flex;
+            align-items: center;
+        }
+
+        .expert-content .section-title:before {
+            content: "📋";
+            margin-right: 8px;
+            font-size: 1.1em;
+        }
+
+        .expert-content .subsection-title {
+            color: var(--groupama-green-dark);
+            font-size: 1.1em;
+            font-weight: 600;
+            margin: 15px 0 10px 0;
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+        }
+
+        .expert-content .subsection-title:before {
+            content: "👥";
+            margin-right: 6px;
+        }
+
+        .expert-content .styled-list {
+            margin: 12px 0;
+            padding-left: 0;
+            list-style: none;
+        }
+
+        .expert-content .bullet-item {
+            margin: 8px 0;
+            padding: 8px 12px;
+            background: var(--groupama-green-bg);
+            border-left: 4px solid var(--groupama-green);
+            border-radius: 0 5px 5px 0;
+            position: relative;
+            line-height: 1.5;
+        }
+
+        .expert-content .bullet-item:before {
+            content: "▶";
+            color: var(--groupama-green);
+            font-weight: bold;
+            margin-right: 8px;
+        }
+
+        .expert-content .indent-level-1 {
+            margin-left: 20px;
+            padding: 6px 10px;
+            background: var(--groupama-green-bg);
+            border-left: 3px solid var(--groupama-green);
+            border-radius: 3px;
+            margin-bottom: 5px;
+        }
+
+        .expert-content .indent-level-2 {
+            margin-left: 40px;
+            padding: 4px 8px;
+            background: #f0f7f0;
+            border-left: 2px solid var(--groupama-green-light);
+            border-radius: 3px;
+            margin-bottom: 3px;
+            font-size: 0.95em;
+        }
+
+        .expert-content .indent-level-3 {
+            margin-left: 60px;
+            padding: 3px 6px;
+            background: #fafbfa;
+            border-left: 2px solid var(--groupama-green-light);
+            border-radius: 3px;
+            margin-bottom: 2px;
+            font-size: 0.9em;
+        }
+
+        .expert-content .highlight {
+            color: var(--groupama-green);
+            font-weight: 600;
+            background: linear-gradient(120deg, var(--groupama-green-bg) 0%, #d4f0d4 100%);
+            padding: 2px 4px;
+            border-radius: 3px;
+        }
+
+        .expert-content .level-indicator {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--groupama-green) 0%, var(--groupama-green-dark) 100%);
+            color: var(--groupama-white);
+            padding: 4px 8px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-right: 8px;
+        }
+
+        .expert-content .price {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--groupama-green-light) 0%, var(--groupama-green) 100%);
+            color: var(--groupama-white);
+            padding: 2px 6px;
+            border-radius: 12px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .expert-content .coverage-full {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--groupama-green) 0%, var(--groupama-green-dark) 100%);
+            color: var(--groupama-white);
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.85em;
+        }
+
+        .expert-content .paragraph {
+            margin: 12px 0;
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        .expert-content .remarks-section {
+            background: linear-gradient(135deg, var(--groupama-green) 0%, var(--groupama-green-dark) 100%);
+            color: var(--groupama-white);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .expert-content .remarks-title {
+            color: var(--groupama-white);
+            font-weight: 600;
+            margin: 0 0 10px 0;
+            font-size: 1.1em;
+        }
+
+        .expert-content .info-footer {
+            background: var(--groupama-green-bg);
+            border: 1px solid var(--groupama-green);
+            color: var(--groupama-green-dark);
+            padding: 12px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-style: italic;
+            text-align: center;
+        }
+        
+        .chat-input {
+            padding: 20px;
+            background: var(--groupama-white);
+            border-top: 1px solid rgba(10, 110, 70, 0.2);
+        }
+        
+        .input-group {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .form-control {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid rgba(10, 110, 70, 0.3);
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: all 0.3s;
+        }
+        
+        .form-control:focus {
+            border-color: var(--groupama-green);
+            box-shadow: 0 0 0 2px rgba(10, 110, 70, 0.2);
+        }
+        
+        .btn-send {
+            background: linear-gradient(135deg, var(--groupama-green), var(--groupama-green-dark));
+            color: var(--groupama-white);
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+            min-width: 120px;
+        }
+        
+        .btn-send:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(10, 110, 70, 0.4);
+            background: linear-gradient(135deg, var(--groupama-green-light), var(--groupama-green));
+        }
+        
+        .btn-send:disabled {
+            background: var(--groupama-gray);
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: var(--groupama-green);
+        }
+        
+        .status-message {
+            text-align: center;
+            padding: 10px;
+            margin: 10px 20px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        
+        .status-success {
+            background: var(--groupama-green-bg);
+            color: var(--groupama-green-dark);
+            border: 1px solid var(--groupama-green);
+        }
+        
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .welcome-message {
+            text-align: center;
+            padding: 60px 40px;
+            color: var(--groupama-text);
+            background: var(--groupama-white);
+            border-radius: 15px;
+            margin: 20px;
+            box-shadow: 0 2px 10px rgba(10, 110, 70, 0.1);
+            border: 1px solid rgba(10, 110, 70, 0.1);
+        }
+        
+        .welcome-message i {
+            color: var(--groupama-green);
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .btn-action {
+            background: var(--groupama-gray);
+            color: var(--groupama-white);
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        
+        .btn-action:hover {
+            background: var(--groupama-green);
+            transform: translateY(-1px);
+        }
+        
+        .btn-outline-primary {
+            color: var(--groupama-green);
+            border-color: var(--groupama-green);
+        }
+        
+        .btn-outline-primary:hover {
+            background-color: var(--groupama-green);
+            border-color: var(--groupama-green);
+            color: var(--groupama-white);
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .groupama-logo {
+                width: 80px;
+                top: 10px;
+                left: 10px;
+            }
+            
+            .faq-container {
+                padding: 60px 10px 20px 10px;
+            }
+            
+            .message {
+                max-width: 95%;
+            }
+            
+            .chat-messages {
+                height: 500px;
+            }
+            
+            .form-control {
+                border-radius: 20px;
+            }
+            
+            .btn-send {
+                border-radius: 20px;
+                min-width: 100px;
+            }
+            
+            .expert-content .indent-level-1,
+            .expert-content .indent-level-2,
+            .expert-content .indent-level-3 {
+                margin-left: 10px;
+                font-size: 0.9em;
+            }
+        }
+        
+        /* Animation pour les nouveaux messages */
+        .message.new-message {
+            animation: slideIn 0.3s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* Animation pour les éléments formatés */
+        .expert-content .bullet-item,
+        .expert-content .indent-level-1,
+        .expert-content .indent-level-2,
+        .expert-content .indent-level-3 {
+            transition: all 0.2s ease;
+        }
+
+        .expert-content .bullet-item:hover,
+        .expert-content .indent-level-1:hover,
+        .expert-content .indent-level-2:hover,
+        .expert-content .indent-level-3:hover {
+            transform: translateX(3px);
+            box-shadow: 0 2px 5px rgba(10, 110, 70, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo Groupama en haut à gauche -->
+    <img src="{{ url_for('static', filename='img/Logo_Groupama_2024.svg') }}" 
+         alt="Logo Groupama" 
+         class="groupama-logo">
+    
+    <div class="faq-container">
+        <!-- Header -->
+        <div class="faq-header">
+            <h1><i class="fas fa-question-circle"></i> FAQ - Expert Santé Groupama</h1>
+            <p class="mb-0">Posez vos questions sur l'offre GSA3 et obtenez des réponses d'expert basées sur la documentation officielle</p>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="mb-4">
+            <div class="d-flex justify-content-between align-items-center">
+                <a href="/" class="btn btn-outline-primary">
+                    <i class="fas fa-arrow-left"></i> Retour à l'accueil
+                </a>
+                <div class="action-buttons">
+                    <button id="resetBtn" class="btn-action" onclick="resetFAQ()">
+                        <i class="fas fa-trash"></i> Vider l'historique
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Chat Container -->
+        <div class="chat-container">
+            <div class="chat-header">
+                <div>
+                    <i class="fas fa-user-md"></i> Expert Santé Groupama
+                </div>
+                <div>
+                    <small>Réponses basées sur la documentation officielle</small>
+                </div>
+            </div>
+
+            <!-- Messages Area -->
+            <div class="chat-messages" id="chatMessages">
+                <div class="welcome-message">
+                    <i class="fas fa-info-circle fa-3x mb-4"></i>
+                    <h3>Bienvenue dans le système FAQ Expert Santé !</h3>
+                    <p class="lead">Posez vos questions sur l'offre GSA3, les garanties, les tarifs, les conditions générales, etc.</p>
+                    <p>Je me baserai exclusivement sur la documentation officielle Groupama pour vous répondre de manière claire et structurée.</p>
+                    <div class="mt-4">
+                        <small class="text-muted">
+                            <strong>Exemples de questions :</strong><br>
+                            • "Quelles sont les garanties dentaires ?"<br>
+                            • "Comment fonctionne le tiers payant ?"<br>
+                            • "Quels sont les avantages de GSA3 ?"
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading indicator -->
+            <div class="loading" id="loadingIndicator">
+                <i class="fas fa-spinner fa-spin fa-2x"></i>
+                <p class="mt-3">L'expert analyse votre question...</p>
+            </div>
+
+            <!-- Status messages -->
+            <div id="statusMessage"></div>
+
+            <!-- Input Area -->
+            <div class="chat-input">
+                <div class="input-group">
+                    <input type="text" 
+                           id="questionInput" 
+                           class="form-control" 
+                           placeholder="Posez votre question sur l'offre GSA3..."
+                           maxlength="500">
+                    <button id="sendBtn" class="btn-send" onclick="sendQuestion()">
+                        <i class="fas fa-paper-plane"></i> Envoyer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Variables globales
+        let isProcessing = false;
+
+        // Initialisation
+        document.addEventListener('DOMContentLoaded', function() {
+            loadFAQHistory();
+            
+            // Event listeners
+            document.getElementById('questionInput').addEventListener('keypress', function(e) {
+                if (e.key === 'Enter' && !e.shiftKey) {
+                    e.preventDefault();
+                    sendQuestion();
+                }
+            });
+        });
+
+        // Fonction pour formater le texte markdown en HTML
+        function formatExpertResponse(text) {
+            let formatted = text;
+            
+            // Nettoyer le texte d'entrée
+            formatted = formatted.trim();
+            
+            // 1. Convertir les titres avec ### en h3
+            formatted = formatted.replace(/### (.*?)(\r?\n|$)/g, '<h3 class="section-title">$1</h3>\n');
+            
+            // 2. Convertir les titres avec #### en h4
+            formatted = formatted.replace(/#### (.*?)(\r?\n|$)/g, '<h4 class="subsection-title">$1</h4>\n');
+            
+            // 3. Convertir le texte en gras **texte**
+            formatted = formatted.replace(/\*\*(.*?)\*\*/g, '<strong class="highlight">$1</strong>');
+            
+            // 4. Traiter les listes à puces avec - 
+            formatted = formatted.replace(/^- (.*?)$/gm, '<li class="bullet-item">$1</li>');
+            
+            // 5. Traiter les listes à puces avec •
+            formatted = formatted.replace(/^• (.*?)$/gm, '<li class="bullet-item">$1</li>');
+            
+            // 6. Grouper les éléments <li> consécutifs dans des <ul>
+            formatted = formatted.replace(/(<li class="bullet-item">.*?<\/li>\s*)+/gs, function(match) {
+                return '<ul class="styled-list">' + match + '</ul>';
+            });
+            
+            // 7. Traiter les sections avec indentation (comme les niveaux de tarifs)
+            formatted = formatted.replace(/^(\s{2,})(- .*?)$/gm, function(match, spaces, content) {
+                const level = Math.min(Math.floor(spaces.length / 2), 3);
+                return `<div class="indent-level-${level}">${content.substring(2)}</div>`;
+            });
+            
+            // 8. Convertir les doubles sauts de ligne en paragraphes
+            formatted = formatted.split(/\n\s*\n/).map(paragraph => {
+                paragraph = paragraph.trim();
+                if (paragraph && !paragraph.startsWith('<h') && !paragraph.startsWith('<ul') && !paragraph.startsWith('<div')) {
+                    return `<p class="paragraph">${paragraph}</p>`;
+                }
+                return paragraph;
+            }).join('\n');
+            
+            // 9. Ajouter des classes spéciales pour certains patterns
+            formatted = formatted.replace(/(Niveau \d+\s*:)/g, '<span class="level-indicator">$1</span>');
+            formatted = formatted.replace(/(\d+€)/g, '<span class="price">$1</span>');
+            formatted = formatted.replace(/(100% BR)/g, '<span class="coverage-full">$1</span>');
+            
+            // 10. Traiter les remarques spéciales
+            formatted = formatted.replace(/(### Remarques?\s*:)/gi, '<div class="remarks-section"><h4 class="remarks-title">💡 Remarques :</h4>');
+            formatted = formatted.replace(/(Ces informations sont basées.*?)/gi, '<div class="info-footer">ℹ️ $1</div>');
+            
+            return formatted;
+        }
+
+        // Envoyer une question
+        async function sendQuestion() {
+            if (isProcessing) return;
+
+            const questionInput = document.getElementById('questionInput');
+            const question = questionInput.value.trim();
+
+            if (!question) {
+                showStatus('Veuillez saisir une question.', 'error');
+                return;
+            }
+
+            isProcessing = true;
+            updateUIState(true);
+
+            // Ajouter la question à l'interface
+            addMessage(question, 'user');
+            questionInput.value = '';
+
+            try {
+                const response = await fetch('/faq_chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ message: question })
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    addMessage(data.response, 'expert');
+                    showStatus('Réponse générée avec succès', 'success');
+                } else {
+                    showStatus('Erreur: ' + (data.error || 'Erreur inconnue'), 'error');
+                }
+
+            } catch (error) {
+                console.error('Erreur:', error);
+                showStatus('Erreur de communication avec le serveur', 'error');
+            } finally {
+                isProcessing = false;
+                updateUIState(false);
+            }
+        }
+
+        // Ajouter un message à l'interface
+        function addMessage(content, type) {
+            const messagesContainer = document.getElementById('chatMessages');
+            const welcomeMessage = messagesContainer.querySelector('.welcome-message');
+            
+            // Supprimer le message de bienvenue s'il existe
+            if (welcomeMessage) {
+                welcomeMessage.remove();
+            }
+
+            const messageDiv = document.createElement('div');
+            messageDiv.classList.add('message', type === 'user' ? 'user-message' : 'expert-message', 'new-message');
+
+            const headerText = type === 'user' ? 'Vous (Conseiller)' : 'Expert Santé Groupama';
+            const timestamp = new Date().toLocaleTimeString();
+            
+            let formattedContent;
+            if (type === 'expert') {
+                formattedContent = formatExpertResponse(content);
+            } else {
+                formattedContent = content;
+            }
+
+            messageDiv.innerHTML = `
+                <div class="message-bubble">
+                    <div class="message-header">
+                        ${headerText} - ${timestamp}
+                    </div>
+                    <div class="message-content ${type === 'expert' ? 'expert-content' : ''}">${formattedContent}</div>
+                </div>
+            `;
+
+            messagesContainer.appendChild(messageDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+
+        // Charger l'historique FAQ
+        async function loadFAQHistory() {
+            try {
+                const response = await fetch('/faq_history');
+                const data = await response.json();
+
+                if (data.success && data.history.length > 0) {
+                    const messagesContainer = document.getElementById('chatMessages');
+                    const welcomeMessage = messagesContainer.querySelector('.welcome-message');
+                    
+                    if (welcomeMessage) {
+                        welcomeMessage.remove();
+                    }
+
+                    data.history.forEach(item => {
+                        addMessage(item.question, 'user');
+                        addMessage(item.response, 'expert');
+                    });
+                }
+            } catch (error) {
+                console.error('Erreur lors du chargement de l\'historique:', error);
+            }
+        }
+
+        // Réinitialiser l'historique FAQ
+        async function resetFAQ() {
+            if (!confirm('Êtes-vous sûr de vouloir vider l\'historique des questions FAQ ?')) {
+                return;
+            }
+
+            try {
+                const response = await fetch('/faq_reset', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    }
+                });
+
+                const data = await response.json();
+
+                if (data.success) {
+                    // Vider l'interface
+                    const messagesContainer = document.getElementById('chatMessages');
+                    messagesContainer.innerHTML = `
+                        <div class="welcome-message">
+                            <i class="fas fa-info-circle fa-3x mb-4"></i>
+                            <h3>Bienvenue dans le système FAQ Expert Santé !</h3>
+                            <p class="lead">Posez vos questions sur l'offre GSA3, les garanties, les tarifs, les conditions générales, etc.</p>
+                            <p>Je me baserai exclusivement sur la documentation officielle Groupama pour vous répondre de manière claire et structurée.</p>
+                            <div class="mt-4">
+                                <small class="text-muted">
+                                    <strong>Exemples de questions :</strong><br>
+                                    • "Quelles sont les garanties dentaires ?"<br>
+                                    • "Comment fonctionne le tiers payant ?"<br>
+                                    • "Quels sont les avantages de GSA3 ?"
+                                </small>
+                            </div>
+                        </div>
+                    `;
+                    showStatus('Historique réinitialisé avec succès', 'success');
+                } else {
+                    showStatus('Erreur lors de la réinitialisation', 'error');
+                }
+            } catch (error) {
+                console.error('Erreur:', error);
+                showStatus('Erreur de communication avec le serveur', 'error');
+            }
+        }
+
+        // Mettre à jour l'état de l'interface
+        function updateUIState(processing) {
+            const sendBtn = document.getElementById('sendBtn');
+            const questionInput = document.getElementById('questionInput');
+            const loadingIndicator = document.getElementById('loadingIndicator');
+
+            sendBtn.disabled = processing;
+            questionInput.disabled = processing;
+            loadingIndicator.style.display = processing ? 'block' : 'none';
+
+            if (processing) {
+                sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Traitement...';
+            } else {
+                sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i> Envoyer';
+            }
+        }
+
+        // Afficher un message de statut
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('statusMessage');
+            statusDiv.innerHTML = `<div class="status-message status-${type}">${message}</div>`;
+            
+            // Supprimer le message après 5 secondes
+            setTimeout(() => {
+                statusDiv.innerHTML = '';
+            }, 5000);
+        }
+    </script>
+</body>
+</html>

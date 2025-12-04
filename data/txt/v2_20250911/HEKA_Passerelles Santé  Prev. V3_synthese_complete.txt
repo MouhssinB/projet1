@@ -1,0 +1,599 @@
+SYNTHÈSE COMPLÈTE DU DOCUMENT: HEKA_Passerelles Santé  Prev. V3.pdf
+================================================================================
+
+Document original: data/in/pdf/HEKA_Passerelles Santé  Prev. V3.pdf
+Date d'analyse: 2025-09-11 14:43:38
+
+
+
+====================================================================================================
+
+Découvertes & rebonds santé / prévoyance
+Groupama
+Toujours là pour moi
+
+==================================================
+
+Sommaire
+
+1. LA DÉCOUVERTE CLIENT
+   - Questionner pour rebondir
+
+2. METHODE DE CONSTRUCTION D’UNE ACCROCHE COMMERCIALE
+   - Quelques exemples d’accroches commerciales
+
+3. METHODE DE TRAITEMENT DES OBJECTIONS
+   - Quelques exemples
+
+4. LE CLOSING : LES ETAPES CLES ET EFFICACE
+
+5. DES OFFRES GROUPAMA COMPLEMENTAIRES ET ADAPTÉES À NOS CIBLES
+
+6. MULTI-ÉQUIPER SELON LES PROFILS
+   - (Personae exemple de 6 cas clients)
+
+Groupama
+Toujours là pour moi
+
+==================================================
+
+La découverte Client
+
+Afin de connaître au mieux notre client, récoltons le maximum d’informations à travers la fiche client Néo selon 4 critères :
+
+1. Les informations personnelles
+   - Pour connaître les coordonnées de notre client afin de le contacter dans les meilleures conditions et réagir s’il y a un changement.
+   - Adresse
+   - Téléphone
+   - Email
+   - Lieu de naissance
+
+2. La situation familiale
+   - Pour assurer toute la famille et connaître les différents besoins pour les enfants (dentition, lunettes, etc.) comme pour les parents (aidants/aidés, etc.) et proposer des garanties au plus près de la famille.
+   - Conjoint
+   - Enfants
+   - Parents
+   - Grands parents
+   - Personnes en situation de handicap
+
+3. La situation professionnelle
+   - Pour connaître l’activité de notre client et par exemple anticiper ses besoins en prévoyance dans les meilleures conditions.
+   - En activité
+   - Départ à la retraite
+   - En retraite
+   - Sans activité
+
+4. Les Projets / Activités (onglet potentiel Néo)
+   - Pour assurer notre client selon ses activités/loisirs ou lors d’un éventuel départ en vacances.
+   - Changement de véhicule
+   - Déménagement
+   - Activités et loisirs
+   - Autres projets (travaux, voyages, financement des études, départ des enfants de la maison…)
+
+Pour chacun de ces critères, creusons les différents sujets afin de déterminer des solutions adaptées à notre client.
+
+Exemples :
+- Si votre client nous donne son lieu de naissance, demandons-lui s’il a encore de la famille là-bas afin de déterminer si ses parents sont de potentiels aidés et donc un client en situation d’aidant.
+- Si votre client a pour projet de partir en vacances, conseillons-le pour le protéger et lui recommander par exemple la téléconsultation médicale.
+- Si votre client sera prochainement à la retraite, et ainsi déterminer son besoin de changer d’assurance santé pour l’adapter.
+- Si votre client a des enfants, c’est le moment de vérifier que sa famille est bien protégée par une GAV (et sur la bonne formule!) et qu’a-t-il mis en place pour préparer ses obsèques (à pondérer en fonction de l’âge).
+
+==================================================
+
+{
+  "Pourquoi une découverte globale ?": "Une découverte complète et approfondie optimise les potentialités de rebond plutôt qu’une simple réponse aux questions du client.",
+  "Créons le rebond": "Questionnons notre client nous permet de mieux le connaître, de découvrir ce qu’il détient à la concurrence, de prendre connaissance de ses projets et donc de détecter des opportunités commerciales pour éveiller ses besoins et lui proposer les offres adaptées.",
+  "Santé": {
+    "En cas de maladie": [
+      "Pourquoi avez-vous choisi votre contrat actuel ?",
+      "Vous recherchez des garanties « complètes » ou des garanties « coup dur » ?",
+      "Qu’est-ce qui vous ferait changer d’assureur ?",
+      "Comment avez-vous connu Groupama ?",
+      "Qu'est-ce qui vous motive pour aller à la rencontre d'autres assureurs ? Quelles couvertures vous manquent actuellement ?",
+      "Qui souhaitez-vous protéger avec votre complémentaire santé ?",
+      "Combien de fois par an consultez-vous un spécialiste ?",
+      "Avez-vous des dépenses en matière de lunettes ou lentilles ?",
+      "Avez-vous déjà eu des frais dentaires ? En avez-vous prévu prochainement ?"
+    ]
+  },
+  "Décès/Obsèques": {
+    "En cas de décès": [
+      "Qu’avez-vous mis en place pour préparer vos obsèques ?",
+      "Si vos enfants souhaitent poursuivre des études, comment se passera le financement ? Qu’avez-vous prévu ?",
+      "Et en ce qui concerne votre bien immobilier, en cas de décès, de nouvelles dépenses apparaissent, qu’avez-vous mis en place pour y faire face ?",
+      "A qui avez-vous fait part de vos dernières volontés en cas de décès ?"
+    ]
+  },
+  "Garantie des Accidents de la Vie": {
+    "En cas d’accident/invalidité": [
+      "Qu’avez-vous mis en place pour faire face à une situation d’accident et/ou d’invalidité ?",
+      "Financer une aide à domicile en cas d’éventuel handicap lourd est essentiel. Comment êtes-vous couvert ?",
+      "Il faut se préparer à une éventuelle reconversion, le financement peut être important si on n’est pas couvert. Que pensez-vous faire si cet aléa devait arriver ?",
+      "Si un accident devait survenir et générer un handicap, comment êtes-vous couvert afin d’éviter des frais et charges supplémentaires ?",
+      "Si vous deviez être handicapé, savez-vous qu’une garde à domicile de vos enfants est possible ?"
+    ]
+  },
+  "Téléassistance": {
+    "Face à un éventuel aidant": [
+      "Avez-vous des proches qui ont besoin de votre aide régulièrement ?",
+      "Un enfant en situation de handicap ? Nécessitant une aide au quotidien ?",
+      "Des parents âgés et nécessitant d’une aide au quotidien ? Pour le ménage, les courses, les démarches administratives,...",
+      "Vous souhaitez lutter contre leur sentiment d’isolement...",
+      "Vous craignez un risque de chute ?",
+      "Savez-vous que les parents de votre conjoint peuvent bénéficier d’une portabilité de vos assistances Santé ?"
+    ]
+  }
+}
+
+==================================================
+
+Méthode de construction d'une accroche commerciale
+
+En Appel Sortant :
+- La préparation de l'accroche commerciale est essentielle car elle suscite l'intérêt de notre client dès les premières secondes.
+- On se présente clairement : « Bonjour, je suis X votre conseiller Groupama »
+- On annonce l'objectif de l'appel et surtout l'intérêt pour notre client : « je vous appelle (pour vous proposer un rendez-vous personnalisé) afin de faire le point sur votre protection et celle de vos proches. Un rendez-vous de prévoyance permet d’anticiper sereinement l’avenir et de faire les bons choix dès aujourd’hui, en vous présentant des solutions claires, avantageuses et potentiellement plus économiques »
+- On utilise toujours le présent et on bannit « je me permets » « je ne vous dérange pas », nous sommes légitimes de contacter nos clients pour servir leurs intérêts : « avez-vous quelques instants à m’accorder ? » « Quand êtes-vous disponible ? »
+
+En Agence, visite spontanée de notre client ou en Appel Entrant :
+- Notre premier acte sera de répondre à la demande de notre client et d’écouter chacune de ses requêtes.
+- N’hésitons pas à prendre des notes et à le questionner pour éveiller d’autres besoins « tout à l’heure vous m’avez dit que ..., vous pouvez m’en dire plus ? »
+
+En Agence sur rendez-vous :
+- Il est important de préparer son entretien à l’aide de la fiche client NÉO.
+- Relions l’ensemble des informations de notre client afin de le questionner, en fonction des critères, ainsi éveiller les besoins qu’il peut avoir et lui proposer les solutions adaptées.
+
+==================================================
+
+{
+  "Exemples d'accroches commerciales": [
+    {
+      "Introduction": "Bonjour, je suis ...... votre conseiller Groupama, je vous appelle",
+      "Accroche": "Parce qu’un accident de la vie peut tout remettre en question, il est essentiel que vos garanties prévoyance soient en phase avec votre situation actuelle. Prenons quelques minutes pour vérifier ensemble que vous et vos proches êtes bien protégés ? Je vous propose un rendez-vous personnalisé pour faire le point, actualiser vos informations et vous présenter des solutions simples, efficaces et potentiellement plus avantageuses. Quel créneau vous convient le mieux cette semaine ?"
+    },
+    {
+      "Accroche": "Pour faire un bilan concernant votre mutuelle actuelle, j’ai une solution qui peut alléger vos dépenses de santé et est adaptée à vos besoins. L’objectif c’est de vous permettre d’être mieux remboursé, sans vous ruiner. J’en profite également, êtes-vous sûr que vos garanties prévoyance sont toujours adaptées ? Je vous propose un RDV pour faire le point. Un créneau cette semaine ?"
+    },
+    {
+      "Exemple d’accroche pour les jeunes actifs (25-40 ans)": "Quand on démarre dans la vie professionnelle, on pense à l’avenir... mais rarement aux imprévus. Prenons quelques minutes pour vérifier que vous êtes bien couvert ? Je vous propose un rendez-vous simple et rapide. Quel créneau vous conviendrait ?"
+    },
+    {
+      "Exemple d’accroche pour les parents (protection des proches)": "Votre famille compte sur vous chaque jour. Et si on s’assure ensemble qu’elle est aussi bien protégée en cas de coup dur ? Je vous propose un rendez-vous personnalisé pour faire le bilan. Quel moment vous conviendrait ?"
+    },
+    {
+      "Exemple d’accroche pour senior ou proche de la retraite": "Avec les années, vos besoins évoluent. Votre prévoyance aussi doit s’ajuster. Je vous propose un rendez-vous pour faire un bilan clair et adapté à votre situation actuelle. Quand êtes-vous disponible cette semaine ?"
+    }
+  ]
+}
+
+==================================================
+
+{
+  "Méthode ACTE": {
+    "A": "Accepter l’objection de notre client, que l’on soit d’accord, que l’on comprenne ou non l’objection.",
+    "C": "Creuser celle-ci, permet de vérifier s’il s’agit d’une vraie objection ou d’une objection de fuite.",
+    "T": "Traiter l’objection de notre client.",
+    "E": "Enchaîner l’objection de notre client."
+  },
+  "Je veux réfléchir": [
+    "Je comprends tout à fait, c’est normal de vouloir prendre le temps de réfléchir.",
+    "Qu’est-ce qui vous fait hésiter aujourd’hui ?",
+    "Merci pour votre transparence. Si le contenu des garanties n’est pas clair, je peux vous réexpliquer les points essentiels en quelques minutes.",
+    "Si votre budget est tendu, nous pouvons ajuster ensemble la solution pour qu’elle reste protectrice mais adaptée à vos besoins car notre offre est la plus modulable du marché, cela nous permet de vous proposer une couverture personnalisée.",
+    "Et si on sécurisait déjà l’essentiel aujourd’hui ? Cela vous permet de bénéficier de la protection dès maintenant et nous pourrons ajuster les garanties par la suite.",
+    "Je vous remets le devis, je peux également préparer les éléments nécessaires, il vous suffit de me confirmer que cela vous convient."
+  ],
+  "Je ne suis pas intéressé": [
+    "J’entends,",
+    "Pourquoi/ pour quelles raisons n’êtes-vous pas intéressé ? Comment êtes-vous protégé actuellement ?",
+    "L’objectif de mon appel n’est pas de vous vendre un produit mais de m’assurer de l’efficience de vos différentes couvertures en cas d’incident via votre contrat Santé.",
+    "C’est une manière simple pour vous de déterminer si dans les moments du quotidien, vous êtes couvert comme vous le souhaitez."
+  ],
+  "Je n’ai pas le temps": [
+    "Je comprends, votre emploi du temps doit être bien chargé. On court tous après le temps aujourd’hui.",
+    "Quand vous me dites que vous n’avez pas le temps, est-ce en ce moment ou plutôt sur l’ensemble de la semaine ? Nous pouvons prendre RDV en dehors des horaires classiques, comme en fin de journée ou sur la pause déjeuner ? Ou le samedi ?",
+    "L’idée c’est justement de vous faire gagner du temps à l’avenir, en anticipant les imprévus et en évitant des démarches urgentes en cas de souci. Le RDV est sans engagement, on peut même le faire par téléphone pour que ce soit plus simple pour vous.",
+    "Je vous propose qu’on cale déjà un court créneau, quitte à l’ajuster si besoin ? Est-ce que jeudi en fin de journée ou vendredi sur le temps de midi, vous convient ?"
+  ]
+}
+
+==================================================
+
+Méthode de traitement des objections
+
+Méthode ACTE :
+- Accepter l’objection de notre client, que l’on soit d’accord, que l’on comprenne ou non l’objection.
+- Creuser celle-ci, permet de vérifier s’il s’agit d’une vraie objection ou d’une objection de fuite.
+- Traiter l’objection de notre client.
+- Enchaîner l’objection de notre client.
+
+Je suis chez un autre concurrent moins cher pour cette couverture :
+- J’entends,
+- Où détenez-vous votre contrat ? Quelles garanties avez-vous ? Qu’est-ce qui vous ferait changer d’assureur ?
+- Le prix est une chose en effet, êtes-vous certain que les garanties soient identiques ? En termes de service, de relation de confiance ou encore de réactivité, technicité de votre interlocuteur sont des éléments à intégrer dans votre réflexion.
+- Je vous propose de comparer autour d’un rendez-vous ce que vous avez actuellement et ce que je peux vous proposer.
+- Nous pourrons ainsi identifier dans les situations du quotidien (ex : un accident à la maison, un problème de santé, etc) si vous êtes bien protégé comme vous le pensez et surtout comme vous le souhaitez. Je peux vous proposer d’adapter notre offre à vos besoins car elle est personnalisable et modulable à tout moment.
+
+Je n’ai pas les moyens :
+- Je comprends tout à fait,
+- Quel est votre budget pour cette assurance ?
+- Si c’est plus simple, je vous propose d’échanger lors d’un entretien au sein de mon Agence à ....
+- Et nous pourrons ainsi vous proposer des garanties adaptées à votre budget et selon vos besoins grâce à notre offre modulable, ce qui vous permet de vous offrir la protection suffisante face aux désagréments du quotidien sans « casser le porte-monnaie ».
+
+C’est cher !
+- Je comprends tout à fait, le budget est un point important, surtout dans le contexte actuel.
+- Quand vous dites que c’est cher, est-ce que vous comparez par rapport à un autre contrat que vous détenez ? à un budget que vous vous êtes fixé ? Ou plutôt à la valeur perçue par rapport aux garanties proposées ?
+- C’est vrai qu’un contrat de prévoyance peut représenter un certain coût, mais vous garantissez votre tranquillité d’esprit.
+- En cas d’incident ou d’imprévu, les conséquences financières peuvent être bien plus lourde que la cotisation elle-même. Regardons pour ajuster les garanties ensemble pour qu’elles restent protectrices mais plus accessible, notre offre étant ajustable en continu. L’idée est d'avoir un bon équilibre entre protection et budget.
+- Je vous propose qu’on revoie ensemble votre niveau de garantie, pour comment optimiser le tarif sans sacrifier l’essentiel. Je vous prépare un devis ajusté et on regarde ça ensemble rapidement. Demain en fin de journée ?
+
+==================================================
+
+Le closing : les étapes clés et efficace
+
+- Vérification des besoins et de la compréhension
+  Avant de conclure, assurons-nous que tout a bien été compris en reformulant les besoins du client pour confirmer la compréhension mutuelle.
+  « Est-ce que tout est clair pour vous ? »
+  « Avez-vous besoin que je revienne sur certaines garanties ? », « Vous m’avez bien dit que ... »
+
+- Validation de l’intérêt du client :
+  Vérifions que la solution présentée répond aux attentes du client et demandons un feedback direct sur l’intérêt du client.
+  « Qu’est-ce que vous pensez de la solution qu’on vient de voir ensemble ? »
+  « Ce que l’on a vu ensemble correspond à ce que vous recherchez ? »
+
+- Traitement des objections éventuelles restantes
+  Si le client a encore des objections, traitons-les avec la méthode ACTE.
+
+- Proposition d’un engagement clair
+  « Je vais vous demander votre CNI pour pouvoir acter la proposition ? » « A quelle date faisons-nous démarrer le contrat ? »
+  « Cette offre est valable jusqu’à la fin du mois dans le cadre du lancement, c’est le bon moment pour en profiter »
+
+- Remerciements et valorisation
+  « Merci de votre confiance ! Comme je vous le disais tout à l’heure n’hésitez pas à utiliser l’espace client Santé et/ou l’Application Groupama & Moi pour retrouver vos facilement vos documents, faire une demande de prise en charge en toute simplicité, suivre vos remboursements et consulter les demandes de reste à charge, avec un détail à chaque étape pour vous permettre de suivre vos demandes de manière complète. »
+
+==================================================
+
+5. Des offres Groupama adaptées à nos cibles
+Les avantages concurrentiels des offres Groupama
+
+Si vous êtes équipé en santé et prévoyance, vous pouvez cumuler les heures d’assistance de chaque contrat ! (garde d’enfant, téléassistance, aide-ménagère et portage de repas/médicament)
+
+Groupama Santé Active
+- Personnalisation de l’offre : composez votre mutuelle Santé sur-mesure en fonction de vos besoins, en optique, dentaire, soins courants, médecine douce ou hospitalisation, et selon votre budget.
+- Relai-moi : pour faire un don à vos proches de vos prestations d’assistance.
+- Assistance à domicile : en cas d’hospitalisation, Groupama vous fait bénéficier d’aide à domicile pour vous remettre (97% des clients bénéficiaires en sont satisfaits!).
+
+Garantie des Accidents de la Vie
+- Indemnisation jusqu’à 2M€ : disposez en cas de coup dur d’une des indemnisations les plus élevées du marché et permettant de couvrir le préjudice subi.
+- Indemnisation dès 1% : vous êtes indemnisé sur les conséquences d’un accident même pour une « légère » invalidité.
+- Adaptation à la structure familiale : avec mon contrat GAV je choisis la formule adaptée à ma situation familiale : je peux choisir de me protéger comme de protéger toute ma famille (conjoint, enfants, petits-enfants).
+
+Assurance décès
+- Fiscalité avantageuse : la garantie de transmettre un capital qui n’entre pas dans la succession et qui n’est, dans la plupart des cas, soumis à aucun impôt.
+- Avance possible sur le capital jusqu’à 3 000 € pour assumer les premières dépenses (frais d’obsèques, paiement des factures...).
+- Souplesse du contrat : possibilité de choisir et de faire évoluer à tout moment la formule de couverture, le montant du capital et/ou de la rente d’éducation ainsi que le(s) bénéficiaire(s).
+- La rente éducation : pour protéger l’avenir de vos enfants, jusqu’à leurs 21 ou 26 ans (si poursuite des études) en leur versant une rente de 50 et 1 000€ par mois.
+- Le triplement du capital : en cas de décès par accident.
+- Une avance de Capital jusqu’à 3 000€ : Pour assumer les premières dépenses (frais d’obsèques, paiement des factures...).
+
+Assurance Obsèques
+- Montant du capital garanti : le montant qui sera versé au(x) bénéficiaire(s) désigné(s) sera identique à celui que vous avez choisi à l’adhésion ou modifié en cours de vie du contrat.
+- Surplus de capital versé à la personne de votre choix si le capital choisi à la souscription est supérieur aux frais d’obsèques acquittés au décès.
+- Couverture immédiate en cas de décès accidentel, et au bout de 12 mois en cas de décès par maladie.
+
+==================================================
+
+Groupama Santé Active
+
+Une offre attractive et personnalisable
+
+1 offre commune tout âge, Attractive & Personnalisable, ajustable
+
+6 blocs
+4 niveaux de couvertures
+
+Soins courants (soins couverts par le régime obligatoire)
+Niveaux: 1, 2, 3, 4
+
+Médecine douce (soins non couverts par le régime obligatoire)
+Niveaux: 1, 2, 3, 4
+
+Optique et Audiologie
+Niveaux: 1, 2, 3, 4
+
+Dentaire
+Niveaux: 1, 2, 3, 4
+
+Hospitalisation (frais couverts par le régime obligatoire)
+Niveaux: 1, 2, 3, 4
+
+Hospitalisation confort (frais non couverts par le régime obligatoire)
+Niveaux: 1, 2, 3, 4
+
+Détails supplémentaires:
+- L’audiologie ne fait plus partie des garanties soins courants
+- Dès le niveau 2, Médecine douce : 2 séances à 50€ niveau 2, 3 séances à 50€ niveau 3, 3 séances à 60€ niveau 4
+- Couverture des soins de pédicurie-podologie ouverte à tous
+- Pharmacie prescrite non remboursée (dont homéopathie, vaccins, moyens contraceptifs, ...) & Remboursement examen d’ostéodensitométrie : 40€ niveau 2, 50€ niveau 3 et 100€ niveau 4
+- Rattachement de l’Audiologie au module Optique, ces garanties étant souvent portées par les mêmes professionnels
+- Optique et Audiologie : Equipements 100% santé et hors 100% santé
+- Plus de distinction de prise en charge entre le réseau Sévéane et Autres dentistes stomatologues
+- Réseau d’implantologues Sévéane
+- Prise en charge dès le 1er jour
+- Augmentation de la couverture dès le niveau 3 de la chambre particulière avec nuitée : 65€/jour pour niveau 3 soit 95€/jour pour niveau 4
+- Introduction d’une prise en charge spécifique pour la chambre particulière en ambulatoire dès le niveau 2 : 20€/jour niveau 2, 35€/jour niveau 3, 50€/jour niveau 4
+- Toutes les assistances opérées par Mutuaide
+
+==================================================
+
+Groupama Santé Active
+
+Une offre attractive et personnalisable
+
+Avec le renforcement des couvertures pour un partenaire de vie/Santé
+
+- Un niveau de protection personnalisé grâce à plus de modularité des garanties
+- Couverture des soins de pédicurie-podologie ouverte à tous
+- Prise en charge de la chambre particulière ambulatoire
+- Pour le dentaire, plus de distinction de prise en charge entre le réseau Sévéane et les autres dentistes stomatologues pour une meilleure prise en charge
+
+Nos + conservés
+
+- Un accès aux soins facilité grâce à nos partenariats santé : Le réseau Sévéane avec plus de 13 000 opticiens
+- Pour que nos clients puissent faire face au désert médical : 6 téléconsultations QARE
+- Des services d’assistance pour accompagner au mieux nos clients : aide-ménagère, portage de repas, livraison de médicaments... la mise à disposition d’une auxiliaire de puériculture et d’une prime de naissance.
+
+Expérience client plus fluide de bout en bout de la vie du contrat
+
+En agence
+
+- S’approprier les services en ligne et soutenir les clients en utilisant l’outil de démonstration de l’espace client et de l’application mobile : Explore Digital.
+- Profiter d’un outil plus interactif, dynamique et moderne : le nouvel OAV
+
+Des services à mettre en avant pour nos clients : Services en ligne
+
+- Evolution de l’espace client Santé & de Groupama & Moi à mettre en avant pour nos clients :
+  - « Accédez facilement à vos documents, y compris vos devis. »
+  - « Faites une demande de prise en charge en toute simplicité. »
+  - « Suivez vos remboursements et consultez les demandes de reste à charge, avec un détail à chaque étape pour vous permettre de suivre vos demandes de manière complète. »
+  - « Un simulateur de remboursement sera bientôt disponible pour vous aider à estimer vos remboursements. »
+
+Groupama.fr
+
+- « Vous pouvez créer votre devis en toute autonomie, 24 heures sur 24 et 7 jours sur 7. »
+- « Vous bénéficiez du même devis et des mêmes tarifs, que ce soit en ligne ou en agence. »
+- « Nous nous engageons à vous fournir un conseil plus précis et conforme. Ainsi, votre devis digital sera intégré dans notre gestion électronique des documents (GED), et le dernier devis au format PDF pourra être consulté. »
+- « Nous vous encourageons à explorer le parcours GAV afin de vous permettre de bénéficier d’une offre multi-équipée adaptée à vos besoins. »
+
+==================================================
+
+Des offres Groupama adaptées à nos cibles
+
+Quelques exemples de garanties/services en fonction de nos cibles:
+1- Agriculteurs aidants
+  - RelaiMoi : faire don à ses proches de prestation(s) d’assistance et notamment 1 mois de TAP offert
+  - La possibilité d’assurer qui vous voulez : vous, votre conjoint, vos enfants, les grands-parents
+  - Dispositif d’accompagnement de l’aidant pour l’adaptation du logement de l’aidé
+  - Service d’accompagnement administratif en cas de décès jusqu’au règlement de la succession
+
+2- Retraités aidés
+  - TAP NOÉ :
+    - Téléconsultation médicale gratuite
+    - Plateforme d’écoute 6j/7
+  - Accompagnement psychologique
+  - Livraison de repas/médicaments
+  - Aide-ménagère :
+    - 2h consécutives/jour jusqu’à 30h
+    - 2h consécutives/jour jusqu’à 20h
+    - 2h consécutives/jour jusqu’à 10h
+  - Dispositif de gestion administrative : assistance pour les premières formalités et guide des démarches administratives
+  - Capital urgence : avance possible sur le capital décès jusqu’à 3 000 €
+  - Bilan situationnel par un ergothérapeute à domicile et prise en charge des travaux d’adaptation du domicile (jusqu’à 360 €)
+  - Une avance sur le capital décès pouvant aller jusqu’à 3 000 € pour faire face aux premières dépenses engagées
+  - Des services d’accompagnement, tel qu’un soutien psychologique, de garde d’enfants
+  - La garantie de transmettre un capital qui n’entre pas dans la succession et qui n’est, dans la plupart des cas, soumis à aucun impôt
+
+3 - ACPS jeunes séniors
+  - Couverture des soins de pédicurie-podologie ouverte à tous et remboursement d’examen d’ostéodensitométrie
+  - Réseau Sévéane : tarifs privilégiés et 100 % remboursé sur l’optique et l’audioprothèse (inclus les services et prix négociés)
+  - Dentaire : plus de distinction de prise en charge entre le réseau Sévéane et d’autres dentistes stomatologistes
+  - Choix du capital versé pour frais d’obsèques
+
+4- Particuliers salariés familles
+  - GSA – QARE : 6 téléconsultations médicales offertes
+  - Espace client et application mobile Groupama
+  - Simulateur de remboursements en ligne
+  - Réduction famille :
+    - -5 % dès le 2ème assuré
+    - -20 % à partir du 4ème assuré
+    - Gratuité de la cotisation santé pour le 3ème enfant et les suivants
+  - Nouvelle Garantie PSY remboursée par le RO
+  - Naissance bienvenue : forfait naissance (jusqu’à 200 €) d’aide aux auxiliaires de puériculture pour faciliter la maternité
+  - Aide financière allant jusqu’à 2 millions d’€, aide immédiate grâce aux services d’assistance et une protection juridique
+  - Protéger vos enfants avec la Rente Éducation : versement à chaque enfant désigné, pour permettre de couvrir notamment les frais de scolarité
+
+5 - Fonction publique jeunes clients
+  - Mon assurance voyage : protéger les voyages de vos enfants à l’étranger
+  - Ma santé dans ma poche : l’application mobile et toutes les fonctionnalités depuis l’espace client
+  - Médecines douces (ostéo, acupuncteur, diététicien…) : jusqu’à 3 séances/an selon la formule souscrite
+  - Mon Kiosque Santé : accès à des services et applications santé sur espace client
+  - Téléconsultation avec QARE : consultez un médecin de chez vous sans vous déplacer, même depuis l’étranger
+
+Légende (offres liées) :
+- Groupama Santé Active
+- Assurance voyage
+- Assurance Obsèques
+- Garantie Accidents de la Vie
+- Assurance décès
+- Téléassistance de personnes
+==================================================
+
+7 FAMILLE
+
+Serge & Shaina
+56 et 53 ans
+Ingénieur et Institutrice
+Montpellier (34)
+Possèdent un contrat Désirio et auto
+Propriétaires de leur maison avec un crédit en cours
+Mariés 2 enfants Aurélie et Clémentine
+Serge : Rugby
+Shaina : Yoga
+
+ARGUMENTS GSA : Comment êtes-vous couvert aujourd’hui par votre complémentaire santé ?
+- Quelles couvertures sont indispensables ? Pour vous, comme pour votre famille, il est essentiel de disposer d’une couverture médicale en cas de besoin, que ce soit pour les aspects optique et dentaire, soins courants ou encore hospitalisation.
+- Peut-on parler de confort ou plutôt de nécessité ? L’assurance voiture est obligatoire, vous assurez votre maison et qu’avez-vous mis en place pour couvrir votre famille pour les aspects médicaux ?
+- Il est certain que cette couverture santé constitue un réel investissement dans toutes les compagnies d’assurance mais peut-on en faire l’économie, le bien le plus précieux de chacun de nous étant notre santé.
+
+ARGUMENTS GAV : En moyenne 75% du temps nous ne sommes pas couverts. Qu’avez-vous mis en place face aux accidents de la vie quotidienne ?
+- Vous êtes couverts dans votre activité professionnelle et pour la conduite. Toutefois, vous ne disposez pas de couverture pour vos activités de loisirs dont le rugby, pour quelles raisons ?
+- Pour vous couvrir face à tous les accidents de la vie privée (sport & loisirs), vous bénéficiez de prestations d’assistance pour soulager votre quotidien, la solution Groupama constitue une excellente réponse à vos attentes.
+- L’assurance des accidents de la vie vous protège pour toutes les situations du quotidien qui peuvent mal tourner, pour maintenir au mieux votre qualité de vie, notre offre comprend 4 domaines d’intervention, elle vous garantit l’une des meilleures protections avec un plafond d’indemnisation jusqu’à 2 millions d’euros.
+
+ARGUMENTS DÉCÈS : Qu’avez-vous mis en place pour protéger votre conjoint et vos enfants en cas de décès ?
+- Monsieur, vous pratiquez une activité sportive intense. Cette solution permet à votre famille de toucher un capital en cas de décès pour assurer l’avenir de votre foyer.
+- Les personnes vivant au foyer (conjoint, enfant...) peuvent bénéficier : d’un soutien psychologique pour les aider à faire face (consultation par téléphone) ou encore d’une garde d’enfants au domicile ou de leur transfert chez un proche pour soulager le conjoint survivant.
+- Le décès du conjoint entraîne des frais que l’on n'anticipe pas, surtout lorsque vos enfants sont encore à charge, cette couverture vous assure de conserver l’équilibre financier dont vous avez besoin pour les projets de votre foyer.
+
+==================================================
+
+7 JEUNE SENIOR
+
+Pauline
+- Âge: 62 ans
+- Profession: Fleuriste
+- Localisation: Sarlat (24)
+- Possède un contrat MRH
+- A toujours vécu à la campagne
+- Mariée avec les enfants ayant quitté le foyer
+- Loisirs: Jardinage et bricolage
+
+ARGUMENTS GSA : Comment êtes-vous couvert aujourd'hui par votre complémentaire santé en tant qu'indépendante ?
+- Je sais qu'en tant que fleuriste vous travaillez debout toute la journée, vous êtes exposée à l'humidité donc si demain vous devez voir un spécialiste, consulter un kiné ou même vous faire opérer, notre offre modulable, vous permet de choisir vos niveaux de couverture en fonction de vos besoins pour une meilleure prise en charge.
+- Vous êtes fleuriste indépendante, vous travaillez au contact des clients, des plantes et des produits chimiques, et vous êtes souvent sur pied toute la journée. Mais êtes-vous bien protégée en cas de pépin de santé ?
+- Nous proposons des formules adaptées aux travailleurs non-salariés comme les artisans, commerçants et indépendants. Parce que votre santé est précieuse et que chaque euro compte, nous avons conçu des solutions accessibles, flexibles et complètes.
+
+ARGUMENTS OBSEQUES : Qu'avez-vous mis en place pour préparer vos obsèques ?
+- Vous souhaitez ne plus vous soucier de vos obsèques. Je vous propose de souscrire à l'offre Groupama vous permettant de donner vos souhaits, sécuriser vos obsèques et de ne plus vous préoccuper de leurs financements.
+- Je sais que, dans votre métier, vous avez l'habitude d'accompagner les gens dans des moments difficiles. C'est important aussi de penser à l'avenir, pour que vos proches n'aient pas à se soucier des aspects pratiques quand ce moment viendra.
+- En tant qu'indépendante, vous avez probablement déjà pensé à l'avenir de votre famille et de votre activité. Aujourd'hui, je veux vous parler d'une solution qui vous permet de préparer vos obsèques à l'avance, tout en soulageant vos proches.
+
+ARGUMENTS GAV : En moyenne 75% du temps nous ne sommes pas couverts. Qu'avez-vous mis en place face aux accidents de la vie quotidienne ?
+- Avez-vous pensé aux accidents de la vie quotidienne et à leur couverture ? Vous qui jardinez beaucoup, qu'avez-vous mis en place en cas d'accident lié au jardinage ?
+- Gardez-vous vos petits-enfants ? Ils sont couverts en cas d'accidents de la vie si vous les gardez un weekend ou pendant les vacances par exemple.
+- Si vous n'êtes pas assuré en cas d'accident de la vie quotidienne, cela peut vous coûter cher de réhabiliter votre logement et faire appel à des prestations d'assistance alors que chez Groupama, vous pouvez bénéficier jusqu'à 2 millions d'euros d'indemnisation.
+
+==================================================
+
+7 AIDANT
+
+Jacques
+- Âge: 48 ans
+- Profession: Agriculteur
+- Localisation: Saint-Malo (35)
+- Équipé d'un contrat GSA chez Groupama
+- Proche de ses parents propriétaires de sa maison avec un crédit en cours
+- Marié, deux enfants (13 et 15 ans)
+- Loisirs: Aime les balades à vélo
+
+ARGUMENTS GAV : En moyenne 75% du temps nous ne sommes pas couverts. Qu’avez-vous mis en place face aux accidents de la vie quotidienne ?
+- La GAV est une assurance qui vous protège si vous avez un accident grave dans la vie courante : chute, accident de bricolage, de jardinage, etc. Même si c’est chez vous ou en dehors du travail. Votre assurance santé rembourse les soins, mais pas la perte de revenus, ni les séquelles sur le long terme. La GAV, elle, couvre ça et les dédommagements pouvant porter jusqu’à 2 millions d’euros.
+- Je voulais vous parler d’une protection qui peut vraiment vous concerner dans votre quotidien. Vous travaillez beaucoup dehors, souvent seul, avec des machines, ou dans les champs... C’est un métier où le risque fait partie du quotidien, non ? Et justement, si un jour il vous arrive un accident, pas un accident du travail, mais un accident dans la cour, chez vous, en bricolant ou même pendant les loisirs, la plupart du temps, les assurances classiques ne couvrent pas les conséquences graves. C’est là que la GAV intervient.
+- En cas d’immobilisation de plus de 8 jours ou d’hospitalisation d’au moins une nuit à la suite d’un accident, si vous n’êtes plus en capacité d’accompagner votre aidé, l’assistance Groupama prend le relais durant un mois maximum avec un dispositif de téléassistance (1 mois maximum, 2 fois/an et par assuré).
+
+ARGUMENTS DÉCÈS : Qu’avez-vous mis en place pour protéger vos proches en cas de décès ?
+- En cas de décès, si vous ou votre époux n’êtes plus là, qu’avez-vous prévu pour aider vos parents et vos enfants ? Je peux vous proposer une solution dont le prix varie avec l’âge du souscripteur et permet de recevoir un capital visant à maintenir un niveau de vie, de protection, de paiement des impôts de l’année précédente.
+- La garantie décès, c’est une solution simple qui permet d’assurer un capital à vos proches si vous veniez à disparaître. Ce capital peut servir à payer les dettes, reprendre l’activité, ou tout simplement subvenir aux besoins de votre famille, le temps qu’ils se réorganisent.
+- Je vais vous parler d’un sujet important. Vous avez construit votre exploitation à force de travail. Vous êtes un pilier pour vos proches. Mais si demain il vous arrivait quelque chose, comment vos enfants ou votre conjoint feraient-ils pour reprendre ou maintenir tout ça ?
+
+ARGUMENTS TELEASSISTANCE : Comment sont équipés vos parents à leur domicile ?
+- Vos parents ont-ils déjà fait une chute ? Reçoivent-ils de la visite de la famille ? Vos parents ne resteront pas seuls en cas de chute. Le système connecté alertera les secours qui pourront intervenir à tout moment.
+- Vos parents restent en sécurité chez eux grâce à des équipements de téléassistance discrets, intuitifs et connectés.
+- Vous pouvez partir en vacances l’esprit serein. Des professionnels veillent sur vos parents en cas d’incident pour leur prodiguer l’assistance nécessaire.
+
+==================================================
+
+7 AIDÉ
+
+Philippe
+- Âge: 75 ans
+- Profession: Retraité
+- Localisation: Saint-Malo (35)
+- Équipé d'un contrat MRH
+- A toujours vécu en Bretagne
+- Veuf
+- Aime se balader en bord de mer
+
+ARGUMENTS OBSEQUES : Qu’avez-vous mis en place pour préparer vos obsèques ?
+- Si vous souhaitez libérer vos proches des contraintes financières de vos obsèques ou que vos volontés soient respectées sans contestation, je vous suggère ...
+- Quel type de prestations d’obsèques souhaitez-vous ?
+- Soyez serein et préparez vos obsèques en nous transmettant vos souhaits et ainsi vous déchargez vos proches de toutes ces formalités.
+- Financez aujourd’hui vos futures obsèques, ce qui vous garantit contre les futures augmentations.
+
+ARGUMENTS TELEASSISTANCE : Vous souhaitez rester à votre domicile le plus longtemps possible ?
+- La téléassistance Groupama vous permet de vivre tranquillement sans vous préoccuper de quoi que ce soit. En cas de soucis, l’assistance intervient pour vous protéger.
+- Savez-vous qu’avec l’offre de Téléassistance NOÉ, vous pouvez bénéficier de téléconsultations médicales gratuites ?
+- En cas de solitude, une plateforme d’écoute 6j/7 est même disponible !
+- Grâce à la téléassistance, vous pouvez rester plus longtemps chez vous et en toute sécurité !
+- En cas de chute ou de malaise, les secours interviennent pour vous porter assistance.
+
+ARGUMENTS GSA : Comment êtes-vous couvert aujourd’hui par votre complémentaire santé ?
+- Notre complémentaire santé est un investissement essentiel pour vous garantir une couverture adéquate aux frais de santé, améliorer votre accès aux soins et vous assurer une meilleure qualité de vie.
+- Grâce à notre complémentaire santé, vous bénéficiez d’une attention particulière pour des traitements adaptés concernant le dentaire, avec nous il n’y a pas de distinction de prise en charge entre le réseau Sévéane et d’autres dentistes stomatologues.
+- Selon vos besoins de soins spécifiques, comme des soins dentaires, optiques ou auditifs, grâce à notre offre modulable vous pouvez choisir le niveau de garantie selon les soins dont vous avez besoin.
+
+==================================================
+
+7 JEUNE CLIENT
+
+Matthieu
+- Âge: 30 ans
+- Profession: Enseignant à la fac
+- Localisation: Nice (06)
+- Possède déjà un contrat emprunteur chez Groupama
+- A toujours vécu dans le sud de la France
+- Célibataire (seul)
+- Aime se balader en bord de mer
+
+ARGUMENTS GSA : Comment êtes-vous couvert aujourd’hui par votre complémentaire santé ?
+- Votre statut d’enseignant du public ne vous impose pas de complémentaire santé obligatoire. Toutefois, pour réduire vos coûts et faciliter votre confort, nous vous incitons à souscrire pour protéger votre Santé.
+- En plus d’une couverture, savez-vous que notre offre inclut également diverses applications dans votre kiosque Santé comme Foodvisor pour les aspects diététiques, Qare pour la téléconsultation médicale depuis l’étranger et bien encore !
+- Pour éviter des turbulences de trésorerie en cas de problèmes de santé quels qu’ils soient, la modularité de notre offre vous permet de choisir les niveaux de couvertures adaptés à vos besoins en santé.
+
+ARGUMENTS GAV : En moyenne 75% du temps nous ne sommes pas couverts. Qu’avez-vous mis en place face aux accidents de la vie quotidienne ?
+- Dans le cadre de votre profession vous êtes couvert. Toutefois, dans vos activités culturelles, sportives, de votre vie au quotidien, rien n’est prévu mais nous pouvons vous proposer la solution de Groupama.
+- Je n’ose imaginer un seul instant que vous n’avez pas pensé à vous protéger pour vos activités extra-professionnelles vis-à-vis des risques encourus. Qu’avez-vous prévu ?
+- On peut considérer que c’est encore une charge supplémentaire mais est-il prudent de ne pas protéger sa personne sur certains aspects du quotidien pouvant entraîner des conséquences dommageables.
+
+ARGUMENTS DÉCÈS : Qu’avez-vous mis en place pour optimiser vos intérêts en cas de succession ?
+- À 30 ans, la vie est pleine de promesses et d’aventures. Avez-vous pensé à ce qui arriverait si l'imprévu survenait ? Avec notre assurance décès, vous pouvez garantir la tranquillité d'esprit pour vous et vos parents.
+- Votre prêt immobilier est couvert par votre assurance emprunteur, en cas de décès vos parents sont vos héritiers. Qu’avez-vous mis en place pour les aider financièrement en cas de frais de succession pour votre bien immobilier en plus de vos obsèques ?
+- Vous détenez notre assurance emprunteur qui permet de rembourser votre prêt en cas décès, qu’en est-il pour le financement de vos obsèques ?
+
+==================================================
+
+Jeune Client
+
+Jade
+- Âge: 30 ans
+- Profession: Community Manager
+- Localisation: Fontenay-sous-Bois (94)
+- Possède déjà un contrat emprunteur chez Groupama
+- Originaire de l'Aquitaine
+- Célibataire (en union libre)
+- Aime les balades à vélo
+
+Arguments GSA : Comment êtes-vous couvert aujourd'hui par votre complémentaire santé ?
+- Notre complémentaire santé est très modulable, elles offrent différentes formules adaptées à vos besoins spécifiques. Vous pouvez choisir celle qui correspond le mieux à votre situation, que ce soit pour des soins courants, de la médecine douce ou encore des soins dentaires ou des soins optiques.
+- Les frais de santé peuvent rapidement devenir élevés, même pour des soins courants. Une complémentaire santé permet de couvrir une partie ou la totalité des dépenses non remboursées par la sécurité sociale, ce qui peut alléger le fardeau financier en cas de maladie ou d'accident.
+- En tant que couple en union libre, il est possible de souscrire une complémentaire santé qui couvre les deux partenaires. Cela garantit que vous êtes tous les deux protégés en cas de besoin médical, ce qui est particulièrement important si vous partagez des responsabilités financières.
+
+Arguments GAV : En moyenne 75% du temps nous ne sommes pas couverts. Qu'avez-vous mis en place face aux accidents de la vie quotidienne ?
+- L'assurance des accidents de la vie vous protège ainsi que votre concubin(e) dès 1% d'invalidité et une indemnisation pouvant aller jusqu'à 2 millions d'euros pour une invalidité maximale.
+- L'assurance des accidents de la vie vous couvre ainsi que votre concubin(e) même si vous vous blessez seul et vous accompagne 24h/24 grâce à notre assistance.
+- Notre assurance des accidents de la vie se souscrit sans sélection médicale et avec une couverture immédiate, elle permet une prise en charge globale des dommages subis et vous pouvez être couvert dès 1% d'invalidité.
+
+Arguments Décès : Qu'avez-vous mis en place pour protéger votre concubin(e) ?
+- Le décès du conjoint entraîne une perte de revenu qui remet souvent en cause le niveau de vie de votre concubin(e). Grâce à l'assurance décès vous pouvez désigner votre concubin(e) comme bénéficiaire du capital que vous choisissez et le protéger financièrement.
+- Vous n'êtes pas mariée et l'union libre ne donne aucun droit sur l'héritage à votre concubin(e) en cas de décès. Malgré votre assurance emprunteur, si votre concubin(e) souhaite conserver votre bien immobilier, il/elle aura à payer les droits de succession de 60%.
+- L'assurance décès est un moyen de prendre soin de votre partenaire et de vous assurer que, même en cas de perte, il/elle ne sera pas laissé(e) dans une situation financière difficile. C'est un geste d'amour et de prévoyance.

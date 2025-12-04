@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Historique des synthèses</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f8f2;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #007a33;
+            font-size: 2em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            background-color: #007a33;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 122, 51, 0.2);
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #005a24;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 122, 51, 0.3);
+        }
+        .btn-secondary {
+            background-color: #007bff;
+        }
+        .btn-secondary:hover {
+            background-color: #0056b3;
+        }
+        .btn-back {
+            background-color: #28a745;
+        }
+        .btn-back:hover {
+            background-color: #1e7e34;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+            padding: 30px 30px 20px 30px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto 20px auto;
+            background: #eaf4eb;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+        }
+        th, td {
+            border: 1px solid #cde3d6;
+            padding: 12px 10px;
+            text-align: center;
+        }
+        th {
+            background: #f5f5f5;
+            color: #007a33;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        tr:nth-child(even) {
+            background-color: #f3f7f1;
+        }
+        tr:hover {
+            background-color: #d6f5e3;
+        }
+        .error {
+            color: #b30000;
+            background: #ffeaea;
+            border: 1px solid #ffb3b3;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 15px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        .highlighted-row {
+            background: linear-gradient(45deg, #ffeb3b, #fff59d) !important;
+            animation: highlight-pulse 2s ease-in-out;
+            border: 2px solid #fbc02d !important;
+        }
+        .highlighted-row:hover {
+            background: linear-gradient(45deg, #fdd835, #fff176) !important;
+        }
+        @keyframes highlight-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(251, 192, 45, 0.7); }
+            70% { box-shadow: 0 0 0 10px rgba(251, 192, 45, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(251, 192, 45, 0); }
+        }
+        .new-report-badge {
+            background: #4caf50;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            margin-left: 10px;
+            animation: badge-glow 2s infinite;
+        }
+        @keyframes badge-glow {
+            0%, 100% { box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); }
+            50% { box-shadow: 0 0 15px rgba(76, 175, 80, 0.8); }
+        }
+        @media (max-width: 700px) {
+            .container { padding: 10px; }
+            table, th, td { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Historique des synthèses</h1>
+        {% if highlight_filename %}
+        <div style="background: #e8f5e8; border: 2px solid #4caf50; border-radius: 8px; padding: 15px; margin: 20px auto; max-width: 600px; text-align: center; color: #2e7d32;">
+            <strong>✅ Analyse terminée avec succès !</strong><br>
+            Votre nouveau rapport de synthèse est maintenant disponible et mis en évidence ci-dessous.
+        </div>
+        {% endif %}
+        <!-- <div style="text-align:center; margin-bottom: 20px;">
+            <a href="{{ url_for('history') }}" class="btn btn-secondary">
+                📚 Accéder à l'historique des conversations
+            </a>
+        </div>
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %} -->
+        <table>
+            <tr>
+                <th>Date de génération</th>
+                <th>Rapport de synthèse</th>
+                <th>Appréciation</th>
+            </tr>
+            {% for eval in syntheses %}
+            <tr{% if highlight_filename and eval.rapport == highlight_filename %} class="highlighted-row"{% endif %}>
+                <td>{{ eval.date }}</td>
+                <td>
+                    <a href="{{ eval.rapport_url }}" target="_blank">{{ eval.rapport }}</a>
+                    {% if highlight_filename and eval.rapport == highlight_filename %}
+                        <span class="new-report-badge">Nouveau !</span>
+                    {% endif %}
+                </td>
+                <td>{{ eval.appreciation }}</td>
+            </tr>
+            {% endfor %}
+            {% if not syntheses %}
+            <tr><td colspan="3">Aucun rapport trouvé.</td></tr>
+            {% endif %}
+        </table>
+        <div style="text-align:center;">
+            <a href="{{ url_for('index') }}" class="btn btn-back">Retour</a>
+        </div>
+    </div>
+</body>
+</html>

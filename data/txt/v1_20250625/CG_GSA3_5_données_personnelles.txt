@@ -1,0 +1,109 @@
+PROTECTION DES DONNÉES PERSONNELLES ET ASSURANCE
+
+Quels types de données personnelles collectons-nous ?
+Les catégories de données personnelles qui peuvent être collectées et traitées sont les suivantes :
+- données d’identification et coordonnées (ex : nom, prénom, n° de dossier…);
+- informations liées à la vie professionnelle (ex : employeur pour les contrats collectifs ou catégorie socio-professionnelle, rémunération…) ;
+- informations liées à la vie personnelle (ex : vie familiale, type de souscription…);
+- données d’ordre économiques ou financières (ex : transactions, factures…);
+- données de connexion (ex : logs, date de connexion…);
+- données de santé dans le cadre de la mise en œuvre des garanties d’assurance et d’assistance ;
+- informations relatives à un fait illicite le cas échéant (ex : fraude aux assurances…).
+
+POURQUOI COLLECTONS-NOUS DES DONNÉES PERSONNELLES ?
+Les données recueillies par l’Assureur, à différentes étapes de la souscription ou de la gestion des contrats d’assurance, sont nécessaires aux objectifs suivants :
+Dans le cadre de votre contrat ou de l’exécution de mesures précontractuelles, pour la passation, gestion, exécution des contrats d’assurance ou d’assistance
+Les données recueillies pour la passation, la gestion et l’exécution des contrats vous concernant ou concernant les personnes parties, intéressées ou intervenant au contrat, ont pour objectifs :
+- la délivrance de conseil et l’étude des besoins spécifiques de chaque personne afin de proposer des contrats d’assurance adaptés à chaque situation. A cet effet, une évaluation de la situation familiale et des contrats en cours de l’assuré peut être réalisée ce qui peut aboutir à un score d’appétence pour un produit défini ;
+- l’examen, l’acceptation, le contrôle et la surveillance du risque ;
+- la gestion des contrats (de la phase précontractuelle à la résiliation du contrat), et l’exécution des garanties du contrat ;
+- la gestion des clients ;
+- la comptabilité, la facturation et la refacturation ;
+- l’exercice des recours, la gestion des réclamations et des contentieux.
+
+En cas de conclusion d’un contrat, les données sont conservées pour la durée du contrat ou la durée de gestion de votre sinistre et jusqu’à l’expiration des délais légaux de prescription ou de conservation.
+
+En l’absence de conclusion d’un contrat (données prospects), les données sont conservées 5 ans maximum à compter de leur collecte à des fins probatoires.
+
+Les traitements mis en œuvre dans le cadre de l’intérêt légitime de l’Assureur
+- L’élaboration des statistiques et études actuarielles et la mise en place d’actions de prévention proposées par l’assureur, notamment en vue de réduire les risques et sinistres.
+- La conduite d’activités de recherche et développement, afin d’améliorer les produits et services proposés.
+- Les opérations de communication, les enquêtes de satisfaction ou les réponses à vos demandes afin de fidéliser la clientèle et d’améliorer la qualité de service.
+- Le contrôle, l’audit afin de respecter les engagements internes de l’entreprise.
+
+Ces différentes informations sont conservées entre 2 et 5 ans maximum à compter de leur collecte ou sont anonymisées à des fins statistiques.
+
+La gestion du contrat intra groupe au sein des entités du groupe Groupama.
+
+La lutte contre la fraude à l’assurance afin de de protéger la mutualité des assurés et éviter la prise en charge de demandes injustifiées, a un intérêt légitime à lutter contre les fraudes. A cette fin, des données personnelles (y compris des données de santé) pourront donc être utilisées pour prévenir, détecter et gérer les fraudes quel qu’en soit l’auteur.
+
+Ces dispositifs de lutte contre la fraude peuvent conduire à l’inscription sur une liste de personnes présentant un risque de fraude. Les données traitées pour la lutte contre la fraude sont conservées 5 ans maximum à compter de la clôture du dossier de fraude. En cas de procédure judiciaire, les données sont conservées jusqu’à la fin de la procédure, et expiration des prescriptions applicables. Les personnes inscrites sur une liste de fraudeurs présumés, seront désinscrites passé le délai de 5 ans à compter l’inscription sur cette liste. Les droits sur ces données peuvent être exercés à tout moment par courrier à ALFA, 1 rue Jules Lefebvre – 75431 Paris Cedex 09.
+
+Dans le cadre de nos relations, nous vous informons que les appels téléphoniques peuvent être enregistrés afin de s’assurer de la bonne exécution de nos prestations à votre égard et plus généralement afin de faire progresser la qualité de service ou dans le cadre de nos obligations réglementaires.
+
+Les enregistrements téléphoniques sont conservés jusqu’à 6 mois maximum ou 2 ans pour preuve de nos obligations réglementaires.
+
+LES TRAITEMENTS MIS EN ŒUVRE POUR RESPECTER LES OBLIGATIONS LÉGALES OU RÉGLEMENTAIRES DE L’ASSUREUR :
+- pour la lutte contre le blanchiment des capitaux et le financement du terrorisme : L’Assureur met en œuvre des traitements et dispositifs de surveillance ayant pour finalité la lutte contre le blanchiment de capitaux et le financement du terrorisme, ainsi que la mise en œuvre de mesures de gel des avoirs s’inscrivant dans le cadre de régimes de sanctions économiques et financières nationales et internationales ;
+les données utilisées à cette fin sont conservées 5 ans à compter de l’exécution de l’opération ou de la cessation de la relation d’affaires selon la nature des données concernées ;
+
+- Le droit d'accès à ces données s'exerce via une procédure d'accès indirect auprès de la Commission Nationale de l'Informatique et Libertés s'agissant des traitements de lutte contre le blanchiment des capitaux (voir cnil.fr);
+- pour la communication institutionnelle et fonctionnement des instances : Du fait de votre qualité de sociétaire Groupama ou de la souscription de certains contrats, des données peuvent être utilisées pour vous adresser des communications institutionnelles, des convocations aux instances légalement prévues, ainsi que tous documents nécessaires à la gestion de ces instances (ex : convocation aux Assemblées Générales...), par courrier postal ou par voie de communication électronique (email, SMS/MMS...);
+- pour traiter les réquisitions judiciaires émanant de tiers autorisés (ex : administration publique).
+
+Vous pouvez vous opposer à tout moment à la transmission de communications institutionnelles (voir vos droits).
+
+Vous pouvez également vous opposer à la réception par voie électronique des documents nécessaires aux instances (sauf si statutairement prévu). Dans ce cas, ces documents légalement prévus vous seront adressés soit par courrier postal, soit par tout autre canal (consultation en agence, ...).
+
+Ces informations sont conservées le temps de notre relation contractuelle ou le temps nécessaire à la gestion des instances, suivi des délais de prescriptions applicables.
+
+LES TRAITEMENTS MIS EN ŒUVRE UNIQUEMENT AVEC VOTRE ACCORD
+
+Nous traitons également vos données personnelles avec votre consentement dans certains cas précis :
+- pour traiter des données relatives à votre santé, lorsque les circonstances d'un sinistre l'imposent ou lorsque que vous devez remplir un questionnaire médical.
+Lorsque la personne concernée est le souscripteur du contrat, alors son consentement ainsi que celui de son entourage devra être donné au moment de la collecte de la donnée.
+En revanche, dans le cadre de nos activités de protection sociale, le recueil de votre accord n'est pas nécessaire.
+
+Ces informations sont traitées dans le respect de la confidentialité médicale et sont conservées pour la durée du contrat ou la durée de gestion de votre sinistre et jusqu'à l'expiration des délais légaux de prescription ou de conservation.
+
+- À des fins de prospections commerciales, lorsque nous souhaitons personnaliser nos offres et vous les adresser par courrier électronique, par SMS ou encore par automate d'appel, pour communiquer vos données à nos partenaires ou encore afin de personnaliser la publicité que vous pouvez voir sur des sites tiers.
+
+Vous pouvez retirer votre consentement, à tout moment, en réglant vos préférences dans votre espace personnel, à partir du lien de désabonnement prévu dans nos envois ou en contactant notre service DPO (voir ci-avant vos droits).
+
+Les données collectées à cette fin sont conservées pendant un délai de 3 ans à compter de la fin de la relation commerciale, de leur collecte ou du dernier contact.
+
+Pour la prospection exercée par voie téléphonique, vous pouvez aussi vous opposer en vous inscrivant gratuitement sur la liste d'opposition BLOCTEL (www.bloctel.gouv.fr) qui interdit aux professionnels avec lesquels vous n'avez pas de relation contractuelle en cours de vous démarcher par téléphone.
+
+D'autres finalités particulières peuvent être mises en œuvre pour l'exécution de certains contrats. Dans ce cas, il convient de se reporter aux documents contractuels ou conditions générales d'utilisation spécifiques pour une complète information sur les traitements mis en œuvre, leurs finalités et l'exercice des droits des personnes.
+
+A QUI SONT COMMUNIQUÉES CES INFORMATIONS ?
+
+Les données à caractère personnel traitées sont destinées, dans la limite de leurs attributions :
+- aux services internes de l'Assureur ou aux entreprises du Groupe Groupama en charge des relations commerciales et de la gestion des contrats, de lutte contre la fraude ou de la lutte contre le blanchiment et le financement du terrorisme, de l'audit et du contrôle;
+- ces informations peuvent également être communiquées, dès lors que cela est nécessaire, à nos réassureurs, intermédiaires, partenaires, et sous-traitants, ainsi qu'aux organismes susceptibles d'intervenir dans l'activité d'assurance, tels les organismes publics ou autorités de tutelles, ou les organismes professionnels (dont ALFA à des fins de lutte contre la fraude et TRACFIN pour la lutte contre le blanchiment des capitaux et le financement du terrorisme);
+- aux prestataires externes en charge de l'hébergement des données, de la maintenance des logiciels et des systèmes d'information;
+- les informations relatives à votre santé sont exclusivement destinées aux médecins-conseil de l'Assureur ou d'autres entités du Groupe, à son service médical ou à des personnes internes ou externes habilitées spécifiquement (notamment nos experts médicaux);
+- aux tiers-autorisés : juridictions, arbitres, médiateurs, auxiliaires de justice, officiers ministériels, organismes sociaux, autorités de tutelle et de contrôle, tous les organismes publics habilités aux services avec missions de contrôle tels que les commissaires aux comptes ou les auditeurs.
+
+GARANTIES D’ASSISTANCE
+
+La mise en œuvre des garanties d’assistance prévues au contrat peut nécessiter le traitement de données personnelles, notamment des données de santé, par Mutuaide Assistance.
+
+Ces informations sont exclusivement destinées aux personnes en charge de la gestion de vos garanties en concernant vos données de santé, aux médecins de l’assisteur, à ses gestionnaires habilités, et autres personnes habilitées (urgentistes, ambulanciers, médecins locaux, ...).
+
+Certaines données, strictement nécessaires à la mise en œuvre des prestations d’assistance, sont susceptibles de faire l’objet de transferts hors Union Européenne dans l’intérêt de la personne concernée ou de la sauvegarde de la vie humaine.
+
+Vous acceptez expressément, le recueil et le traitement de données de santé dans ce cadre.
+
+Vous disposez d’un droit d’accès, de rectification, de suppression, de limitation, de portabilité et d’opposition à toutes informations vous concernant auprès de Mutuaide Assistance, et s’agissant de l’accès à vos données médicales auprès de son Médecin-Conseil. (demande par courrier postal, accompagnée de la photocopie d’une pièce d’identité, à l’adresse Mutuaide Assistance - 126, rue de la Piazza - 93160 Noisy-le-Grand ou le site www.mutuaide.fr).
+
+Tout appel téléphonique passé dans le cadre de la mise en oeuvre des garanties d’assistance sera systématiquement enregistré sur les plateformes de Mutuaide Assistance aux fins d’assurer une parfaite exécution des prestations. Le droit d’accès à ces enregistrements s’effectue directement auprès de Mutuaide Assistance dans les limites de la durée de conservation de ces enregistrements.
+
+TRANSFERTS D’INFORMATIONS HORS DE L’UNION EUROPÉENNE :
+Les données personnelles sont traitées au sein de l’Union Européenne. Toutefois, des données peuvent faire l’objet de transferts vers des pays hors Union Européenne, dans le respect des règles de protection des données et encadrées par des garanties appropriées (ex : clauses contractuelles types de la commission européenne, pays présentant un niveau de protection des données reconnu comme adéquat...).
+
+Ces transferts peuvent être effectués pour l’exécution des contrats, la lutte contre la fraude, le respect d’obligations légales ou réglementaires, la gestion d’actions ou contentieux permettant notamment à l’Assureur d’assurer la constatation, l’exercice ou la défense de ses droits en justice ou pour les besoins de la défense des personnes concernées. Certaines données, strictement nécessaires à la mise en oeuvre des prestations d’assistance, peuvent aussi être transmises hors de l’Union Européenne dans l’intérêt de la personne concernée ou de la sauvegarde de la vie humaine.
+
+4.15 ORGANISME DE CONTRÔLE
+
+Notre autorité de contrôle est l’Autorité de contrôle prudentiel et de résolution, 4 Place de Budapest - CS 92459 - 75436 Paris Cedex 09.

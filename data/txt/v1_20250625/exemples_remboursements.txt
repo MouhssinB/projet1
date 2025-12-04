@@ -1,0 +1,108 @@
+# Tableaux de Remboursements Groupama - Garanties CR Métropole
+
+## 1. Soins Courants (remboursés par le Régime Obligatoire)
+
+### Consultations Spécialisées
+
+| Type de consultation | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|---------------------|--------|---------|--------|-------------------|----------|----------------|
+| **Gynécologue** (OPTAM) | Famille sans enfant | 65€ | 1 | 26€ | 12€ | 27€ |
+| | | | 2 | 26€ | 32€ | 7€ |
+| | | | 3 | 26€ | 37€ | 2€ |
+| | | | 4 | 26€ | 37€ | 2€ |
+| **Ophtalmologue** (OPTAM) | Famille sans enfant | 44€ | 1 | 20,05€ | 9,45€ | 14,50€ |
+| | | | 2 | 20,05€ | 21,95€ | 2€ |
+| | | | 3 | 20,05€ | 21,95€ | 2€ |
+| | | | 4 | 20,05€ | 21,95€ | 2€ |
+| **Pédiatre** (<2 ans, non OPTAM) | Famille avec enfant(s) | 60€ | 1 | 28€ | 12€ | 20€ |
+| | | | 2 | 28€ | 24€ | 8€ |
+| | | | 3 | 28€ | 32€ | 0€ |
+| | | | 4 | 28€ | 32€ | 0€ |
+| **Cardiologue** (OPTAM) | Senior | 90€ | 1 | 34,75€ | 15,75€ | 39,50€ |
+| | | | 2 | 34,75€ | 42€ | 13,25€ |
+| | | | 3 | 34,75€ | 52,50€ | 2,75€ |
+| | | | 4 | 34,75€ | 53,25€ | 2€ |
+
+## 2. Médecine Douce
+
+### Ostéopathie et Homéopathie
+
+| Type de soins | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|---------------|--------|---------|--------|-------------------|----------|----------------|
+| **Ostéopathe + Homéopathie** | Tous profils | 130€ | 1 | 0€ | 0€ | 130€ |
+| | | | 2 | 0€ | 90€ | 40€ |
+| | | | 3 | 0€ | 100€ | 30€ |
+| | | | 4 | 0€ | 130€ | 0€ |
+
+## 3. Optique et Audiologie
+
+### Équipements Optiques et Auditifs
+
+| Type d'équipement | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|-------------------|--------|---------|--------|-------------------|----------|----------------|
+| **Lunettes** (sélection Sévéane) | Tous profils | 700€ | 1 | 0,09€ | 0,06€ | 699,85€ |
+| | | | 2 | 0,09€ | 665€ | 34,91€ |
+| | | | 3 | 0,09€ | 699,91€ | 0€ |
+| | | | 4 | 0,09€ | 699,91€ | 0€ |
+| **Appareil auditif** (hors 100% santé) | Tous profils | 1565€ | 1 | 240€ | 160€ | 1165€ |
+| | | | 2 | 240€ | 260€ | 1065€ |
+| | | | 3 | 240€ | 510€ | 815€ |
+| | | | 4 | 240€ | 760€ | 565€ |
+
+## 4. Hospitalisation
+
+### Interventions Chirurgicales
+
+| Type d'intervention | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|---------------------|--------|---------|--------|-------------------|----------|----------------|
+| **Hernie discale** (OPTAM) | Famille sans/avec enfant(s) | 1200€ | 1 | 261,10€ | 24€ | 914,90€ |
+| | | | 2 | 261,10€ | 223,57€ | 715,33€ |
+| | | | 3 | 261,10€ | 366,12€ | 572,78€ |
+| | | | 4 | 261,10€ | 879,30€ | 59,60€ |
+| **Cataracte** (OPTAM) | Senior | 700€ | 1 | 247,70€ | 24€ | 428,30€ |
+| | | | 2 | 247,70€ | 214,19€ | 238,11€ |
+| | | | 3 | 247,70€ | 350,04€ | 102,26€ |
+| | | | 4 | 247,70€ | 452,30€ | 0€ |
+
+### Hospitalisation Confort
+
+| Type de prestation | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|-------------------|--------|---------|--------|-------------------|----------|----------------|
+| **Chambre particulière** (2 nuits) | Tous profils | 150€ | 1 | 0€ | 0€ | 150€ |
+| | | | 2 | 0€ | 70€ | 80€ |
+| | | | 3 | 0€ | 130€ | 20€ |
+| | | | 4 | 0€ | 150€ | 0€ |
+
+## 5. Soins Dentaires
+
+### Prothèses et Implants
+
+| Type de soins | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|---------------|--------|---------|--------|-------------------|----------|----------------|
+| **Couronne céramo-métallique** (hors 100% santé) | Tous profils | 554€ | 1 | 72€ | 48€ | 434€ |
+| | | | 2 | 72€ | 168€ | 314€ |
+| | | | 3 | 72€ | 228€ | 254€ |
+| | | | 4 | 72€ | 348€ | 134€ |
+| **Implant dentaire** | Famille sans enfant / Senior | 1500€ | 1 | 0€ | 0€ | 1500€ |
+| | | | 2 | 0€ | 100€ | 1400€ |
+| | | | 3 | 0€ | 300€ | 1200€ |
+| | | | 4 | 0€ | 600€ | 900€ |
+
+### Orthodontie
+
+| Type de soins | Profil | Montant | Niveau | Assurance Maladie | Groupama | Reste à charge |
+|---------------|--------|---------|--------|-------------------|----------|----------------|
+| **Orthodontie enfant** (1 semestre) | Famille avec enfant(s) | 900€ | 1 | 193,50€ | 0€ | 760,50€ |
+| | | | 2 | 193,50€ | 193,50€ | 513€ |
+| | | | 3 | 193,50€ | 387€ | 319,50€ |
+| | | | 4 | 193,50€ | 580,50€ | 126€ |
+
+---
+
+## Légende des Abréviations
+
+- **BR** : Base de Remboursement
+- **RO** : Régime Obligatoire  
+- **TMGF** : Taux de Majoration Groupama France
+- **OPTAM** : Option Pratique Tarifaire Maîtrisée
+- **PEC** : Prise En Charge

@@ -1,0 +1,236 @@
+La découverte Client
+
+Afin de connaître au mieux notre client, récoltons le maximum d’informations à travers la fiche client Néo selon 4 critères :
+
+1. Les informations personnelles
+   - Pour connaître les coordonnées de notre client afin de le contacter dans les meilleures conditions et réagir s’il y a un changement.
+   - Adresse
+   - Téléphone
+   - Email
+   - Lieu de naissance
+
+2. La situation familiale
+   - Pour assurer toute la famille et connaître les différents besoins pour les enfants (dentition, lunettes, etc.) comme pour les parents (aidants/aidés, etc.) et proposer des garanties au plus près de la famille.
+   - Conjoint
+   - Enfants
+   - Parents
+   - Grands parents
+   - Personnes en situation de handicap
+
+3. La situation professionnelle
+   - Pour connaître l’activité de notre client et par exemple préparer sa retraite dans les meilleures conditions.
+   - En activité
+   - Départ à la retraite
+   - En retraite
+   - Sans activité
+
+4. Les Projets / Activités (onglet potentiel Néo)
+   - Pour assurer notre client lors d’un éventuel départ en vacances ou selon ses activités/loisirs.
+   - Changement de véhicule
+   - Déménagement
+   - Activités et loisirs
+   - Autres projets (travaux, voyages, financement des études, départ des enfants de la maison…)
+
+Pour chacun de ces critères, creusons les différents sujets afin de déterminer des solutions adaptées à notre client.
+
+Exemples :
+- Si votre client nous donne son lieu de naissance, demandons-lui s’il a encore de la famille là-bas afin de déterminer si ses parents sont de potentiels aidés et donc un client en situation d’aidant.
+- Si votre client a pour projet de partir en vacances, conseillons-le pour le protéger et lui recommander par exemple la téléconsultation médicale.
+- Si votre client sera prochainement à la retraite, et ainsi déterminer son besoin de changer d’assurance santé pour l’adapter.
+- Si votre client a des enfants, c’est le moment de vérifier que sa famille est bien protégée par une GAV (et sur la bonne formule!) et qu’a-t-il mis en place pour préparer ses obsèques (à pondérer en fonction de l’âge).
+
+==================================================
+
+{
+  "Questionner pour rebondir": {
+    "Santé": {
+      "En cas de maladie": [
+        "Qu’est-ce qu’une bonne mutuelle pour vous ? Qu’est-ce qui est important ?",
+        "Vous recherchez des garanties « complètes » ou des garanties « coup dur » ?",
+        "Qui souhaitez-vous protéger avec votre complémentaire santé ?",
+        "Combien de fois par an consultez-vous un spécialiste ?",
+        "Avez-vous des dépenses en matière de lunettes ou lentilles ?",
+        "Avez-vous déjà eu des frais dentaires ? En avez-vous prévu prochainement ?"
+      ]
+    },
+    "Décès/Obsèques": {
+      "En cas de décès": [
+        "Qu’avez-vous mis en place pour préparer vos obsèques ?",
+        "Si vos enfants souhaitent poursuivre des études, comment se passera le financement ? Qu’avez-vous prévu ?",
+        "Et en ce qui concerne votre bien immobilier, en cas de décès, de nouvelles dépenses apparaissent, qu’avez-vous mis en place pour y faire face ?",
+        "À qui avez-vous fait part de vos dernières volontés en cas de décès ?"
+      ]
+    },
+    "Garantie des Accidents de la Vie": {
+      "En cas d’accident/invalidité": [
+        "Qu’avez-vous mis en place pour faire face à une situation d’accident et/ou d’invalidité ?",
+        "Financer une aide à domicile en cas d’éventuel handicap lourd est essentiel. Comment êtes-vous couvert ?",
+        "Il faut se préparer à une éventuelle reconversion, le financement peut être important si on n’est pas couvert. Que pensez-vous faire si cet aléa devait arriver ?",
+        "Si un accident devait survenir et générer un handicap, comment êtes-vous couvert afin d’éviter des frais et charges supplémentaires ?",
+        "Si vous deviez être handicapé, savez-vous qu’une garde à domicile de vos enfants est possible ?"
+      ]
+    },
+    "Téléassistance": {
+      "Face à un éventuel aidant": [
+        "Avez-vous des proches qui ont besoin de votre aide régulièrement ?",
+        "Un enfant en situation de handicap ? Nécessitant une aide au quotidien ?",
+        "Des parents âgés et nécessitant d’une aide au quotidien ? Pour le ménage, les courses, les démarches administratives,...",
+        "Vous souhaitez lutter contre leur sentiment d’isolement...",
+        "Vous craignez un risque de chute ?",
+        "Savez-vous que les parents de votre conjoint peuvent bénéficier d’une portabilité de vos assistances Santé ?"
+      ]
+    },
+    "Emprunteur/Désirio": {
+      "En cas de décès, d’invalidité": [
+        "Quelle serait votre première démarche ?",
+        "En cas de perte d’emploi suite à l’invalidité. Connaissez-vous les garanties existantes ?",
+        "Pour vos dépenses quotidiennes, comment procédez-vous pour leur financement ?",
+        "Comment pensez-vous compenser la perte de revenus pour votre famille ?",
+        "Connaissez-vous notre partenariat avec Franfinance, vous permettant de bénéficier de crédit de consommation ?",
+        "Face à un client chez un concurrent : Savez-vous qu’avec la loi Lemoine, vous pouvez résilier votre assurance emprunteur à tout moment ?"
+      ]
+    }
+  }
+}
+
+### L'accroche commerciale
+
+En Appel Sortant :
+- La préparation de l'accroche commerciale est essentielle car elle suscite l'intérêt de notre client dès les premières secondes.
+- On se présente clairement : « Bonjour, je suis X votre conseiller Groupama »
+- On annonce l'objectif de l'appel et surtout l'intérêt pour notre client : « je vous appelle pour faire un bilan de vos garanties actuelles pour m'assurer qu'elles sont encore adaptées à votre situation »
+- On utilise toujours le présent et on bannit « je me permets » « je ne vous dérange pas », nous sommes légitimes de contacter nos clients et c'est dans leurs intérêts : « avez-vous quelques instants à m'accorder ? »
+
+En Agence, visite spontanée de notre client ou en Appel Entrant :
+- Votre premier acte sera de répondre à la demande de notre client et d'écouter chacune de ses requêtes. N'hésitez pas à prendre des notes et à le questionner pour éveiller d'autres besoins « tout à l'heure vous m'avez dit que ..., vous pouvez m'en dire plus ? »
+
+En Agence sur rendez-vous :
+- Il est important de préparer son entretien à l'aide de la fiche client NÉO.
+- Relions l'ensemble des informations de notre client afin de le questionner, en fonction des critères, et d'ainsi éveiller les besoins qu'il peut avoir et lui proposer les solutions adaptées.
+
+==================================================
+
+{
+  "L'accroche commerciale": {
+    "examples": [
+      {
+        "intro": "Bonjour, je suis ...... votre conseiller Groupama, je vous appelle",
+        "options": [
+          "Pour faire un bilan de vos garanties actuelles, m’assurer qu’elles sont encore adaptées à votre situation et vérifier si toutes les informations vous concernant sont à jour dans notre base.",
+          "Pour faire un bilan concernant votre mutuelle actuelle, j’ai une solution qui peut alléger vos dépenses de santé et est adaptée à vos besoins. L’objectif c’est de vous permettre d’être mieux remboursé, sans vous ruiner.",
+          "Pour échanger et vous faire connaître la portabilité de vos garanties .... avec votre famille. Il est toujours appréciable de savoir si nos proches sont également couverts grâce à l’assurance à laquelle on a souscrit.",
+          "Concernant vos différents projets et ainsi vérifier si vous êtes justement couverts pour leur mise en place ou si vous souhaitez bénéficier d’un accompagnement dans leur mise en place (exemple crédit Désirio). Par exemple, si votre fille/ votre fils a besoin de lunettes, savez-vous que notre offre Santé peut justement vous aider à en compléter l’achat ?",
+          "Pour faire un bilan de vos garanties actuelles et vous informer des avantages dont vous bénéficiez en cas d’incident. Si quelque chose devait arriver pendant vos vacances, avec par exemple un enfant qui tombe malade, savez-vous que vous avez la possibilité de bénéficier à distance de la téléconsultation médicale ?",
+          "Pour vous demander si vous avez téléchargé notre application mobile. Elle est très pratique et vous permet de bénéficier de différents avantages. Comme vous êtes assurez chez nous en ..., je pense que vous devriez pouvoir profiter d’avantages tel que (consultation des remboursements, géolocalisation du réseau Sévéane, téléchargement de mon attestation de tiers payants, Kiosque Santé, téléconsultation médicale,...). Avez-vous votre application sur votre téléphone ou souhaitez-vous que nous regardions ensemble pour la télécharger ?",
+          "Pour faire le point avec vous sur votre couverture santé actuelle, et voir s’il est possible de vous proposer une solution mieux adaptée à vos besoins, sans forcément payer plus."
+        ],
+        "closing": "... Avez-vous quelques instants à m’accorder ?"
+      }
+    ]
+  }
+}
+
+==================================================
+
+{
+  "Des offres Groupama adaptées à nos cibles": {
+    "Groupama Santé Active": {
+      "description": "Personnalisation de l’offre : composez votre mutuelle Santé sur-mesure en fonction de vos besoins, en optique, dentaire, soins courants, médecine douce et hospitalisation, et selon votre budget.",
+      "features": [
+        "Relai-moi : pour faire un don à vos proches de vos prestations d’assistance (portage de médicament, livraison de repas, aide-ménagère...).",
+        "Assistance à domicile : en cas d’hospitalisation, Groupama vous fait bénéficier d’aide à domicile pour vous remettre (97% des clients bénéficiaires en sont satisfaits!)."
+      ]
+    },
+    "Garantie des Accidents de la Vie": {
+      "description": "Indemnisation jusqu’à 2M€ : disposez en cas de coup dur d’une des indemnisations les plus élevées du marché et permettant de couvrir le préjudice subi.",
+      "features": [
+        "Indemnisation dès 1% : vous êtes indemnisé sur les conséquences d’un accident même pour une « légère » invalidité.",
+        "Adaptation à la structure familiale : avec mon contrat GAV je choisis la formule adaptée à ma situation familiale : je peux choisir de me protéger comme de protéger toute ma famille (conjoint, enfants, petits-enfants)."
+      ]
+    },
+    "Capital Santé": {
+      "description": "Fiscalité avantageuse : la garantie de transmettre un capital qui n’entre pas dans la succession et qui n’est, dans la plupart des cas, soumis à aucun impôt.",
+      "features": [
+        "Avance possible sur le capital jusqu’à 3 000 € pour assumer les premières dépenses (frais d’obsèques, paiement des factures...).",
+        "Souplesse du contrat : possibilité de choisir et de faire évoluer à tout moment la formule de couverture, le montant du capital et/ou de la rente d’éducation ainsi que le(s) bénéficiaire(s)."
+      ]
+    },
+    "Groupama Sécurité (décès)": {
+      "description": "La rente éducation : pour protéger l’avenir de vos enfants, jusqu’à leurs 21 ou 26 ans (si poursuite des études) en leur versant une rente de 50 et 1 000€ par mois.",
+      "features": [
+        "Le triplement du capital : en cas de décès par accident.",
+        "Une avance de Capital jusqu’à 3 000€ : Pour assumer les premières dépenses (frais d’obsèques, paiement des factures...)."
+      ]
+    },
+    "Groupama Sérénité Obsèques": {
+      "description": "Montant du capital garanti : le montant qui sera versé au(x) bénéficiaire(s) désigné(s) sera identique à celui que vous avez choisi à l’adhésion ou modifié en cours de vie du contrat.",
+      "features": [
+        "Surplus de capital versé à la personne de votre choix si le capital choisi à la souscription est supérieur aux frais d’obsèques acquittés au décès.",
+        "Couverture immédiate en cas de décès accidentel, et au bout de 12 mois en cas de décès par maladie."
+      ]
+    }
+  }
+}
+
+
+Module 7 – Rappels pour un rendez-vous santé réussi
+Ce module doit permettre de passer en revue les éléments importants permettant de maximiser les chances de succès en rendez-vous commercial (à distance et en face à face).
+Les clés pour un RDV réussi
+
+La découverte client doit aller plus loin que les questions posées dans l'outil
+
+Fréquence des soins et des éventuels dépassements d'honoraires
+Si les actes médicaux coûteux sont peu fréquents, il peut être plus intéressant pour le client de les garder en partie à sa charge plutôt que de les faire couvrir par sa complémentaire.
+
+Attentes particulières sur les garanties et les services
+Des attentes spécifiques peuvent aiguiller vers un niveau de couverture sur un ou plusieurs modules de l'offre afin de mieux répondre aux besoins du client.
+
+Première idée du budget à consacrer à la complémentaire santé
+Les clients peuvent avoir une vision biaisée du rapport couverture/prix, notamment s'ils ont bénéficié d'un contrat collectif pendant des années.
+
+Avis sur la précédente complémentaire santé
+Quelle que soit la raison du changement d'assureur, les retours positifs comme négatifs du client sur son précédent contrat peuvent aider à la construction d'une proposition pertinente.
+
+D'autres éléments peuvent aussi être déterminants : le nombre et l'âge des enfants à charge, la tranche marginale d'imposition et le statut/type d'activité du conjoint (pour déterminer modalités et les avantages du Madelin pour les PRO) etc.
+
+Les techniques pour maximiser votre impact lors d'un échange par téléphone
+
+Une communication efficace:
+- Voix (DIVAS): Débit, Intonation, Volume, Articulation, Sourire
+- Langage: discours clair, positif, personnalisé et sans jargon
+- Écoute active: capter les attentes explicites et les non-dits
+
+La gestion des objections:
+- Méthode ARE: Accueillir / Reformuler / Émettre une réponse adaptée
+- Traiter les objections comme une opportunité de convaincre
+
+Les bonnes pratiques relationnelles:
+- Rester courtois, empathique et positif
+- Conclure avec une synthèse et une touche personnalisée
+
+Quelques exemples concrets
+
+1. Préparer l’entretien
+   - Connaissance client, maîtrise de l’offre, personnalisation de l’approche et de l’accroche
+   - « Lors de notre dernier échange… »
+   - « Pour répondre à vos attentes, j’ai besoin d’informations supplémentaires, pouvez-vous,… »
+
+2. Créer un climat de confiance
+   - Demander le temps disponible, adopter une posture d’écoute active, reformuler pour faire valider le client, poser des questions ouvertes pour capter des informations personnalisées
+   - "Ces garanties vous paraissent-elles suffisantes pour répondre à vos priorités en matière de santé ?"
+   - « Si je résume, vous aimeriez une mutuelle qui couvre les besoins de votre famille tout en restant abordable. Est-ce bien cela ? »
+
+3. Adopter une posture pédagogique
+   - Bénéfices concrets, se mettre à la place du client, personnaliser les exemples, éviter tout jargon technique,...
+   - « Pour vos enfants, cette couverture inclut des remboursements avantageux pour l’orthodontie, ce qui peut vous éviter des frais importants si un appareil dentaire est nécessaire. »
+
+4. Travailler l’engagement client
+   - Inviter le client à se positionner / poser des questions, lui demander son avis
+   - « Ces garanties vous paraissent-elles suffisantes pour répondre à vos priorités en matière de santé ? »
+   - « Pourquoi ne pas tester cette formule pendant quelques mois ? Nous pourrons faire un point ensemble pour ajuster si nécessaire »
+
+5. Assurer un suivi et être dans l’action
+   - Récapituler les points clés par mail, rassurer le client sur la disponibilité de contact et de réponse aux questions, s’engager à relancer ...
+   - « Je suis votre interlocuteur dédié. Si vous avez des questions ou si vous souhaitez ajuster quoi que ce soit, je suis joignable par téléphone ou par email. Vous pouvez également passer à l’agence si cela vous convient mieux. »
+
+

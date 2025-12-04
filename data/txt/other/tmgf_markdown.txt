@@ -1,0 +1,207 @@
+# Garanties Groupama Santé - TMGF Unique
+## Version 17 Décembre 2024
+
+## 1. Soins Courants (remboursés par le Régime Obligatoire)
+
+### Honoraires Médicaux
+
+| Type de praticien | Statut | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|--------|----------|----------|----------|----------|
+| **Généralistes et spécialistes** | Médecin DPTAM | 100% BR | 150% BR | 170% BR | 300% BR |
+| | Médecin non DPTAM | 100% BR | 130% BR | 150% BR | 200% BR |
+
+### Honoraires Paramédicaux
+
+| Type de praticien | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|----------|----------|----------|----------|
+| **Psychologues** (référencés RO) | 100% BR | 130% BR | 150% BR | 300% BR |
+| **Auxiliaires médicaux** | 100% BR | 130% BR | 150% BR | 200% BR |
+
+### Autres Soins Courants
+
+| Type de soins | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|---------------|----------|----------|----------|----------|
+| **Médicaments** prescrits et remboursés | 100% BR | 100% BR | 100% BR | 100% BR |
+| **Analyses et examens** de laboratoire | 100% BR | 130% BR | 150% BR | 300% BR |
+| **Matériel médical** (appareillage) | 100% BR | 130% BR | 150% BR | 300% BR |
+| **Transport médical** | 100% BR | 130% BR | 150% BR | 300% BR |
+
+### Cures Thermales
+
+| Type de prise en charge | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------------|----------|----------|----------|----------|
+| **Frais thermaux** | 100% BR | 130% BR | 150% BR | 300% BR |
+| **Hébergement/transport** (par an) | 100% BR | 100% BR + 80€ | 100% BR + 100€ | 100% BR + 185€ |
+
+---
+
+## 2. Médecine Douce
+
+### Médecines Alternatives (par an et par bénéficiaire)
+
+| Type de soins | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|---------------|----------|----------|----------|----------|
+| **Séances RPPS** | - | 2 séances à 50€ | 3 séances à 50€ | 3 séances à 60€ |
+
+### Prescriptions Non Remboursées RO (par an et par bénéficiaire)
+
+| Type de prescription | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|---------------------|----------|----------|----------|----------|
+| **Pharmacie** non remboursée | - | 40€ | 50€ | 100€ |
+| **Ostéodensitométrie** | - | 40€ | 50€ | 100€ |
+
+---
+
+## 3. Optique
+
+### Équipements 100% Santé
+| Équipement | Tous niveaux |
+|------------|--------------|
+| **Remboursement** | Frais réels dans la limite des Prix Limites de Vente |
+
+### Équipements Hors 100% Santé - ADULTE
+
+| Type d'équipement | Réseau | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|--------|----------|----------|----------|----------|
+| **Monture** | Sévéane | 100% BR | 65€ | 100€ | 100€ |
+| **Verres** | Sévéane | 100% BR | PEC intégrale sélection | PEC intégrale sélection | PEC intégrale sélection |
+| **Monture + 2 verres** | Autres opticiens | 100% BR dont 110€ monture | 150€ dont 200€ monture | 170€ dont 230€ monture | 250€ dont 250€ monture |
+
+### Équipements Hors 100% Santé - ENFANT
+
+| Type d'équipement | Réseau | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|--------|----------|----------|----------|----------|
+| **Monture** | Sévéane | 100% BR | 30€ | 50€ | 100€ |
+| **Verres** | Sévéane | 100% BR | PEC intégrale sélection | PEC intégrale sélection | PEC intégrale sélection |
+| **Monture + 2 verres** | Autres opticiens | 100% BR dont 75€ monture | 100€ dont 200€ monture | 155€ dont 200€ monture | 200€ dont 200€ monture |
+
+### Autres Prestations Optiques
+
+| Type de prestation | Réseau | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|--------|----------|----------|----------|----------|
+| **Lentilles** (forfait/an) | Sévéane | 100% BR | 80€ | 95€ | 155€ |
+| | Autres opticiens | 65€ | 80€ | 145€ | 145€ |
+| **Opération défauts visuels** (2 forfaits/contrat) | - | - | 155€ | 230€ | 460€ |
+
+---
+
+## 4. Audiologie
+
+### Équipements 100% Santé
+| Équipement | Tous niveaux |
+|------------|--------------|
+| **Remboursement** | Frais réels dans la limite des Prix Limites de Vente |
+
+### Équipements Hors 100% Santé
+
+| Type d'aide auditive | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|---------------------|----------|----------|----------|----------|
+| **Adulte** (par oreille, part RO incluse) | 400€ | 500€ | 750€ | 1000€ |
+| **Enfant/handicap visuel** (par oreille, part RO incluse) | 1400€ | 1600€ | 1700€ | 1700€ |
+| **Piles et accessoires** | 100% BR | 130% BR | 150% BR | 300% BR |
+
+---
+
+## 5. Dentaire
+
+### Soins Dentaires
+
+| Type de soins | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|---------------|----------|----------|----------|----------|
+| **Consultations, soins conservateurs** | 100% BR | 100% BR | 100% BR | 100% BR |
+| **Inlay/Onlay** | 100% BR | 100% BR + 35€ | 100% BR + 70€ | 100% BR + 100€ |
+
+### Orthodontie
+
+| Type de prise en charge | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|------------------------|----------|----------|----------|----------|
+| **Prise en charge RO** (par semestre, part RO incluse) | 100% BR | 200% BR | 300% BR | 400% BR |
+| **Non prise en charge RO** (+18 ans, forfait/an) | - | - | 300€ | 600€ |
+
+### Prothèses Dentaires
+
+| Type de prothèse | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|------------------|----------|----------|----------|----------|
+| **100% Santé + panier maîtrisé** | Frais réels dans limite HLF | Frais réels dans limite HLF | Frais réels dans limite HLF | Frais réels dans limite HLF |
+| **Actes prothétiques** | 100% BR | 200% BR | 250% BR | 350% BR |
+| **Plafond annuel prothèses** | - | 400€ | 600€ | 900€ |
+
+### Implantologie et Soins Spécialisés
+
+| Type de soins | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|---------------|----------|----------|----------|----------|
+| **Implants** (2 implants/2 ans) | - | 100€ | 300€ | 600€ |
+| **Prévention dentaire** (forfait annuel +24 ans) | 25€ | 25€ | 25€ | 25€ |
+| **Traitement parodontal** | - | 30€ | 60€ | 100€ |
+
+---
+
+## 6. Hospitalisation
+
+### Honoraires de Soins (dès le 1er jour)
+
+| Type de praticien | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|----------|----------|----------|----------|
+| **Médecin DPTAM** | 100% BR | 170% BR | 220% BR | 400% BR |
+| **Médecin non DPTAM** | 100% BR | 150% BR | 200% BR | 200% BR |
+| **Frais de séjour** | 100% BR | 100% BR | 100% BR | 100% BR |
+| **Forfait journalier** | Frais réels | Frais réels | Frais réels | Frais réels |
+
+### Hospitalisation Confort
+
+| Type de prestation | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-------------------|----------|----------|----------|----------|
+| **Chambre particulière** (avec nuitée) | - | 35€/jour | 65€/jour | 95€/jour |
+| **Chambre particulière** (ambulatoire) | - | 20€/jour | 35€/jour | 50€/jour |
+| **TV, wifi, téléphone** (inclus chambre) | - | - | 5€/jour | 15€/jour |
+| **Lit accompagnant** | - | 20€/jour | 25€/jour | 50€/jour |
+
+---
+
+## 7. Assistance et Services
+
+### Services d'Assistance
+
+| Type de service | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-----------------|----------|----------|----------|----------|
+| **Aide-ménagère** | 20h | 25h | 30h | 35h |
+| **Garde à domicile** (2x/an/bénéficiaire) | 300€ | 300€ | 300€ | 300€ |
+| **Téléconsultation** (6/an/majeur) | Inclus | Inclus | Inclus | Inclus |
+
+### Services Digitaux
+
+| Service | Tous niveaux |
+|---------|--------------|
+| **Espace client sécurisé** | Inclus |
+| **Attestation tiers payant** | Inclus |
+| **Mon kiosque santé** | Inclus |
+
+---
+
+## 8. Prestations Spéciales
+
+### Naissance Bienvenue
+
+| Événement | Niveau 1 | Niveau 2 | Niveau 3 | Niveau 4 |
+|-----------|----------|----------|----------|----------|
+| **Naissance/Adoption** (enfant <11 ans) | - | 100€ | 120€ | 200€ |
+
+---
+
+## Légende des Abréviations
+
+- **BR** : Base de Remboursement du régime obligatoire
+- **RO** : Régime Obligatoire
+- **FR** : Frais Réels (remboursement intégral)
+- **DPTAM** : Dispositifs de Pratique Tarifaire Maîtrisée
+- **RPPS** : Répertoire Partagé des Professionnels de Santé
+- **PEC** : Prise En Charge
+- **HLF** : Honoraires Limites de Facturation
+
+## Notes Importantes
+
+1. Les garanties en % BR incluent le remboursement du régime obligatoire
+2. Équipements optiques : remboursement tous les 2 ans (adulte) / 1 an (enfant <16 ans)
+3. Aides auditives : 1 par oreille tous les 4 ans
+4. Bonus fidélité dentaire : suppression limite annuelle après 2 ans
+5. Hospitalisation psychiatrique : limitée à 30 jours/an sauf forfait journalier et honoraires

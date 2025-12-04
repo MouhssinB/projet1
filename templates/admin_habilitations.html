@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestion des Habilitations - SimSan</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+        }
+        .container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            background: white; 
+            border-radius: 10px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        .header { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white; 
+            padding: 30px; 
+            text-align: center;
+        }
+        .header h1 { font-size: 2em; margin-bottom: 10px; }
+        .header p { opacity: 0.9; }
+        .content { padding: 30px; }
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .info-box strong { color: #1976d2; }
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .warning-box strong { color: #856404; }
+        .actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .search-box {
+            flex: 1;
+            min-width: 200px;
+        }
+        .search-box input {
+            width: 100%;
+            padding: 10px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .search-box input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .btn-primary { background: #667eea; color: white; }
+        .btn-primary:hover { background: #5568d3; transform: translateY(-2px); }
+        .btn-success { background: #4caf50; color: white; }
+        .btn-success:hover { background: #45a049; }
+        .btn-secondary { background: #9e9e9e; color: white; }
+        .btn-secondary:hover { background: #757575; }
+        .table-container {
+            overflow-x: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        thead {
+            background: #f5f5f5;
+        }
+        th {
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+            color: #333;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        tr:hover {
+            background: #f9f9f9;
+        }
+        .action-cell {
+            text-align: center;
+        }
+        .edit-input {
+            width: 100%;
+            padding: 8px;
+            border: 2px solid #e0e0e0;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-size: 13px;
+        }
+        .edit-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        .btn-icon {
+            padding: 8px 12px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+        .btn-delete { background: #f44336; color: white; }
+        .btn-delete:hover { background: #da190b; transform: scale(1.1); }
+        .btn-add { 
+            background: #4caf50; 
+            color: white;
+            padding: 12px 24px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .btn-add:hover { background: #45a049; transform: translateY(-2px); }
+        .row-new {
+            background: #e8f5e9 !important;
+        }
+        .row-modified {
+            background: #fff3e0 !important;
+        }
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .stat-card {
+            flex: 1;
+            min-width: 150px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .stat-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        .alert {
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            display: none;
+        }
+        .alert-success {
+            background: #d4edda;
+            border-left: 4px solid #28a745;
+            color: #155724;
+        }
+        .alert-error {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            color: #721c24;
+        }
+        .legend {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 5px;
+            font-size: 13px;
+        }
+        .legend-item {
+            display: inline-block;
+            margin-right: 20px;
+            margin-bottom: 5px;
+        }
+        .legend-color {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+        @media (max-width: 768px) {
+            .actions { flex-direction: column; }
+            .action-buttons { width: 100%; justify-content: stretch; }
+            .btn { flex: 1; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔐 Gestion des Habilitations</h1>
+            <p>Contrôlez les groupes autorisés à accéder à l'application SimSan</p>
+        </div>
+
+        <div class="content">
+            <!-- Alerte -->
+            <div id="alert" class="alert"></div>
+
+            <!-- Informations -->
+            <div class="info-box">
+                <strong>ℹ️ Information :</strong> Les groupes autorisés utilisent la <strong>correspondance par préfixe</strong>. 
+                <br>• Les groupes doivent commencer par <strong>GR</strong> ou <strong>GF</strong> (ex: GR_SMS, GF_XXX)
+                <br>• Si vous ajoutez "GR_SMS", tous les groupes commençant par "GR_SMS" seront autorisés (ex: GR_SMS_ADMIN_ENTITE_GCM, GR_SMS_ADMIN_ENTITE_AML, etc.)
+                <br>• <strong>⭐ Groupe spécial "GR_SIMSAN_ALL" :</strong> Autorise <strong>TOUS les utilisateurs</strong>, même sans groupes d'habilitation
+                {% if config.derniere_modification %}
+                <br><strong>Dernière modification :</strong> {{ config.derniere_modification }} par {{ config.modifie_par }}
+                {% endif %}
+            </div>
+
+            <!-- Warning -->
+            <div class="warning-box">
+                <strong>⚠️ Attention :</strong> Vous pouvez ajouter, modifier ou supprimer des groupes. 
+                Les modifications ne seront effectives qu'après avoir cliqué sur <strong>"💾 Enregistrer"</strong>.
+                <br><strong>✅ Prise en effet immédiate :</strong> Les utilisateurs déjà connectés seront automatiquement 
+                impactés dès leur prochaine action (pas besoin de se reconnecter).
+            </div>
+
+            <!-- Statistiques -->
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-total">0</div>
+                    <div class="stat-label">Groupes Autorisés</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-modified">0</div>
+                    <div class="stat-label">Modifications</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number" id="stat-new">0</div>
+                    <div class="stat-label">Nouveaux</div>
+                </div>
+            </div>
+
+            <!-- Actions -->
+            <div class="actions">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="🔍 Rechercher un groupe...">
+                </div>
+                <div class="action-buttons">
+                    <button class="btn btn-add btn-icon" onclick="addNewRow()">➕ Ajouter un groupe</button>
+                    <button class="btn btn-primary" onclick="saveHabilitations()">💾 Enregistrer</button>
+                    <a href="/admin_suivis" class="btn btn-secondary">← Retour</a>
+                </div>
+            </div>
+
+            <!-- Tableau -->
+            <div class="table-container">
+                <table id="groupesTable">
+                    <thead>
+                        <tr>
+                            <th style="width: 60px;">#</th>
+                            <th>Groupe d'Habilitation (préfixe)</th>
+                            <th style="width: 100px;">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="groupesTableBody">
+                        <!-- Lignes dynamiques -->
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Légende -->
+            <div class="legend">
+                <strong>Légende :</strong>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #e8f5e9;"></span>
+                    Nouveau groupe
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: #fff3e0;"></span>
+                    Groupe modifié
+                </div>
+                <div class="legend-item">
+                    <span class="legend-color" style="background: white; border: 1px solid #e0e0e0;"></span>
+                    Groupe existant
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let initialGroups = [];
+        let groupeIdCounter = 0;
+
+        document.addEventListener('DOMContentLoaded', function() {
+            loadInitialGroups();
+            setupSearch();
+        });
+
+        function loadInitialGroups() {
+            fetch('/admin/habilitations/config')
+                .then(response => response.json())
+                .then(data => {
+                    if (data.groupes_habilites) {
+                        initialGroups = [...data.groupes_habilites];
+                        data.groupes_habilites.forEach(groupe => {
+                            addRow(groupe, false);
+                        });
+                        updateStats();
+                    }
+                })
+                .catch(error => {
+                    console.error('Erreur chargement:', error);
+                    showAlert('Erreur lors du chargement des groupes', 'error');
+                });
+        }
+
+        function setupSearch() {
+            document.getElementById('searchInput').addEventListener('input', function(e) {
+                const searchTerm = e.target.value.toLowerCase();
+                const rows = document.querySelectorAll('#groupesTableBody tr');
+                
+                rows.forEach(row => {
+                    const input = row.querySelector('.edit-input');
+                    const value = input.value.toLowerCase();
+                    row.style.display = value.includes(searchTerm) ? '' : 'none';
+                });
+            });
+        }
+
+        function addNewRow() {
+            addRow('', true);
+            updateStats();
+        }
+
+        function addRow(groupeName = '', isNew = false) {
+            const tbody = document.getElementById('groupesTableBody');
+            const rowId = `row-${groupeIdCounter++}`;
+            const rowClass = isNew ? 'row-new' : '';
+            
+            const tr = document.createElement('tr');
+            tr.id = rowId;
+            tr.className = rowClass;
+            tr.dataset.isNew = isNew;
+            tr.dataset.originalValue = groupeName;
+            
+            tr.innerHTML = `
+                <td style="text-align: center; color: #666;">
+                    ${tbody.children.length + 1}
+                </td>
+                <td>
+                    <input 
+                        type="text" 
+                        class="edit-input" 
+                        value="${groupeName}" 
+                        placeholder="Ex: GR_SIMSAN_ADMIN, GR, GF_XXX"
+                        oninput="markAsModified('${rowId}')"
+                    >
+                </td>
+                <td class="action-cell">
+                    <button class="btn-icon btn-delete" onclick="deleteRow('${rowId}')" title="Supprimer">
+                        🗑️
+                    </button>
+                </td>
+            `;
+            
+            tbody.appendChild(tr);
+            
+            if (isNew) {
+                tr.querySelector('.edit-input').focus();
+            }
+        }
+
+        function markAsModified(rowId) {
+            const row = document.getElementById(rowId);
+            if (!row) return;
+            
+            const input = row.querySelector('.edit-input');
+            const currentValue = input.value.trim();
+            const originalValue = row.dataset.originalValue;
+            const isNew = row.dataset.isNew === 'true';
+            
+            if (isNew) {
+                row.className = 'row-new';
+            } else if (currentValue !== originalValue) {
+                row.className = 'row-modified';
+            } else {
+                row.className = '';
+            }
+            
+            updateStats();
+        }
+
+        function deleteRow(rowId) {
+            const row = document.getElementById(rowId);
+            if (!row) return;
+            
+            const groupeName = row.querySelector('.edit-input').value.trim();
+            const displayName = groupeName || '(vide)';
+            
+            if (confirm(`Supprimer le groupe "${displayName}" ?`)) {
+                row.remove();
+                renumberRows();
+                updateStats();
+            }
+        }
+
+        function renumberRows() {
+            const rows = document.querySelectorAll('#groupesTableBody tr');
+            rows.forEach((row, index) => {
+                row.querySelector('td:first-child').textContent = index + 1;
+            });
+        }
+
+        function updateStats() {
+            const rows = document.querySelectorAll('#groupesTableBody tr');
+            const total = rows.length;
+            const nouveaux = document.querySelectorAll('.row-new').length;
+            const modifies = document.querySelectorAll('.row-modified').length;
+
+            document.getElementById('stat-total').textContent = total;
+            document.getElementById('stat-modified').textContent = modifies;
+            document.getElementById('stat-new').textContent = nouveaux;
+        }
+
+        function showAlert(message, type) {
+            const alert = document.getElementById('alert');
+            alert.className = `alert alert-${type}`;
+            alert.textContent = message;
+            alert.style.display = 'block';
+            
+            setTimeout(() => {
+                alert.style.display = 'none';
+            }, 5000);
+        }
+
+        async function saveHabilitations() {
+            const rows = document.querySelectorAll('#groupesTableBody tr');
+            const groupes = [];
+            const errors = [];
+            
+            rows.forEach((row, index) => {
+                const input = row.querySelector('.edit-input');
+                const value = input.value.trim();
+                
+                if (value === '') {
+                    errors.push(`Ligne ${index + 1}: Le nom du groupe ne peut pas être vide`);
+                    return;
+                }
+                
+                // Validation: Le groupe doit commencer par GR ou GF
+                if (!value.startsWith('GR') && !value.startsWith('GF')) {
+                    errors.push(`Ligne ${index + 1}: Le groupe "${value}" doit commencer par GR ou GF`);
+                    return;
+                }
+                
+                if (groupes.includes(value)) {
+                    errors.push(`Ligne ${index + 1}: Le groupe "${value}" est déjà défini`);
+                    return;
+                }
+                
+                groupes.push(value);
+            });
+            
+            if (errors.length > 0) {
+                showAlert('❌ ' + errors.join(', '), 'error');
+                return;
+            }
+            
+            if (groupes.length === 0) {
+                if (!confirm('⚠️ Vous allez supprimer TOUS les groupes. Personne ne pourra accéder à l\'application. Continuer ?')) {
+                    return;
+                }
+            }
+
+            try {
+                const response = await fetch('/admin/habilitations/update', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        groupes_habilites: groupes
+                    })
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    showAlert(`✅ ${result.message} (${groupes.length} groupe(s))`, 'success');
+                    setTimeout(() => window.location.reload(), 2000);
+                } else {
+                    showAlert('❌ ' + result.message, 'error');
+                }
+            } catch (error) {
+                showAlert('❌ Erreur : ' + error.message, 'error');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+1.1 DÉFINITIONS POUR FACILITER VOTRE LECTURE
+
+- Acte Hors Nomenclature (HN): Actes non inscrits dans une nomenclature et qui ne font pas l'objet d'un remboursement de l'assurance maladie obligatoire française.
+- Accident: Toute atteinte corporelle, non intentionnelle de la part du bénéficiaire, provenant d'un événement soudain, imprévu, extérieur à la victime et constituant la cause du dommage.
+- APERIA: Association de Prévoyance, d'Épargne et de Retraite Individuelles et Actives.
+- Adhérent: Personne signant le certificat d'adhésion au contrat d'assurance de groupe à adhésion facultative souscrit par APERIA auprès de votre Caisse Régionale Groupama, désignée sur ce certificat, et qui s'est engagée à payer les cotisations liées à cette adhésion. Cette personne est également adhérente à l'Association APERIA.
+- Aide ménagère: Personne qui effectue des travaux d'entretien du domicile. Elle peut être amenée à aider ou à réaliser seule la préparation des repas. Elle peut participer aux courses du quotidien.
+- Animaux familiers: Chien et chat.
+- Appareillage: Biens médicaux figurant sur la liste des produits et prestations (LPP) remboursables par l'assurance maladie obligatoire française. Exemples: pansements, fauteuils roulants.
+- Aides auditives: Appareils améliorant l'audition, il existe différents types d'aides auditives. Elles sont uniquement délivrées par des audioprothésistes, sur prescription d'un médecin ORL ou d'un médecin généraliste.
+- Auxiliaire de vie: Personne qui aide les personnes malades, handicapées ou fragilisées, très dépendantes pour accomplir les actes de la vie ordinaire. Elle facilite le lever, le coucher, la toilette, les soins d'hygiène (à l'exclusion des soins infirmiers). Elle assure la préparation et la prise des repas, les travaux ménagers. Elle prend en charge les démarches administratives, les sorties et les courses.
+- Auxiliaires médicaux: Professionnels paramédicaux : les infirmiers, masseurs-kinésithérapeutes, orthophonistes, orthoptistes, pédicures-podologues dont les actes sont remboursés, sous certaines conditions, par l'assurance maladie obligatoire française.
+- Base de remboursement (BR): Tarif servant de référence à l'assurance maladie obligatoire française pour déterminer le montant de son remboursement. On parle de :
+  - Tarif de convention (TC) lorsque les actes sont effectués par un professionnel de santé conventionné avec l'assurance maladie obligatoire française. Le tarif est fixé par une convention signée entre l'assurance maladie obligatoire française et les représentants de cette profession.
+  - Tarif d'autorité (TA) lorsque les actes sont effectués par un professionnel de santé non conventionné avec l'assurance maladie obligatoire française. Le tarif est forfaitaire et est très inférieur au tarif de convention.
+  - Tarif de responsabilité (TR) pour les médicaments, appareillages et autres biens médicaux.
+
+- Bénéficiaire: Personne bénéficiaire des garanties du contrat Groupama Santé, désignée comme telle aux Conditions Personnelles ou au certificat d'adhésion.
+- Biologie médicale: Ensemble des examens (prélèvements, analyses...), généralement réalisés par un laboratoire d'analyses de biologie médicale.
+- Bridge: Au sens de la nomenclature appliquée par le chirurgien-dentiste, prothèse constituée de deux dents piliers et un inter.
+- Chambre particulière: Prestation proposée par les établissements de santé, permettant à un patient hospitalisé d'être hébergé dans une chambre individuelle (chambre à un lit).
+- Chirurgie ambulatoire: Chirurgie réalisée sans hospitalisation dans un établissement de santé ou en cabinet médical, le patient arrivant et repartant le jour même.
+- Contrat solidaire: Contrat d'assurance complémentaire santé pour lequel aucun questionnaire médical n'est demandé à l'assuré ni lors de la souscription ni en cours d'exécution du contrat, et dont les cotisations ne sont pas fixées en fonction de l'état de santé des personnes assurées.
+- Contrat responsable: Contrat d'assurance complémentaire santé qui répond à l'ensemble des conditions mentionnées à l'article L.871-1 du Code de la Sécurité sociale et à l'ensemble des textes d'applications afférents à cet article. Il vise à inciter les assurés à suivre le parcours de soins coordonnés. Le contrat responsable ne prend pas en charge :
+  - La participation forfaitaire, pour chaque acte ou consultation pris en charge par le régime social de base et réalisé par un médecin (à l'exclusion des actes ou consultations réalisés au cours d'une hospitalisation) ainsi que pour tout acte de biologie médicale.
+- Les minorations de remboursement du régime social de base lorsque l'assuré se trouve hors parcours de soins coordonnés;
+- Les franchises médicales sur les médicaments, les actes paramédicaux et les transports sanitaires;
+- Les minorations de remboursement du régime social de base lorsque l'assuré refuse un mode de transport partagé.
+
+Conventionné / non conventionné avec l'assurance maladie obligatoire française
+
+Situation des professionnels de santé et des structures de soins au regard de l'assurance maladie obligatoire française.
+
+1/ Professionnels de santé
+- Les professionnels de santé sont dits «conventionnés» lorsqu'ils ont adhéré à la convention nationale conclue entre l'assurance maladie obligatoire française et les représentants de leur profession. Ils s'engagent alors à respecter les tarifs de convention.
+  - Toutefois, les médecins conventionnés de «secteur 2» sont autorisés à facturer avec «tact et mesure» des dépassements d'honoraires sur les tarifs de convention. Cette possibilité de facturer des dépassements est aussi accordée aux chirurgiens-dentistes et stomatologues sur les tarifs des prothèses dentaires et de l'orthodontie.
+  - Les médecins conventionnés adhérant à l'OPTAM pratiquent des dépassements limités : en signant ce contrat, ils s'engagent à modérer et stabiliser leurs honoraires.
+  - De manière générale, les professionnels de santé ne doivent pas facturer des dépassements d'honoraires aux bénéficiaires du Contrat Santé Solidaire (CSS).
+  - Les professionnels de santé «non conventionnés» fixent eux-mêmes leurs tarifs.
+
+2/ Établissements de santé
+- Ce sont des structures délivrant des soins avec hébergement ou sous forme ambulatoire.
+- Les frais pris en charge par l'assurance maladie obligatoire française dans le cadre d'une hospitalisation varient selon que l'établissement a passé ou non un contrat avec l'Agence Régionale de Santé compétente.
+
+Conventionné avec un organisme d'assurance maladie complémentaire
+- Les organismes d'assurance maladie complémentaire peuvent passer des accords avec certains professionnels ou établissements de santé en vue de permettre à leurs assurés de bénéficier de certains services ou avantages : tiers-payant, prix négociés...
+
+Contrat santé solidaire (CSS)
+- Dispositif qui donne droit, sous certaines conditions, à une assurance maladie complémentaire gratuite.
+
+Cure thermale
+- Séjour dans un centre thermal afin de traiter certaines affections.
+
+Date d'effet
+- Date à laquelle votre contrat d'assurance complémentaire santé entre en vigueur.
+
+Date d'échéance annuelle
+- Date à laquelle votre contrat d'assurance complémentaire santé se renouvelle chaque année. Elle est indiquée dans vos Conditions Personnelles ou votre certificat d'adhésion.
+
+Délai de carence
+- Période qui suit la date d'effet du contrat d'assurance complémentaire santé durant laquelle certains frais de santé ne sont pas remboursés.
+
+Demande de prise en charge par l'organisme d'assurance maladie complémentaire
+- Demande formulée auprès de l'organisme d'assurance maladie complémentaire, avant d'engager certaines dépenses (hospitalisation...), permettant de vérifier que les soins envisagés sont bien couverts par la garantie.
+
+Dépassement d'honoraires
+- Part des honoraires qui se situe au-delà de la base de remboursement de l'assurance maladie obligatoire française et qui n'est jamais remboursée par cette dernière.
+
+Dépenses réelles
+- Montant total des dépenses engagées par une personne pour ses prestations de santé.
+
+Devis
+- Document présentant les soins ou prestations proposées et leur prix, de manière préalable à leur achat ou à leur réalisation.
+
+
+DÉPENSES
+
+{
+  "SOINS DE VILLE": {
+    "Honoraires des médecins adhérents à l'OPTAM": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "Pas de plafond",
+        "Maximale": "100%"
+      }
+    },
+    "Honoraires des médecins non adhérents à l'OPTAM": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "Prise en charge inférieure d'au moins 20% à la prise en charge dans le cadre de l'OPTAM",
+        "Maximale": "100%"
+      }
+    },
+    "Auxiliaires médicaux, biologie, transport médical": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur"
+    },
+    "Psychologues remboursés par le régime obligatoire": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur"
+    }
+  },
+  "MÉDICAMENTS": {
+    "Remboursés à 65%": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur"
+    },
+    "Remboursés à 30% et à 15%": {
+      "Prise en charge obligatoire par le contrat": "Pas d'obligation de prise en charge"
+    }
+  },
+  "DENTAIRE": {
+    "Soins": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur"
+    },
+    "Prothèses": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur"
+    },
+    "Orthodontie": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur"
+    }
+  },
+  "OPTIQUE": {
+    "Équipement simple": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "50 €",
+        "Maximale": "420 €"
+      }
+    },
+    "Équipement mixte (verre simple et verre complexe)": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "125 €",
+        "Maximale": "610 €"
+      }
+    },
+    "Équipement complexe": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "200 €",
+        "Maximale": "700 €"
+      }
+    },
+    "Équipement mixte (verre complexe et verre très complexe)": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "200 €",
+        "Maximale": "750 €"
+      }
+    },
+    "Équipement très complexe": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Minimale": "200 €",
+        "Maximale": "800 €"
+      }
+    }
+  },
+  "HOSPITALISATION": {
+    "Forfait journalier (hors établissements médico-sociaux)": {
+      "Prise en charge obligatoire par le contrat": "Illimité"
+    },
+    "Honoraires médicaux": {
+      "Prise en charge obligatoire par le contrat": "Ticket modérateur",
+      "Si votre contrat rembourse au-delà du ticket modérateur, prise en charge complémentaire": {
+        "Maximale": "Identique aux honoraires de ville avec la distinction OPTAM/Non OPTAM"
+      }
+    }
+  }
+}
+
+Dispositifs de Pratique Tarifaire Maîtrisée (DPTAM)
+Contrats proposés par l'assurance maladie et permettant aux médecins d'adhérer et de bénéficier d'une série d'avantages en contrepartie de leur engagement à maîtriser leurs honoraires. L'option pratique tarifaire maîtrisée (OPTAM) et option pratique tarifaire maîtrisée chirurgie obstétrique (OPTAM-CO) remplacent le contrat d'accès aux soins depuis la signature de la convention médicale de 2016. Un médecin qui a signé un de ces contrats le signale dans son cabinet. Cette information se trouve également sur annuaire.sante.ameli.fr
+
+Domicile : Lieu de résidence principale du souscripteur ou de l'adhérent figurant dans vos Conditions Personnelles ou votre certificat d'adhésion qui doit se situer en France métropolitaine pour les caisses ayant leur siège social en France Métropolitaine, en France pour les autres caisses régionales. Par dérogation, Groupama Méditerranée peut assurer les assurés résidant à Monaco relevant d'un régime obligatoire en France Métropolitaine.
+
+Envoi recommandé électronique : équivalent à l'envoi par lettre recommandée dès lors qu'il satisfait aux exigences de l'article L.100 du code des postes et communications électroniques.
+Établissement de Santé : Structure délivrant des soins avec hébergement ou sous forme ambulatoire.
+Forfait journalier hospitalier : Somme forfaitaire que l'assurance maladie obligatoire française laisse à votre charge en cas d'hospitalisation, correspondant à des frais d'hébergement.
+Frais de séjour : Frais facturés par un établissement de santé pour couvrir les coûts du séjour hospitalier.
+Frais d'accompagnant : Frais correspondant aux facilités (lit, repas) mises à disposition d'une personne qui accompagne un patient hospitalisé.
+Franchise médicale : Somme déduite des remboursements effectués par l'assurance maladie sur les médicaments, les actes paramédicaux et les transports sanitaires et laissée à la charge de l'assuré.
+
+- Homéopathie : Méthode thérapeutique consistant à prescrire à un malade, sous une forme fortement diluée et dynamisée, une substance capable de produire des troubles semblables à ceux qu'il présente. Les Médicaments homéopathiques doivent avoir fait l'objet d'un enregistrement ou posséder une autorisation de mise sur le marché.
+- Honoraires : Rémunération d'un professionnel de santé.
+- Honoraires Limite de facturation (HLF) : Montant maximum pouvant être facturé par un chirurgien-dentiste conventionné avec l'assurance maladie obligatoire pour un acte donné. On parle également de «tarifs plafonnés». Des honoraires limites de facturation seront appliqués à certaines prothèses dentaires, dont en particulier celles contenues dans le panier «à prise en charge renforcée».
+- Hospitalisation : Désigne généralement un séjour dans un établissement de santé en vue du traitement médical d'une maladie, d'un accident ou d'une maternité.
+- Imagerie médicale : Est utilisée à des fins cliniques afin de pouvoir proposer un diagnostic ou un traitement.
+- Implantologie dentaire : Elle vise à remplacer une ou plusieurs dents manquantes en mettant en place un ou des racines artificielles (en général sous forme de vis) dans l'os de la mâchoire, sur lesquelles on fixe une prothèse. Le chirurgien-dentiste est tenu de remettre un devis avant de poser un implant.
+- Inlays et onlays : Techniques permettant de reconstruire la dent tout en la gardant vivante. Dans le cas de caries de volume important, la réalisation d'un inlay ou d'un onlay permet souvent d'éviter de réaliser une prothèse dentaire. Le chirurgien-dentiste pratique le plus souvent des dépassements sur ces actes. Les inlays et onlays ne sont pas des prothèses.
+- Lentille : La lentille de contact est un système correcteur, souple ou rigide, posée sur la cornée.
+- Lunettes : Elles sont composées d'une monture et de verres. Elles permettent de corriger la plupart des problèmes de vue (myopie, hypermétropie, astigmatisme et presbytie). Le prix des verres varie selon le type de correction (verres unifocaux ou multifocaux, verres progressifs), la qualité et le traitement appliqués aux verres.
+- Maladie : Toute altération de l'état de santé d'un bénéficiaire constatée par une autorité médicale compétente.
+
+- Médicaments : Disponibles en pharmacie, ils sont classés selon le niveau de leur prise en charge par l'assurance maladie obligatoire française:
+  - pour les médicaments remboursés à 100 % par l'assurance maladie obligatoire française: ils sont irremplaçables et particulièrement coûteux;
+  - pour les médicaments remboursés à 65 % par l'assurance maladie obligatoire française: leur service médical rendu est majeur ou important;
+  - pour les médicaments remboursés à 30 % par l'assurance maladie obligatoire française: leur service médical rendu est modéré;
+  - pour les médicaments remboursés à 15 % par l'assurance maladie obligatoire française: ils ont un service médical rendu faible ou insuffisant.
+Les montants et taux de remboursement sont inscrits sur la facture du pharmacien. Certains médicaments ne peuvent être délivrés que sur prescription médicale.
+
+- Nomenclatures: Elles définissent les actes, produits et prestations qui sont pris en charge par l'assurance maladie obligatoire française et les conditions de leur remboursement. Voici les principales:
+  - pour les actes réalisés par les sages-femmes et auxiliaires médicaux, ainsi que les actes cliniques des médecins (consultations, visites), il s'agit de la Nomenclature Générale des Actes Professionnels (NGAP);
+  - pour les actes techniques médicaux et paramédicaux (actes de chirurgie, anesthésie, actes dentaires...), il s'agit de la Classification Commune des Actes Médicaux (CCAM);
+  - pour les actes de biologie médicale, il s'agit de la Nomenclature des Actes de Biologie Médicale (NABM);
+  - pour les biens médicaux hors médicaments (appareillage...), il s'agit de la Liste des Produits et Prestations (LPP);
+  - pour les soins hospitaliers, il s'agit de groupes homogènes de séjours (GHS).
+
+- Nous: La Caisse Régionale d'Assurance Mutuelles Agricoles dénommée GROUPAMA identifiée dans vos Conditions Personnelles ou votre certificat d'adhésion, et pour la mise en œuvre des garanties d'assistance, MUTUAIDE Assistance, filiale spécialisée de GROUPAMA.
+- OPTAM: Contrat souscrit par un praticien auprès des caisses primaires d'assurance maladie par lequel il s'engage à limiter les dépassements d'honoraires et bénéficie en contrepartie d'exonérations fiscales et sociales.
+- Orthodontie: Discipline médicale visant à corriger ou à prévenir les déformations et les malocclusions des arcades dentaires, ainsi que les malpositions dentaires (les dents qui se chevauchent, qui sortent mal, qui sont mal placées ou trop espacées...), grâce à des appareils dentaires.
+
+Les traitements orthodontiques sont réalisés et facturés :
+- par des professionnels de santé inscrits à l'Ordre National des Chirurgiens-dentistes ou à l'ordre des médecins ;
+- par des médecins stomatologues, des orthodontistes ou des chirurgiens-dentistes exerçant leur activité à titre libéral ou dans un centre dentaire disposant d'un agrément délivré par l'autorité administrative et pouvant prouver une formation spécifique validante en orthodontie quand ils ne sont pas des spécialistes qualifiés pour les chirurgiens-dentistes.
+
+Panier à prise en charge renforcée (100% Santé)
+Dispositif par lequel les assurés couverts par un contrat de complémentaire santé responsable peuvent bénéficier de certaines prestations d'optique, d'aides auditives et de prothèses dentaires, intégralement remboursées par l'assurance maladie obligatoire et les complémentaires santé, donc sans frais restant à leur charge, sous réserve que les professionnels de santé respectent les tarifs maximum fixés.
+Pour ces soins identifiés (on parle de paniers «100% santé» ou «à prise en charge renforcée») qui sont définis réglementairement, opticiens, audioprothésistes et chirurgiens-dentistes fixent leur prix dans la limite de plafonds prédéfinis et s'engagent à respecter les conditions de l'offre «100% santé».
+Les contrats de complémentaire santé responsables remboursent quant à eux obligatoirement la différence entre le prix facturé par l'opticien, l'audioprothésiste ou le chirurgien-dentiste, et le montant remboursé par l'assurance maladie obligatoire, dans la limite des plafonds tarifaires prédéfinis pour les actes des paniers «100% santé».
+Les opticiens et les audioprothésistes sont tenus de proposer un équipement du panier «100% santé» et d'établir un devis faisant systématiquement apparaître un équipement de l'offre «100% santé».
+Les chirurgiens-dentistes ont quant à eux l'obligation, lorsqu'ils proposent à leur patient la réalisation d'un acte hors du panier «100% santé», de leur proposer également une alternative thérapeutique prévue dans le panier «100% santé», chaque fois qu'une telle alternative existe, ou à défaut de leur proposer une alternative avec un reste à charge maîtrisé. Les chirurgiens-dentistes sont également tenus de remettre un devis au patient pour les prothèses dentaires.
+Synonyme : réforme des soins et des équipements sans reste à charge, réforme des soins et des équipements à prise en charge renforcée.
+
+Parodontologie : Discipline qui a pour objet de soigner ou prévenir les maladies parodontales c'est-à-dire les infections bactériennes qui affectent et détruisent les tissus qui entourent et supportent les dents (la gencive, les ligaments, l'os qui supporte les dents...).
+
+Participation forfaitaire : Somme laissée à la charge du patient pour chaque consultation ou acte réalisé par un médecin généraliste ou spécialiste (sauf hospitalisation) ainsi que sur chaque examen de radiologie et analyse de biologie.
+
+Prix limite de vente : Le prix limite de vente (PLV) d'un dispositif médical correspond au prix maximum de vente à l'assuré social. À défaut de fixation d'un prix limite de vente, le prix est libre.
+
+La base de remboursement de la majorité des dispositifs médicaux inscrits à la liste des produits et prestations (LPP) et pris en charge par l'assurance maladie obligatoire est assortie d'un prix limite de vente. S'agissant des médicaments pris en charge par l'assurance maladie obligatoire, seuls ceux qui sont assortis d'un tarif forfaitaire de responsabilité (TFR) n'ont pas de prix limite de vente.
+
+Protection Maladie Universelle (PUMA) : Depuis le 1er janvier 2016, la protection universelle maladie (Puma) garantit à toute personne qui travaille ou réside en France de manière stable et régulière, un droit à la prise en charge, par l'assurance maladie obligatoire, de ses frais de santé à titre personnel et de manière continue tout au long de la vie.
+
+Prothèses dentaires : Elles remplacent ou consolident une ou plusieurs dents abîmées. Elles sont réalisées par un chirurgien-dentiste ou un stomatologue. Il en existe différents types :
+- Les prothèses fixes, comme les couronnes et les bridges. Une couronne reconstitue artificiellement la partie visible de la dent pour la protéger. Lorsque la couronne porte sur plusieurs dents, on l'appelle un «bridge».
+- Les prothèses amovibles sont des appareils dentaires (dentiers) qui peuvent s'enlever, et qui remplacent généralement plusieurs dents.
+
+Régime obligatoire : Régime de protection sociale de base couvrant tout ou partie des risques liés à la maladie, à la maternité, aux accidents de la vie privée et professionnelle et à l'invalidité.
+
+Sévéane : Réseau de soins des audioprothésistes, chirurgiens-dentistes, implantologues, opticiens, ostéopathes et chiropracteurs, qui vous permet de réduire le reste à charge et maîtriser le budget; vous restez libre de consulter le praticien de votre choix.
+
+Secteur 1 / Secteur 2
+Les tarifs pratiqués par les médecins conventionnés avec l'assurance maladie obligatoire et la base de remboursement de cette dernière varient en fonction de la discipline du médecin (généraliste ou spécialiste) et de son secteur d'exercice (secteur 1 ou secteur 2).
+- Le médecin conventionné de secteur 1 applique le tarif fixé par la convention nationale.
+- Les dépassements d'honoraires sont uniquement autorisés pour le médecin qui dispose d'un droit permanent à dépassement ou en cas de demande particulière du patient, comme par exemple, une consultation en dehors des heures habituelles d'ouverture du cabinet du médecin.
+- Le médecin conventionné de secteur 2 pratique des honoraires libres. Il est autorisé à facturer des dépassements d'honoraires. Les professionnels de santé ont l'obligation d'afficher de manière lisible et visible dans leur salle d'attente leur secteur d'activité, leurs honoraires et le montant d'au moins cinq prestations les plus couramment pratiquées. Les médecins de secteur 2 doivent donner préalablement toutes les informations sur les honoraires qu'ils comptent pratiquer.
+
+
+Soins dentaires : Ensemble des actes du chirurgien-dentiste ou du stomatologue qui contribuent à la prévention et aux soins à apporter en cas de problème dentaire : il s'agit des consultations, des soins conservateurs tels que le détartrage ou le traitement d'une carie, mais aussi des soins chirurgicaux. Le praticien conventionné a l'obligation de respecter les tarifs fixés par l'assurance maladie obligatoire française pour ces soins, pour lesquels il ne peut donc pas pratiquer de dépassements (à la différence des prothèses dentaires qui sont des actes à honoraires libres). Les tarifs sont alors dits «opposables».
+
+Soins de ville : Ensemble des prestations de soins dispensées par des professionnels de santé en dehors des cas d'hospitalisation ou d'hébergement dans des établissements de santé ou médico-sociaux.
+
+Souscripteur : Personne physique qui a signé le présent contrat d'assurance complémentaire santé et s'est engagée à en payer les cotisations. L'Association APERIA souscriptrice du contrat d'assurance de groupe à adhésion facultative pour les travailleurs non-salariés non agricoles.
+
+Ticket modérateur : C'est la différence entre la base de remboursement et le montant remboursé par l'assurance maladie obligatoire française (avant application sur celui-ci de la participation forfaitaire ou d'une franchise). La participation forfaitaire, les franchises et les dépassements d'honoraires s'ajoutent éventuellement au ticket modérateur, l'ensemble de ces frais constituant le reste à charge.
+
+Ticket modérateur forfaitaire : C'est une somme forfaitaire, pour certains actes dits «lourds» ou lors d'un passage non programmé dans une structure des urgences d'un établissement de santé non suivi d'une hospitalisation (forfait patient urgence). Elle est déduite des remboursements effectués par l'assurance maladie obligatoire française.
+
+Tiers payant : Système de paiement qui évite au bénéficiaire de faire l'avance des frais auprès des prestataires de soins, dans la limite des garanties souscrites telle que prévue au présent contrat.
+
+Transport médical : Il s'agit de tout transport d'une personne malade, blessée ou parturiente, pour des raisons de soins ou de diagnostic, sur prescription médicale ou en cas d'urgence médicale, effectuée à l'aide de moyens de transports terrestres, aériens ou maritimes, spécialement adaptés à cet effet.
+
+Vaccins : Ce sont des médicaments injectables qui jouent un rôle essentiel dans la prévention et la protection contre de nombreuses maladies infectieuses.
+
+Verres simples : Verres unifocaux sphériques dont la sphère est comprise entre -6 et +6 dioptries et verres unifocaux sphéro-cylindriques dont la sphère est comprise entre -6 et 0 dioptries et dont le cylindre est inférieur ou égal à +4 dioptries ou dont la sphère est positive et dont la somme (sphère + cylindre) est inférieure ou égale à 6 dioptries.
+
+Vous : Le bénéficiaire du contrat d'assurance complémentaire santé ou l'adhérent dans le cas d'un contrat à adhésion facultative souscrit par l'Association APERIA.

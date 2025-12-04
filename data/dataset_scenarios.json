@@ -1,0 +1,1142 @@
+[
+  {
+    "scenario": 1,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Jacques",
+      "Age": 62,
+      "Sexe": "Homme",
+      "Profession": "Salarié du privé",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "1-1",
+        "question": "Comment Groupama assure-t-elle la rapidité des remboursements pour les soins de kinésithérapie et d'ostéopathie, en tenant compte de mes besoins fréquents après mes activités sportives ?",
+        "reponse_attendue": "Groupama optimise la rapidité des remboursements grâce à son système de tiers payant généralisé, qui permet de ne pas avancer les frais pour les soins pris en charge par l'assurance maladie obligatoire. En plus, nos garanties de médecine douce incluent des remboursements pour les séances d'ostéopathie, dès le Niveau 2 de couverture, ce qui peut couvrir une partie de vos frais. Cela peut assurer que vos besoins fréquents en kinésithérapie et ostéopathie soient pris en charge sans délai, avec la flexibilité de choisir le niveau de couverture qui vous convient pour ces soins non couverts par le régime obligatoire."
+      },
+      {
+        "num_question": "1-2",
+        "question": "Comment fonctionne le bonus fidélité pour les soins dentaires chez Groupama, et comment cela pourrait m'aider à réduire mes coûts à long terme ?",
+        "reponse_attendue": "Chez Groupama, après deux ans de fidélité, le bonus fidélité vous permet de supprimer le plafond annuel des remboursements pour les prothèses dentaires, ce qui signifie que vous bénéficiez de remboursements illimités pour ces frais. Cela peut considérablement réduire vos coûts à long terme, surtout si vous avez des besoins dentaires importants comme des prothèses ou des implants, puisqu'il n'y a plus de limite annuelle sur ces remboursements. Cela correspond parfaitement à votre profil, en vous offrant une tranquillité d'esprit pour les soins dentaires futurs tout en optimisant votre couverture."
+      },
+      {
+        "num_question": "1-3",
+        "question": "J'ai souvent besoin de soins de récupération après mes activités sportives, comme la kinésithérapie ou l'ostéopathie. Comment l'assurance Groupama Santé prend-elle en charge ces types de soins, surtout si certains ne sont pas remboursés par la Sécurité Sociale ?",
+        "reponse_attendue": "Chez Groupama Santé, nous proposons un module dédié à la Médecine Douce qui inclut les séances d'ostéopathie et autres médecines alternatives. Selon le niveau de couverture choisi, vous pouvez bénéficier du remboursement de plusieurs séances par an, jusqu'à 60€ par séance au niveau supérieur. De plus, notre garantie Soins Courants couvre les soins réalisés par les masseurs-kinésithérapeutes conventionnés, avec des remboursements allant jusqu'à 200% de la base de remboursement. Cela vous assure une couverture efficace pour vos besoins de récupération après le sport."
+      },
+      {
+        "num_question": "1-4",
+        "question": "Concernant la couverture des soins de récupération tels que la kinésithérapie ou l'ostéopathie, comment Groupama gère-t-elle ces séances dans son offre ?",
+        "reponse_attendue": "Chez Groupama, les séances de kinésithérapie sont couvertes par les garanties Soins Courants, ce qui signifie qu'elles sont remboursées selon un pourcentage de la base de remboursement définie par le régime obligatoire, allant jusqu'à 300% pour le niveau 4. Pour les séances d'ostéopathie, elles sont incluses dans le module Médecine Douce avec un remboursement forfaitaire selon le niveau de votre couverture. Par exemple, à partir du niveau 2, vous avez droit à deux séances remboursées à 50 € chacune, et cela augmente avec les niveaux supérieurs. Cela vous permet de bénéficier d'un soutien optimal pour vos soins de récupération tout en garantissant une prise en charge rapide et efficace."
+      },
+      {
+        "num_question": "1-5",
+        "question": "Est-ce que l'offre Groupama Santé propose une couverture spécifique pour les soins de récupération comme la kinésithérapie et l'ostéopathie, que je pratique régulièrement après mes activités sportives ?",
+        "reponse_attendue": "Oui, Groupama Santé inclut des séances de médecine douce, comme l'ostéopathie, dans ses garanties. À partir du niveau 2 de couverture, vous pouvez bénéficier de remboursements pour plusieurs séances par an. Pour la kinésithérapie, elle est couverte sous les soins courants remboursés par le régime obligatoire, avec des niveaux de remboursement allant jusqu'à 300% de la base de remboursement selon le niveau choisi. Ceci s'adapte bien à vos besoins de récupération après des activités sportives."
+      }
+    ]
+  },
+  {
+    "scenario": 2,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Nicole",
+      "Age": 72,
+      "Sexe": "Femme",
+      "Profession": "Retraitée, ancienne salariée du privé",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "2-1",
+        "question": "Je vais bientôt déménager en zone urbaine, allez-vous me suivre facilement et sans complications administratives si je change d'adresse ?",
+        "reponse_attendue": "Oui, chez Groupama, le suivi est simplifié lors d'un changement d'adresse. Vous n'avez qu'à nous informer de votre nouvelle adresse, et votre contrat continuera de vous couvrir sans interruption. Nos services sont conçus pour minimiser les démarches administratives, vous permettant de profiter de votre assurance santé en toute tranquillité."
+      },
+      {
+        "num_question": "2-2",
+        "question": "Pouvez-vous garantir que lors de mon déménagement en zone urbaine, je n'aurai pas de difficultés avec le tiers payant et que mes remboursements resteront rapides et efficaces?",
+        "reponse_attendue": "Groupama Santé propose un service de tiers payant généralisé, ce qui vous évite d'avancer les frais de santé chez les professionnels de santé qui acceptent ce dispositif. Cela inclut les médecins, radiologues, dentistes, opticiens, etc. De plus, nous avons optimisé nos outils digitaux pour que vous puissiez suivre facilement vos remboursements et gérer vos contrats à distance. Votre déménagement ne devrait pas impacter la rapidité des remboursements grâce à notre espace client sécurisé et notre application mobile, qui vous permettent de soumettre des documents et de suivre l'état de votre dossier en temps réel. Ainsi, vous êtes assuré d'une couverture continue, rapide et efficace, peu importe vos changements de domicile."
+      },
+      {
+        "num_question": "2-3",
+        "question": "Je suis en bonne santé, pourquoi devrais-je payer autant pour une assurance santé alors que je risque de ne pas l'utiliser ?",
+        "reponse_attendue": "Même en bonne santé, avoir une assurance santé vous permet de vous prémunir contre les imprévus comme une hospitalisation ou un accident. De plus, notre offre Groupama Santé vous propose des garanties modulables qui s'adaptent à vos besoins réels et un réseau de partenaires avec des tarifs avantageux, vous aidant à maîtriser votre budget tout en vous offrant une couverture complète. Ainsi, vous pouvez bénéficier de services pratiques comme la téléconsultation ou avoir accès à des soins courants sans avance de frais, garantissant tranquillité et simplicité au quotidien."
+      },
+      {
+        "num_question": "2-4",
+        "question": "Je vais déménager en zone urbaine, est-ce que l'offre Groupama Santé me permet de continuer à bénéficier des mêmes niveaux de couverture sans changement de tarif ou de garanties ?",
+        "reponse_attendue": "Oui, l'offre Groupama Santé est conçue pour être flexible et s'adapter à vos besoins indépendamment de votre lieu de résidence. Votre couverture ne sera pas affectée par votre déménagement en zone urbaine, et vous continuerez à bénéficier des mêmes niveaux de garanties sans changement de tarif. De plus, cette offre est omnicanale, ce qui assure une cohérence des services et des prix à travers tous les canaux, facilitant ainsi la gestion de votre contrat."
+      },
+      {
+        "num_question": "2-5",
+        "question": "Je vais déménager bientôt et je voudrais savoir comment votre assurance santé pourrait simplifier la gestion de mes soins réguliers après mon déménagement ?",
+        "reponse_attendue": "Groupama Santé offre plusieurs avantages qui simplifient la gestion de votre couverture santé lors de votre déménagement. Notre système de tiers payant généralisé vous dispense de l'avance de frais, vous permettant de bénéficier d'une continuité dans vos remboursements sans souci. De plus, grâce à notre application mobile Groupama et moi, vous pouvez facilement gérer vos remboursements, prendre des rendez-vous téléconsultation, et localiser des professionnels du réseau Sévéane pour des frais réduits, où que vous soyez. Avec ces services, votre couverture santé reste efficace et simple à gérer, même après un changement de domicile."
+      }
+    ]
+  },
+  {
+    "scenario": 3,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Michelle",
+      "Age": 50,
+      "Sexe": "Femme",
+      "Profession": "Salariée d'une TPE non couverte",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "3-1",
+        "question": "Comment l'assurance santé de Groupama peut-elle m'aider à gérer une éventuelle diminution de mes revenus tout en assurant une couverture adaptée à mes besoins réels ?",
+        "reponse_attendue": "Groupama Santé propose une offre modulable et ajustable, permettant de choisir parmi différents niveaux de couverture pour chaque module de garanties, tels que les soins courants, l'hospitalisation ou le dentaire. Cela vous permet d'optimiser votre contrat en ne sélectionnant que les niveaux de couverture qui répondent précisément à vos besoins, tout en maîtrisant votre budget. De plus, l'absence de questionnaire médical à la souscription assure que votre cotisation ne dépend pas de votre état de santé, ce qui peut être avantageux en cas de baisse des revenus. Le contrat responsable et solidaire vous permet également de bénéficier de réductions fiscales telles que la déduction des cotisations pour certains travailleurs indépendants. Enfin, l'accès à des outils digitaux performants facilite la gestion de votre contrat et de vos remboursements, ce qui représente un gain de temps et une simplification des démarches administratives pour mieux gérer votre situation financière."
+      },
+      {
+        "num_question": "3-2",
+        "question": "Avec la nouvelle offre Groupama Santé, est-il possible d'obtenir une couverture uniquement pour certaines catégories, comme la médecine douce ou l'optique, sans inclure d'autres catégories comme l'hospitalisation ?",
+        "reponse_attendue": "Non, la nouvelle offre Groupama Santé exige que tous les blocs de garanties soient souscrits. Les blocs comprennent Soins Courants, Médecine Douce, Optique et Audiologie, Dentaire, Hospitalisation, et Hospitalisation Confort. Cela permet d'assurer une couverture complète et de répondre aux besoins variés des assurés tout en garantissant une cohérence dans le niveau de couverture. Cette structure vise à offrir une protection globale et ajustée, en évitant des écarts importants entre les niveaux de garantie proposés."
+      },
+      {
+        "num_question": "3-3",
+        "question": "Pouvez-vous m'expliquer comment la nouvelle offre Groupama Santé peut s'adapter à mes besoins spécifiques, notamment en termes de médecine douce et dentaire, tout en étant rentable pour moi avec des revenus qui pourraient diminuer?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé est conçue pour être modulable et répondre précisément à vos besoins. Elle inclut un module Médecine Douce, qui vous permet de bénéficier de séances remboursées chez des professionnels de santé référencés, et un module Dentaire, avec un déplafonnement des remboursements pour les prothèses dentaires après deux ans de fidélité, ce qui est idéal pour éviter des coûts élevés à long terme. En choisissant les niveaux de couverture qui correspondent le mieux à votre situation actuelle, vous pouvez maximiser les avantages tout en contrôlant vos dépenses. De plus, en tant que contrat solidaire, les cotisations ne dépendent pas de votre état de santé, offrant ainsi une stabilité financière même si vos revenus diminuent. L'outil d'aide à la vente vous permettra de voir concrètement comment ajuster ces modules en fonction de vos besoins réels, tout en respectant votre budget."
+      },
+      {
+        "num_question": "3-4",
+        "question": "Pouvez-vous m'expliquer comment la nouvelle offre Groupama Santé gère les remboursements pour les équipements d'optique, surtout si je choisis d'aller chez un opticien hors réseau Sévéane ?",
+        "reponse_attendue": "Avec la nouvelle offre Groupama Santé, si vous choisissez un opticien hors réseau Sévéane, le remboursement pour une monture et deux verres simples est calculé selon votre niveau de couverture : Niveau 1 offre un remboursement basé sur la base de remboursement (BR) avec la monture à 110€, Niveau 2 à 150€ avec la monture à 200€, Niveau 3 à 170€ avec la monture à 230€, et Niveau 4 à 250€ avec la monture à 250€. Cela permet de bénéficier d'une couverture ajustée selon vos besoins, tout en vous laissant la liberté de choisir votre opticien."
+      },
+      {
+        "num_question": "3-5",
+        "question": "Comment l'offre Groupama Santé peut-elle garantir une couverture ajustée sans payer pour des garanties inutiles, surtout en période de baisse de mes revenus?",
+        "reponse_attendue": "L'offre Groupama Santé est conçue pour être modulable avec 6 blocs de garanties et 4 niveaux de couverture, vous permettant de choisir précisément les niveaux de protection qui correspondent à vos priorités. Vous n'êtes pas obligé de souscrire à des garanties superflues puisque chaque bloc peut être ajusté selon vos besoins réels, tout en respectant des écarts de niveaux de couverture raisonnables. Cela vous assure une couverture optimale sans frais inutiles, particulièrement avantageux en période de baisse de revenus."
+      }
+    ]
+  },
+  {
+    "scenario": 4,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Nour",
+      "Age": 45,
+      "Sexe": "Femme",
+      "Profession": "Salariée du public",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "4-1",
+        "question": "La couverture des soins réguliers, comme la prise en charge des consultations médicales et des médicaments, est-elle immédiate dès la souscription chez Groupama Santé, ou y a-t-il un délai de carence à prévoir ?",
+        "reponse_attendue": "Chez Groupama Santé, il n'y a généralement pas de délai de carence pour les soins courants tels que les consultations médicales et les médicaments prescrits et remboursés par le régime obligatoire. Vous bénéficiez d'une prise en charge immédiate dès la souscription de votre contrat. Cela signifie que vous pouvez profiter de vos garanties sans attendre, ce qui est particulièrement avantageux pour les soins réguliers que vous devez suivre. Pour votre situation, cela garantit une continuité dans vos traitements médicaux avec des remboursements rapides, assurant ainsi la tranquillité d'esprit. Nous nous engageons à vous fournir un service fluide et efficace pour votre santé quotidienne."
+      },
+      {
+        "num_question": "4-2",
+        "question": "Étant donné mes soins réguliers, comment puis-je être sûr d'obtenir un remboursement rapide sans devoir avancer des frais importants avec l'offre Groupama Santé ?",
+        "reponse_attendue": "Groupama Santé vous propose un service de tiers payant généralisé, ce qui signifie que vous n'avez pas besoin de faire l'avance des frais pour vos soins, sur les actes pris en charge par l'assurance maladie obligatoire. De plus, notre réseau Sévéane vous offre des tarifs avantageux et une dispense totale de frais chez les professionnels partenaires, ce qui réduit votre reste à charge. Pour vos remboursements, le système numérique et l'application mobile Groupama vous permettent de suivre l'état de vos remboursements rapidement et facilement, ce qui assure une fluidité dans le traitement de vos demandes."
+      },
+      {
+        "num_question": "4-3",
+        "question": "Dans quelle mesure l'offre Groupama Santé peut-elle garantir des remboursements rapides et efficaces, notamment pour mes soins réguliers ?",
+        "reponse_attendue": "L'offre Groupama Santé est conçue pour garantir des remboursements rapides et efficaces grâce à son système de tiers payant généralisé. Vous êtes dispensée de l'avance de frais pour les actes pris en charge par l'assurance maladie obligatoire, ce qui accélère le processus de remboursement. De plus, l'espace client sécurisé vous permet de suivre l'état de vos remboursements en temps réel. Ainsi, vous bénéficiez d'une expérience fluide et simplifiée, assurant que vos soins réguliers sont couverts sans délais excessifs."
+      },
+      {
+        "num_question": "4-4",
+        "question": "Je dois suivre des soins réguliers, comment cette assurance santé me garantit-elle une couverture sans délai de remboursement ?",
+        "reponse_attendue": "Chez Groupama, nous mettons en place un système de tiers-payant généralisé, ce qui vous permet d'éviter l'avance de frais de santé. Ainsi, vos frais sont directement pris en charge par notre assurance, garantissant une couverture sans délai de remboursement. Cela vous assure une tranquillité d'esprit pour vos soins réguliers, sans souci de gestion financière immédiate."
+      },
+      {
+        "num_question": "4-5",
+        "question": "Je suis préoccupée par la diminution de mes revenus, comment l'offre Groupama Santé peut-elle m'aider à maintenir une couverture de soins efficace sans trop impacter mon budget ?",
+        "reponse_attendue": "Groupama Santé vous permet de choisir des niveaux de couverture adaptés à vos besoins réels avec quatre niveaux différents pour chaque module, ce qui vous donne la flexibilité nécessaire pour ajuster votre couverture en fonction de votre budget. De plus, nous proposons des tarifs compétitifs et la possibilité de bénéficier des avantages du réseau Sévéane qui offre des réductions importantes sur les équipements optiques et audiologiques, ainsi qu'un service de tiers payant pour éviter l'avance de frais. Enfin, les garanties étant responsables et solidaires, vous bénéficiez d'une fiscalité allégée, ce qui peut aussi aider à gérer vos dépenses sans sacrifier la qualité de vos soins."
+      }
+    ]
+  },
+  {
+    "scenario": 5,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Michel",
+      "Age": 67,
+      "Sexe": "Homme",
+      "Profession": "À la retraite",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "5-1",
+        "question": "Comment votre assurance santé couvre-t-elle mes besoins pour des soins de récupération après mes activités sportives, tels que la kinésithérapie ou l'ostéopathie?",
+        "reponse_attendue": "Groupama Santé assure la couverture des soins de kinésithérapie dans le cadre des soins de ville avec un remboursement basé sur le tarif conventionné. Pour l’ostéopathie, qui est souvent non remboursée par le régime obligatoire, notre formule Médecine Douce vous offre la possibilité de bénéficier de séances remboursées jusqu'à 60 euros par séance selon le niveau de votre contrat. Cela vous permet d'adapter votre couverture à vos besoins spécifiques, tout en bénéficiant de notre réseau de professionnels agréés pour garantir la qualité des soins. Cette couverture est particulièrement avantageuse pour un retraité actif comme vous, qui souhaite maintenir sa pratique sportive sans se soucier des frais de récupération."
+      },
+      {
+        "num_question": "5-2",
+        "question": "Je voyage souvent à l'étranger et je veux être couvert partout sans surprises, mais je n'ai pas vraiment de budget pour ça. Que propose votre assurance pour la couverture à l'international ?",
+        "reponse_attendue": "Groupama Santé propose une assistance santé aux personnes en déplacement, qui est acquise dans le monde entier pour des séjours n'excédant pas 3 mois. Cela inclut notamment le rapatriement en cas de problème de santé, la prise en charge des frais médicaux à l'étranger non remboursés jusqu'à 11 000 € par événement et par an, et l'envoi de fournitures médicales indispensables. Ces services sont inclus dans votre contrat sans frais supplémentaires, ce qui vous permet de voyager l'esprit tranquille sans exploser votre budget."
+      },
+      {
+        "num_question": "5-3",
+        "question": "Je voyage souvent pour mes activités sportives, mais je m'inquiète pour la couverture en cas de besoin de soins à l'étranger, comment Groupama assure-t-il cela ?",
+        "reponse_attendue": "Groupama Santé couvre les soins à l'étranger sous certaines conditions. Les garanties d'assurance s'appliquent dans le monde entier pour des séjours n'excédant pas trois mois. Vous bénéficiez de l'assistance pendant vos déplacements, y compris le rapatriement si nécessaire. De plus, les frais médicaux non remboursés par votre assurance maladie obligatoire peuvent être pris en charge jusqu'à un certain montant par événement. Ces garanties vous permettent de voyager sereinement, sachant que vous êtes couvert en cas de besoin de soins médicaux imprévus."
+      },
+      {
+        "num_question": "5-4",
+        "question": "Je fais souvent du sport et ai besoin de soins de récupération comme la kinésithérapie ou l'ostéopathie. Est-ce que votre assurance couvre ces coûts, et si oui, à quel niveau ?",
+        "reponse_attendue": "Tout à fait, notre assurance Groupama Santé couvre les séances de kinésithérapie et d'ostéopathie. Pour les kinésithérapeutes, les remboursements se font sous la catégorie 'Soins courants' avec des niveaux de couverture allant jusqu'à 300% de la base de remboursement (BR) selon le niveau choisi. Les séances d'ostéopathie sont couvertes sous la catégorie 'Médecine douce' avec des niveaux de remboursement allant jusqu'à 60€ par séance au plus haut niveau. Cela vous permet de bénéficier de soins adéquats après vos activités sportives tout en maîtrisant votre budget."
+      },
+      {
+        "num_question": "5-5",
+        "question": "La nouvelle offre Groupama Santé couvre-t-elle mes besoins pour les soins de récupération comme la kiné et l'ostéopathie après mes activités sportives ?",
+        "reponse_attendue": "Oui, la nouvelle offre Groupama Santé inclut des garanties pour les soins de récupération après vos activités sportives. Les séances de kinésithérapie sont couvertes sous le module 'Soins Courants' selon le niveau de couverture choisi, allant jusqu'à 300% de la base de remboursement. Pour l'ostéopathie, incluse dans le module 'Médecine Douce', vous pouvez bénéficier de 2 à 3 séances remboursées par an selon le niveau choisi, avec des forfaits allant jusqu'à 60€ par séance. Cela vous permet d'adapter votre couverture à vos besoins spécifiques en récupération sportive."
+      }
+    ]
+  },
+  {
+    "scenario": 6,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Thomas",
+      "Age": 19,
+      "Sexe": "Homme",
+      "Profession": "Étudiant en alternance dans le secteur de la restauration",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "6-1",
+        "question": "Pouvez-vous m'expliquer comment la nouvelle offre Groupama Santé prend en charge les frais de santé lors de mes voyages à l'étranger ?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé inclut des garanties d'assistance et des services qui couvrent les besoins médicaux des assurés lors de leurs déplacements à l'étranger. En cas de maladie ou de blessure, nous organisons et prenons en charge votre rapatriement à votre domicile ou vers un établissement hospitalier proche. Nous couvrons également les frais médicaux à l'étranger non remboursés par vos assurances jusqu'à 11 000 € par événement et par an. De plus, notre service de téléconsultation est accessible, vous permettant de consulter un médecin à distance. Enfin, nous prenons en charge le transport de vos bagages et animaux familiers si nécessaire. Ces prestations assurent que vous soyez couvert sans surprises lors de vos voyages."
+      },
+      {
+        "num_question": "6-2",
+        "question": "Étant donné que je voyage souvent à l'étranger, quelle couverture offre votre assurance santé en cas de besoin médical à l'étranger ?",
+        "reponse_attendue": "Notre assurance santé Groupama vous offre une assistance internationale qui inclut le remboursement des frais médicaux à l'étranger non couverts par votre assurance maladie obligatoire jusqu'à 11 000 € par événement et par an. Cela couvre les honoraires médicaux, les frais de médicaments, d'ambulance, d'hospitalisation, et les frais dentaires d'urgence. De plus, nous organisons et prenons en charge votre rapatriement si nécessaire. Cette couverture est conçue pour vous offrir tranquillité d'esprit lors de vos déplacements internationaux, vous permettant de voyager sans surprises désagréables liées à la santé."
+      },
+      {
+        "num_question": "6-3",
+        "question": "Est-ce que l'offre Groupama Santé permet de bénéficier de réductions ou d'avantages pour les activités sportives et la prévention, comme la marche ou d'autres exercices physiques, afin de récompenser mes bonnes habitudes santé ?",
+        "reponse_attendue": "L'offre Groupama Santé inclut des éléments de prévention qui peuvent soutenir vos bonnes habitudes santé. Par exemple, elle propose un accès à des informations sur la nutrition et un forfait pour la consultation diététique. Bien que les activités physiques spécifiques comme la marche ne soient pas directement couvertes par des réductions, les services de prévention et la téléconsultation peuvent vous aider à maintenir un mode de vie sain. De plus, la couverture des médecines douces peut inclure des séances chez des professionnels de santé qui peuvent conseiller sur l'activité physique. Pour des précisions sur les avantages liés aux bonnes habitudes, vous pouvez consulter le module Médecine Douce de l'offre."
+      },
+      {
+        "num_question": "6-4",
+        "question": "Pouvez-vous m'expliquer comment l'assurance santé Groupama couvre le remboursement des frais médicaux lors de mes déplacements à l'étranger, et quelles sont les limites de cette couverture ?",
+        "reponse_attendue": "Groupama Santé offre une assistance santé aux personnes en déplacement mondial pour des séjours n'excédant pas 3 mois. Cette couverture inclut le remboursement jusqu'à 11 000 € par événement pour les frais médicaux non remboursés par vos assurances de base, tels que les honoraires médicaux, frais de médicaments, frais d'ambulance, et frais d'hospitalisation, sous réserve d'accord préalable. Il est important de conserver les justificatifs de remboursement nécessaires et de noter qu'une franchise de 75 € s'applique par dossier."
+      },
+      {
+        "num_question": "6-5",
+        "question": "Je suis en bonne santé et je fais souvent du sport, quelles sont les options ou avantages de l'offre Groupama Santé qui récompensent mes bonnes habitudes de santé ?",
+        "reponse_attendue": "Groupama Santé propose des garanties qui encouragent vos bonnes habitudes de santé. Par exemple, vous bénéficierez de remboursements pour des séances de médecines douces comme l'ostéopathie, et vous pourrez accéder à des outils digitaux pour suivre vos activités de santé. De plus, notre offre intègre des téléconsultations et un réseau Sévéane optimisé pour des avantages tarifaires sur l'optique et l'audiologie. Enfin, grâce à notre service 'Relaimoi', vous pouvez transférer une partie de vos garanties à vos proches, même s'ils ne sont pas assurés chez Groupama, ce qui vous permet de partager vos bonnes pratiques santé avec votre famille."
+      }
+    ]
+  },
+  {
+    "scenario": 7,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Nicole",
+      "Age": 72,
+      "Sexe": "Femme",
+      "Profession": "Retraitée, ancienne salariée du privé",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "7-1",
+        "question": "Est-ce que la nouvelle offre santé de Groupama garantit que je n'aurai pas à avancer des frais lors de mes consultations et soins réguliers, surtout si je déménage dans une nouvelle zone urbaine ?",
+        "reponse_attendue": "Oui, la nouvelle offre santé de Groupama inclut la possibilité de bénéficier du service de tiers payant généralisé. Cela signifie que vous n'aurez pas à avancer de frais pour les consultations et soins réguliers dans tous les établissements et auprès des professionnels de santé qui acceptent le tiers payant. Ce service est disponible quel que soit l'endroit où vous résidez, y compris lors d'un déménagement en zone urbaine. Ainsi, vous pouvez être assuré d'une transition sans tracas en ce qui concerne vos remboursements et la gestion de votre couverture santé."
+      },
+      {
+        "num_question": "7-2",
+        "question": "Avec le déménagement prévu en zone urbaine, est-ce que ma mutuelle pourra continuer de couvrir mes soins réguliers sans complications, notamment en termes de tiers payant et de remboursements rapides?",
+        "reponse_attendue": "Oui, votre mutuelle Groupama Santé vous suit lors de votre déménagement en zone urbaine. Vous bénéficiez du service de tiers payant généralisé, qui vous dispense de l'avance de frais de santé chez tous les professionnels acceptant le dispositif. De plus, grâce au réseau Sévéane, vous avez accès à des tarifs avantageux et au tiers payant chez de nombreux opticiens et audioprothésistes partenaires. Concernant les remboursements, Groupama garantit une rapidité de traitement, surtout grâce à l'utilisation de l'application mobile 'Groupama et moi', où vous pouvez facilement suivre vos remboursements et envoyer vos documents. Ainsi, vos soins réguliers seront couverts sans complications."
+      },
+      {
+        "num_question": "7-3",
+        "question": "Je vois que votre offre inclut des soins dentaires, mais je ne suis pas sûr d'avoir besoin de tout cela. Pour quelqu'un de mon âge, est-ce vraiment utile d'avoir une couverture pour l'orthodontie ou les implants dentaires?",
+        "reponse_attendue": "Pour une personne de votre âge, la couverture dentaire peut être très utile, surtout pour les prothèses dentaires et les implants qui peuvent devenir nécessaires avec le temps. Bien que l'orthodontie soit généralement moins fréquente à votre âge, il est important de considérer les soins et prothèses qui pourraient vous éviter des frais élevés en cas de besoin. Notre offre est flexible et permet une très bonne couverture pour ces types de soins, tout en incluant des services tels que la prévention dentaire annuelle. Cela vous assure une tranquillité d'esprit et un meilleur suivi de votre santé dentaire."
+      },
+      {
+        "num_question": "7-4",
+        "question": "La nouvelle offre de Groupama Santé propose une séparation des soins courants en deux modules distincts, avec des soins couverts par le régime obligatoire et des soins non couverts. Comment cela peut-il m'aider à mieux adapter ma couverture à mes besoins réels ?",
+        "reponse_attendue": "Cette séparation permet de mieux adapter votre couverture selon vos besoins spécifiques. Vous pouvez choisir un niveau de remboursement différent pour les soins courants couverts par le régime obligatoire et pour les médecines douces non couvertes. Cela vous permet de renforcer la couverture sur les soins qui vous sont essentiels tout en optimisant votre budget."
+      },
+      {
+        "num_question": "7-5",
+        "question": "Est-ce que la couverture pour les aides auditives est suffisante pour un senior, sachant que j'ai des besoins spécifiques en écoute ?",
+        "reponse_attendue": "Madame Nicole, notre offre Groupama Santé prévoit une prise en charge des aides auditives adaptée à vos besoins. Pour les aides auditives hors 100% Santé, nous proposons des montants allant jusqu'à 1 000€ par oreille, incluant la part de remboursement du régime obligatoire. Cela vous permet d'accéder à des équipements de qualité, avec des réductions chez les audioprothésistes partenaires du réseau Sévéane, garantissant ainsi un excellent rapport qualité-prix. Ce niveau de couverture est parmi les plus compétitifs du marché, et vous bénéficiez également du service de tiers payant pour éviter l'avance de frais."
+      }
+    ]
+  },
+  {
+    "scenario": 8,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Sacha",
+      "Age": 24,
+      "Sexe": "Femme",
+      "Profession": "En dernière année de master de biologie",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "8-1",
+        "question": "Avec mes soins réguliers en médecine douce et mes déplacements fréquents, comment Groupama peut-elle garantir qu'il n'y aura pas de retard dans le remboursement de mes consultations ?",
+        "reponse_attendue": "Groupama Santé propose des garanties de médecine douce dès le Niveau 2, vous permettant d'obtenir un remboursement rapide pour jusqu'à trois séances par an, réalisées par des professionnels référencés. De plus, notre système de tiers payant généralisé vous permet de ne pas avancer de frais pour les actes pris en charge, simplifiant ainsi le processus de remboursement. Avec l'accès à notre espace client sécurisé, vous pouvez suivre facilement l'état de vos remboursements."
+      },
+      {
+        "num_question": "8-2",
+        "question": "Je suis très pressée et je dois suivre des soins réguliers. Est-ce que votre offre me garantit un remboursement sans délai pour mes consultations et traitements en médecine douce?",
+        "reponse_attendue": "Chez Groupama, notre offre inclut des remboursements rapides pour les consultations et traitements en médecine douce. Vous pouvez bénéficier de séances remboursées dès le niveau 2 de votre couverture. De plus, notre système de tiers payant généralisé vous assure une dispense d’avance de frais, ce qui est particulièrement pratique pour vos soins réguliers en médecine douce. Vous pouvez suivre vos remboursements directement via notre application mobile, assurant ainsi une gestion rapide et efficace de vos demandes."
+      },
+      {
+        "num_question": "8-3",
+        "question": "Est-ce que la nouvelle offre santé Groupama me permet de bénéficier d'une couverture immédiate lors de mon déménagement en zone urbaine, sans avoir à refaire toute la procédure d'adhésion ?",
+        "reponse_attendue": "Oui, la nouvelle offre santé Groupama garantit une couverture continue lors d'un déménagement en zone urbaine. Vous pouvez simplement signaler votre changement d'adresse sans avoir à refaire toute la procédure d'adhésion. Vos garanties restent actives et suivent vos besoins, y compris en termes de remboursement rapide et de gestion administrative simplifiée. Cela vous assure une transition en douceur, sans tracas administratifs."
+      },
+      {
+        "num_question": "8-4",
+        "question": "Je vais bientôt déménager en zone urbaine, est-ce que votre offre d'assurance santé me permet de bénéficier de téléconsultations médicales et comment cela fonctionne-t-il ?",
+        "reponse_attendue": "Oui, l'offre Groupama Santé inclut des téléconsultations médicales. Vous pouvez bénéficier de jusqu'à 6 téléconsultations par an et par bénéficiaire. Ces consultations sont accessibles via le site groupama.fr, et vous permettent de consulter un médecin généraliste ou spécialiste sans vous déplacer, ce qui est idéal si vous êtes dans une zone urbaine avec des difficultés d'accéder à un praticien. Cela facilite la gestion rapide de vos soins médicaux tout en économisant du temps."
+      },
+      {
+        "num_question": "8-5",
+        "question": "Je suis préoccupée par le fait que mes revenus vont diminuer prochainement. Comment Groupama Santé peut-elle m'assurer une couverture adéquate sans augmenter mes cotisations de manière significative?",
+        "reponse_attendue": "Chez Groupama Santé, nous proposons des offres modulables et responsables qui vous permettent d'ajuster votre couverture selon vos besoins, tout en respectant votre budget. Notre contrat responsable vous garantit des cotisations qui ne dépendent pas de votre état de santé, et grâce à la structure des offres, vous pouvez choisir parmi plusieurs niveaux de garanties pour chaque module (soins courants, médecine douce, optique, etc.). Cela vous permet de maintenir une couverture adéquate à un coût maîtrisé. De plus, les contrats responsables bénéficient d'une fiscalité allégée, notamment pour les travailleurs indépendants, ce qui peut aider à gérer votre budget en période de revenus variables."
+      }
+    ]
+  },
+  {
+    "scenario": 9,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Michelle",
+      "Age": 50,
+      "Sexe": "Femme",
+      "Profession": "Salariée d'une TPE non couverte",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "9-1",
+        "question": "Puis-je être remboursée pour mes consultations de médecine douce lorsque je suis à l'étranger, et comment cela fonctionne-t-il avec Groupama Santé ?",
+        "reponse_attendue": "Oui, vous pouvez bénéficier de remboursement pour les consultations de médecine douce à l'étranger, mais cela dépend des accords spécifiques entre la Sécurité sociale française et le pays de destination. Avec Groupama Santé, les séances de médecines douces sont couvertes à partir du Niveau 2, avec jusqu'à 3 séances remboursées par an. Pour être éligible, le praticien doit être inscrit au répertoire ADELI ou RPPS, même à l'étranger. Cela vous assure une couverture mondiale dans le cadre des accords internationaux, simplifiant vos démarches lors de vos déplacements."
+      },
+      {
+        "num_question": "9-2",
+        "question": "Est-ce que l'assurance santé de Groupama couvre également les soins médicaux lorsque je voyage à l'étranger, et si oui, jusqu'à quel montant ?",
+        "reponse_attendue": "Absolument, Michelle. Notre offre Groupama Santé inclut une assistance santé pour les personnes en déplacement à l'étranger, avec une couverture jusqu'à 11 000 € par événement et par an pour les frais médicaux non remboursés par vos assurances maladie obligatoire et complémentaire santé. Cela inclut les honoraires médicaux, les frais d'hospitalisation dans des cas définis, et les frais d'ambulance pour se rendre à l'hôpital le plus proche, sous réserve d'un accord préalable. Cette assurance vous offre une tranquillité d'esprit lors de vos voyages internationaux."
+      },
+      {
+        "num_question": "9-3",
+        "question": "Est-ce que votre assurance santé couvre les téléconsultations lorsque je voyage à l'étranger ?",
+        "reponse_attendue": "Oui, notre contrat d'assurance santé Groupama inclut les téléconsultations médicales, qui sont accessibles même lorsque vous êtes à l'étranger. Vous pouvez bénéficier jusqu'à 6 téléconsultations par an, ce qui vous permet de consulter un médecin généraliste ou spécialiste sans avoir à vous déplacer, et ce, peu importe où vous vous trouvez. Cette prestation est là pour vous garantir un accès facile et rapide à des soins médicaux, même en déplacement."
+      },
+      {
+        "num_question": "9-4",
+        "question": "Est-ce que l'assurance santé de chez Groupama me garantit une couverture lors de mes visites médicales à l'étranger, et comment cela fonctionne si je suis hospitalisée ou que j'ai besoin de soins urgents ?",
+        "reponse_attendue": "Oui, Groupama Santé vous offre une couverture lors de vos déplacements à l'étranger, notamment pour des séjours n'excédant pas 3 mois. En cas de maladie ou de blessure, nous organisons et prenons en charge votre rapatriement à votre domicile ou vers un établissement hospitalier proche. De plus, nous couvrons les frais médicaux à l'étranger jusqu'à 11 000 € par événement et par an, sous réserve des remboursements réalisés par vos assurances maladie. Ce remboursement inclut les honoraires médicaux, les frais de médicaments prescrits, et les frais d'hospitalisation si vous êtes jugée intransportable. Notre service est accessible 24/7, assurant ainsi une tranquillité d'esprit lors de vos voyages."
+      },
+      {
+        "num_question": "9-5",
+        "question": "Je voyage souvent à l'étranger. Comment votre assurance santé couvre-t-elle les frais médicaux en dehors de la France ?",
+        "reponse_attendue": "Notre assurance santé Groupama vous offre une couverture mondiale pour les séjours de moins de 90 jours consécutifs. En cas de maladie ou d'accident à l'étranger, nous prenons en charge votre rapatriement et les frais médicaux non remboursés par votre assurance maladie obligatoire jusqu'à 11 000 € par événement et par an. Cela inclut les honoraires médicaux, les frais de médicaments, les frais d'ambulance, et les frais d'hospitalisation si vous êtes jugé intransportable. Pour une expérience fluide, vous bénéficiez également de la téléconsultation avec un médecin français depuis n'importe où dans le monde, accessible via notre application. Ces services vous garantissent une tranquillité d'esprit lors de vos déplacements internationaux."
+      }
+    ]
+  },
+  {
+    "scenario": 10,
+    "profile_client": "Particulier",
+    "personne": {
+      "Nom": "Nicole",
+      "Age": 72,
+      "Sexe": "Femme",
+      "Profession": "Retraitée, ancienne salariée du privé",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "10-1",
+        "question": "Est-ce que votre offre d'assurance santé inclut des récompenses ou des avantages pour les bonnes habitudes de santé, comme la marche ou d'autres activités préventives ?",
+        "reponse_attendue": "Notre offre Groupama Santé met l'accent sur la prévention en incluant la possibilité d'accéder à des consultations diététiques et à des informations de nutrition via un site dédié. De plus, nous proposons des remboursements pour certains actes paramédicaux réalisés par des professionnels tels que les pédicures/podologues, particulièrement pour les assurés de 55 ans et plus, en tant que partie intégrante des soins de prévention. Cela reflète notre engagement à encourager et à soutenir les bonnes habitudes de santé de nos clients."
+      },
+      {
+        "num_question": "10-2",
+        "question": "Pourriez-vous expliquer comment votre mutuelle récompense mes bonnes habitudes en matière de santé, telles que la marche ou d'autres activités sportives ?",
+        "reponse_attendue": "Madame Nicole, je suis ravie de vous informer que notre offre Groupama Santé inclut un module Médecine Douce qui rembourse des séances chez des professionnels référencés pour diverses activités de santé comme l'ostéopathie ou l'homéopathie. Bien que nous n'ayons pas de programme de récompenses directe pour des activités sportives comme la marche, nous encourageons les habitudes de prévention et de bien-être via un accès facilité aux informations de santé et des consultations diététiques. Ces éléments peuvent vous aider à maintenir et à adapter vos habitudes saines. Si vous avez d'autres questions ou besoin d'informations supplémentaires, je suis à votre disposition."
+      },
+      {
+        "num_question": "10-3",
+        "question": "Je vais bientôt déménager en zone urbaine, est-ce que la mutuelle Groupama Santé me permet de gérer facilement mon contrat et mes remboursements depuis n'importe où ?",
+        "reponse_attendue": "Oui, la mutuelle Groupama Santé est conçue pour vous suivre facilement, peu importe où vous êtes. Grâce à l'application mobile 'Groupama et moi', vous pouvez gérer votre contrat, suivre vos remboursements, et même prendre rendez-vous pour des téléconsultations. L'application est notée très positivement par les utilisateurs pour sa simplicité et son efficacité. De plus, notre système de tiers payant généralisé vous permet de bénéficier de soins sans avance de frais chez de nombreux professionnels partenaires, y compris dans votre nouvelle zone urbaine. Ainsi, vous pouvez être assuré d'une gestion fluide de votre mutuelle, où que vous soyez."
+      },
+      {
+        "num_question": "10-4",
+        "question": "Étant donné que je déménage bientôt, comment Groupama gère-t-il le suivi et l'adaptation de ma couverture santé lors d'un changement de domicile?",
+        "reponse_attendue": "Chez Groupama, nous simplifions votre déménagement en assurant la continuité de votre couverture santé. Vous devez simplement nous informer de votre nouvelle adresse dans un délai de 15 jours, et nous adaptons votre contrat selon votre nouvelle localisation sans interruption de vos garanties. Notre service client est à votre disposition pour faciliter ces démarches et vous rassurer quant au suivi de votre couverture santé. De plus, notre offre est conçue pour être flexible et s'adapter à vos besoins, même en cas de changement de résidence."
+      },
+      {
+        "num_question": "10-5",
+        "question": "En tant que retraitée, je fais attention à mes dépenses et je souhaite savoir si la nouvelle offre Groupama Santé propose des avantages fiscaux qui pourraient alléger mes coûts, particulièrement en lien avec les dispositifs existants pour les retraités.",
+        "reponse_attendue": "Madame Nicole, notre offre Groupama Santé bénéficie du statut de 'contrat responsable et solidaire', ce qui permet d'alléger la fiscalité par la réduction de la Taxe de Solidarité Additionnelle, bien que cela concerne davantage les actifs. Pour les retraités, nous avons intégré des dispositifs comme des bonus fidélité et des cagnottes de remboursement qui s'activent avec l'ancienneté du contrat, optimisant ainsi vos dépenses sans affecter directement votre fiscalité. De plus, nos outils digitaux et notre service de téléconsultation vous permettent d'accéder à des soins efficaces sans surcoût lié aux déplacements."
+      }
+    ]
+  },
+  {
+    "scenario": 11,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Patrice",
+      "Age": 54,
+      "Sexe": "Homme",
+      "Profession": "Céréalier",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "11-1",
+        "question": "Étant donné que je suis céréalier et que mes revenus peuvent fluctuer, comment Groupama peut m'assurer une couverture santé adaptée à ma situation professionnelle et m'éviter des dépenses imprévues?",
+        "reponse_attendue": "Chez Groupama, nous avons conçu notre offre santé pour être modulable et s'adapter aux besoins spécifiques des travailleurs indépendants tels que les agriculteurs. Vous pouvez choisir parmi plusieurs niveaux de couverture pour chaque module de notre offre, ce qui vous permet de contrôler les coûts tout en assurant une protection adéquate. De plus, en tant que membre de la Mutualité Sociale Agricole, vous bénéficiez de réductions fiscales, notamment grâce au dispositif Madelin qui permet de déduire vos cotisations santé de vos revenus imposables. Cela peut alléger votre charge financière, surtout en période de revenus fluctuants. Enfin, notre service de téléconsultation et notre réseau Sévéane vous assurent un accès rapide à des spécialistes, minimisant ainsi les délais d'attente."
+      },
+      {
+        "num_question": "11-2",
+        "question": "Je suis céréalier et j'ai besoin de consulter rapidement des spécialistes en cas de problème de santé. Comment votre offre d'assurance santé peut-elle m'aider à accéder à des rendez-vous rapides ?",
+        "reponse_attendue": "Notre offre Groupama Santé propose un service de téléconsultation qui vous permet de consulter un médecin généraliste ou spécialiste en ligne, 7j/7, avec une réponse sous 24 heures. Ce service vous aide à obtenir des conseils médicaux rapidement et à organiser des soins adaptés. De plus, grâce au réseau Sévéane, vous bénéficiez de tarifs réduits chez de nombreux professionnels de santé, facilitant l'accès rapide aux soins nécessaires."
+      },
+      {
+        "num_question": "11-3",
+        "question": "Je suis céréalier et souvent loin de chez moi, le suivi médical est donc compliqué. Mon activité et mon revenu sont directement liés à mon état de santé. Comment Groupama Santé peut-elle m'aider à garantir un accès rapide aux soins et à alléger le suivi médical pour limiter les impacts sur mon activité?",
+        "reponse_attendue": "Groupama Santé offre des téléconsultations accessibles 7 jours sur 7, ce qui garantit un accès rapide à un médecin sans nécessité de déplacement, idéal pour votre situation. De plus, l'assistance Mutuaide inclut l'organisation du transport médical, en cas de besoin, pour limiter l'impact sur votre activité. Ces garanties sont conçues pour vous permettre de continuer votre travail avec un suivi médical efficace, tout en bénéficiant d'un réseau de professionnels de santé qui facilitent les consultations et les soins spécifiques."
+      },
+      {
+        "num_question": "11-4",
+        "question": "Comment cette nouvelle offre d'assurance santé de Groupama peut-elle m'aider à obtenir des rendez-vous avec des spécialistes rapidement, sachant que je ne peux pas me permettre d'attendre longtemps pour des soins médicaux en raison de mon activité agricole?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé inclut des services de téléconsultation jusqu'à 6 fois par an, ce qui vous permet de consulter des médecins généralistes ou spécialistes en ligne, souvent en moins de 24 heures. De plus, le réseau Sévéane vous offre des avantages, tels que le tiers payant, qui vous dispensent de l'avance de frais chez des partenaires de santé, facilitant ainsi un accès plus rapide à leurs services. Enfin, cette offre est conçue pour s'adapter aux besoins spécifiques des agriculteurs, vous permettant de bénéficier d'un accompagnement et d'une assistance personnalisée en cas de besoin urgent. Cela pourrait être particulièrement utile pour minimiser les interruptions dans votre activité professionnelle due à l'attente de soins médicaux."
+      },
+      {
+        "num_question": "11-5",
+        "question": "Je suis céréalier et mon activité dépend de ma capacité à travailler physiquement. En cas d'incapacité temporaire, comment votre offre peut-elle m'aider à maintenir mon activité agricole ?",
+        "reponse_attendue": "Groupama Santé propose des garanties d'assistance qui incluent la mise à disposition d'une aide-ménagère jusqu'à 35 heures par an en cas d'incapacité temporaire. Cela permet de vous décharger des tâches domestiques, vous permettant de vous concentrer sur la gestion de votre activité agricole. De plus, la téléconsultation disponible vous offre un accès rapide aux consultations médicales sans vous déplacer, ce qui est essentiel pour minimiser les interruptions de votre travail."
+      }
+    ]
+  },
+  {
+    "scenario": 12,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Mourad",
+      "Age": 44,
+      "Sexe": "Homme",
+      "Profession": "Apiculteur",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "12-1",
+        "question": "Comment l'assurance santé de Groupama peut-elle m'aider à gérer les soins préventifs, particulièrement ceux liés aux risques de mon métier d'apiculteur ?",
+        "reponse_attendue": "Groupama Santé offre des garanties spéciales pour les soins préventifs, incluant les médecines douces et les prescriptions non prises en charge par le régime obligatoire. Par exemple, vous pouvez bénéficier de séances d'ostéopathie ou de consultations chez des diététiciens et podologues dès le niveau 2 de couverture. Ces soins peuvent être particulièrement utiles pour prévenir les troubles musculo-squelettiques liés à votre activité d'apiculteur. De plus, vous avez accès à des services d'assistance tels qu'une aide-ménagère ou la livraison de repas, qui peuvent vous faciliter la vie en cas de besoin. Cette offre est conçue pour être flexible et s'adapter à vos besoins réels, tout en respectant votre budget."
+      },
+      {
+        "num_question": "12-2",
+        "question": "Est-ce que votre mutuelle propose des services d'assistance à domicile en cas de maladie ou d'immobilisation prolongée ?",
+        "reponse_attendue": "Oui, avec notre offre Groupama Santé, nous proposons des services d'assistance à domicile, notamment l'aide-ménagère jusqu'à 35 heures par année pour vous aider dans les tâches quotidiennes. Nous offrons également la garde à domicile pour les enfants ou personnes dépendantes, ainsi que la livraison de médicaments et de repas. Ces services sont conçus pour vous soutenir en cas d'incapacité temporaire, vous permettant de continuer à gérer votre exploitation tout en ayant l'esprit tranquille."
+      },
+      {
+        "num_question": "12-3",
+        "question": "Comment cette nouvelle offre d'assurance santé de Groupama peut-elle me aider à simplifier la gestion de mon contrat, étant donné que je suis souvent occupé avec mon exploitation d'apiculture ?",
+        "reponse_attendue": "La nouvelle offre de Groupama Santé est conçue pour simplifier votre expérience. Elle intègre des services digitaux performants, vous permettant de gérer votre contrat facilement depuis une application mobile. Vous pouvez envoyer des factures, suivre vos remboursements, et même prendre rendez-vous pour des téléconsultations, le tout sans avoir à vous déplacer. De plus, le système de selfcare permet une gestion rapide et autonome de vos demandes, ce qui est idéal pour votre emploi du temps chargé. Enfin, le service de téléconsultation vous offre des consultations médicales à distance, ce qui peut être particulièrement utile si vous êtes en zone rurale avec un accès limité aux professionnels de santé."
+      },
+      {
+        "num_question": "12-4",
+        "question": "Est-ce que votre mutuelle couvre les consultations de médecine douce comme l'ostéopathie ou l'acupuncture, et jusqu'à quel niveau?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut des remboursements pour les consultations de médecines douces pratiquées par des professionnels de santé référencés dans le RPPS. Selon le niveau de couverture choisi, vous pouvez bénéficier de 2 à 3 séances remboursées par an, à hauteur de 50 à 60 euros par séance. Cela permet de mieux ajuster la mutuelle à vos besoins spécifiques en tant qu'apiculteur, tout en restant dans votre budget."
+      },
+      {
+        "num_question": "12-5",
+        "question": "Cette nouvelle offre santé de Groupama inclut-elle des options pour les soins préventifs et si oui, lesquelles sont particulièrement adaptées à un profil comme le mien en tant qu'apiculteur?",
+        "reponse_attendue": "Oui, l'offre santé de Groupama inclut des options pour les soins préventifs qui seraient particulièrement utiles pour vous. En tant qu'apiculteur, vous pouvez bénéficier de séances de médecine douce telles que l'ostéopathie et l'acupuncture, qui sont couvertes dès le niveau 2. De plus, un bilan annuel de prévention dentaire est inclus, ce qui est essentiel pour maintenir une bonne hygiène dentaire. La couverture inclut également des prescriptions non prises en charge par le régime obligatoire, comme les médicaments homéopathiques, offrant une approche plus naturelle à la santé, laquelle peut être attractive pour votre mode de vie proche de la nature."
+      }
+    ]
+  },
+  {
+    "scenario": 13,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Patrice",
+      "Age": 54,
+      "Sexe": "Homme",
+      "Profession": "Céréalier",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "13-1",
+        "question": "La nouvelle offre Groupama Santé mentionne des garanties pour les soins courants et les médecines douces. Quels sont les avantages de choisir un niveau de couverture supérieur pour ces soins, et comment cela pourrait-il m'aider à limiter mes dépenses de santé?",
+        "reponse_attendue": "Choisir un niveau de couverture supérieur pour les soins courants et les médecines douces vous offre un remboursement plus élevé sur les honoraires médicaux, par exemple jusqu'à 300% de la base de remboursement pour les médecins DPTAM en niveau 4. Cela signifie que les dépassements d'honoraires, qui peuvent être fréquents, seront mieux pris en charge, réduisant ainsi votre reste à charge. Pour les médecines douces, des niveaux plus élevés permettent plus de séances remboursées, ce qui est idéal si vous recourez souvent à des soins comme l'ostéopathie. En somme, avec une couverture supérieure, vous êtes mieux préparé à gérer des frais imprévus tout en gardant contrôle sur vos dépenses de santé."
+      },
+      {
+        "num_question": "13-2",
+        "question": "Comment l'offre de Groupama Santé peut-elle m'aider concrètement à gérer mes dépenses imprévues de santé si un accident m'immobilise et me rend incapable de travailler?",
+        "reponse_attendue": "L'offre Groupama Santé inclut des garanties d'assistance qui vous sont particulièrement bénéfiques en cas d'immobilisation. Vous pouvez bénéficier d'un service d'aide à domicile, incluant une aide ménagère jusqu'à 35 heures par an, ainsi qu'une garde à domicile pour enfants ou personnes dépendantes. De plus, la téléconsultation médicale est disponible pour vous éviter les déplacements inutiles. Enfin, grâce au service 'Relai Moi', vous pouvez transférer vos garanties d'assistance à un proche non assuré chez Groupama. Ces services vous permettent de réduire le stress financier lié aux imprévus tout en assurant une assistance quotidienne adaptée à vos besoins, ce qui est essentiel pour maintenir la continuité de votre exploitation agricole."
+      },
+      {
+        "num_question": "13-3",
+        "question": "Les garanties d'assistance incluent-elles des services adaptés pour moi en tant qu'agriculteur péri-urbain ?",
+        "reponse_attendue": "Oui, en tant qu'agriculteur, vous bénéficiez de services d'assistance qui prennent en compte vos spécificités. Par exemple, vous avez accès à la téléconsultation, ce qui est particulièrement utile si vous êtes dans une région où l'accès aux soins est limité. En cas d'immobilisation, nous proposons également un service de garde à domicile pour les enfants ou les personnes dépendantes, ainsi qu'une assistance pour la livraison de médicaments. Ces services sont conçus pour vous permettre de continuer à gérer votre exploitation avec le soutien nécessaire, même en cas de problème de santé."
+      },
+      {
+        "num_question": "13-4",
+        "question": "Est-ce que la nouvelle offre Groupama Santé inclut des services qui aident si je suis immobilisé chez moi pendant une longue période ?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé inclut effectivement des services d'assistance qui peuvent vous soutenir si vous êtes immobilisé. Vous pouvez bénéficier jusqu'à 35 heures par an d'aide ménagère, la garde de vos enfants ou d'une personne dépendante, ainsi que la livraison de repas et médicaments. De plus, le service unique 'RELAIMOI' vous permet de transférer l'une de vos garanties d'aide à domicile à un proche non assuré. Ces services sont conçus pour vous offrir un soutien complet pendant une période d'immobilisation."
+      },
+      {
+        "num_question": "13-5",
+        "question": "Comment l'assurance santé de Groupama peut-elle m'aider si je suis immobilisé à cause d'un accident et ne peux pas gérer mon exploitation agricole?",
+        "reponse_attendue": "L'offre d'assurance santé de Groupama propose une assistance santé à domicile qui inclut des services d'aide ménagère et de garde à domicile, jusqu'à 35 heures par an et par bénéficiaire. Cela peut alléger votre charge en vous permettant de vous concentrer sur votre rétablissement. De plus, le service 'Relai Moi' permet de transférer certaines garanties d'aide à un proche, même si celui-ci n'est pas assuré chez Groupama, pour soutenir votre exploitation durant votre immobilisation."
+      }
+    ]
+  },
+  {
+    "scenario": 14,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Hugo",
+      "Age": 45,
+      "Sexe": "Homme",
+      "Profession": "Eleveur de chevaux",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "14-1",
+        "question": "Je suis concerné par les aléas climatiques qui peuvent affecter mes revenus. Quel type de couverture ou de garantie Groupama Santé propose-t-elle pour aider à maintenir une certaine stabilité financière dans ce contexte difficile ?",
+        "reponse_attendue": "Groupama Santé offre des garanties d'assistance qui peuvent vous apporter un soutien en cas de maladie ou incapacité temporaire, notamment avec des aides pour la garde à domicile et la livraison de médicaments et repas. En termes de santé, vous pouvez bénéficier du dispositif Madelin si vous êtes travailleur indépendant, ce qui permet de déduire vos cotisations de vos revenus imposables, aidant ainsi à réduire votre charge fiscale. Cela peut offrir un peu de répit financier pendant les périodes où vos revenus sont affectés. De plus, le contrat solidaire ne requiert pas de questionnaire médical, assurant une cotisation qui ne dépend pas de votre état de santé, vous donnant ainsi une stabilité dans vos dépenses. Enfin, les téléconsultations médicales incluses vous permettent de consulter un médecin rapidement sans déplacement, ce qui est particulièrement avantageux si les problèmes climatiques compliquent l'accès aux soins."
+      },
+      {
+        "num_question": "14-2",
+        "question": "J'ai besoin de savoir si votre mutuelle propose des services pour m'aider à maintenir mon activité d'éleveur de chevaux en cas de problème de santé. Que proposez-vous exactement ?",
+        "reponse_attendue": "Groupama Santé propose des garanties d'assistance qui incluent des services conçus pour vous aider à maintenir votre activité professionnelle en cas de problème de santé. Parmi ces services, vous pouvez bénéficier d'une aide-ménagère jusqu'à 35 heures par année, d'une garde à domicile pour vos enfants ou personnes dépendantes, de la livraison de médicaments et de repas jusqu'à 300€ deux fois par an, et d'une assistance médicale, y compris le rapatriement en cas de problème de santé pendant un déplacement. Ces services sont opérés par Mutuaide Assistance et peuvent vous permettre de continuer à gérer votre exploitation pendant une période difficile."
+      },
+      {
+        "num_question": "14-3",
+        "question": "J'ai besoin de savoir si votre offre d'assurance santé inclut une aide financière en cas de baisse de revenus due à une incapacité temporaire ou permanente?",
+        "reponse_attendue": "Groupama Santé propose des garanties d'assistance qui incluent des services comme aide-ménagère et garde à domicile en cas d'incapacité temporaire. Cependant, pour la protection financière en cas d'incapacité permanente, nous recommandons notre offre de prévoyance qui complète la couverture santé pour sécuriser vos revenus. Cela vous permet de maintenir une stabilité financière même en cas de baisse de revenus liée à une incapacité. Je peux vous expliquer en détail comment cela fonctionne et comment cela pourrait répondre à vos besoins."
+      },
+      {
+        "num_question": "14-4",
+        "question": "Comment votre mutuelle peut-elle aider à garantir la continuité de mon activité si je tombe malade ?",
+        "reponse_attendue": "Groupama Santé propose des garanties d'assistance qui incluent des services d'aide ménagère et de garde à domicile, pouvant aller jusqu'à 35 heures par an, deux fois par an et par bénéficiaire. Vous pouvez bénéficier d'un soutien en cas de maladie pour assurer la continuité de votre activité. Notre service d'assistance opéré par Mutuaide vous offre aussi un accès aux téléconsultations médicales, permettant un suivi rapide et efficace sans déplacement, ce qui est précieux pour vous en tant qu'éleveur de chevaux. Ces services vous assurent que même en cas d'incapacité temporaire, votre exploitation peut continuer à fonctionner sans interruption."
+      },
+      {
+        "num_question": "14-5",
+        "question": "Comment puis-je m'assurer que ma mutuelle santé Groupama couvre suffisamment les consultations de médecine douce et les soins non pris en charge par l'assurance maladie obligatoire, tout en respectant un budget raisonnable?",
+        "reponse_attendue": "Chez Groupama, notre offre santé propose des niveaux de couverture pour la médecine douce qui vous permettent de choisir jusqu'à trois séances à 60 euros par an, selon votre niveau de couverture. En outre, pour les prescriptions non remboursées par l'assurance maladie obligatoire, comme l'homéopathie ou les vaccins, vous pouvez bénéficier d'un forfait allant jusqu'à 100 euros par an. Cela vous permet de couvrir une partie des frais tout en maîtrisant votre budget. Pour vous aider à choisir le niveau de couverture qui convient à vos besoins spécifiques et à votre budget, nous pouvons discuter de vos habitudes de soins et de votre budget lors de notre rendez-vous."
+      }
+    ]
+  },
+  {
+    "scenario": 15,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Etienne",
+      "Age": 50,
+      "Sexe": "Homme",
+      "Profession": "Maraîcher",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "15-1",
+        "question": "J'ai besoin d'une mutuelle qui pourrait m'assister si jamais je suis immobilisé. Que propose Groupama pour m'aider à assurer la continuité de mon activité en tant que maraîcher rural ?",
+        "reponse_attendue": "Groupama Santé inclut des garanties d'assistance qui sont particulièrement adaptées à votre profil. En cas d'immobilisation, vous pouvez bénéficier de services tels que l'aide ménagère jusqu'à 35 heures par année, la garde à domicile pour les enfants ou personnes dépendantes, ainsi que la livraison de médicaments et de repas. De plus, le service unique RELAIMOI vous permet de transférer une de vos garanties d'aide à domicile à un proche, même s'il n'est pas assuré chez Groupama. Ces assistances sont conçues pour vous aider à maintenir votre activité sans interruption, même en cas d'imprévu médical."
+      },
+      {
+        "num_question": "15-2",
+        "question": "Étant donné mon métier de maraîcher, j'ai besoin d'une mutuelle qui puisse m'accompagner si je suis immobilisé. Est-ce que votre offre propose des garanties spécifiques pour m'aider à assurer la continuité de mon activité ?",
+        "reponse_attendue": "Oui, Groupama Santé propose des garanties d'assistance qui peuvent tout à fait répondre à vos besoins en cas d'incapacité temporaire. Par exemple, vous avez accès à des services tels que l'aide ménagère, la garde à domicile pour vos enfants ou une personne dépendante, et la livraison de médicaments ou de repas. Ces services vous permettent de gérer certaines tâches essentielles pendant votre période d'immobilisation. De plus, le service unique RELAIMOI vous permet de transférer une de vos garanties d'aide à domicile à un proche immobilisé. Ces prestations sont incluses dans nos modules d'hospitalisation confort et assistance, et nous pouvons les adapter à votre situation avec différents niveaux de couverture pour mieux vous soutenir dans la continuité de votre activité."
+      },
+      {
+        "num_question": "15-3",
+        "question": "Avec l'offre Groupama Santé, si je suis immobilisé à cause d'un problème de santé, est-ce que cela inclut des aides qui peuvent m'aider à gérer mon exploitation agricole sans interruption?",
+        "reponse_attendue": "Oui, l'offre Groupama Santé inclut une assistance qui couvre divers services utiles en cas d'immobilisation. Vous pouvez bénéficier d'une aide-ménagère jusqu'à 35 heures par an, deux fois par an, et d'une garde à domicile pour enfants ou personnes dépendantes. De plus, le service 'RelaiMoi' permet de transférer une de vos garanties d'aide à domicile à un proche immobilisé, même s'il n'est pas assuré chez Groupama. Ces services sont conçus pour vous aider à maintenir la continuité de votre opération agricole lors de soucis de santé."
+      },
+      {
+        "num_question": "15-4",
+        "question": "Je suis maraîcher et si je suis immobilisé, cela pourrait vraiment impacter mon exploitation. L'assurance santé de Groupama propose-t-elle des services qui pourraient m'aider à minimiser les perturbations dans mon activité en cas de souci de santé ?",
+        "reponse_attendue": "Oui, Groupama propose un ensemble de services d'assistance qui peuvent être très bénéfiques pour votre situation. En cas d'immobilisation à domicile, vous pouvez bénéficier d'un service d'aide-ménagère jusqu'à 35 heures par an, d'une garde à domicile pour vos enfants ou personnes dépendantes, ainsi que de la livraison de médicaments et de repas. De plus, le service 'RELAIMOI' vous permet de transférer une partie de vos garanties à un proche non assuré chez Groupama. Ces services sont conçus pour assurer la continuité de votre activité en cas de problème de santé, minimisant ainsi les perturbations sur votre exploitation."
+      },
+      {
+        "num_question": "15-5",
+        "question": "Je suis très pressé et je cherche une offre qui me permet d'être remboursé rapidement sans démarches administratives compliquées. Est-ce que votre mutuelle offre des solutions de remboursement simple et rapide ?",
+        "reponse_attendue": "Chez Groupama Santé, nous proposons le service du tiers payant généralisé, qui vous permet d'être dispensé de l'avance de frais de santé pour les actes pris en charge par l'assurance maladie obligatoire. Cela signifie que vous n'avez pas besoin de remplir des formulaires compliqués pour obtenir vos remboursements. De plus, notre application mobile 'Groupama et moi' vous permet de suivre l'état de vos remboursements facilement et d'envoyer des documents directement en ligne, ce qui simplifie grandement les démarches administratives et accélère le processus de remboursement."
+      }
+    ]
+  },
+  {
+    "scenario": 16,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Hugo",
+      "Age": 45,
+      "Sexe": "Homme",
+      "Profession": "Eleveur de chevaux",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "16-1",
+        "question": "Je suis concerné par les risques liés à mon métier d'éleveur de chevaux. Quels types d'examens médicaux spécifiques à ma profession sont couverts par votre assurance santé?",
+        "reponse_attendue": "Notre offre Groupama Santé peut couvrir les examens médicaux spécifiques à votre métier d'éleveur de chevaux, comme les examens liés aux troubles musculosquelettiques ou aux problèmes respiratoires dus à l'environnement rural. En choisissant le niveau de couverture adapté dans le module Médecine Douce, vous pouvez bénéficier de consultations chez des professionnels tels que les ostéopathes. De plus, les prescriptions non prises en charge par le régime obligatoire, comme certains traitements préventifs, peuvent également être remboursées selon le niveau de votre couverture. Cela vous permet d'adapter votre assurance santé aux risques particuliers de votre métier."
+      },
+      {
+        "num_question": "16-2",
+        "question": "Je suis éleveur de chevaux et mon métier comporte des risques spécifiques. Comment votre offre prend-elle en compte ces risques et couvre-t-elle les examens médicaux nécessaires?",
+        "reponse_attendue": "Notre offre Groupama Santé inclut des garanties qui couvrent les soins courants et spécialisés, y compris ceux liés à des conditions spécifiques nécessitant des examens médicaux. Pour les professions à risque, comme la vôtre, nos plans offrent des couvertures optimisées pour les soins paramédicaux et les médecines douces, qui peuvent être particulièrement utiles pour gérer les séquelles de blessures ou de maladies professionnelles. En outre, nous proposons des services d'assistance, tels que des téléconsultations, qui permettent une prise en charge rapide et adaptée à vos besoins, assurant ainsi la continuité de votre activité même en cas d'incident de santé."
+      },
+      {
+        "num_question": "16-3",
+        "question": "Quels sont les avantages de votre offre pour garantir la continuité de mon activité d'éleveur de chevaux, notamment en cas d'accident ou d'hospitalisation ?",
+        "reponse_attendue": "Groupama offre une série de garanties et de services d'assistance qui peuvent soutenir votre activité en cas de problème de santé. Notre contrat inclut une prise en charge immédiate des frais d'hospitalisation, avec des options de confort comme la chambre particulière, ainsi que des services d'assistance tels que l'aide-ménagère et la garde à domicile pour vous aider à gérer le quotidien durant votre récupération. De plus, le service 'Relaimoi' permet de transférer certaines garanties à un proche non assuré chez Groupama. Ces éléments vous permettent de continuer à gérer votre exploitation équine même en cas de difficultés médicales."
+      },
+      {
+        "num_question": "16-4",
+        "question": "Comment votre mutuelle peut-elle m'aider à assurer la continuité de mon exploitation de chevaux en cas de problème de santé ?",
+        "reponse_attendue": "Groupama Santé offre plusieurs solutions adaptées à votre situation pour assurer la continuité de votre exploitation. En cas d'incapacité temporaire, nous pouvons mettre à votre disposition une aide-ménagère jusqu'à 35 heures par an pour vous assister dans les tâches du quotidien. En cas de besoin, notre service de garde à domicile prendra en charge vos enfants ou toute personne dépendante sous votre responsabilité. De plus, notre contrat inclut une assistance médicale en déplacement qui peut être cruciale si vous êtes loin de votre exploitation. Notre service 'Relai Moi' vous permet de transférer certaines garanties d'aide à domicile à un proche non assuré chez Groupama. Avec ces solutions, vous pouvez être serein quant à la continuité de votre activité même en cas de soucis de santé."
+      },
+      {
+        "num_question": "16-5",
+        "question": "Étant donné les risques liés à mon métier d'éleveur, dois-je envisager une couverture spécifique pour les blessures graves ou accidents sur le lieu de travail avec votre mutuelle ?",
+        "reponse_attendue": "Chez Groupama Santé, vous pouvez bénéficier d'une couverture adaptée à vos besoins grâce aux garanties d'hospitalisation. Les frais médicaux liés aux accidents sont pris en charge dès le premier jour, y compris les honoraires de soins, les frais de séjour et le forfait journalier hospitalier. De plus, notre offre inclut des services d'assistance, comme le relai d'assurance pour couvrir des besoins urgents. Vous avez également accès à des téléconsultations et à un espace client sécurisé pour gérer vos remboursements facilement. Cette couverture vous permet de continuer à gérer votre exploitation en toute sérénité en cas de blessures ou d'accidents."
+      }
+    ]
+  },
+  {
+    "scenario": 17,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Nathalie",
+      "Age": 44,
+      "Sexe": "Femme",
+      "Profession": "Agricultrice",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "17-1",
+        "question": "Comment l'assurance santé de Groupama peut-elle m'aider à assurer la continuité de mon activité agricole si j'ai un souci de santé?",
+        "reponse_attendue": "Groupama Santé propose des services d'assistance qui peuvent aider à maintenir l'activité agricole en cas de problème de santé. Par exemple, l'assurance offre une aide-ménagère jusqu'à 35 heures par an pour gérer les tâches indispensables si vous êtes immobilisée. De plus, elle inclut la garde d'enfants ou de personnes dépendantes, jusqu'à 35 heures par an, ce qui pourrait être utile si vous devez vous reposer ou vous absenter. En cas de déplacement ou d'hospitalisation, l'assistance médicale et le rapatriement sont également inclus, garantissant que votre exploitation ne soit pas mise à mal. Ces services sont opérés par Mutuaide Assistance pour vous apporter un soutien complet."
+      },
+      {
+        "num_question": "17-2",
+        "question": "Etant agricultrice, je suis souvent exposée aux risques liés à mon métier comme les troubles musculosquelettiques ou l’exposition aux produits chimiques. Comment votre offre peut-elle m'aider à gérer ces risques spécifiques tout en assurant la continuité de mon activité?",
+        "reponse_attendue": "Notre offre Groupama Santé propose des services d'assistance qui peuvent être particulièrement utiles pour vous. En cas d'immobilisation due à des troubles musculosquelettiques ou à d'autres problèmes liés à l'exposition aux produits chimiques, vous pouvez bénéficier d’une aide ménagère jusqu’à 35 heures par an et de la garde à domicile pour vos enfants ou personnes dépendantes sous votre responsabilité. De plus, nous offrons la téléconsultation qui peut vous permettre d'obtenir des avis médicaux rapidement, sans nécessiter de déplacement. Ces services sont conçus pour vous aider à maintenir votre activité professionnelle en continu malgré les imprévus de santé. Enfin, notre réseau Sévéane vous assure des tarifs avantageux pour des équipements comme les prothèses dentaires et les aides auditives, réduisant ainsi vos frais de santé."
+      },
+      {
+        "num_question": "17-3",
+        "question": "Je suis agricultrice et je ne vois pas vraiment de risques dans mon activité qui justifient une mutuelle renforcée. Pourquoi devrais-je envisager de souscrire à un niveau de couverture élevé avec Groupama ?",
+        "reponse_attendue": "En tant qu'agricultrice, même si votre activité ne semble pas présenter de risques immédiats, il est important de considérer les imprévus qui pourraient affecter votre santé et votre capacité à travailler. Une couverture élevée chez Groupama vous offre une protection complète en cas de besoins médicaux soudains ou coûteux (comme des soins dentaires complexes ou des interventions chirurgicales) et vous assure de bénéficier des services d'assistance, tels que l'aide-ménagère en cas d'immobilisation. De plus, cela garantit la continuité de votre activité agricole avec des services comme le relai à domicile. Ainsi, vous êtes préparée à gérer toute situation en toute sérénité."
+      },
+      {
+        "num_question": "17-4",
+        "question": "Je suis agricultrice et souvent confrontée à des problèmes de santé liés à mon métier comme des douleurs musculaires ou des maux de dos. La médecine douce, comme l'ostéopathie, est-elle bien couverte dans votre nouvelle offre d'assurance santé ?",
+        "reponse_attendue": "Oui, la nouvelle offre Groupama Santé inclut la médecine douce dans son module spécifique. À partir du niveau 2, vous bénéficiez de 2 séances remboursées à hauteur de 50€, et ce nombre augmente avec le niveau de couverture. Cela pourrait parfaitement répondre à vos besoins en ostéopathie pour soulager vos douleurs liées à votre métier. De plus, nous offrons aussi des remboursements pour des prescriptions non prises en charge par le régime obligatoire, ce qui pourrait inclure des traitements homéopathiques ou des examens spécifiques comme l'ostéodensitométrie."
+      },
+      {
+        "num_question": "17-5",
+        "question": "Comment l'offre Groupama Santé peut-elle m'aider à assurer la continuité de mon activité agricole en cas de souci de santé ?",
+        "reponse_attendue": "L'offre Groupama Santé inclut des garanties d'assistance qui sont particulièrement adaptées à votre situation. En cas d'incapacité temporaire due à un accident ou une maladie, vous bénéficiez d'un service d'aide-ménagère pouvant aller jusqu'à 35 heures par an pour maintenir vos tâches quotidiennes. De plus, une garde à domicile pour vos enfants ou personnes dépendantes est également prévue, ainsi qu'une prise en charge des frais de livraison de repas et médicaments. Ces services vous permettent de continuer à gérer votre exploitation tout en bénéficiant du soutien nécessaire en cas de problème de santé. Le service 'RelaiMoi' offre également la possibilité de transférer vos garanties d'aide à un proche, afin d'assurer un soutien supplémentaire si besoin."
+      }
+    ]
+  },
+  {
+    "scenario": 18,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Manuel",
+      "Age": 42,
+      "Sexe": "Homme",
+      "Profession": "Eleveur de volailles",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "18-1",
+        "question": "L'offre Groupama Santé couvre-t-elle des conseils nutritionnels ou des consultations diététiques pour les agriculteurs, spécialement ceux comme moi travaillant en milieu rural?",
+        "reponse_attendue": "Oui, l'offre Groupama Santé inclut un accès à un site d'informations sur la nutrition ainsi qu'un forfait annuel pour couvrir une consultation diététique. Cela peut être particulièrement utile pour les agriculteurs comme vous, afin de maintenir une bonne santé et gérer les exigences de votre métier. De plus, vous avez accès à des services d'assistance pour simplifier votre quotidien."
+      },
+      {
+        "num_question": "18-2",
+        "question": "Je suis souvent en déplacement pour mon métier et les soins peuvent être difficiles à obtenir rapidement en zone rurale. La nouvelle offre Groupama Santé propose-t-elle un accès facilité aux téléconsultations médicales, et comment cela fonctionnerait avec les horaires irréguliers que j'ai ?",
+        "reponse_attendue": "Oui, la nouvelle offre Groupama Santé inclut l'accès à la téléconsultation médicale, accessible 24h/24 et 7j/7 pour répondre à vos besoins quels que soient vos horaires. Cela vous permet de consulter un médecin généraliste ou spécialiste en ligne avec une réponse rapide. Vous pouvez également bénéficier de jusqu'à 6 téléconsultations par an, ce qui est particulièrement adapté pour quelqu'un ayant un emploi du temps irrégulier comme le vôtre. Ce service peut être une solution pratique pour obtenir des soins sans avoir à vous déplacer."
+      },
+      {
+        "num_question": "18-3",
+        "question": "Est-ce que votre offre d'assurance santé prend en compte les besoins spécifiques des agriculteurs, comme la téléconsultation, vu que je suis souvent occupé et en déplacement ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut des services de téléconsultation qui sont accessibles 7 jours sur 7, permettant de consulter un médecin à distance, ce qui est idéal pour les agriculteurs avec des horaires contraignants. Cela vous offre la flexibilité nécessaire pour bénéficier de conseils médicaux sans avoir à vous déplacer, tout en étant couvert par votre assurance santé. Notre offre prend en compte la réalité de votre métier et facilite l'accès aux soins. Vous pourrez ainsi mieux gérer votre emploi du temps tout en prenant soin de votre santé."
+      },
+      {
+        "num_question": "18-4",
+        "question": "Est-ce que votre nouvelle offre d'assurance santé prend en compte les spécificités de mon métier d'éleveur de volailles, notamment en termes de couverture pour les troubles musculosquelettiques ?",
+        "reponse_attendue": "Oui, notre nouvelle offre Groupama Santé inclut des garanties adaptées pour les métiers physiques comme celui d'éleveur de volailles. Elle propose des services tels que les téléconsultations pour un accès rapide aux soins, et des remboursements pour les médecines douces qui peuvent être particulièrement utiles pour prévenir les troubles musculosquelettiques. Vous avez aussi une couverture pour les soins courants et les consultations avec des spécialistes qui peuvent aider à traiter ces troubles. L'outil d'aide à la vente vous permettra de visualiser et d'ajuster les garanties selon vos besoins personnels."
+      },
+      {
+        "num_question": "18-5",
+        "question": "La nouvelle offre Groupama Santé propose une couverture pour la médecine douce. Quelles sont les prestations couvertes par la mutuelle et quels sont les niveaux de remboursement pour ces soins ?",
+        "reponse_attendue": "La mutuelle Groupama Santé couvre les médecines douces, qui incluent les séances pratiquées par un professionnel de santé référencé dans le RPPS. Les niveaux de remboursement sont les suivants: Niveau 1 ne propose pas de remboursement; Niveau 2 offre le remboursement de 2 séances à 50€ chacune; Niveau 3 couvre 3 séances à 50€ chacune; et Niveau 4 rembourse 3 séances à 60€ chacune. Ce type de couverture est particulièrement adapté aux besoins spécifiques des clients qui souhaitent une prise en charge pour des soins non couverts par le régime obligatoire."
+      }
+    ]
+  },
+  {
+    "scenario": 19,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Patrice",
+      "Age": 54,
+      "Sexe": "Homme",
+      "Profession": "Céréalier",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "19-1",
+        "question": "Comment Groupama Santé peut-elle m'aider à limiter mes dépenses de santé tout en offrant une bonne couverture face aux imprévus, notamment avec des soins préventifs adaptés à mon métier de céréalier ?",
+        "reponse_attendue": "Groupama Santé offre une couverture flexible grâce à ses différents niveaux de garanties. Pour limiter vos dépenses, notre contrat responsable vous permet de bénéficier d'une fiscalité allégée. Concernant les soins préventifs, nous incluons des actes de prévention comme un bilan dentaire annuel et des consultations chez des diététiciens, qui peuvent être particulièrement utiles compte tenu des contraintes physiques liées à votre métier. De plus, l'accès à la téléconsultation facilite vos soins sans déplacements. Enfin, le dispositif RELAIMOI permet de transférer une assistance à un proche, ce qui peut s'avérer précieux pour votre famille en cas d'imprévu."
+      },
+      {
+        "num_question": "19-2",
+        "question": "En tant que céréalier, j'ai besoin d'une couverture qui inclut des soins préventifs pour prévenir les problèmes de santé liés à mon métier. Est-ce que votre offre inclut des consultations avec des professionnels comme des diététiciens et des pédicures podologues, et comment cela fonctionne-t-il ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut la possibilité de consultations avec des professionnels de santé tels que les diététiciens et les pédicures podologues, qui sont couverts à partir du niveau 2 du module 'Médecine Douce'. Cela vous permet de bénéficier de séances de prévention pour maintenir votre santé malgré les contraintes physiques de votre métier. Ces consultations peuvent être remboursées à hauteur de 50 € à 60 € par séance selon le niveau de couverture choisi, ce qui vous assure une prise en charge adaptée à vos besoins professionnels."
+      },
+      {
+        "num_question": "19-3",
+        "question": "Je suis céréalier et souvent en déplacement sur mes terres. Si je me blesse et ne peux pas conduire, est-ce que l'assurance santé de Groupama prend en charge le transport médical nécessaire ?",
+        "reponse_attendue": "Oui, Groupama Santé couvre les frais de transport médical en cas de besoin, dans la limite des frais réels. Pour les soins remboursés par le régime obligatoire, le niveau de prise en charge dépend de la couverture choisie, allant de 100% à 300% de la base de remboursement. Cela vous assure une prise en charge adaptée et complète pour vos déplacements en cas d'urgence médicale, vous permettant de vous concentrer sur votre rétablissement sans vous soucier des dépenses imprévues liées au transport médical."
+      },
+      {
+        "num_question": "19-4",
+        "question": "Est-ce que votre offre inclut une couverture pour les téléconsultations et, si oui, combien de téléconsultations sont incluses par an?",
+        "reponse_attendue": "Oui, notre offre inclut une couverture pour les téléconsultations. Vous avez accès à 6 téléconsultations par an et par bénéficiaire. Cela vous permet de consulter un médecin depuis chez vous, ce qui est particulièrement pratique si vous êtes situé dans une zone où l'accès aux soins est limité ou si vous avez des contraintes de temps. De plus, cela s'inscrit dans notre volonté de moderniser l'expérience client avec des solutions digitales adaptées."
+      },
+      {
+        "num_question": "19-5",
+        "question": "Comment Groupama garantit-elle le remboursement rapide des dépenses de santé sans démarches administratives compliquées, et spécifiquement pour les soins préventifs en lien avec mon activité de céréalier ?",
+        "reponse_attendue": "Groupama propose le service de tiers payant généralisé, qui permet d'éviter l'avance des frais pour les actes pris en charge par l'assurance maladie obligatoire, directement auprès des professionnels de santé. De plus, notre application 'Groupama et Moi' vous permet d'envoyer facilement des factures et de suivre l'état des remboursements. Pour les soins préventifs, comme le sevrage tabagique ou les bilans dentaires, ils sont pris en charge et vous pouvez consulter les remboursements directement dans votre espace client sécurisé. Cela vous offre une couverture complète et adaptée à votre style de vie, tout en simplifiant les processus administratifs."
+      }
+    ]
+  },
+  {
+    "scenario": 20,
+    "profile_client": "Agriculteur",
+    "personne": {
+      "Nom": "Manuel",
+      "Age": 42,
+      "Sexe": "Homme",
+      "Profession": "Eleveur de volailles",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "20-1",
+        "question": "Est-ce que votre contrat d'assurance santé chez Groupama inclut une couverture pour les soins préventifs, comme les consultations chez un ostéopathe ou les médicaments homéopathiques prescrits par un médecin ?",
+        "reponse_attendue": "Oui, notre contrat Groupama Santé inclut une couverture pour les soins préventifs. Les traitements de médecine douce, tels que les séances chez un ostéopathe et l'homéopathie, sont couverts à partir du niveau 2 de notre module Médecine Douce. Vous pouvez bénéficier de jusqu'à 3 séances remboursées par an à hauteur de 60 euros par séance au niveau 4, et un forfait pour les prescriptions non remboursées allant jusqu'à 100 euros au niveau 4."
+      },
+      {
+        "num_question": "20-2",
+        "question": "Je cherche une assurance santé qui pourrait m'offrir une couverture spécifique pour les accidents du travail liés à l'élevage de volailles. Quelle est l'offre adaptée à mon profil chez Groupama Santé ?",
+        "reponse_attendue": "Chez Groupama Santé, nous avons une offre qui inclut des garanties solides pour les soins courants et l'hospitalisation, ce qui est particulièrement adapté à votre besoin de couverture en cas d'accidents du travail. Notre contrat vous permet de bénéficier de remboursements pour les honoraires médicaux, les frais de séjour à l'hôpital, ainsi qu'un forfait de chambre particulière revalorisé pour une hospitalisation confortable. En cas d'immobilisation après un accident, vous pouvez aussi avoir accès à une aide-ménagère et des services de téléconsultation, ce qui est idéal pour assurer un suivi médical même à distance. Ces garanties sont regroupées dans notre module 'Hospitalisation et Assistance', qui est personnalisable en fonction de votre niveau de couverture choisi. Ainsi, vous pouvez être bien préparé pour faire face aux imprévus liés à votre activité professionnelle d'éleveur."
+      },
+      {
+        "num_question": "20-3",
+        "question": "Je sais que les soins préventifs sont importants pour moi en tant qu'éleveur de volailles, mais comment l'offre Groupama Santé couvre-t-elle spécifiquement ces soins préventifs ?",
+        "reponse_attendue": "Groupama Santé propose des garanties qui incluent des actes de prévention, tels que les bilans annuels de prévention dentaire et la prise en charge de vaccins. Pour les bénéficiaires de 55 ans et plus, il y a également des détartrages approfondis et des consultations chez des pédicures/podologues. Ces actes ont pour objectif de vous aider à rester en bonne santé et à prévenir les complications liées aux contraintes de votre métier. De plus, vous pouvez bénéficier d'un accès à un site d'informations sur la nutrition et recevoir un forfait pour une consultation diététique, ce qui est utile pour maintenir votre santé dans votre environnement de travail spécifique."
+      },
+      {
+        "num_question": "20-4",
+        "question": "Quelle est la couverture offerte par Groupama pour les soins préventifs, notamment les consultations chez un diététicien ou un pédicure-podologue, et comment cela peut m'aider à rester en bonne santé malgré les contraintes de mon métier ?",
+        "reponse_attendue": "Groupama Santé inclut une couverture pour les soins préventifs dans le module 'Médecine Douce'. À partir du niveau 2, vous bénéficiez de séances remboursées chez des diététiciens et pédicures-podologues, ce qui peut vous aider à maintenir votre santé malgré les contraintes physiques de l'élevage. Ces professionnels peuvent vous conseiller sur les meilleures pratiques pour prévenir les problèmes liés à votre activité, comme les troubles musculo-squelettiques. Cette couverture est particulièrement avantageuse pour anticiper et traiter les risques avant qu'ils ne deviennent des problèmes plus graves, vous permettant d'économiser sur les coûts futurs de santé et d'assurer une meilleure qualité de vie."
+      },
+      {
+        "num_question": "20-5",
+        "question": "Je suis un éleveur de volailles et je travaille avec des machines qui pourraient causer des blessures. Quelle couverture votre offre d'assurance santé propose-t-elle pour les accidents liés au travail ?",
+        "reponse_attendue": "Notre offre Groupama Santé inclut une couverture pour les accidents, y compris ceux liés au travail comme les blessures causées par des machines. Les soins médicaux nécessaires sont pris en charge selon les niveaux de garantie que vous choisissez. Vous pouvez bénéficier d'un remboursement des honoraires médicaux jusqu'à 400% de la base de remboursement pour les médecins avec DPTAM, selon le niveau choisi. De plus, l'assistance inclut l'aide-ménagère et la garde à domicile en cas d'incapacité temporaire. Cela assure que vous avez le soutien nécessaire pour reprendre vos activités le plus rapidement possible."
+      }
+    ]
+  },
+  {
+    "scenario": 21,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Stéphane",
+      "Age": 48,
+      "Sexe": "Homme",
+      "Profession": "Menuisier",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "21-1",
+        "question": "Est-ce que je peux être remboursé rapidement pour des frais médicaux, et comment fonctionne le système de tiers payant avec votre offre?",
+        "reponse_attendue": "Avec l'offre Groupama Santé, vous bénéficiez du système de tiers payant généralisé, ce qui signifie que vous n'avez pas besoin d'avancer les frais pour les actes pris en charge par l'assurance maladie obligatoire. De plus, Groupama s'engage à rembourser rapidement les dépenses couvertes, grâce à la dématérialisation des échanges et l'accès à l'espace client santé sécurisé où vous pouvez suivre vos remboursements. Cela simplifie les démarches administratives et vous assure un remboursement rapide et efficace."
+      },
+      {
+        "num_question": "21-2",
+        "question": "En tant qu'indépendant et avec une activité physique exigeante, j'ai des besoins spécifiques en médecine douce. Quels types de soins de médecine douce sont couverts par votre offre, et à quel niveau de remboursement puis-je en bénéficier?",
+        "reponse_attendue": "Notre offre Groupama Santé inclut un module 'Médecine Douce' qui couvre une variété de soins tels que l'ostéopathie, la chiropraxie, l'homéopathie, et plus, assurés par des professionnels de santé inscrits au répertoire ADELI ou RPPS. La couverture débute au niveau 2, avec un remboursement de 2 séances par an à hauteur de 50€ chacune, et augmente jusqu'à 3 séances à 60€ au niveau 4. Cela vous permet de choisir une couverture adaptée à la fréquence et au type de soins que vous souhaitez, tout en maîtrisant votre budget."
+      },
+      {
+        "num_question": "21-3",
+        "question": "Quels sont les avantages de la nouvelle offre Groupama Santé pour un indépendant comme moi, sachant que je recherche une mutuelle qui rembourse rapidement et efficacement sans démarches complexes ?",
+        "reponse_attendue": "Groupama Santé propose une offre flexible et adaptée aux indépendants comme vous, avec un accès facilité aux services de tiers payant, pour éviter toute avance de frais. Vous pourrez aussi bénéficier de téléconsultations médicales pour obtenir facilement des avis médicaux. Grâce au partenariat avec Sévéane, vous avez accès à des tarifs préférentiels pour l'optique et l'audiologie, réduisant ainsi le reste à charge. En plus, l'application mobile 'Groupama et moi' simplifie grandement les démarches en vous permettant de suivre facilement vos remboursements et de prendre rendez-vous en téléconsultation. Enfin, le contrat responsable et solidaire permet une fiscalité avantageuse et est particulièrement adapté aux besoins des travailleurs indépendants."
+      },
+      {
+        "num_question": "21-4",
+        "question": "La mutuelle propose-t-elle des remboursements rapides et sans démarches administratives complexes pour les soins courants ou paramédicaux ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut un système de tiers payant généralisé, ce qui signifie que vous n'avez pas besoin d'avancer les frais pour les soins remboursés par l'assurance maladie obligatoire. De plus, grâce à notre espace client numérique, vous pouvez suivre vos remboursements en temps réel et utiliser l'application pour envoyer directement vos factures ou devis. Cela simplifie vos démarches administratives et accélère le processus de remboursement."
+      },
+      {
+        "num_question": "21-5",
+        "question": "Comment la nouvelle offre de Groupama Santé prévoit-elle de me rembourser rapidement sans avoir à avancer les frais médicaux, particulièrement en tant qu'indépendant?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé inclut un service de tiers payant généralisé, qui vous permet de ne pas avancer les frais de santé auprès des professionnels qui acceptent ce dispositif. Cela signifie que vous n'avez pas besoin d'attendre le remboursement, car les frais sont pris en charge directement par votre complémentaire santé. Cette fonction est particulièrement avantageuse pour les indépendants qui souhaitent éviter les démarches administratives supplémentaires et gérer efficacement leurs dépenses de santé."
+      }
+    ]
+  },
+  {
+    "scenario": 22,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Stéphane",
+      "Age": 48,
+      "Sexe": "Homme",
+      "Profession": "Menuisier",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "22-1",
+        "question": "En tant que menuisier, je suis souvent soumis au stress. Quelle couverture propose votre mutuelle pour les thérapies stress-relief comme l'ostéopathie ou la psychothérapie?",
+        "reponse_attendue": "Notre offre Groupama Santé inclut des séances de médecines douces telles que l'ostéopathie et la psychothérapie, à partir du niveau 2 de couverture. Vous bénéficierez ainsi de deux à trois séances remboursées par an, selon le niveau choisi, avec un remboursement allant jusqu'à 60€ par séance. Cette couverture vous permet de prendre soin de votre bien-être mental et physique sans vous soucier du coût."
+      },
+      {
+        "num_question": "22-2",
+        "question": "Est-ce que votre mutuelle couvre les thérapies liées au stress comme la psychothérapie ou l'hypnothérapie?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut des séances de médecine douce telles que la psychothérapie et l'hypnothérapie. Vous pouvez bénéficier de plusieurs séances par an, selon le niveau de couverture choisi dans le module Médecine Douce. Pour le niveau 2, par exemple, vous avez droit à 2 séances remboursées à hauteur de 50 € chacune. Cela répond spécifiquement aux besoins de nos clients qui, comme vous, sont exposés à des situations de stress et recherchent des solutions adaptées."
+      },
+      {
+        "num_question": "22-3",
+        "question": "Est-ce que votre mutuelle couvre les séances de thérapie contre le stress, comme l'acupuncture ou la psychothérapie, et jusqu'à quel montant par an ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut un module Médecine Douce qui couvre les séances de thérapie telles que l'acupuncture et la psychothérapie. Selon le niveau de couverture choisi, vous pouvez bénéficier de 2 à 3 séances par an avec un remboursement allant de 50 à 60 euros par séance. Cela permet d'adapter la couverture à vos besoins en matière de gestion du stress."
+      },
+      {
+        "num_question": "22-4",
+        "question": "Je suis souvent confronté au stress en tant que menuisier. Est-ce que votre offre couvre des thérapies comme l'ostéopathie ou l'hypnothérapie qui pourraient m'aider à le gérer ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut un module Médecine Douce qui prend en charge des séances de thérapies telles que l'ostéopathie, l'hypnothérapie, et bien d'autres. Dès le niveau 2, vous pouvez bénéficier de 2 séances à 50€, et cette couverture augmente avec les niveaux supérieurs. C'est une solution idéale pour gérer le stress et améliorer votre bien-être quotidien."
+      },
+      {
+        "num_question": "22-5",
+        "question": "Comment fonctionne le remboursement des thérapies de médecine douce, comme l'ostéopathie ou l'acupuncture, avec la mutuelle santé Groupama ?",
+        "reponse_attendue": "Avec Groupama Santé, les thérapies de médecine douce telles que l'ostéopathie, l'acupuncture, et autres sont remboursées selon le niveau de garantie que vous choisissez. À partir du niveau 2, vous bénéficiez de 2 séances remboursées à 50 € chacune, avec une augmentation progressive pour les niveaux supérieurs. Si vous optez pour le niveau 4, vous aurez 3 séances couvertes à 60 € chacune par an et par bénéficiaire. Ce soutien peut être particulièrement utile pour gérer le stress, un point important pour vous en tant que menuisier, et vous permet d'accéder à des soins spécialisés sans avoir à avancer des frais significatifs. Cette offre est conçue pour être flexible et s'adapter à vos besoins spécifiques, vous offrant ainsi une couverture personnalisée et complète."
+      }
+    ]
+  },
+  {
+    "scenario": 23,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Yasmina",
+      "Age": 45,
+      "Sexe": "Femme",
+      "Profession": "Graphiste",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "23-1",
+        "question": "La nouvelle offre Groupama Santé mentionne plusieurs blocs de garanties, notamment Médecine Douce et Optique & Audiologie. Pouvez-vous expliquer comment la couverture de ces blocs est adaptée aux besoins spécifiques des personnes travaillant en freelance, comme moi, qui pourraient avoir des dépenses irrégulières sur ces types de soins?",
+        "reponse_attendue": "L'offre Groupama Santé est conçue pour être très flexible et s'adapter aux besoins variés des freelances comme vous. Pour le bloc Médecine Douce, il y a des niveaux de couverture qui permettent de bénéficier de séances de médecines douces, comme l'ostéopathie, pris en charge jusqu'à trois fois par an selon le niveau choisi. Cela offre une flexibilité pour ajuster la couverture à vos besoins, notamment si vous prévoyez des dépenses irrégulières. Pour le bloc Optique & Audiologie, vous avez des options pour choisir entre des verres et montures intégralement remboursées via le réseau Sévéane ou des remboursements par forfait pour des achats hors réseau, offrant ainsi une solution adaptable à votre situation financière et géographique. Avec le système modulaire et plusieurs niveaux de couverture, vous avez la possibilité de personnaliser votre assurance en fonction de vos priorités santé, tout en bénéficiant du tiers payant chez les partenaires Sévéane pour éviter l'avance de frais."
+      },
+      {
+        "num_question": "23-2",
+        "question": "Pouvez-vous m'expliquer comment la nouvelle offre Groupama Santé prend en charge les soins préventifs, notamment pour les médecines douces et les consultations de diététiciens?",
+        "reponse_attendue": "Bien sûr Yasmina. La nouvelle offre Groupama Santé inclut des prestations pour les médecines douces à partir du niveau 2, offrant la prise en charge de séances pratiquées par des professionnels de santé référencés dans le RPPS. Vous pouvez bénéficier de jusqu'à 60€ par séance selon le niveau choisi. De plus, à partir du niveau 2 de médecine douce, les consultations de diététiciens et pédicures-podologues sont couvertes, ce qui vous permet d'adapter votre mutuelle à vos besoins préventifs spécifiques. Ainsi, vous pouvez rester en bonne santé malgré les contraintes de votre métier, avec une couverture ajustée à vos besoins. En outre, le service est rapide et vous permet de gérer vos remboursements et consultations via des interfaces digitales performantes."
+      },
+      {
+        "num_question": "23-3",
+        "question": "Pouvez-vous expliquer comment la réactivité du service est garantie avec votre nouvelle offre d'assurance santé, surtout pour quelqu'un comme moi qui vit en rural et a des contraintes temporelles importantes?",
+        "reponse_attendue": "Chez Groupama Santé, nous avons mis en place un système dédié pour garantir une réactivité optimale. Premièrement, notre application mobile 'Groupama et moi' permet de gérer rapidement vos remboursements et de consulter vos remboursements à tout moment. Pour les consultations médicales, nous avons intégré un service de téléconsultations accessible 24/7, vous permettant de consulter des médecins sans vous déplacer. De plus, nous offrons le service unique RELAIMOI qui vous permet de transférer vos garanties d'assistance à un proche, ce qui peut être très utile en cas d'urgence. Enfin, notre réseau Sévéane vous assure une prise en charge immédiate dans les soins optiques et audiologiques sans avance de frais. Ces outils et services sont conçus pour faciliter votre quotidien et s'adapter à votre emploi du temps chargé, tout en assurant une grande efficacité, même en zone rurale."
+      },
+      {
+        "num_question": "23-4",
+        "question": "Je suis à la recherche de soins préventifs pour éviter les problèmes liés à mon travail de graphiste. Pouvez-vous me préciser quelles garanties de médecine douce Groupama propose, et comment elles pourraient m'aider ?",
+        "reponse_attendue": "Chez Groupama, notre offre santé inclut des garanties de médecine douce qui peuvent être particulièrement bénéfiques pour votre profil en tant que graphiste. Nous proposons, selon le niveau de couverture choisi, un remboursement pour des séances de médecines douces telles que l'ostéopathie, la chiropraxie ou l'acupuncture. Par exemple, aux niveaux 2 à 4, vous pouvez bénéficier de plusieurs séances remboursées, jusqu'à 60€ par séance. Ces pratiques peuvent aider à prévenir et soulager les tensions musculaires et les problèmes posturaux souvent associés à votre métier. De plus, nous couvrons également les prescriptions non remboursées par le régime obligatoire, avec des forfaits allant jusqu'à 100€ pour des traitements comme l'homéopathie ou l'examen d'ostéodensitométrie, ce qui peut contribuer à votre bien-être général. Ces options vous permettent d'adapter votre couverture santé en fonction de vos besoins spécifiques tout en assurant une prévention efficace."
+      },
+      {
+        "num_question": "23-5",
+        "question": "Étant donné que je suis graphiste et que je passe beaucoup de temps devant l'écran, est-ce que votre mutuelle couvre les consultations optométriques pour vérifier ma vue, et les lunettes de correction si besoin ?",
+        "reponse_attendue": "Oui, notre mutuelle couvre les consultations optométriques et les lunettes de correction. Pour votre profil, la nouvelle offre Groupama Santé propose une couverture complète en optique. Les frais pour les verres et montures sont pris en charge selon le niveau de couverture choisi, et vous pouvez bénéficier d'une prise en charge intégrale des verres dans la sélection Sévéane, dès le niveau de couverture 2. De plus, vous aurez accès à des réductions importantes chez les opticiens partenaires du réseau Sévéane, ce qui vous permet de maîtriser votre budget tout en obtenant des équipements de qualité."
+      }
+    ]
+  },
+  {
+    "scenario": 24,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Giulia",
+      "Age": 37,
+      "Sexe": "Femme",
+      "Profession": "Coiffeuse",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "24-1",
+        "question": "Je suis coiffeuse, donc souvent debout et je sollicite beaucoup mes bras. Quelle couverture propose votre mutuelle pour l'ostéopathie et les médecines douces ?",
+        "reponse_attendue": "Pour les médecines douces comme l'ostéopathie, notre mutuelle propose des remboursements allant de 2 séances à 50€ au niveau 2 jusqu'à 3 séances à 60€ au niveau 4 par an. Cela vous permet de bénéficier d'un soutien préventif adapté à votre activité professionnelle. N'hésitez pas à choisir le niveau qui correspond le mieux à vos besoins."
+      },
+      {
+        "num_question": "24-2",
+        "question": "Comment Groupama assure-t-il des délais rapides pour la prise de rendez-vous avec des spécialistes, ce qui est essentiel pour moi en tant que coiffeuse pressée ?",
+        "reponse_attendue": "Groupama Santé facilite la prise de rendez-vous rapides grâce à notre service de téléconsultation accessible 24/7. Vous pouvez consulter un médecin spécialiste en ligne, souvent en moins de 24 heures. De plus, notre réseau de partenaires Sévéane offre un accès simplifié aux professionnels de santé, vous permettant de bénéficier d'avantages comme le tiers payant, sans avance de frais. Cela vous garantit une prise en charge efficace et rapide, idéale pour votre emploi du temps chargé."
+      },
+      {
+        "num_question": "24-3",
+        "question": "En tant que coiffeuse, j'ai souvent des douleurs musculaires et je m'intéresse beaucoup à la médecine douce. Votre mutuelle couvre-t-elle les séances de médecine douce, et si oui, à quel niveau de remboursement puis-je prétendre ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé couvre les séances de médecine douce. À partir du niveau 2, vous bénéficiez de 2 séances remboursées à hauteur de 50€ chacune par an. Le niveau 3 offre 3 séances à 50€ chacune, et le niveau 4 propose 3 séances à 60€ chacune. Cela peut être très avantageux pour vous, notamment en tant que coiffeuse, où les soins tels que l'ostéopathie peuvent aider à soulager les douleurs liées à votre activité professionnelle."
+      },
+      {
+        "num_question": "24-4",
+        "question": "Est-ce que votre offre permet une prise en charge rapide des consultations avec des spécialistes, surtout en cas de dépassements d'honoraires ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé propose une prise en charge des consultations avec des spécialistes, y compris en cas de dépassements d'honoraires, grâce aux dispositifs de pratique tarifaire maîtrisée (DPTAM). Selon le niveau de couverture choisi, vous pouvez bénéficier d'un remboursement allant jusqu'à 300% de la base de remboursement pour les médecins conventionnés. Cela vous assure un accès rapide aux soins, même en dehors du parcours de soins coordonnés."
+      },
+      {
+        "num_question": "24-5",
+        "question": "Est-ce que votre offre permet de bénéficier d'une prise de rendez-vous rapide avec des spécialistes, et comment cela fonctionne-t-il?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut l'accès à des téléconsultations médicales, disponibles 7j/7, permettant de bénéficier d'une consultation en ligne par un médecin généraliste ou spécialiste en moins de 24 heures. Ce service est accessible facilement via votre espace client sécurisé et assure une réponse rapide à vos demandes, facilitant ainsi l'accès aux soins sans attendre des semaines pour voir un spécialiste."
+      }
+    ]
+  },
+  {
+    "scenario": 25,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Thibault",
+      "Age": 60,
+      "Sexe": "Homme",
+      "Profession": "Chef d'entreprise dans le bâtiment",
+      "Localisation": "Péri-urbain"
+    },
+    "questions": [
+      {
+        "num_question": "25-1",
+        "question": "Je suis souvent soumis au stress en tant que chef d'entreprise dans le bâtiment. Est-ce que votre offre couvre les thérapies liées au stress, comme l'hypnothérapie ou la psychothérapie?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut des couvertures pour la médecine douce, qui comprennent l'hypnothérapie et la psychothérapie, à condition que le praticien soit un professionnel de santé inscrit au répertoire ADELI ou RPPS. Selon le niveau de garantie choisi, vous pouvez bénéficier de plusieurs séances par an. Cela pourrait être un excellent moyen de gérer le stress lié à votre profession."
+      },
+      {
+        "num_question": "25-2",
+        "question": "Comment la mutuelle Groupama Santé gère-t-elle les remboursements des thérapies de médecine douce, telles que l'hypnothérapie ou la psychothérapie, pour un chef d'entreprise stressé comme moi?",
+        "reponse_attendue": "La mutuelle Groupama Santé inclut la couverture des thérapies de médecine douce au sein de son module 'Médecine Douce'. Vous pouvez bénéficier de jusqu'à trois séances de médecine douce par an, remboursées à 60€ chacune avec le Niveau 4 de couverture, pour des séances pratiquées par des professionnels de santé inscrits au répertoire ADELI ou RPPS. Cela permet de mieux gérer le stress lié à votre activité professionnelle intense. Cette offre est conçue pour s'adapter à vos besoins spécifiques, offrant flexibilité et possibilité de personnalisation pour que vous puissiez choisir le niveau de couverture le plus adapté à votre situation."
+      },
+      {
+        "num_question": "25-3",
+        "question": "Est-ce que votre mutuelle santé Groupe Groupama couvre les thérapies contre le stress, comme l'hypnothérapie ou la psychologie, et si oui, à quel niveau de remboursement cela correspond-il?",
+        "reponse_attendue": "Oui, notre mutuelle Groupama Santé couvre les thérapies contre le stress, telles que l'hypnothérapie et la psychologie, sous le module 'Médecine Douce'. À partir du niveau 2, nous proposons le remboursement de deux séances par an à hauteur de 50€ chacune. Le niveau 3 permet trois séances à 50€ et le niveau 4 trois séances à 60€. Pour la psychologie, si elle est référencée par le régime obligatoire, elle est couverte dans les 'Soins Courants' à partir de 100% BR au niveau 1, jusqu'à 300% BR au niveau 4. Cette couverture est particulièrement adaptée pour répondre aux besoins liés à la gestion du stress."
+      },
+      {
+        "num_question": "25-4",
+        "question": "Pouvez-vous m'expliquer comment votre mutuelle pourrait me aider à gérer le stress lié à mon travail, et si les thérapies comme la psychologie ou l'acupuncture sont couvertes?",
+        "reponse_attendue": "Chez Groupama, nous comprenons que le stress lié à votre travail dans le bâtiment peut nécessiter des solutions adaptées. Notre offre inclut les médecines douces parmi lesquelles figurent les séances de psychologie et d'acupuncture, remboursées à partir du niveau 2 de couverture. Vous bénéficiez ainsi de 2 à 3 séances remboursées selon le niveau choisi, ce qui peut contribuer à mieux gérer votre stress. De plus, notre assistance inclut la téléconsultation pour une accessibilité immédiate et un suivi médical facilité. Cela vous permet de prendre soin de votre santé mentale tout en bénéficiant d'un réseau de professionnels qualifiés."
+      },
+      {
+        "num_question": "25-5",
+        "question": "La couverture des thérapies adaptées au stress, comme l'hypnothérapie, est-elle incluse dans votre mutuelle santé et comment cela fonctionne-t-il?",
+        "reponse_attendue": "Oui, notre mutuelle santé Groupama intègre la couverture des thérapies telles que l'hypnothérapie dans le cadre du module 'Médecine Douce'. Selon le niveau de couverture choisi, vous pouvez bénéficier de 2 à 3 séances remboursées à hauteur de 50 à 60 euros par séance par an. Cela vous offre une flexibilité pour choisir des thérapies adaptées à votre situation professionnelle et personnelle. En tant que chef d'entreprise exposé au stress, ces options peuvent être particulièrement bénéfiques pour votre bien-être."
+      }
+    ]
+  },
+  {
+    "scenario": 26,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Giulia",
+      "Age": 37,
+      "Sexe": "Femme",
+      "Profession": "Coiffeuse",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "26-1",
+        "question": "Est-ce que l'assurance santé Groupama couvre des thérapies comme l'hypnothérapie ou la psychothérapie qui pourraient m'aider à gérer le stress lié à mon travail de coiffeuse ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut des remboursements pour des séances de psychothérapie et d'hypnothérapie, à condition que le praticien soit un professionnel de santé inscrit au répertoire ADELI ou RPPS. Selon le niveau de garantie choisi, vous pouvez bénéficier chaque année de plusieurs séances remboursées. Cela vous permettra d'accéder à des services adaptés pour mieux gérer le stress lié à votre activité professionnelle."
+      },
+      {
+        "num_question": "26-2",
+        "question": "Est-ce que votre mutuelle couvre les thérapies qui peuvent m'aider à gérer le stress, comme l'hypnothérapie ou la psychothérapie?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut des séances de médecine douce, telles que l'hypnothérapie et la psychothérapie, pratiquées par des professionnels de santé inscrits au RPPS. Selon le niveau de couverture choisi, vous pouvez bénéficier de 2 à 3 séances par an avec un remboursement allant jusqu'à 60€ par séance. Cela pourrait vous aider à mieux gérer votre stress tout en étant couverte par votre mutuelle."
+      },
+      {
+        "num_question": "26-3",
+        "question": "La gestion des remboursements en tiers payant est-elle vraiment simplifiée avec votre nouvelle offre, et comment cela m'aiderait dans mon quotidien stressant de coiffeuse avec des revenus variables?",
+        "reponse_attendue": "Oui, la gestion des remboursements en tiers payant est largement simplifiée avec notre nouvelle offre. Avec le tiers payant, vous n'avez pas besoin d'avancer les frais pour les actes pris en charge par l'assurance maladie obligatoire, ce qui vous permet de mieux gérer votre budget et évite les surprises financières. Pour une professionnelle comme vous, cela signifie moins de stress lié aux paiements immédiats, et vous pouvez vous concentrer sur votre travail sans vous soucier des dépenses imprévues. C'est également flexible pour vos revenus variables, car cela stabilise vos coûts de santé mensuels. En cas de besoin, vous pouvez gérer tout cela facilement via notre application mobile, ce qui vous offre un accès rapide et pratique aux informations sur vos remboursements."
+      },
+      {
+        "num_question": "26-4",
+        "question": "Je suis souvent stressée par mon travail et je me demande si cette mutuelle inclut la couverture des séances de psychologie ou de thérapies pour le stress ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut la couverture des séances de psychologie dans le module Médecine Douce, à partir du niveau 2 jusqu'au niveau 4. Vous pourrez bénéficier de remboursements allant jusqu'à 60 € par séance pour trois séances annuelles, ce qui peut vous aider à gérer le stress lié à votre métier. Ces consultations doivent être pratiquées par un professionnel de santé référencé dans le RPPS. Cela vous assure une prise en charge adaptée à vos besoins de bien-être."
+      },
+      {
+        "num_question": "26-5",
+        "question": "Je travaille souvent sous pression et j'aimerais savoir si votre assurance santé propose une couverture pour les séances de psychothérapie ou autres thérapies de gestion du stress?",
+        "reponse_attendue": "Notre offre Groupama Santé inclut un module 'Médecine Douce' qui couvre des séances de psychothérapie, d'hypnothérapie, et d'autres thérapies de gestion du stress. À partir du niveau 2, vous bénéficiez de 2 séances à hauteur de 50 € chacune, et ce montant augmente avec les niveaux. Ainsi, vous pourrez adapter cette garantie à vos besoins spécifiques et optimiser votre couverture selon votre situation professionnelle et personnelle."
+      }
+    ]
+  },
+  {
+    "scenario": 27,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Giulia",
+      "Age": 37,
+      "Sexe": "Femme",
+      "Profession": "Coiffeuse",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "27-1",
+        "question": "Groupama propose-t-il une couverture pour les soins préventifs comme les consultations chez un diététicien ou un pédicure-podologue, étant donné que je souhaite maintenir ma santé malgré les contraintes de mon métier ?",
+        "reponse_attendue": "Oui, notre offre Groupama Santé inclut une couverture pour les soins préventifs. À partir du niveau 2 du module 'Médecine Douce', vous pouvez bénéficier du remboursement des consultations chez les diététiciens et pédicures-podologues. Cela vous permet de mieux prendre soin de votre santé et de prévenir les problèmes liés à votre métier de coiffeuse, qui peut être exigeant sur le plan physique. Ces soins sont couverts à hauteur de 50 euros par séance, et jusqu'à 3 séances sont remboursées par an au niveau 3, offrant ainsi une flexibilité et une adaptation à vos besoins spécifiques de santé préventive."
+      },
+      {
+        "num_question": "27-2",
+        "question": "Comment votre offre d'assurance santé pourrait-elle m'aider à rester en bonne santé malgré les contraintes de mon métier de coiffeuse ?",
+        "reponse_attendue": "Notre offre Groupama Santé est conçue pour s'adapter à votre profil et votre métier de coiffeuse. Elle inclut un module dédié à la médecine douce qui permet de couvrir des séances avec des professionnels de santé référencés, comme les ostéopathes ou les diététiciens, ce qui peut être très bénéfique pour prévenir les douleurs physiques liées à votre activité. De plus, vous pouvez bénéficier d'un forfait de remboursement pour des prescriptions non prises en charge par l'assurance maladie, comme des traitements homéopathiques et des moyens contraceptifs. Ces couvertures vous aideront à maintenir une bonne santé tout en limitant vos dépenses. Enfin, l'accès à des téléconsultations et à notre réseau Sévéane pour bénéficier de tarifs avantageux sur des équipements optiques et audiologiques peut aussi être pertinent pour vous."
+      },
+      {
+        "num_question": "27-3",
+        "question": "Quels types de soins préventifs sont couverts par votre mutuelle pour les personnes comme moi, qui exercent un métier exigeant physiquement ?",
+        "reponse_attendue": "Chez Groupama, notre mutuelle inclut plusieurs actes de prévention pour vous aider à rester en bonne santé. Nous proposons un bilan annuel de prévention dentaire, un forfait pour les vaccins et les traitements anti-paludéens, ainsi que des séances de médecine douce telles que l'ostéopathie ou la chiropraxie. De plus, nous couvrons les consultations diététiques pour ceux qui souhaitent optimiser leur bien-être. Ces garanties vous permettent de prendre soin de votre santé sur le long terme, tout en étant adaptées aux contraintes de votre métier de coiffeuse."
+      },
+      {
+        "num_question": "27-4",
+        "question": "Quels sont les avantages spécifiques de votre mutuelle Groupama Santé pour les indépendants comme moi, notamment en matière de gestion des risques liés à mon métier de coiffeuse ?",
+        "reponse_attendue": "Groupama Santé offre une flexibilité et une couverture adaptée aux besoins des travailleurs indépendants comme vous. Nos garanties incluent la médecine douce, qui peut prendre en charge les séances d'ostéopathie et autres soins préventifs, essentiels pour gérer les contraintes physiques de votre métier. De plus, avec notre contrat solidaire et responsable, vous bénéficiez d'une fiscalité allégée grâce à la loi Madelin, permettant de déduire vos cotisations santé de vos revenus imposables. Nos services inclus, comme l'accès à des téléconsultations et une couverture étendue sans avance de frais via le réseau Sévéane, assurent une gestion simplifiée de votre santé. Enfin, notre offre est modulable avec 6 blocs de garanties, vous permettant de choisir le niveau de couverture qui correspond précisément à vos besoins professionnels et personnels."
+      },
+      {
+        "num_question": "27-5",
+        "question": "Je suis souvent debout et cela me cause des douleurs aux pieds. Est-ce que votre offre couvre les consultations chez un pédicure-podologue ?",
+        "reponse_attendue": "Oui, Groupama Santé inclut les pédicures-podologues dans les professions couvertes à partir du niveau 2 du module Médecine Douce. Vous pourrez bénéficier de séances remboursées par an, vous permettant de vous assurer que vos pieds restent en bonne santé malgré les contraintes de votre métier. C'est une couverture idéale pour limiter les douleurs liées à votre activité professionnelle."
+      }
+    ]
+  },
+  {
+    "scenario": 28,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Luis",
+      "Age": 28,
+      "Sexe": "Homme",
+      "Profession": "Plombier chauffagiste",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "28-1",
+        "question": "Comment l'assurance santé de Groupama peut-elle m'aider à ne pas payer pour des services que je n'utiliserai que peu, si le coût est un facteur majeur pour moi ?",
+        "reponse_attendue": "Groupama Santé propose une offre modulaire qui permet d'ajuster votre couverture selon vos besoins réels grâce à ses 6 blocs de garanties et 4 niveaux de couverture. Cela signifie que vous pouvez choisir une couverture minimale pour les services que vous utilisez rarement, tout en bénéficiant d'une couverture plus élevée pour les soins essentiels à votre activité de plombier chauffagiste. De plus, l'offre inclut des outils digitaux performants pour gérer facilement vos opérations, afin de vous assurer une utilisation efficace de vos garanties sans coûts superflus. Ainsi, vous ne payez que pour ce qui est réellement nécessaire pour vous."
+      },
+      {
+        "num_question": "28-2",
+        "question": "Comment est-ce que Groupama Santé s'assure que ses services de prévention répondent bien aux besoins spécifiques des professionnels comme moi, qui ont une activité prenante et qui nécessitent une réactivité en cas de problème de santé ?",
+        "reponse_attendue": "Groupama Santé propose des services conçus pour répondre aux besoins des professionnels actifs tels que vous. Notre offre inclut des téléconsultations médicales accessibles 7j/7, permettant une réponse rapide sans besoin de déplacement. Nous offrons également un forfait de médecine douce pour des pratiques telles que l'ostéopathie et l'homéopathie, qui sont souvent recherchées par les professionnels pour maintenir leur bien-être. De plus, nos services de tiers-payant généralisé et nos outils digitaux facilitent la gestion de votre contrat et améliorent la réactivité en matière de remboursement et de suivi médical."
+      },
+      {
+        "num_question": "28-3",
+        "question": "En tant que plombier chauffagiste, je suis souvent en déplacement. Quelle est la réactivité de votre service pour la prise en charge de mes soins, notamment en cas d'urgence médicale ?",
+        "reponse_attendue": "Chez Groupama, nous mettons un point d'honneur à offrir un service réactif pour les soins urgents. Vous bénéficiez du tiers payant généralisé, ce qui signifie que vous n'avez pas besoin d'avancer vos frais de santé chez les professionnels partenaires, comme les médecins généralistes ou spécialistes, dentistes, opticiens et audioprothésistes. De plus, notre service de téléconsultation vous permet de consulter un médecin en ligne 7 jours sur 7, avec une réponse en moins de 24 heures. Cela assure une prise en charge rapide, même en situation de déplacement. Pour les urgences médicales, notre garantie d'assistance santé est accessible dans le monde entier, couvrant les frais médicaux non remboursés jusqu'à 11 000 € par événement, sous certaines conditions. Ainsi, vous pouvez être sûr que votre santé est entre de bonnes mains, où que vous soyez."
+      },
+      {
+        "num_question": "28-4",
+        "question": "Comment votre offre d'assurance santé de Groupama est-elle structurée pour répondre aux besoins spécifiques d'un plombier chauffagiste, comme moi, qui recherche une couverture adaptée mais économique ?",
+        "reponse_attendue": "Chez Groupama, notre offre santé est conçue pour offrir une flexibilité optimale tout en s'adaptant aux besoins précis de nos clients. Pour un plombier chauffagiste comme vous, nous proposons une structure de garantie en plusieurs modules, permettant de personnaliser votre couverture. Les principaux modules incluent les Soins Courants, Médecine Douce, Optique & Audiologie, Dentaire, Hospitalisation, et Hospitalisation Confort. Chaque module est disponible en quatre niveaux de couverture, offrant un équilibre entre coût et protection. Cela vous permet de choisir une couverture qui correspond à votre utilisation réelle des services de santé, évitant ainsi de payer pour des services inutilisés. De plus, nos solutions incluent des services de téléconsultation et d'assistance, facilitant votre accès aux soins, même avec un emploi du temps chargé. Les avantages de tiers payant et les partenariats avec le réseau Sévéane pour des réductions sur l'optique et l'audiologie sont également disponibles, ce qui contribue à réduire les coûts globaux et à offrir une solution économique et efficace."
+      },
+      {
+        "num_question": "28-5",
+        "question": "Quels sont les services de prévention spécifiques dont je pourrais bénéficier en tant que plombier chauffagiste avec votre offre ?",
+        "reponse_attendue": "Groupama Santé inclut des services de prévention adaptés à votre profil. Avec l'offre, vous avez accès à des bilans de prévention dentaire annuels, des consultations diététiques, et des moyens contraceptifs prescrits. De plus, vous bénéficiez d'un forfait pour les vaccins prescrits qui peuvent être utiles dans votre profession où vous êtes souvent en mouvement. Ces services de prévention sont conçus pour vous aider à maintenir votre santé et votre activité professionnelle avec efficacité."
+      }
+    ]
+  },
+  {
+    "scenario": 29,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Yasmina",
+      "Age": 45,
+      "Sexe": "Femme",
+      "Profession": "Graphiste",
+      "Localisation": "Rural"
+    },
+    "questions": [
+      {
+        "num_question": "29-1",
+        "question": "Comment votre mutuelle Groupama Santé gère-t-elle les remboursements rapides et efficaces, surtout pour les professions avec peu de temps pour les consultations médicales comme la mienne ?",
+        "reponse_attendue": "Chez Groupama Santé, nous avons mis en place un système de tiers payant généralisé pour vous éviter l'avance de frais lors de vos consultations médicales, ce qui accélère le processus de remboursement. De plus, notre application 'Groupama et moi' vous permet de suivre vos remboursements en temps réel et de soumettre facilement des documents pour traitement. En cas de besoin de téléconsultation, celle-ci est disponible 24/7, optimisant ainsi votre temps sans la nécessité de rendez-vous en cabinet. Nos outils numériques et notre partenariat avec le réseau Sévéane garantissent aussi des avantages tarifaires chez de nombreux professionnels de santé, simplifiant et accélérant le processus de remboursement."
+      },
+      {
+        "num_question": "29-2",
+        "question": "Je suis graphiste avec des horaires irréguliers et je n'ai pas beaucoup de temps pour aller chez le médecin. Comment la nouvelle offre de Groupama Santé pourrait m'aider à gérer mes soins de santé sans trop de contraintes ?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé inclut jusqu'à 6 téléconsultations annuelles par bénéficiaire, ce qui vous permet de consulter un médecin en ligne à votre convenance, sans déplacement. Elle offre également des services comme la livraison de médicaments et de repas, et des consultations facilitées grâce à un réseau de professionnels de santé partenaires, ce qui peut être très pratique pour gérer vos soins rapidement et efficacement. De plus, l'application mobile Groupama et moi vous permet de suivre vos remboursements, de localiser des professionnels de santé à proximité, et de prendre des rendez-vous directement en ligne."
+      },
+      {
+        "num_question": "29-3",
+        "question": "Comment la nouvelle offre Groupama Santé peut-elle garantir un remboursement rapide et efficace des frais médicaux, sachant que je ne peux pas me permettre d'être malade trop longtemps?",
+        "reponse_attendue": "La nouvelle offre Groupama Santé propose des services de téléconsultation avec accès rapide à des médecins généralistes et spécialistes, vous permettant ainsi de consulter rapidement sans déplacement. De plus, l'assistance est opérée par Mutuaide, garantissant une prise en charge dès le 1er jour de l'hospitalisation et un traitement fluide des remboursements grâce à notre espace client santé sécurisé où vous pouvez suivre vos remboursements en temps réel. Ces éléments sont conçus pour minimiser les délais et assurer une continuité de soins efficace."
+      },
+      {
+        "num_question": "29-4",
+        "question": "Est-ce que votre mutuelle rembourse rapidement les frais pour des soins préventifs comme les séances de médecine douce ?",
+        "reponse_attendue": "Oui, notre mutuelle rembourse efficacement les frais de médecine douce. Les séances pratiquées par des professionnels référencés sont couvertes à partir du niveau 2 de notre garantie 'Médecine Douce', avec un remboursement allant jusqu'à 60€ par séance au niveau 4. De plus, notre système de tiers payant permet de simplifier et d'accélérer les processus de remboursement, vous évitant ainsi l'avance de frais pour de nombreux actes médicaux. Cela est particulièrement avantageux pour gérer vos contraintes rapidement et vous permettre de vous concentrer sur votre bien-être."
+      },
+      {
+        "num_question": "29-5",
+        "question": "Je travaille souvent sur mon ordinateur et cela affecte ma vue. Comment votre offre Groupama Santé peut-elle m'aider à gérer les frais liés à la correction de ma vue, en particulier pour des lunettes ou des lentilles?",
+        "reponse_attendue": "Dans le cadre de l'offre Groupama Santé, nous proposons des garanties spécifiques pour l'optique qui incluent à la fois les verres et les montures. Si vous choisissez un opticien membre du réseau Sévéane, vous bénéficiez de la prise en charge intégrale des verres parmi leur sélection. Pour les montures, nous offrons un remboursement allant jusqu'à 100 € au niveau 4. De plus, si vous optez pour des lentilles, nous avons des forfaits allant jusqu'à 155 € par an en fonction du niveau choisi. Ces garanties vous assurent une couverture optimale pour vos besoins en correction visuelle, tout en vous permettant de bénéficier de tarifs avantageux chez nos partenaires."
+      }
+    ]
+  },
+  {
+    "scenario": 30,
+    "profile_client": "ACPS",
+    "personne": {
+      "Nom": "Giulia",
+      "Age": 37,
+      "Sexe": "Femme",
+      "Profession": "Coiffeuse",
+      "Localisation": "Urbain"
+    },
+    "questions": [
+      {
+        "num_question": "30-1",
+        "question": "Je suis coiffeuse avec des horaires parfois irréguliers, et il m'arrive d'avoir des revenus fluctuants selon les saisons. Existe-t-il une option dans votre offre d'assurance santé qui pourrait me permettre de bénéficier de services de prévention sans avoir à m'engager systématiquement dans des frais élevés chaque mois?",
+        "reponse_attendue": "Chez Groupama, notre offre santé est conçue pour être flexible et s'adapter aux besoins individuels, ce qui est idéal pour des professions avec des revenus variables comme la vôtre. Nous proposons des garanties de prévention qui incluent des consultations de médecine douce comme l'ostéopathie à partir du niveau 2, ainsi que de la prévention dentaire. De plus, notre système de cotisation est modulable et vous permet de choisir les blocs de garantie selon votre budget, ainsi vous pouvez adapter votre couverture en fonction de vos besoins et de vos revenus mensuels. Cela vous permet de bénéficier de la prévention sans avoir à engager des frais élevés chaque mois."
+      },
+      {
+        "num_question": "30-2",
+        "question": "Est-ce que l'offre Groupama Santé propose une option pour ajuster la couverture en fonction de mes revenus variables comme cela arrive souvent dans mon activité de coiffeuse?",
+        "reponse_attendue": "Oui, l'offre Groupama Santé est conçue pour être modulable et adaptable à vos besoins spécifiques, y compris vos fluctuations de revenus. Elle permet de choisir parmi 6 modules de garanties avec 4 niveaux de couverture chacun, ce qui vous offre la flexibilité nécessaire pour ajuster votre couverture en fonction de vos besoins et de votre situation financière. Vous pouvez consulter vos garanties et ajuster votre contrat directement depuis l'espace client Groupama, assurant ainsi une gestion optimisée et adaptée à vos revenus variables."
+      },
+      {
+        "num_question": "30-3",
+        "question": "Je suis coiffeuse et mes revenus peuvent varier beaucoup d'un mois à l'autre. Existe-t-il une option dans votre offre qui permet de moduler les cotisations en fonction de mes revenus ou d'autres éléments pour plus de flexibilité ?",
+        "reponse_attendue": "Groupama offre une complémentaire santé solidaire, ce qui signifie que les cotisations ne dépendent pas de votre état de santé. Bien que nous n'ayons pas une option spécifique pour moduler les cotisations mensuellement, notre contrat est conçu pour être flexible. Vous pouvez ajuster les niveaux de couverture selon vos besoins et la structure de votre budget, ce qui vous permet de gérer vos dépenses santé efficacement. De plus, les outils digitaux disponibles facilitent le suivi et les ajustements de votre contrat."
+      },
+      {
+        "num_question": "30-4",
+        "question": "Je travaille souvent de longues heures debout, donc ma santé doit être bien protégée. Comment votre assurance santé peut-elle m'aider à prévenir les problèmes musculo-squelettiques qui pourraient surgir avec mon métier de coiffeuse?",
+        "reponse_attendue": "Notre offre Groupama Santé inclut des soins de médecine douce, tels que l'ostéopathie, pour vous aider à prévenir et gérer les problèmes musculo-squelettiques. Vous pouvez bénéficier de séances remboursées par des professionnels de santé inscrits au répertoire ADELI ou RPPS. De plus, à partir du niveau 2 de couverture du module Médecine Douce, vous avez un accès à des consultations de diététiciens et pédicures-podologues, ce qui peut contribuer à votre bien-être général. Ainsi, vous pouvez adapter votre couverture en fonction de vos besoins spécifiques pour un soutien optimal."
+      },
+      {
+        "num_question": "30-5",
+        "question": "Quels services de prévention adaptés propose l'offre Groupama Santé pour les personnes comme moi qui souhaitent maintenir leur activité professionnelle en bonne santé?",
+        "reponse_attendue": "Groupama Santé met à votre disposition un ensemble de services de prévention pour vous aider à maintenir votre santé. Vous avez accès à des téléconsultations, jusqu'à six par an, permettant une consultation rapide avec un médecin sans quitter votre domicile. De plus, l'offre inclut des bilans annuels de prévention dentaire et des consultations de médecine douce, comme l'ostéopathie, pour vous offrir des soins complémentaires. Ces services sont conçus pour réduire les risques de santé et vous aider à continuer votre activité professionnelle de manière optimale."
+      }
+    ]
+  }
+]

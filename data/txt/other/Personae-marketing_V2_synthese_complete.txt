@@ -1,0 +1,2357 @@
+SYNTHÈSE COMPLÈTE DU DOCUMENT: Personae-marketing_V2.pdf
+================================================================================
+
+Document original: data/in/pdf/Personae-marketing_V2.pdf
+Date d'analyse: 2025-05-05 13:16:01
+
+
+
+====================================================================================================
+
+Personae santé marketing
+Comprendre nos prospects et nos clients en santé et leur proposer une offre (garanties / services) adaptée avec des preuves différenciantes et attractives
+Source majeure : enquête MOAI 2021
+
+Groupama
+
+==================================================
+
+PROMESSE INTERNE
+UNE LIGNE DIRECTRICE POUR LES EQUIPES PROJET
+
+Chez Groupama, les clients sont accompagnés par leurs conseillers santé pour bénéficier d’une couverture adaptée à leurs besoins, avec des services innovants et de prévention, en toute simplicité.
+
+Univers à faire infuser dans le parcours client:
+- Accompagnement client: Je veux être accompagné au quotidien et dans les moments importants. Que mon conseiller puisse m’épauler et répondre à mes demandes car il me connait bien.
+- La réponse interne à apporter: DEVENIR CHAMPION DE L’ACCOMPAGNEMENT CLIENT
+
+Tableau:
+{
+  "1": {
+    "Conseil/Qualité": {
+      "Ce dont le client a besoin": "Je veux un interlocuteur unique, en capacité de répondre à mes interrogations, de me guider dans le choix d’une protection globale.",
+      "La réponse interne à apporter": "Notre force actuelle, des conseillers uniques & experts avec une démarche 360. Une prestation omnicanale qualitative."
+    }
+  },
+  "2": {
+    "Simplicité/ Lisibilité": {
+      "Ce dont le client a besoin": "Je souhaite comprendre ce pourquoi je souscris, être informé de mes remboursements et bénéficier facilement de services liés à mon contrat.",
+      "La réponse interne à apporter": "Rendre l’offre toujours plus compréhensible pour le client, améliorer la fluidité et facilité de gestion, l’information aux clients."
+    }
+  },
+  "3": {
+    "Personnalisation Besoin/budget": {
+      "Ce dont le client a besoin": "Je veux une complémentaire me correspondant, s’adaptant à mon budget, ma situation familiale et mes besoins évoluant dans le temps.",
+      "La réponse interne à apporter": "Proposer le meilleur rapport garanties/conseil/prix en fonction des profils. Avoir un suivi performant permettant une adaptabilité selon les moments de vie."
+    }
+  },
+  "4": {
+    "Bien-être et Prévention": {
+      "Ce dont le client a besoin": "Je veux plus qu’une simple couverture, des services qui me permettent de rester en bonne santé, de m’offrir le plus qui fait la différence.",
+      "La réponse interne à apporter": "Se différencier sur la durée, s’axer sur une mutuelle sur la santé plutôt que sur la maladie, posséder un avantage concurrentiel."
+    }
+  },
+  "5": {
+    "Accompagnement client dans le parcours de soins": {
+      "Ce dont le client a besoin": "J’ai besoin d’une prise en charge optimale de mes soins, avec des conseils avisés, qu’on me communique des informations transparentes liées à ma prise en charge et aux services dont je peux disposer. Je veux suivre mes remboursements de près.",
+      "La réponse interne à apporter": "Permettre des démarches simples de demandes de prise en charge, fournir un suivi de proximité des demandes, et communiquer de façon claire sur les garanties / services consommés."
+    }
+  }
+}
+
+==================================================
+
+ENSEIGNEMENTS GÉNÉRIQUES
+
+ZOOM PROFILS
+- Environ la moitié des actifs qui souscrivent à l’offre santé Groupama sont issus de la fonction publique.
+- Les retraités choisissent leur complémentaire au moment où ils passent réellement à la retraite (juste avant ou juste après).
+- Les motifs de changements principaux de contrat santé sont : des motifs liés aux tarifs et aux remboursements (cotisations jugées trop élevées, en augmentation, niveau de remboursement perçu comme insuffisant), mais aussi pour un regroupement de contrats chez un même assureur.
+- La majorité des souscripteurs sont ou étaient déjà clients de Groupama avant leur souscription (enquête MOAI 2021). Près de 6 adhérents santé / 10 avaient déjà détenu un contrat avec Groupama, avec une prédominance de contrats Auto et Habitation, et à moindre mesure des contrats GAV et santé en individuel et collectif.
+- Parmi les moins de 30 ans aujourd’hui clients Groupama, 6/10 avaient des parents adhérents chez Groupama au moment de leur souscription, dont une large part en santé (59%). La recommandation de l’entourage quant à elle joue davantage pour les plus jeunes tranches d’âge et les étudiants.
+
+ZOOM PARCOURS
+- C’est avant tout la proximité géographique d’une agence qui pousse les adhérents à consulter Groupama pour leur mutuelle, en particulier sur les tranches d’âge les plus avancées, suivie par le regroupement de contrats, et la notoriété de Groupama en santé (principalement sur les plus âgés).
+- Le canal de souscription privilégié reste l’agence pour les 3/4 des répondants, un canal plus prisé par les plus de 55 ans plus adeptes de contacts en présentiel. Les plus jeunes privilégient aussi l’agence mais font davantage usage du mail, d’internet et du téléphone pour souscrire.
+- 43% des clients avaient souscrit un autre contrat (Automobile, Habitation, GAV principalement) en même temps que leur complémentaire santé, avec une moyenne de 2,1 contrats signés simultanément. À l’inverse les 18-44 ans, les étudiants, les personnes seules, sans enfants ou en recherche d’emploi sont plus enclins à signer la complémentaire seule.
+- Les clients qui résilient un contrat chez Groupama attendent pour beaucoup qu’on tente de les retenir (majoritairement avec un avantage tarifaire) mais cela peut aussi se traduire par du relationnel, la valorisation des avantages du contrat,...
+
+ZOOM SERVICES
+- Plus de 7 répondants sur 10 sont intéressés par un bilan optique et dentaire gratuit via le réseau de soins (18 – 54 ans).
+- Espace client : 58,4% des équipés santé ont à ce jour sont actifs sur leur Espace Client. Plus les clients sont multi-équipés Santé + autre risque, plus ils sont actifs. Les nouveaux clients ont un taux d’activité plus élevé (enquête selfcare Groupama).
+- Les assurés santé se tournent principalement vers leur conseiller commercial pour leurs questions liées au contrat (remboursement ou hors remboursement). (EAF Santé 2021)
+- Les services tels que le réseau de soins et l’aide à domicile sont peu connus et quand ils sont connus, peu utilisés.
+- Le manque de reconnaissance de la fidélité de nos clients est un irritant majeur identifié.
+
+==================================================
+
+LES SEGMENTS ÉTUDIÉS
+
+- 18 – 29 ANS Slide 5
+- 30 – 44 ANS Slide 9
+- 45 – 54 ANS Slide 13
+- AIDANT / AIDE Slide 17
+- TRAVAILLEUR NON SALARIE Slide 32
+- 55 – 64 ANS Slide 21
+- 65 – 74 ANS Slide 26
+- 75 ANS ET + Slide 30
+- EXPLOITANT AGRICOLE Slide 34
+- PREVENTION ET RSE Slide 35
+
+Appétences et attentes (enseignements MOAI majoritairement)
+Moments de vie : opportunités de communication, services, offres commerciales
+Parcours (enseignements MOAI)
+A retenir
+
+==================================================
+
+LES 18 – 29 ANS ALIAS « JEUNES ACTIFS » – APPETENCES ET ATTENTES
+
+RELATION AVEC GROUPAMA
+- La majorité d’entre eux sont déjà assurés chez Groupama et avaient un parent assuré chez Groupama.
+
+MOTIF DE CHANGEMENT DE MUTUELLE
+- Montant de la cotisation trop élevé
+- Changement de situation
+- Regroupement des contrats chez un même assureur : recherche de simplicité de gestion
+
+ACTUS ET SUJETS D’INTERETS
+- Précarité alimentaire : plus d’un étudiant sur 2 ne mange pas à sa faim ➔ bien manger pour être en bonne santé
+- Priorité aux études et à l’emploi sur la santé
+- Manque de connaissance du système de santé
+- Augmentation des problématiques de santé mentale chez les jeunes
+- Comment être performant en entretien d’embauche
+- Trouver sa 1ère location, s’installer en ménage, la colocation
+
+USAGES DIGITAUX
+- Peuvent changer régulièrement d’opérateurs, difficile à fidéliser
+- Un service client en ligne accessible 24/24, 7/7 avec réponse rapide
+- Sensibles aux communications sur les réseaux sociaux : formats très courts, jeu sur les émotions, effet de buzz
+- Tout doit être dématérialisé : intérêt pour les docs dispo en ligne ou hors connexion
+- Souhaitent de la transparence et de l’adaptabilité à leurs besoins
+- Vont en ligne consulter des blogs, des témoignages, des vidéos de personnes vivant la même chose qu’eux
+- Les clients digitaux recommandent 2 fois moins l’offre Santé de Groupama et sont moins satisfaits.
+
+STYLE DE VIE
+- Très mobiles
+- Veulent aller vite et droit au but : tout, tout de suite
+
+LES REMBOURSEMENTS PLEBISCITES POUR ETRE BIEN COUVERT
+Ce qu’ils regardent le plus dans les remboursements par ordre de priorité :
+1. Soins dentaires
+2. Optique
+3. Hospi (dépassements d’honoraires)
+4. Médecines douces (ostéopathie majoritairement, psychothérapie puis homéopathie)
+5. Pharmacie
+6. Hospi (chambre particulière)
+
+CRITERE DECISIF POUR CHOISIR GROUPAMA
+1. L’offre (rapport prix / couverture) avec plus d’importance accordée aux promotions que les autres tranches d’âge
+2. Image et fidélité : importance majeure de la recommandation dans le choix
+3. Relationnel et proximité : moins important que pour les autres tranches d’âge
+
+LES SERVICES LES PLUS INTERESSANTS (selon étude MOAI)
+- L’espace client pour suivi des remboursements
+- La téléconsultation : Les 20 – 30 ans sans enfant sont la population qui utilisent majoritairement Qare.
+- L’attestation de tiers-payant disponible hors connexion sur l’application
+- Le réseau de soins
+- Le simulateur de remboursements
+- L’ostéopathie
+- Appli de bien-être (méditation, relaxation, conseils allergie, maux de dos,…)
+- Service en ligne pour me permettre d’évaluer mes symptômes
+- Soutien psychologique
+- Essayer mes lunettes en ligne
+
+==================================================
+
+LES 18 – 29 ANS ALIAS « JEUNES ACTIFS » – MOMENTS DE VIE ET SERVICES
+
+Moments de vie:
+- Je passe le permis
+- J’ai le BAC
+- Je ne suis plus couvert en santé sur la mutuelle de mes parents
+- J’achète ma 1ère voiture
+- Je loue pour la 1ère fois un appartement
+- Je voyage : études, missions civiques, loisirs
+- Je change de couverture santé
+- J’entame des études supérieures
+- Je recherche du travail
+- Je commence mon 1er travail
+- J’ai des troubles anxio dépressifs
+- Je change de travail
+- J’achète pour la 1ère fois une maison
+- Je me blesse au sport et suis hospitalisé.
+
+Communication:
+- Plusieurs cibles de communication :
+  - Les 18 – 29 ans, étudiants ou actifs
+  - La jeune génération pivot (45 – 54 ans) dont la priorité est de favoriser la prise d’autonomie de leurs enfants
+- Opportunités de communication :
+  - Diplômes : BAC, licence, MASTER,...
+  - Obtention du permis de construire
+  - J’achète la voiture, je déménage
+  - Étudiants et jeunes actifs
+  - Voyage d’études
+  - ...
+- Axe : Bons plans, bons conseils
+- Le 2ème RDV suite à souscription Santé : « construisez votre vie en toute confiance et BIEN ACCOMPAGNE »
+
+Services:
+- Rapatriement (voyage)
+- Coaching nutrition, sport
+- Bilans dentaire et optique gratuit
+- Les Gestes qui Sauvent (suite à obtention du permis de conduire)
+- Téléconsultation
+- Consultations psy
+- Moneytrack (bien intégré dans le parcours)
+- Panier fruits / légumes pour lutter contre la précarité alimentaire
+- Tchatbot Espace client
+- Transport
+- Valoriser l’espace client et les fonctionnalités digitales : ATPG hors connexion, accès à Qare, suivi des remboursements.
+
+Offres commerciales:
+- Les offre complémentaires
+  - Habitation : profil locataire
+  - Auto : cf LOA / LLD
+  - Desirio
+- Bonus fidélité (selon critères d’équipement et d’ancienneté du jeune ou des parents du jeune (pour bonifier la relation du pivot également))
+  - En séance supplémentaire psy
+  - Appli de sport offerte
+  - Bonus sur le remboursement des médecines douces
+  - Forfait de remboursement sur la pharmacie non prise en charge
+  - Augmentation de la prise en charge optique
+
+==================================================
+
+LES 18 – 29 ANS ALIAS « JEUNES ACTIFS » – VISION PARCOURS
+
+Changement de situation
+
+LA RECHERCHE D’INFORMATIONS
+Se fait en agence, en consultant l’entourage, par internet et par téléphone. Contrairement aux autres tranches d’âge, ils utilisent les comparateurs en ligne. Ont plutôt confiance dans les « néo-assureurs, et sont plus sensibles aux fonctionnalités digitales Tchatbot, appli. »
+
+LA COMPARAISON
+Pour comparer les offres, les jeunes ont besoin de consulter leur entourage. Ils consultent les comparateurs d’offres mais aussi les blogs, sites d’informations, témoignages avant de se décider.
+
+POURQUOI SE SONT-ILS RENSEIGNÉS SUR GROUPAMA ?
+- Une agence près de chez moi
+- Recommandation de l’entourage
+- Déjà client Groupama
+- Plus sensibles aux promotions que chez les autres tranches d’âge
+- Top 5 des autres assureurs consultés (devis) : MAAF, MACIF, AXA, Harmonie Mutuelle, Crédit Agricole.
+
+RAPPORT À GROUPAMA
+La plupart connaissent déjà Groupama, par leurs parents ou parce qu’ils sont déjà assurés chez Groupama sur un autre risque. Ils attendent une prise de parole forte sur l’écosystème Groupama, de façon très synthétique : les points forts de leur assurance, les services et avantages de leurs contrats.
+
+CONNEXION À L’ESPACE CLIENT
+Les clients qui souscrivent sur le digital activent davantage leur Espace client dans la 1ère année qui suit la souscription.
+
+ENJEU DE RÉTENTION
+61% des résiliations des moins de 40 ans concerne un autre motif que le départ à la concurrence. (Etude résiliations santé et 2021)
+
+Enjeu de multi-équiper les moins de 40 ans de moins de 4 ans d’ancienneté, notamment ceux qui risquent de résilier pour adhérer à un contrat collectif : 46% des clients santé de moins de 40 ans qui ont résilié en 2021 vers la concurrence ne détenaient qu’un contrat santé.
+
+1. PRISE DE CONSCIENCE
+Ils consultent leurs parents assurés chez Groupama. Souvent, les parents accompagnent leurs enfants en leur rendant service et en allant chercher les informations propres au changement de couverture santé. Adressons-nous aux parents !
+
+2. SOUSCRIPTION
+LA SOUSCRIPTION
+Le canal agence privilégié : 65% (plus chez les 30 – 44 ans à 57%)
+- Téléphone
+- Email
+
+AUTRES CONTRATS SOUSCRITS
+- 7 sur 10 souscrivent généralement leur contrat santé seul.
+- 3 sur 10 souscrivent au moins un autre contrat en même temps : MRH, Auto ou GAV.
+
+LES FONCTIONNALITÉS
+Importance de la signature électronique, décisive. Tout en ligne, sans rupture de canal. Assistance en ligne souhaitée pour bien comprendre les démarches à faire.
+
+3. NOUVEAU CLIENT
+
+4. VIE DU CONTRAT
+
+5. RÉSILIATION
+
+FONCTIONNALITÉS
+Automatisation dans les réponses et le traitement des documents.
+
+==================================================
+
+LES 18 – 29 ANS ALIAS « JEUNES ACTIFS » A RETENIR
+
+Jeune actif, il consacre peu de temps à sa santé. Il est amateur de bons plans pour économiser du temps et de l’argent.
+
+Il demande des conseils à son entourage, sa famille, ses amis, consulte internet pour faire son choix de complémentaire santé.
+
+Mobinaute.
+
+Souhaite une expérience client sans rupture de canal, et des réponses 7/7 24/24. Très à l’aise avec le « tout dématérialisé » pour avoir « tout, tout de suite ». Ses parents sont certainement assurés chez Groupama.
+
+Même si son contrat est récent, il souhaite être traité comme un VIP.
+
+A l’habitude de fournir des données personnelles pour bénéficier d’un service.
+
+Il va vivre de grands changements en quelques années et construire sa vie petit à petit : nouvelle voiture, nouvel appartement en location, projet de couples,...
+
+Augmentation des problématiques de santé mentale chez les jeunes. 37% des 18-24 ans ont déjà consulté un psychologue.
+
+AXE : BONS PLANS, BONS CONSEILS
+
+==================================================
+
+LES 30 – 44 ANS ALIAS « JEUNES FAMILLES » – APPETENCES ET ATTENTES
+
+RELATION AVEC GROUPAMA
+- La majorité d’entre eux sont déjà assurés chez Groupama. C’est la population qui attend le plus de service conseil, notamment via un contact humain.
+
+MOTIF DE CHANGEMENT DE MUTUELLE
+- Montant de la cotisation trop élevé
+- Changement de situation professionnelle ou personnelle : garanties plus adaptées ➔ divorce, entrée de vie en couple, mariage, arrivée d’un enfant, perte d’emploi, conjoint qui a changé d’employeur ou de statut
+- Regroupement des contrats chez un même assureur : recherche de simplicité de gestion
+
+SUJETS D’INTERET
+- Jeunes parents : bien se nourrir et prendre soin de soi pendant la grossesse, diversification alimentaire bébé, trouver un moyen de garde, comment contrer la maladie chez les jeunes enfants (bronchiolite, gastro, varicelle,...), calendrier des vaccins, comment trouver un pédiatre et dans quels cas aller aux urgences
+- Trouver des informations fiables sur la santé des enfants
+- Comment réussir à garder du temps pour prendre soin de soi (activités sportives)
+- Et le couple dans la famille ? Près de la moitié des couples se séparent au début de la quarantaine
+- Comment gérer le quotidien : logistique A/R activités extra scolaires, partir en vacances, faire les courses (et bien se nourrir), faire du sport (quand on a le temps), ...
+
+USAGES DIGITAUX
+- Population la plus omnicanale et tous devices confondus : internet, agence, téléphone.
+- Ils manquent de temps et cherchent un moyen d’avoir des réponses rapide
+
+LES REMBOURSEMENTS PLEBISCITES POUR ETRE BIEN COUVERT
+Ce qu’ils regardent le plus dans les remboursements par ordre de priorité :
+1. Soins dentaires
+2. Optique
+3. Hospi (chambre particulière)
+4. Hospi (dépassements d’honoraires)
+5. Médecines douces (ostéopathie majoritairement, homéopathie, psychothérapie et hypnothérapie)
+6. Pharmacie
+
+CRITERE DECISIF POUR CHOISIR GROUPAMA
+1. L’offre (rapport prix / couverture) : c’est la population la plus sensible au rapport prix / garanties : la composition du foyer change, les cotisations augmentent et ils recherchent une complémentaire vraiment personnalisée par rapport à leur nouvelle situation
+2. Relationnel et proximité : importance de la qualité relationnelle et du professionnalisme du conseiller
+3. Image et fidélité : souhaite une reconnaissance de la fidélité et une facilité de gestion de ses contrats, étant déjà client sur d’autres risques
+
+LES SERVICES LES PLUS INTERESSANTS ACTUELLEMENT (selon étude MOAI)
+- L’espace client pour suivi des remboursements
+- Possibilité d’envoyer mes factures et devis depuis mon espace client / appli
+- Le réseau de soins : intérêt fort pour des bilans de prévention optique, dentaire et auditif
+- Le simulateur de remboursements
+- Attestation de tiers-payant en hors connexion sur l’appli
+- Apodis : suivi vaccinal, stockage des ordonnances,...
+- Médecines alternatives (méditation, relaxation, conseils allergie, maux de dos,...)
+- Psychologie, psychothérapie
+- Service en ligne pour me permettre d’évaluer mes symptômes
+- Soutien psychologique sans condition d’accès
+
+LA TELECONSULTATION
+Les femmes ont davantage recours à la téléconsultation que les hommes : charge mentale liée aux enfants, consultation de sage-femme et gynécologue (contraception, parcours de conception,...)
+
+==================================================
+
+LES 30 – 44 ANS ALIAS « JEUNES FAMILLES » – MOMENTS DE VIE ET SERVICES
+
+Moments de vie:
+- Je me marie / je me pacse
+- J’achète mon 1er bien immobilier
+- Je déménage
+- J’ai mal au dos
+- Je change la gestion de mes finances : ouverture d’un livret enfant, épargne,...
+- J’ai RDV chez l’orthophoniste pour le 2ème
+- Je divorce
+- Je déménage
+- Je prend mon 1er crédit à la consommation
+- Je change de voiture
+- Les enfants entrent à l’école
+- Je change de travail
+- Je consulte un psy spécialisé en thérapie de couple
+
+Communication:
+Cibles:
+- Couples : 1ère voiture, achat de première maison/appartement
+- Parents de jeunes enfants (- de 5 ans) : dès la déclaration d’une nouvelle naissance
+- Les femmes : elles ont un parcours de soins globalement plus sinueux que celui des hommes (quand elles deviennent mère) et plus dense (par la prise en charge du calendrier médical des enfants – vaccins, pharmacie, jours enfant malade)
+
+Opportunités de communication:
+- Ajout d’un bénéficiaire (naissance d’un 1er enfant)
+- Demande d’attestation scolaire : début de l’école
+- Je divorce : prise en charge des enfants (sur quel contrat), ce que ça change,...
+
+Axe: Construire sa famille en toute confiance avec des alliés du quotidien
+
+Le 2ème RDV suite à souscription Santé : Bilan pour faire le point sur la couverture de votre famille et sur les services inclus dans votre contrat
+
+Services:
+- Fonctionnalité de selfcare sur l’Espace client « Gérer votre contrat en toute autonomie » : ajout de bénéficiaire, tchatbot, le Kiosque, facture (en 30 sec, votre demande de remboursement est envoyée) et suivi conso°
+- Géolocalisation réseau de soins
+- Rapatriement (voyage)
+- Coaching nutrition, sport
+- Bilans dentaire et optique gratuit
+- Les Gestes qui Sauvent (après arrivée du 1er enfant)
+- Téléconsultation
+- Consultations psy
+- Moneytrack (bien intégré dans le parcours)
+- Tchatbot Espace client
+- Apodis : calendrier vaccinal, ordonnance en ligne,
+- Weasyo
+
+Offres commerciales:
+Les offre complémentaires:
+- Habitation
+- Auto
+- Desirio
+- GAV famille : cyber harcèlement, protection à 60% du temps
+- Décès
+
+Bonus fidélité (selon critères d’équipement et d’ancienneté du jeune ou des parents du jeune (pour bonifier la relation du pivot également)):
+- Bonus sur les remboursements dentaire et optique
+- Séance offerte en médecine douce
+- Forfait remboursement pharmacie non prise en charge
+
+==================================================
+
+LES 30 – 44 ANS ALIAS « JEUNES FAMILLES » – VISION PARCOURS
+
+Changement de situation
+
+LA RECHERCHE D’INFORMATIONS
+Se fait en agence, par téléphone, sur internet et via l’entourage.
+
+LA COMPARAISON
+Cette population pense être autonome dans le choix de sa complémentaire santé : faire le choix seul est important, mais la plupart prend conseil auprès de son entourage ou via un comparateur en ligne. C’est aussi la population qui cherche le plus conseil auprès de professionnels de santé : médecins, pharmaciens,...
+
+POURQUOI SE SONT-ILS RENSEIGNÉS SUR GROUPAMA ?
+- Déjà client Groupama, qui est reconnu sur ce domaine
+- Une agence près de chez moi
+- Recommandation de l’entourage
+- Top 5 des autres assureurs consultés (devis) : Harmonie Mutuelle, MAAF, AXA, Allianz, Macif
+
+CONNEXION A L’ESPACE CLIENT
+Les clients qui souscrivent sur le digital activent davantage leur Espace client dans la 1ère année qui suit la souscription.
+
+ENJEU DE RETENTION
+61% des résiliations des moins de 40 ans concerne un autre motif que le départ à la concurrence. (Etude résiliations santé et 2021)
+
+Enjeu de multi-équiper les moins de 40 ans de moins de 4 ans d’ancienneté, notamment ceux qui risquent de résilier pour adhérer à un contrat collectif : 46% des clients santé de moins de 40 ans qui ont résilié en 2021 vers la concurrence ne détenaient qu’un contrat santé.
+
+1. PRISE DE CONSCIENCE
+
+2. SOUSCRIPTION
+LA SOUSCRIPTION
+Population où les flux sont les plus distribués :
+- Le canal agence privilégié : 73%
+- Téléphone : 23%
+
+AUTRES CONTRATS SOUSCRITS
+- La moitié souscrivent leur contrat santé uniquement
+- Près d’un tiers souscrivent au moins deux autres contrats en même temps
+- Offres complémentaires : Habitation, Auto, GAV
+
+3. NOUVEAU CLIENT
+
+4. VIE DU CONTRAT
+SELFCARE
+
+5. RÉSILIATION
+
+==================================================
+
+LES 30 – 44 ANS ALIAS « JEUNES FAMILLES » A RETENIR
+
+Les couples vivent de changements importants : ils construisent une famille. Ils doivent prendre des décisions pour eux, mais aussi pour leurs enfants : moyen de garde, crèche, école, épargne, sécurité routière,... Ils cherchent des points de repères, des conseils pour les aider à bien décider.
+
+Ils ont peu de temps pour concilier leur vie professionnelle et leur vie personnelle. C’est un besoin pour gagner du temps : appli, tchat, téléphone. C’est l’assurance d’une réponse rapide qui va déterminer leur choix de canal.
+
+Le digital est considéré comme le grand allié du quotidien : achats en ligne (couches, livres scolaires, vêtements), téléconsultations, réseaux sociaux, démarches administratives, recettes de cuisine,...
+
+Les femmes sont un point d’entrée de la famille pour les problématiques touchant à la santé de la famille : prise en charge des vaccins enfants, des RDV chez le pédiatre, jours enfant malade,... #Charge mentale
+
+Des changements importants dans la consommation des soins, notamment à cause des enfants : La bronchiolite, la bronchite aiguë, la gastro-entérite, la laryngite aiguë, la rhinopharyngite, la maladie pieds-mains-bouche,... Ils doivent prendre soin de leurs enfants avant de prendre soin d’eux. 2 questions qu’ils se posent souvent : est-ce que c’est normal ? Qu’est-ce que je peux faire ?
+
+AXE : CONSTRUIRE SA FAMILLE EN TOUTE CONFIANCE AVEC DES ALLIES DU QUOTIDIEN
+
+==================================================
+
+LES 45 – 54 ANS ALIAS « LES FAMILLES INSTALLÉES » – APPÉTENCES ET ATTENTES
+
+RELATION AVEC GROUPAMA
+- Notre cible prioritaire. Sont en grande partie des enfants de sociétaires et ont eux-mêmes des enfants. Sont possesseurs de plusieurs contrats chez Groupama.
+
+MOTIF DE CHANGEMENT DE MUTUELLE
+- Montant de la cotisation trop élevé
+- Changement de situation professionnelle ou personnelle : divorce ou séparation, changement professionnel (perte d’emploi ou le conjoint change de statut)
+- Regroupement des contrats chez un même assureur : recherche de simplicité de gestion
+
+SUJETS D’INTÉRÊT
+- Soutien de service envers les enfants : favoriser leur prise d’autonomie
+- Soutien moral pour les parents
+- Bien vivre et profiter
+- Voyager à deux
+- Rencontrer un partenaire de vie suite à une séparation
+- Rester compétitif dans le monde du travail
+- Profiter des plaisirs simples : les amis, les sorties,...
+- Les petits-enfants, un second souffle
+
+USAGES DIGITAUX
+- Un usage pratico-pratique du digital : sont à l’aise, cela fait partie du quotidien, mais pas aussi spontané que pour les plus jeunes.
+- Démarches administratives, informations pratiques, actualités.
+
+LES REMBOURSEMENTS PLEBISCITÉS POUR ÊTRE BIEN COUVERT
+Ce qu’ils regardent le plus dans les remboursements par ordre de priorité :
+1. Soins dentaires et équipement optique
+2. Hospi (dépassements d’honoraires)
+3. Hospi (chambre particulière)
+4. Médecines douces (ostéopathie majoritairement, psychothérapie, hypnothérapie et acupuncture)
+5. Pharmacie
+
+CRITÈRE DÉCISIF POUR CHOISIR GROUPAMA
+1. L’offre (rapport prix / couverture)
+2. Relationnel et proximité : importance de la qualité relationnelle et du professionnalisme du conseiller
+3. Image et fidélité : souhaite une reconnaissance de la fidélité et une facilité de gestion de ses contrats, étant déjà client sur d’autres risques
+
+LES SERVICES LES PLUS INTERESSANTS ACTUELLEMENT
+- Possibilité de faire évoluer facilement le contrat selon ma situation
+- L’espace client pour suivi des remboursements
+- Le réseau de soins
+- Le simulateur de remboursements
+- Possibilité d’envoyer mes factures et devis depuis mon espace client / appli
+- Médecines alternatives (médecine chinoise, réflexologie,...)
+- Psychologue, psychothérapie
+- Appli de bien-être (méditation, relaxation, conseils allergie, maux de dos,...)
+- Service en ligne pour me permettre d’évaluer mes symptômes
+- Programme de nutrition (plus que les autres tranches d’âge)
+- Soutien psychologique sans condition d’accès
+
+LA TELECONSULTATION
+- Les femmes ont davantage recours à la téléconsultation que les hommes : charge mentale liée aux enfants, consultation de sage-femme et gynécologue (ménopause).
+
+==================================================
+
+LES 45 – 54 ANS ALIAS « LES FAMILLES INSTALLÉES » – MOMENTS DE VIE ET SERVICES
+
+Moments de vie:
+- Je divorce
+- Je fais des travaux à la maison
+- Je suis hospitalisé
+- Je prépare ma retraite
+- Je m’inscris au sport
+- Je perds mon emploi
+- Je perds un proche
+- Mes enfants quittent le nid
+- Je voyage
+- Ma vue baisse. Presbytie
+- Je deviens aidant
+- Ménopause Env. 51 ans
+- Je prépare ma retraite
+
+COMMUNICATION
+Cibles:
+- Familles avec des enfants qui prennent leur indépendance
+- Aidants
+
+Opportunités de communication:
+- Je divorce : prise en charge des enfants (sur quel contrat), ce que ça change,...
+- Je prépare ma retraite
+- Mes enfants quittent le nid (supprimer un bénéficiaire)
+
+Axe: ÊTRE À VOS CÔTÉS DANS VOTRE RÔLE DE PIVOT
+
+Le 2ème RDV suite à souscription Santé : Bilan pour faire le point sur l’épargne, la situation des enfants, les projets qui nécessiteraient un crédit, la situation des parents (toujours autonomes?),...
+
+SERVICES
+- Les Gestes qui Sauvent
+- Fonctionnalité de selfcare sur l’Espace client « Gérer votre contrat en toute autonomie » : ajout de bénéficiaire, tchatbot, le Kiosque, facture (en 30 sec, votre demande de remboursement est envoyée) et suivi conso°
+- Géolocalisation réseau de soins
+- Rapatriement (voyage)
+- Coaching nutrition, sport
+- Bilans dentaire et optique gratuit
+- ATPG hors connexion
+- Téléconsultation (surtout pour ceux qui ont difficilement accès aux soins)
+- Consultations psy
+- Moneytrack (bien intégré dans le parcours)
+- Tchatbot Espace client
+- Apodis : calendrier vaccinal, ordonnance en ligne,
+- Weasyo
+- Option hospitalisation
+- Option aidant / aidé
+
+OFFRES COMMERCIALES
+Les offre complémentaires:
+- Habitation
+- Auto
+- Desirio
+- GAV duo
+- Décès / obsèques
+- TAP pour les parents
+
+Bonus fidélité (pour les parents et voir ce qui peut être valorisé pour les enfants):
+- Bonus sur les remboursements dentaire et optique
+- Séance offerte en médecine douce
+- Forfait remboursement pharmacie non prise en charge
+
+==================================================
+
+LES 45 – 54 ANS ALIAS « LES FAMILLES INSTALLÉES » VISION PARCOURS
+
+Changement de situation
+
+LA RECHERCHE D’INFORMATIONS
+Se fait très majoritairement en agence, puis minoritairement par téléphone.
+
+LA COMPARAISON
+Cette population pense être autonome dans le choix de sa complémentaire santé : faire le choix seul est important, mais la plupart prend conseil auprès de son entourage ou via un comparateur en ligne.
+
+POURQUOI SE SONT-ILS RENSEIGNÉS SUR GROUPAMA ?
+- Une agence près de chez moi
+- Déjà client Groupama, qui est reconnu sur ce domaine
+- Recommandation de l’entourage
+- Top 5 des autres assureurs consultés (devis) : MAAF, MMA, Harmonie Mutuelle, MACIF, AXA, Crédit Agricole
+
+RAPPORT A GROUPAMA
+La plupart sont déjà assurés chez Groupama sur un autre risque.
+
+CONNEXION A L’ESPACE CLIENT
+Les clients qui souscrivent sur le digital activent davantage leur Espace client dans la 1ère année qui suit la souscription.
+
+ENQUETES RESIL
+
+ENJEU DE RETENTION
+Plus l’âge de nos assurés santé augmente, plus les résiliations baissent. Mais elles sont toujours conséquentes : 10% de résiliation pour les 40 – 49 ans et 7% pour les 50 – 64 ans, principalement pour des résiliations concurrence en 2021.
+
+1. PRISE DE CONSCIENCE
+
+2. SOUSCRIPTION
+
+LA SOUSCRIPTION
+- Le canal agence privilégié : 73%
+- Téléphone : 23%
+- Email : 9%
+
+AUTRES CONTRATS SOUSCRITS
+- Plus de la moitié souscrivent leur contrat santé uniquement
+- Près d’un tiers souscrivent au moins deux autres contrats en même temps
+
+3. NOUVEAU CLIENT
+
+4. VIE DU CONTRAT
+SELFCARE
+
+5. RÉSILIATION
+
+EAF
+
+==================================================
+
+LES 45 – 54 ANS ALIAS « LES FAMILLES INSTALLÉES » A RETENIR
+
+C’est la génération pivot. Se sentent au moins dix ans plus jeunes qu’ils ne le sont. Déjà considérés comme seniors dans le monde de l’entreprise, ils vivent une période charnière sur le plan personnel : les enfants ont grandi et certains quittent la maison. Ils ont plus de temps pour eux. Mais leurs parents commencent à vieillir : les pivots assurent de petits services (prise de RDV chez le médecin en ligne, entretien du jardin,...). La tranche d’âge qui consulte le plus les psychologues. La plupart des psychologues font des consultations en ligne. 31% des Français ont déjà fait appel à un psy. Sur cette tranche d’âge, 1 personne sur 4 a déjà consulté un psychologue.
+
+Un usage pratico-pratique du digital : sont à l’aise, cela fait partie du quotidien, mais pas aussi spontané que pour les plus jeunes. Démarches administratives, informations pratiques, actualités. Expérimentés dans la vie de famille, ils mènent leur quotidien de front : la logistique est bien huilée et quand survient un problème à régler, ils apprécient être autonome dans sa gestion, avec une préférence pour le digital et sinon pour le téléphone.
+
+ÊTRE À VOS CÔTÉS DANS VOTRE RÔLE DE PIVOT
+
+==================================================
+
+LES AIDANTS
+
+NOTRE CIBLE : LE SOCIÉTAIRE QUI AIDE UN PARENT ÂGÉ
+
+LES AIDANTS EN FRANCE
+- Entre 8 à 11 millions de personnes en France qui fournissent une aide régulière non rémunérée à quelqu’un de leur entourage pour des raisons de santé ou de handicap.
+- Ce sont les enfants et les conjoints de personnes âgées qui sont les plus concernés. Ce sont majoritairement des femmes.
+- 1 aidant sur 2 est salarié : actif génération sandwich (pas les mêmes ressources) différent du retraité.
+
+Age des aidants (Source : Association française des Aidants)
+- Moins de 30 ans : 11%
+- 30 - 49 ans : 32%
+- 50 - 59 ans : 23%
+- 60 - 74 ans : 24%
+- 75 ans et + : 10%
+
+LES AIDANTS CIBLES PAR GROUPAMA
+- Aidant familial, aidant proche, aidant informel
+- Aidant professionnel
+- Aide à domicile
+- Aide en structure d'accueil
+
+Notre scope : les aidants proches des seniors à domicile
+- Clients Groupama fidèles
+- Prime santé élevée (+ de 1 400€)
+
+L’AIDE APPORTÉE :
+- Tâches ménagères : courses, lessives, ménage
+- Démarches médicales
+- Aide aux tâches administratives très chronophage (impôts, gestion d’un patrimoine, de revenus, découverte d’arriérés) et accéder aux prestations sociales
+- Bricolage
+- Soutien moral (pour le senior)
+- Hygiène, soins
+- Gestion du quotidien
+
+CONSÉQUENCES POUR L’AIDANT :
+- Vie perturbée : pour les plus jeunes, ont encore des enfants à la maison
+- Sentiment d’isolement
+- Risque pour leur santé : fatigue, stress, charge mentale
+- 70% souffrent de problèmes de dos
+- Renoncement aux soins important.
+- Peu demandent de l’aide alors qu’ils en ont plus besoin que les autres.
+
+Source : Haute Autorité de Santé
+
+ZOOM SUR LES RETRAITÉS AGRIS
+Les jeunes retraités agricoles continuent souvent leur activité, sans être rémunérés, ne serait-ce que pour assurer la passation de leur exploitation agricole. Leur charge mentale se retrouve renforcée dans la posture d’aidant.
+
+==================================================
+
+ACCOMPAGNER LES AIDANTS
+AXE : ON PREND LE RELAIS
+
+Aider un parent âgé en perte d’autonomie, c’est une mission prise très au sérieux par les aidants. La charge augmente avec le temps, petit à petit. Et il n’y a souvent pas d’autre recours ; il n’est pas possible de déroger à cette charge, qui s’ajoute à d’autres charges ou d’autres envies : faciliter le quotidien de ses enfants, s’occuper de ses petits-enfants, profiter de la retraite,...
+
+1. Prendre le relais pour fournir une petite période de répit à l’aidant
+   - Service type Relaimoi (X heures aide-ménagère, portage de repas) une semaine dans l’année
+
+2. Décomplexifier, démêler les tâches administratives : numéro d’aide
+   - Aide au placement en maison de retraite
+   - Aide pour recourir aux aides (APA) et bénéficier de services
+   - Aide pour la vente d’une maison
+
+3. Faciliter le quotidien de l’aidant
+   - Les pistes pour mieux vivre : ergothérapeute, psychologue, médecines douces, ...
+   - Démarches pour bénéficier d’une aide à domicile chaque semaine
+   - Service de livraison (et de rangement) des courses
+   - Service de suivi des rendez-vous médicaux
+
+4. Créer de l’entraide dans un esprit communautaire
+   - FAQ, Tchat d’entraide, ex : site aidants GLB
+   - lien élus – associations d’aidants ex cafés rencontres
+
+5. Inciter les aidants à mieux prendre soin d’eux
+   - Faire baisser le stress : bonus médecines douces
+   - Faire baisser la fatigue : appli pour mieux dormir
+   - Prendre soin de leur dos : service type weasyo + bonus médecine douce
+   - Charge mentale : consultation psy offerte
+
+6. De leur famille (descendants)
+   - Proposer un bilan « aidant / génération sandwich » : revue de situation financière, couverture pour l’aidant et pour les parents (le parent a-t-il bien pensé à préparer ses obsèques), quelle épargne pour une éventuelle maison de retraite, ...
+
+==================================================
+
+**Personae Aides**
+
+**Lucette**
+- **Âge**: 82 ans
+- **Situation**: Vivant seule, retraitée (ex-institutrice)
+- **Citation**: "Je connais des personnes équipées et j'ai conscience de l'utilité de ce type de solution. Je ne me suis pas renseignée mais reste ouverte à en savoir plus."
+
+**Santé**
+- **Autonomie**: Réalise les tâches simples du quotidien avec difficultés (exemple: cuisine encore des petits plats). Elle a de l'arthrite et se déplace, elle a mal au dos.
+- **Mobilité**: Interne & externe limitées (se déplace chez elle avec difficultés et dehors avec une canne mais très occasionnellement).
+
+**Habitudes de vie**
+- **Appétence digitale**: Possède un téléphone mobile simple et un ordinateur, sait appeler des personnes et consulter ses emails (une fois par jour) et ne sait pas y répondre.
+- **Activités Sportives**: Son état de santé ne lui permet pas de réaliser des activités sportives.
+
+**Lieu de résidence**
+- **Localisation**: Appartement à Orléans.
+- **Proximité familiale**: Loin de sa famille, habitant à 150 km (environ 2h). Elle a un fils (26 ans) et deux petits enfants (26 ans et 29 ans).
+
+**Vie sociale et aides reçues**
+- **Visites familiales**: Visites trimestrielles, appels hebdomadaires de son fils, appels pour les grandes occasions des petits-enfants.
+- **Autres visites**: Visites occasionnelles de ses voisins/amis (elle reçoit une visite toutes les deux semaines).
+- **Aides reçues**: Aide-ménagère une fois par semaine, auxiliaire de vie deux fois par semaine pour faire ses courses et l'aider dans son quotidien, aide au déplacement pour des RDV médicaux.
+
+**Ses peurs profondes**
+- Quitter son domicile vers un EHPAD.
+- Perdre le lien social avec sa famille.
+- Être un fardeau pour ses proches et son entourage.
+- Être agressée (à domicile et à l'extérieur) / victime de démarche frauduleuse / victime d'arnaque.
+
+**Ses besoins profonds**
+- Rassurer sa famille (surtout son fils).
+- Rester en contact avec ses proches (à la fois sa famille et ses amis).
+- Être coquette et prendre soin d'elle et de sa santé.
+
+**Le service de Téléassistance aux personnes (TAP) pour elle**
+- **Non réticente et même intéressée**: Elle se sent concernée par les problématiques, notamment car ses amis sont équipées. Elle vient d'entendre parler de l'existence de solutions et trouve ça intéressant.
+- **Non équipée car appréhensive**: Elle n'est pas encore équipée car son état de santé n'est pas préoccupant. Elle ne s'est pas encore spécialement penchée sur la question et préfère ne pas y penser.
+- **Sens au service**: Ne sait pas qui choisir ni par qui se faire conseiller. Peur d'être encombrée au quotidien en portant le dispositif et de devoir y penser (charge supplémentaire).
+- **Ses motivations au service**: Un dispositif simple et efficace, un service fiable lui assurant une sécurité à chaque instant, un dispositif qui ne change pas ses habitudes.
+
+**Alain**
+- **Âge**: 72 ans
+- **Situation**: Vivant seul, retraité (ex-comptable)
+- **Citation**: "Je me sens en forme et autonome, je n'ai pas besoin de solution de vieux."
+
+**Santé**
+- **État général**: Légers problèmes de tension, en rémission d'un cancer de la prostate.
+- **Mobilité**: Se déplace sans problème, à pied et en voiture.
+
+**Habitudes de vie**
+- **Appétence digitale**: Smartphone, PC - utilisés 30 min par jour, possibilité de TSB.
+- **Activités Sportives**: Il possède un Berger allemand qu'il promène en moyenne 40 min/jour, fait régulièrement des randonnées.
+
+**Lieu de résidence**
+- **Localisation**: Maison avec jardin, milieu rural, village 900 habitants.
+- **Proximité familiale**: Habite à 40 km de sa fille (Nathalie, 47 ans), et de son fils (Arnaud, 43 ans). Un frère qui habite loin (< 500km).
+
+**Vie sociale et aides reçues**
+- **Visites familiales**: Visites des enfants une fois par semaine lors des trimestres.
+- **Autres**: Voit ses voisins régulièrement, son frère une fois par an avec son frère.
+- **Aides reçues**: Aide-ménagère une fois par semaine.
+
+**Ses peurs profondes**
+- Perdre sa liberté (randonnée, voyage, etc).
+- Perdre son autonomie et devoir aller dans une maison de retraite (puisqu'il vit loin de ses enfants).
+
+**Ses besoins profonds**
+- Rester en bonne santé.
+- Avoir un minimum d'activités sportives et sociales.
+
+**Le service de Téléassistance aux personnes (TAP) pour lui**
+- **Non équipé et difficile à convaincre**: Son cancer et le décès de sa femme lui ont fait prendre conscience de sa potentielle fragilité. Mais il rejette encore une solution qui lui donnerait l'impression de rentrer dans la dépendance, et de devenir "vieux".
+- **Ne se sent pas concerné par ce dispositif même s'il trouve cela utile**: Connaît les solutions de bouton SOS, reconnaît l'utilité pour les personnes à mobilité réduite et seules. N'en ressent pas le besoin pour lui. N'en ressent pas le besoin de soulager ses enfants.
+- **Ses freins au service**: Refus d'entrer dans un système qu'il voit comme de la dépendance, image de "vieux" vis-à-vis de ses amis.
+
+==================================================
+
+PERSONAE AIDANTS
+
+Sarah, l'aidante
+- "Je ne peux plus assurer seule la sécurité et le bien-être de mes parents, trop dépendants de moi. Je suis débordée et fatiguée."
+- Âge: 49 ans, viticultrice
+- Habite à Beaune (21)
+- 2 enfants (14 et 17 ans) qui habitent avec elle et son mari.
+
+Habitudes de vie
+- Débordée entre son travail, ses enfants et ses parents. Son mari l'aide beaucoup avec ses enfants mais elle a l'impression de passer à côté de leur adolescence, parce que ses parents lui demandent de plus en plus de temps.
+- Elle voudrait avoir plus de temps pour accompagner ses enfants dans leurs devoirs et orientations afin de les encadrer. Elle se sent dépassée.
+- Sarah a un frère qui habite loin et une sœur qui ne s'occupe que peu de ses parents.
+
+Appétence digitale
+- Utilise des outils digitaux dans son travail pour la comptabilité (faire ses comptes) et chez elle (smartphone, ordinateur, tablette).
+
+Ses Peurs / Irritants
+- Manque de temps pour s'occuper de ses parents
+- Peur qu'il arrive quelque chose de grave à ses parents
+- Manque de temps pour elle-même
+
+Ses Attentes / Besoins
+- Sécuriser ses parents en permanence
+- Retrouver des rapports familiaux apaisés
+- Que chacun soit soulagé de la présence de l'autre
+- Être soulagée, être aidée dans son rôle d'aidant
+- Solution intégrée à leur quotidien
+
+Ses parents, les aidés
+- Jacqueline 76 ans et Léon 81 ans habitent dans un appartement (10 min de chez leur fille en voiture).
+
+État de santé
+- La santé de Léon se dégrade (perte de mobilité dans les jambes, perte de mémoire : oubli d'objet, perte de dextérité).
+
+Mobilité
+- Ils se déplacent dans leur appartement et font une courte promenade quotidienne ensemble. Jacqueline est bénévole dans une association 2 fois par semaine, Léon restant au domicile.
+- Jacqueline (mal au dos, fatiguée)
+
+Appétence digitale
+- Jacqueline a un smartphone et Léon n'est pas équipé. Ils ont un fixe à la maison.
+
+Aides
+- Aide-ménagère (1 fois par semaine)
+- Kiné se déplace à domicile une fois par semaine pour Léon
+
+Équipement TAP
+- Non-équipés
+
+Aide apportée
+- Type d'aide: Aide prodiguée par la fille (bricolage, course, administratif, coordination des médecins)
+- Fréquence visites: 3 fois par semaine, appels les autres jours. Les petits enfants passent 2 fois par mois
+- Irritants: Temps passé trop important, ne profite plus de ses parents (organisation uniquement) et conflictuelle avec ses frères/sœur à l'écart
+
+Gérard, l'aidant
+- "J'aimerais être serein quand je pars en voyage et que je laisse ma mère avec les aides à domicile."
+- Âge: 63 ans, jeune retraité
+- Habite à Toulouse.
+- 3 grands enfants (23, 27 et 31 ans) qui habitent à Paris, Londres et Toulouse.
+
+Habitudes de vie
+- Jeune retraité de l'aéronautique.
+- Quand il n'est pas dans son appartement dans une résidence à côté des Pyrénées, Gérard adore voyager et rendre visite à ses enfants.
+- A Toulouse entre sa vie sociale développée et l'association d'aide aux devoirs dont il est bénévole, il est bien occupé.
+
+Appétence digitale
+- Habitué à travailler avec les nouvelles technologies, très à l'aise avec, il a un smartphone, et un ordinateur, regarde des films, et fait des skypes avec sa famille. Possède aussi d'une montre connectée et d'Alexa.
+
+Ses Peurs / Irritants
+- Que l'état de santé de sa mère se dégrade
+- Que sa mère ait un problème et qu'elle ne puisse pas prévenir
+- Que le personnel ne se présente pas ou soit mal formé
+
+Ses Attentes / Besoins
+- Profiter de sa retraite
+- Ne pas avoir de problème pour sa mère quand il est en dehors de Toulouse
+
+Suzanne, l'aidée
+- Âge: 84 ans
+- Habite dans un appartement à Castanet-Tolosan (30 min de Toulouse).
+
+État de santé
+- A fait plusieurs chutes, a du mal à se déplacer, a de l'eczéma.
+
+Mobilité
+- Ne sort pas seule à l'extérieur, mobilité interne limitée
+
+Appétence digitale
+- N'est pas très nouvelles technologies. Elle n'utilise que son téléphone fixe pour répondre à aux appels mais jamais pour appeler.
+
+Aides
+- Aide-ménagère, une fois par semaine
+- Auxiliaire de vie, tous les jours sauf le week-end pour l'aide aux repas, vérification de la prise de médicaments et courses.
+
+Équipement TAP
+- Collier d'alerte, qu'elle ne met pas souvent, ce qui agace son fils.
+
+Aide apportée
+- Type d'aide: Administrative, lui fait des courses complémentaires, des petits bricolages, et l'aide dans la prise de rdv médicaux, s'assure que tout se passe bien avec les aides dont elle bénéficie et gère les recrutements de ces derniers
+- Fréquence visites: Il déjeune une fois par semaine avec sa mère quand il est à Toulouse, et l'appelle tous les 2 jours.
+- Irritants: Personnel peu formé, qui change souvent, et qui ne se présente parfois pas ou pas à heures régulières.
+
+==================================================
+
+LES 55 – 64 ANS ALIAS « LES JEUNES SENIORS » – APPETENCES ET ATTENTES
+
+RELATION AVEC GROUPAMA
+- Notre cible prioritaire : cible la plus rentable en assurance.
+- Sont possesseurs de plusieurs contrats chez Groupama. Ont un lien plus fort avec l’agence.
+
+MOTIF DE CHANGEMENT DE MUTUELLE
+- Changement de situation notamment professionnelle : passage à la retraite ou le conjoint passe à la retraite.
+- Changement de situation personnelle : divorce ou séparation, changements professionnels (perte d’emploi, changement de statut, départ à la retraite).
+- Cotisations trop élevées.
+- Regroupement des contrats chez un même assureur : recherche de simplicité de gestion.
+
+SUJETS D’INTERET
+- Fin de carrière à gérer : chômage, mise au placard,...
+- Conditions de départ à la retraite : combien je vais toucher à partir de quand, protection sociale, épargne, allocations,...
+- Une priorité : Profiter en bonne santé : voyager, activités culturelles, rencontrer des jeunes retraités,... se faire plaisir.
+- Rester en forme physiquement et mentalement : des pathologies commencent à émerger (diabète, cholestérol, troubles articulaires, perte d’audition, baisse de la vue, problèmes dentaires).
+- Comment occuper ses journées, rester actif : les journées sont plus occupées par le travail, comment rester proactif, dans quoi s’investir.
+- Prendre soin de ses enfants, de ses petits enfants, de ses parents.
+- 1 départ à la retraite sur 8 se traduit par un changement de logement (plus petite ville) ➔ profil de personnes seules plutôt, les couples prennent plus leur temps.
+
+USAGES DIGITAUX
+- Autonomes dans l’usage d’internet : 2 seniors sur 3 l’utilisent.
+- Surtout pour communiquer avec les amis, la famille, l’actualité et s’informer avant d’acheter.
+- De plus en plus sur les réseaux sociaux.
+- Un moyen de se sentir plus jeune.
+
+LES REMBOURSEMENTS PLEBISCITES POUR ETRE BIEN COUVERT
+Ce qu’ils regardent le plus dans les remboursements par ordre de priorité :
+1. Équipement optique.
+2. Remboursements dentaires.
+3. Hospi (chambre particulière).
+4. Hospi (dépassements d’honoraires).
+5. Médecines douces (ostéopathie majoritairement, acupuncture et homéopathie).
+6. Pharmacie.
+7. Prothèses auditives.
+
+CRITERE DECISIF POUR CHOISIR GROUPAMA
+1. L’offre (rapport prix / couverture) et le Relationnel/proximité.
+   => Plus particulièrement un bon rapport garanties / prix / qualité relationnelle + ils accordent de l’importance à la proximité géographique d’une agence.
+2. Image et fidélité : souhaite une reconnaissance de la fidélité et une facilité de gestion de ses contrats, étant déjà client sur d’autres risques.
+
+LES SERVICES LES PLUS INTERESSANTS ACTUELLEMENT
+- L’espace client pour suivi des remboursements.
+- Le réseau de soins : cette population semble plus informée que les autres sur le réseau de soins.
+- Le simulateur de remboursements.
+- Possibilité d’envoyer mes factures et devis depuis mon espace client / appli.
+- Service en ligne pour me permettre d’évaluer mes symptômes : plus que pour les autres populations.
+- Médecines alternatives (médecine chinoise, réflexologie,...).
+- Psychologue, psychothérapie.
+- Appli de bien-être (méditation, relaxation, conseils allergie, maux de dos,...).
+- Programme de nutrition (plus que les autres tranches d’âge).
+- Soutien psychologique sans condition d’accès.
+
+LA TELECONSULTATION
+- Les femmes ont davantage recours à la téléconsultation que les hommes : charge mentale liée aux enfants, consultation de sage-femme et gynécologue.
+
+==================================================
+
+LES 55 – 64 ANS ALIAS « LES JEUNES SENIORS » MOMENTS DE VIE ET SERVICES
+
+Moments de vie:
+- 2 couronnes à faire
+- Je deviens grand-mère
+- Je réaménage une chambre pour mes petits enfants
+- Je change de logement
+- J'ai fini de rembourser ma maison
+- Je me prépare à la retraite
+- Début d'arthrose
+- Diabète diagnostiqué
+- Je suis à la retraite
+
+COMMUNICATION
+Cibles:
+- Couple dans la force de l'âge, qui ont envie de se faire plaisir
+- Grand-parent
+
+Opportunités de communication:
+- Je deviens grand-parent
+- Je passe à la retraite
+- Je suis hospitalisé
+- J'anticipe les grands changements de ma vie avec mon conseiller
+
+Axe: PROFITEZ EN TOUTE SERENITE, NOUS SOMMES LA POUR VOUS ACCOMPAGNER
+
+Le 2ème RDV suite à souscription Santé: Bilan pour faire le point à 360°: projets, situation professionnelle, personnelle, les enfants / les parents,...
+
+SERVICES
+- Les Gestes qui Sauvent
+- Géolocalisation réseau de soins
+- Rapatriement (voyage)
+- Coaching nutrition, sport
+- Fonctionnalité de selfcare sur l'Espace client
+- Option hospitalisation
+- Option aidant / aidé
+- Je prends soin de moi
+  - Guide Check up santé complet (prévention)
+  - Cours de cuisine
+  - Accompagnement psychologique
+  - Aménagement de la maison (1 séance conseil par un architecte ?)
+
+Je veux profiter, être actif, donner du sens à ma retraite
+a) Bilan d'appétences: j'ai envie de faire plein de choses (voyager, apprendre l'italien, peindre...) : concrètement, qu'est-ce qui me plairait de faire et où investir mon temps (et mon argent ?)
+b) Coaching de vie: X séances avec un coach de vie. On a le bilan d'appétences qui est fait et on fait le point avec un professionnel de la transition
+c) Mise à disposition d'une plateforme de partage Skillbees (abonnement offert) : on apprend à faire des vidéos, à cuisiner asiatique, à faire de la photo animalière,...
+
+Je veux être connecté au monde
+- Entrée offerte au salon des Seniors (en ce moment d'ailleurs à Paris)
+- Abonnement pour accéder à des conférences en ligne : art, littérature, sciences, loisirs,...
+- Accès à des réseaux sociaux
+
+OFFRES COMMERCIALES
+Les offre complémentaires:
+- Habitation
+- Auto
+- Desirio
+- GAV duo ou grands-parents
+- Obsèques
+- TAP pour les parents
+
+Bonus fidélité:
+- Bonus sur le remboursement dentaire
+- Augmentation de la prise en charge optique
+- Bonus sur les remboursements médecines douces
+- Forfait de remboursement sur la pharmacie non prise en charge
+
+==================================================
+
+LES 55 – 64 ANS ALIAS « LES JEUNES SENIORS » VISION PARCOURS
+
+Changement de situation
+
+LA RECHERCHE D’INFORMATIONS EN SANTE
+Se fait très majoritairement en agence, puis minoritairement par téléphone.
+
+LA COMPARAISON
+Ils comparent plus les offres que les autres populations : leurs besoins changent et le passage à la retraite de retrouver le meilleur rapport garanties / prix.
+
+POURQUOI SE SONT-ILS RENSEIGNÉS SUR GROUPAMA ?
+- Une agence près de chez moi
+- Déjà client Groupama, qui est reconnu sur ce domaine
+- Recommandation de l’entourage
+- Top 5 des autres assureurs consultés (devis) : Harmonie Mutuelle, MAAF, AXA, MACIF, Allianz
+
+RAPPORT A GROUPAMA
+La plupart sont déjà assurés chez Groupama sur un autre risque.
+
+CONNEXION A L’ESPACE CLIENT
+Les clients qui souscrivent sur le digital active davantage leur Espace client dans la 1ère année qui suit la souscription.
+
+ENJEU DE RETENTION
+Plus l’âge de nos assurés santé augmente, plus les résiliations baissent. Mais elles sont toujours conséquentes : 10% de résiliation pour les 40 – 49 ans et 7% pour les 50 – 64 ans, principalement pour des résiliations concurrence en 2021.
+
+1. PRISE DE CONSCIENCE
+De grands changements de vie arrivent : le passage à la retraite est une occasion de prise de parole sur plusieurs sujets : la santé, l’épargne, la sécurisation des parents, les projets de vie,…
+
+2. SOUSCRIPTION
+LA SOUSCRIPTION
+Se fait soit juste avant de passer à la retraite, soit juste après (50/50)
+- Le canal agence privilégié : 80%
+- Téléphone : 17%
+
+AUTRES CONTRATS SOUSCRITS
+- Plus de la moitié souscrivent leur contrat santé uniquement
+- Près d’un tiers souscrivent au moins deux autres contrats en même temps
+
+3. NOUVEAU CLIENT
+
+4. VIE DU CONTRAT
+SELFCARE
+
+5. RÉSILIATION
+
+==================================================
+
+LES 55 – 64 ANS ALIAS « LES JEUNES SENIORS » A RETENIR
+
+Génération pivot : doivent aider leurs parents et leurs enfants.
+Leur souhait : profiter de la vie. Ils aspirent à se sentir jeunes, épanouis, en confiance.
+La retraite = de grands changements dans le quotidien. Plus de temps, un pouvoir d’achat plus large.
+Des problèmes de santé sérieux peuvent survenir.
+Se sont bien appropriés les usages digitaux, notamment sur ordinateur et smartphone. En font un usage pratique : rester en contact, s’informer.
+
+Doivent mener, souvent sans accompagnement, la transition : problématiques financières, santé, transmission aux enfants, soutien des parents.
+Actuellement, près d’un quart des Français sont limités physiquement un an après le début de leur retraite, d’après le ministère de la Santé. Un chiffre qui monte à un tiers pour les ouvriers.
+Le passage à la retraite est l’opportunité de déménager.
+
+PROFITEZ EN TOUTE SERENITE, NOUS SOMMES LA POUR VOUS ACCOMPAGNER
+
+==================================================
+
+Bien vieillir : Un défi social majeur pour la santé publique, auquel les assureurs peuvent apporter des solutions en matière de prévention
+
+Une part de plus en plus importante de seniors qui doit inciter à bâtir une société et un système de soins adaptés à ces mutations
+
+Part des plus de 60 ans dans la population française
+- 2023: 25%
+- 2050e: 33%
+
+Évolution de l’espérance de vie des Français avec et sans incapacité
+- En années
+- Espérance de vie totale
+  - 2005: 80,3
+  - 2010: 81,3
+  - 2015: 82,1
+  - 2019: 82,7
+  - 2020: 82,1
+  - Écart: 16,7 (2005), 18,7 (2010), 18,4 (2015), 18,5 (2019), 16,9 (2020)
+  - CAGR 05-19: +0,2%
+- Espérance de vie sans incapacité
+  - 2005: 63,5
+  - 2010: 62,6
+  - 2015: 63,6
+  - 2019: 64,1
+  - 2020: 65,2
+  - CAGR 05-19: +0,7%
+  - +0,1%
+
+Principaux enjeux liés au vieillissement de la population
+
+L’adaptation du système de santé
+- Passage d’une prise en charge curative centrée sur l’hôpital à une approche reposant sur le maintien à domicile ou l’accompagnement à l’entrée en établissement
+- Définition d’un programme par Santé Publique France ayant pour objectif :
+  - La surveillance des maladies chroniques, des traumatismes, de la santé mentale
+  - Le développement d’indicateurs visant au repérage de la perte d’autonomie
+
+La prévention comme pilier du bien-vieillir
+- Création du site « poubienvieillir.fr » à destination des seniors et des professionnels concernés
+- Mise à disposition de dossiers et d’ateliers thématiques développés par les acteurs de la « silver économie »
+- Développement de programmes dédiés par certains assureurs (e.g. partenariat Generali-Europe Assistance sur des services d’aide à domicile)
+
+La lutte contre la précarisation des seniors
+- Signature en mars 2022 du 1er Acte d’engagement inter-entreprises en faveur des salariés de plus de 50 ans
+- Inclusion dans le projet de réforme des retraites de 2023 d’une pension minimum de 1 200€
+- Augmentation du montant de l’allocation de solidarité aux personnes âgées depuis juillet 2022, mais niveau encore inférieur au seuil de pauvreté (961€ vs 1 102€)
+
+Impacts pour Groupama
+- Adaptation des contrats Santé / Prévoyance
+  - KPI : solde de développement positif sur cette cible
+- Poursuivre la mise en place de services de prévention (notamment autour du maintien à domicile)
+  - KPI : Age moyen du départ en maison médicalisée
+- Mettre en avant les valeurs du mutualisme via des actions locales dédiées aux seniors
+  - KPI : Nbre. d’actions sur le terrain
+- Étendre l’engagement de Groupama auprès des aidants familiaux au-delà de la sphère du Groupe
+  - KPI : Nbre. de services dédiés
+
+Source : précadrage PSO
+
+Sources : Santé Publique France, Eurostat, Institut Montaigne
+
+==================================================
+
+LES 65 – 74 ANS ALIAS « RETRAITÉS EN FORME » – APPETENCES ET ATTENTES
+
+RELATION AVEC GROUPAMA
+- Sont possesseurs de plusieurs contrats chez Groupama. Ont un lien plus fort avec l’agence. Les clients souscrivent à un contrat retraite juste avant le départ à la retraite (47%) ou juste après leur départ à la retraite (37%).
+
+MOTIF DE CHANGEMENT DE MUTUELLE
+- Les cotisations sont élevées.
+- Souhaitent un meilleur rapport garanties / prix.
+- Sont plus sensibles aux augmentations de cotisations.
+- Souhait de regroupement des contrats.
+
+SUJETS D’INTERET
+- Bien vieillir : avoir assez de moyens pour vivre et avoir quelques loisirs : l’aspect financier prime.
+- Rester en bonne santé : cultiver sa mémoire, ses réflexes.
+- Rester en contact avec le monde : être connecté à sa famille, à l’entourage, à l’écosystème local (la ville).
+- Peur de se voir vieillir : rassurer les proches, s’accrocher à ce qui permet de se rassurer.
+
+USAGES DIGITAUX
+- ¼ n’utilisent jamais internet.
+- Sentiment de se sentir plus jeune via l’usage du digital.
+
+LES REMBOURSEMENTS PLEBISCITES POUR ETRE BIEN COUVERT
+Ce qu’ils regardent le plus dans les remboursements par ordre de priorité :
+1. Équipement optique.
+2. Remboursements dentaires.
+3. Hospi (dépassements d’honoraires).
+4. Hospi (chambre particulière).
+5. Prothèses auditives.
+6. Pharmacie.
+7. Médecines douces (ostéopathie majoritairement, homéopathie et acupuncture).
+
+CRITERE DECISIF POUR CHOISIR GROUPAMA
+1. Le Relationnel/proximité: le contact humain et la proximité géographique.
+2. L’offre (rapport prix / couverture).
+3. Image et fidélité.
+
+LES SERVICES LES PLUS INTERESSANTS
+- L’espace client pour suivi des remboursements : très intéressée par le suivi des remboursements.
+- Le réseau de soins : cette population est celle qui bénéficie le plus du réseau de soins, mais un tiers n’en n’a pas connaissance.
+- Le simulateur de remboursements.
+- Téléassistance.
+- Service en ligne pour me permettre d’évaluer mes symptômes : plus que pour les autres populations.
+- Médecines alternatives (médecine chinoise, réflexologie,...).
+- Psychologue, psychothérapie.
+- Appli de bien-être (méditation, relaxation, conseils allergie, maux de dos,...).
+- Programme de nutrition (plus que les autres tranches d’âge) à cause du changement de mode de vie après la retraite.
+
+==================================================
+
+LES 65 - 74 ANS ALIAS « LES RETRAITÉS EN FORME » MOMENTS DE VIE ET SERVICES
+
+Moments de vie:
+- Je divorce
+- 2 couronnes à faire
+- J’ai 3 petits enfants
+- Je conduis moins
+- Je suis seule à la maison
+- Je m’occupe de mon conjoint qui a du mal à se déplacer
+- Je profite de la retraite
+- Début d’arthrose
+- Diabète diagnostiqué
+- Mon conjoint décède
+
+Communication:
+Cibles:
+- Couples
+- Personnes seules
+- Aidés de façon ponctuelle par leurs enfants
+
+Opportunités de communication:
+- Je suis hospitalisé
+- Mon conjoint décède
+- Semaine bleue
+
+Axe: AVEC VOUS POUR RESTER EN FORME
+
+Le 2ème RDV suite à souscription Santé: Bilan pour faire le point à 360°: projets, situation professionnelle, personnelle, les enfants / les parents,...
+
+Services:
+- Les Gestes qui Sauvent
+- Géolocalisation réseau de soins
+- Coaching nutrition, sport
+- Bilans dentaire et optique gratuit
+- Téléconsultation (surtout pour ceux qui ont difficilement accès aux soins)
+- Consultations psy
+- Moneytrack (bien intégré dans le parcours)
+- Option hospitalisation
+- Option aidant / aidé
+- Faciliter l’accès aux loisirs
+- Formation sur la téléconsultation (pour pallier à la difficulté d’accès aux soins et au manque de mobilité)
+- Famileo
+- Abonnement Santé magazine
+- Grand mercredi
+- Entretien du jardin : 3 x / an
+- Aide ménagère : X h / mois
+- Pilulier
+- Coiffeur à domicile
+
+Offres commerciales:
+Les offre complémentaires:
+- Obsèques
+- TAP
+
+Bonus fidélité:
+- Bonus sur le remboursement dentaire
+- Augmentation de la prise en charge optique
+- Bonus sur les remboursements médecines douces
+- Forfait de remboursement sur la pharmacie non prise en charge
+- Meilleure prise en charge hospitalière
+- Des garanties d’assistance supplémentaires (ex : heures aide-ménagère)
+
+==================================================
+
+LES 65 – 74 ANS ALIAS « RETRAITÉS EN FORME » – VISION PARCOURS
+
+Changement de situation
+
+LA RECHERCHE D’INFORMATIONS EN SANTE
+Se fait très majoritairement en agence, puis minoritairement par téléphone.
+
+LA COMPARAISON
+Principalement en agences, et sur comparateurs en ligne.
+
+POURQUOI SE SONT-ILS RENSEIGNÉS SUR GROUPAMA ?
+- Une agence près de chez moi
+- Déjà client Groupama, qui est reconnu sur ce domaine
+- Top 5 des autres assureurs consultés (devis) : Harmonie Mutuelle, MAAF, AXA, Crédit Agricole, MACIF
+
+RAPPORT A GROUPAMA
+La plupart sont déjà assurés chez Groupama sur au moins un autre risque.
+
+ENJEU DE RETENTION
+- Les plus de 65 ans représentent 44% des résiliations tous motifs confondus, soit 34,8K clients ayant résilié en Santé
+- Les motifs des résiliations sont pour:
+  - Plus de la moitié des décès
+  - 35% de la résiliation concurrence
+- Les résiliations sont particulièrement fortes sur les 5 à 10 ans d’ancienneté : les 5 à 10 ans d’ancienneté représentent 26 % des résiliations et 13% du portefeuille. Les résiliations sont aussi particulièrement fortes sur les détenteurs de moins de 3 contrats.
+
+1. PRISE DE CONSCIENCE
+
+2. SOUSCRIPTION
+
+LA SOUSCRIPTION
+- Le canal agence privilégié : 86%
+- Téléphone : 13%
+
+AUTRES CONTRATS SOUSCRITS
+- Plus de la moitié souscrivent leur contrat santé uniquement
+- Près d’un tiers souscrivent au moins deux autres contrats en même temps
+
+3. NOUVEAU CLIENT
+
+4. VIE DU CONTRAT
+SELFCARE
+
+5. RÉSILIATION
+
+==================================================
+
+Les 65 - 74 ans alias « Les retraités en forme » à retenir
+
+Leur priorité : rester en bonne santé pour bien vieillir.
+Les + de 60 ans représenteront 1/3 de la population française d’ici 2040. Actuellement, environ 1/3 des femmes sur cette tranche d’âge sont veuves. Une population globalement encore autonome, à la maison.
+En 2021, les hommes âgés de 65 ans peuvent espérer vivre 11,3 ans sans incapacité et les femmes 12,6 ans.
+Sont moins mobiles, se déplacent moins souvent en voiture.
+
+Les grands et les petits maux liés à la vieillesse apparaissent avec plus de force. Le quotidien est davantage ponctué par des visites chez le médecin (généraliste et spécialistes).
+Les seniors qui ne sont pas adeptes du digital passent souvent par leurs enfants, plus appétents au digital, pour prendre RDV chez le médecin pour eux.
+
+Tableau 1 : Prévalence de maladies chroniques dans la population non institutionnalisée de 65-70 ans, selon le genre
+{
+  "Arthrose, arthrite": {
+    "Hommes": "24.7%",
+    "Femmes": "40.6%",
+    "p-valeur": "< 0.001"
+  },
+  "Dépression": {
+    "Hommes": "14.4%",
+    "Femmes": "23.3%",
+    "p-valeur": "< 0.001"
+  },
+  "Cancer": {
+    "Hommes": "14.5%",
+    "Femmes": "10.4%",
+    "p-valeur": "< 0.001"
+  },
+  "Ostéoporose": {
+    "Hommes": "2.2%",
+    "Femmes": "17.8%",
+    "p-valeur": "< 0.001"
+  },
+  "Diabète": {
+    "Hommes": "15.2%",
+    "Femmes": "7.2%",
+    "p-valeur": "< 0.001"
+  },
+  "Maladie coronarienne": {
+    "Hommes": "12.5%",
+    "Femmes": "6.0%",
+    "p-valeur": "< 0.001"
+  },
+  "Maladie pulmonaire chronique": {
+    "Hommes": "7.5%",
+    "Femmes": "10.2%",
+    "p-valeur": "0.007"
+  },
+  "Insuffisance cardiaque, autres maladies cardiaques": {
+    "Hommes": "7.0%",
+    "Femmes": "5.0%",
+    "p-valeur": "0.037"
+  },
+  "Ulcère gastro-duodénal": {
+    "Hommes": "4.8%",
+    "Femmes": "2.0%",
+    "p-valeur": "< 0.001"
+  },
+  "Maladie cérébro-vasculaire": {
+    "Hommes": "3.4%",
+    "Femmes": "2.0%",
+    "p-valeur": "0.048"
+  },
+  "Maladie de Parkinson": {
+    "Hommes": "1.4%",
+    "Femmes": "0.2%",
+    "p-valeur": "< 0.001"
+  },
+  "Autres maladies chroniques": {
+    "Hommes": "0 mentionnée",
+    "Femmes": "0 mentionnée",
+    "p-valeur": "0 mentionnée"
+  }
+}
+
+Tableau 2 : Prévalence de syndromes gériatriques dans la population non institutionnalisée de 65-70 ans, selon le genre
+{
+  "Détérioration mentale": {
+    "Hommes": "19.5%",
+    "Femmes": "28.4%",
+    "p-valeur": "< 0.001"
+  },
+  "Chute(s) par année": {
+    "Hommes": "6.6%",
+    "Femmes": "14.6%",
+    "p-valeur": "< 0.001"
+  },
+  "Incontinence urinaire": {
+    "Hommes": "6.1%",
+    "Femmes": "16.1%",
+    "p-valeur": "< 0.001"
+  },
+  "Vertiges, étourdissements": {
+    "Hommes": "5.1%",
+    "Femmes": "11.3%",
+    "p-valeur": "< 0.001"
+  },
+  "Arthralgies polyarticulaires": {
+    "Hommes": "4.8%",
+    "Femmes": "8.8%",
+    "p-valeur": "< 0.001"
+  }
+}
+
+À chaque âge ses usages privilégiés d’Internet ? Une idée pour partie fausse. Entre 55 et 70, beaucoup d’homogénéité dans les usages avec un bonus d’Internet pour les plus jeunes. Les seniors qui ne sont pas adeptes du digital passent souvent par leurs enfants, plus appétents au digital, pour prendre RDV chez le médecin pour eux.
+
+==================================================
+
+LES 75 ANS ET + ALIAS « RETRAITÉS EN PERTE D’AUTONOMIE » - APPETENCES ET ATTENTES
+
+RELATION AVEC GROUPAMA
+- Sont possesseurs de plusieurs contrats chez Groupama. Ont un lien plus fort avec l’agence. Croient en l’expertise de Groupama, plus que les autres populations.
+
+MOTIF DE CHANGEMENT DE MUTUELLE
+- Décès du conjoint
+- Les cotisations sont élevées
+- Souhaitent un meilleur rapport garanties / prix
+- Sont plus sensibles aux augmentations de cotisations
+- Souhait de regroupement des contrats
+
+SUJETS D’INTERET
+- Se maintenir autant que possible à domicile
+- Ne pas être une charge trop importante pour les proches
+- Garder un lien avec la famille
+- Avoir un petit réseau de confiance sur lequel s’appuyer
+- Gérer de front quelques rendez-vous médicaux mensuels : ne pas oublier, gérer la logistique (A/R, les ordonnances et médicaments,…)
+
+USAGES DIGITAUX
+- Très peu
+
+LA FIDÉLITÉ DEVRAIT ÊTRE RECOMPENSEE PAR
+- Bonus sur le remboursement dentaire (moins que les autres populations)
+- Augmentation de la prise en charge optique (moins que les autres populations)
+- Un forfait pour la pharmacie non remboursée (moins que les autres populations)
+- Bonus sur les remboursements médecines douces (moins que les autres populations)
+- Meilleure prise en charge hospitalière : plus que les autres populations
+- Des garanties d’assistance supplémentaires (ex : heures aide-ménagère) : plus que les autres
+
+LES REMBOURSEMENTS PLEBISCITES POUR ETRE BIEN COUVERT
+Ce qu’ils regardent le plus dans les remboursements par ordre de priorité :
+1. Équipement optique
+2. Remboursements dentaires
+3. Hospi (dépassements d’honoraires)
+4. Hospi (chambre particulière)
+5. Prothèses auditives
+6. Médecines douces (ostéopathie majoritairement, acupuncture, homéopathie, psychothérapie)
+7. Pharmacie
+
+CRITERE DECISIF POUR CHOISIR GROUPAMA
+1. Le Relationnel/proximité: le contact humain et la proximité géographique
+2. L’offre (rapport prix / couverture)
+3. Image et fidélité
+
+LES SERVICES LES PLUS INTERESSANTS (selon étude MOAI)
+- Le réseau de soins : cette population est celle qui bénéficie le plus du réseau de soins, mais un tiers n’en n’a pas connaissance
+- L’espace client pour suivi des remboursements : très intéressée par le suivi des remboursements
+- Le simulateur de remboursements
+- Services d’assistance
+- Téléassistance
+- Service en ligne pour me permettre d’évaluer mes symptômes : plus que pour les autres populations
+- Médecines alternatives (médecine chinoise, réflexologie,...)
+- Psychologue, psychothérapie
+- Appli de bien-être (méditation, relaxation, conseils allergie, maux de dos,...)
+- Programme de nutrition (plus que les autres tranches d’âge)
+
+LA TELECONSULTATION
+- Les femmes ont davantage recours à la téléconsultation que les hommes : charge mentale liée aux enfants, consultation de sage-femme et gynécologue (contraception, parcours de conception,…)
+
+RESEAU DE SOINS
+- C’est la population la plus intéressée par la présentation des services liés au réseau de soins.
+
+==================================================
+
+LES 75 ANS ET + ALIAS « RETRAITÉS EN PERTE D’AUTONOMIE » - VISION PARCOURS
+
+Changement de situation
+
+LA RECHERCHE D’INFORMATIONS EN SANTE
+- Se fait très majoritairement en agence, puis minoritairement par téléphone.
+
+LA COMPARAISON
+- La plupart ne comparent pas et passent directement chez Groupama en agence car ils sont déjà clients.
+
+RAPPORT A GROUPAMA
+- La plupart sont déjà assurés chez Groupama sur au moins un autre risque.
+
+CONNEXION A L’ESPACE CLIENT
+
+ENJEU DE RETENTION
+- Fidéliser les 65-74 ans de 5 à 10 ans d’ancienneté
+
+1. PRISE DE CONSCIENCE
+
+2. SOUSCRIPTION
+- Le canal agence privilégié : 82%
+- Téléphone : 15%
+
+AUTRES CONTRATS SOUSCRITS
+- Plus de la moitié souscrivent leur contrat santé uniquement
+- Près d’un tiers souscrivent au moins deux autres contrats en même temps
+
+3. NOUVEAU CLIENT
+
+4. VIE DU CONTRAT
+- SELFCARE
+
+5. RÉSILIATION
+
+==================================================
+
+LES 75 ANS ET + ALIAS « RETRAITÉS EN PERTE D’AUTONOMIE » A RETENIR
+
+Phénomène de vieillissement de la population française qui devrait se poursuivre dans les prochaines décennies.
+
+Lien direct avec l’augmentation du nombre de personnes en situation de dépendance (même si l’espérance de vie sans incapacité augmente également), et avant cela avec l’augmentation de personnes à aider.
+
+Enjeu de la conquête et fidélisation des 30naires qui s’intensifie.
+
+La part des bénéficiaires de l’APA augmente fortement à partir de 75 ans : de 2 % entre 70 et 74 ans fin 2017, elle passe à 6 % pour les 75 à 79 ans, 13 % pour les 80 à 84 ans, plus d’un quart pour les 85 à 89 ans, près de la moitié pour les 90 à 94 ans et les trois quarts pour les 95 ans ou plus.
+
+Deviennent plus conscients des restrictions que leur impose leur santé : la vue baisse, la fatigue, les pertes de mémoires occasionnelles,…
+
+Comptent davantage sur l’entourage pour leur procurer de petits services et sinon ont recours à des services payants : entretien du jardin, aide ménagère, promener le chien,…
+
+Cherchent un relais auprès de médecins (généralistes et spécialistes) pour traiter leurs petits et grands maux.
+
+Aux premiers rangs des maladies chroniques avec un lourd fardeau : les pathologies cardio et neuro-vasculaires, les troubles neurocognitifs majeurs (comme la maladie d’Alzheimer), les maladies respiratoires chroniques (comme la BPCO), le diabète et le cancer du poumon.
+
+AVEC VOUS POUR RESTER EN FORME
+
+==================================================
+
+TRAVAILLEURS NON SALARIÉS
+
+MODE DE VIE
+- Difficile de concilier vie professionnelle et vie personnelle
+- En manque de temps
+- Fragilité du couple à cause des conflits d’intérêts famille / entreprise
+- Peut être source de détachement d’une vie sociale épanouie
+- Peu de temps pour pratiquer de l’exercice physique, sont plus sujets à l’obésité et aux maladies cardio-vasculaires
+
+PREVENTION
+- Sensibilisation aux risques du stress, de la fatigue : du surmenage
+- Comment mieux gérer / concilier vie pro / vie perso
+- Bien renseigner sur les droits d’arrêts maladie : lier davantage prévoyance et santé pour une Offre globale aux TNS
+- Appli de sport à faire au bureau ou à la maison
+
+SANTE
+- Troubles du sommeil, angoisses
+- Burn out
+- Mal de dos
+- Stress
+- Fatigue : Sur une année, les entrepreneurs comptent en moyenne 200 heures en moins à leur compteur.
+- Des arrêts maladie peu fréquents et de durée plus courte que ceux des salariés.
+
+==================================================
+
+EXPLOITANTS AGRICOLES
+
+MODE DE VIE
+- ¾ sont des hommes
+- Un mode de vie épuisant : leur exploitation, leur vie
+- Une exposition aux accidents plus importante que dans d’autres professions. Ils travaillent le week-end, la nuit.
+- Sont parmi les plus pauvres de la population française : travaillent pour survivre
+- La majorité des agriculteurs exploitants n’emploient aucun salarié
+- Ont un profil assez similaire aux aidants : ont des charges supplémentaires (physiques et mentales) pour un gain nul ou moindre.
+
+RETRAITE
+- D’après les chiffres de l’Insee parus en octobre 2020, 55 % des agriculteurs étaient âgés de 50 ans et plus en 2019, et 13 % avaient 60 ans ou plus.
+- Pour ce qui est de l’âge de départ à la retraite, il se situe entre 62 ans – âge légal de départ à la retraite – et 67 ans – âge maximal pour atteindre le taux plein.
+- Si 55 % des agriculteurs avaient plus de 50 ans en 2019, près de la moitié d’entre eux prendra bien sa retraite à l’horizon 2030.
+
+SANTE
+- Exposés aux pesticides avec des risques plus importants sur :
+  - de développement de plusieurs types de cancer
+  - d’avortement ou de malformation du fœtus chez une agricultrice exposée
+  - d’infertilité chez l’homme
+  - d’intoxication aiguë parfois mortelle
+- Maux de dos
+- 2 suicides par jour, une majorité de plus de 65 ans, hommes, parmi les plus pauvres. 2 activités particulièrement touchées : éleveurs bovins et laitiers
+- Stress lié à leur activité
+
+PREVENTION
+- Bilan de santé à 55 ans
+- Suivi psychologique
+- Aide aux démarches administratives
+- Sensibilisation aux risques du stress, de la fatigue : du surmenage
+- Comment mieux gérer / concilier vie pro / vie perso
+- Bien renseigner sur les droits d’arrêts maladie : lier davantage prévoyance et santé pour une Offre globale aux TNS
+- Appli de sport à faire au bureau ou à la maison
+
+==================================================
+
+ZOOM PREVENTION
+THÉMATIQUES SELON MOMENTS DE VIE
+
+Plus d'1/3 des français considère sa mutuelle comme un acteur légitime pour l'accompagner sur les services de la prévention. Ceux-ci sont de plus en plus nombreux à être prêts à payer pour ces services.
+
+Les français sont de plus en plus prêts à payer pour les services de la prévention notamment pour de l'aide au domicile, l'aide au maintien au domicile et les soins à domicile.
+
+Tableau:
+{
+  "Total Prêt à payer": {
+    "De la nutrition": "71%",
+    "Du sport": "67%",
+    "Du bien-être (par exemple des massages, de la méditation)": "64%",
+    "L'aide à domicile (ex: portage de repas, garde d'enfants, etc)": "56%",
+    "Une aide au maintien à domicile": "56%",
+    "Les soins à domicile": "50%"
+  },
+  "Moyenne (hors 0)": {
+    "De la nutrition": "20.0€",
+    "Du sport": "20.0€",
+    "Du bien-être (par exemple des massages, de la méditation)": "21.0€",
+    "L'aide à domicile (ex: portage de repas, garde d'enfants, etc)": "31.0€",
+    "Une aide au maintien à domicile": "32.0€",
+    "Les soins à domicile": "26.0€"
+  },
+  "En 2021": {
+    "De la nutrition": "20€",
+    "Du sport": "21€",
+    "Du bien-être (par exemple des massages, de la méditation)": "21€",
+    "L'aide à domicile (ex: portage de repas, garde d'enfants, etc)": "31€",
+    "Une aide au maintien à domicile": "32€",
+    "Les soins à domicile": "26€"
+  }
+}
+
+Les Français sont de plus en plus nombreux à être prêts à payer en moyenne 20 € pour des services leur permettant de prendre soin de leur santé et jusqu'à 30 € pour des services liés au maintien et aux soins à domicile. Un montant moyen en légère baisse par rapport à 2021 (~21 €), mais en forte augmentation pour les services liés au maintien à domicile (+ 5 €).
+
+FEMMES
+Conseils et actions pour que les femmes soient soutenues dans les moments clés de leur vie : enceinte, mère, ménopause,...
+- Contraception : quels moyens, où en parler, changer de contraceptif après avoir eu des enfants
+- Allaitement
+- Quels professionnels de santé pour votre parcours de soins au long de la grossesse
+- Parcours PMA : être bien accompagné dans ce parcours du combattant
+- Prendre soin de soi pendant sa grossesse : médecines douces, bien manger, restrictions recommandées, peut-on faire du sport
+- Le post-partum : qu'est-ce que c'est, remise à niveau du corps et des hormones, rééducation périnéale,...
+- La ménopause : quels troubles, quels changements du corps,...
+
+JEUNES SENIORS ET SENIORS
+- Faire travailler sa mémoire de façon ludique : jeux
+- Favoriser la marche : appli de randonnée, associations,...
+- Dépistage optique, dentaire, auditif
+- Bilan cholestérol diabète,...
+- Informations sur les cancers : mammographie, coloscopie,...
+- Plateforme d'aide aux aidants
+- Conseils nutritifs « détox »
+- Les activités zen : yoga, marche nordique, méditation
+
+SENIORS EN PERTE D’AUTONOMIE
+- Les risques pour les personnes âgées en maintien à domicile
+- Aménager sa maison
+- Lutter contre l'isolement
+- Les conseils pour prendre la route
+- Les cas d'urgence pour appeler les secours
+- Actions prévention pour mieux vivre la canicule
+- Maintien à domicile
+
+PARENTALITÉ
+Conseils et actions pour que les parents puissent protéger leurs enfants
+- Diversification alimentaire (bien manger, risques d'étouffements)
+- Favoriser la motricité de l'enfant en toute sécurité
+- Formation aux risques du harcèlement à l'école
+- Formation sur le cyber harcèlement / utilisation raisonnée des réseaux sociaux
+- L'impact des écrans sur les cerveaux des enfants
+- Gestes de sécurité au sein du foyer
+- Enfant et animal : quelles règles à la maison
+- Éducation sexuelle, consentement, cycle féminin, contraception : comment bien expliquer à ses enfants
+- Adolescence et contraception
+- Contrôle parental : équilibre entre liberté et protection de nos enfants
+- Charge mentale des femmes : comment trouver l'équilibre à la maison, les aides externes,...
+
+==================================================
+
+QUELLES PREUVES CONCRÈTES APPORTER POUR RENDRE NOTRE COMPLÉMENTAIRE SANTÉ RESPONSABLE ? LES PRISES DE PAROLE NE SUFFISENT PLUS, LES FRANÇAIS DEMANDENT DES ACTIONS.
+
+Dans un contexte inflationniste qui impacte la relation au prix du client et avec la réglementation en faveur d’une souplesse pour le client (résiliation infra annuelle), il est nécessaire de valoriser la marque et ce qu’elle peut apporter à ses clients ; au quotidien, cela devra se traduire par des services tenant compte des enjeux sociétaux de nos sociétaires.
+
+RSE RESPONSABILITÉ SOCIÉTALE DES ENTREPRISES
+
+Le réseau de 33 000 élus Groupama et leurs actions de proximité sont un atout fort pour valoriser notre positionnement d’assureur responsable en santé. Il serait utile de proposer un catalogue d’actions et de supports associés pour leur donner les clés d’un dialogue décomplexé sur la santé.
+
+SOCIÉTÉ
+- Troubles de la santé mentale: Accompagner toutes les tranches d’âges dans leur besoin d’avoir un accompagnement psychologique.
+- Manque de représentation du parcours de soins féminin: Médecine genrée:
+  - Un accompagnement pour les femmes: règles, grossesse, accouchement, maternité, contraception, maternité, ménopause => protections hygiéniques, parcours de soins pendant la grossesse, rôle des hormones,...
+  - Un accompagnement pour les hommes: contraception, informations sur le cancer de la prostate,...
+- Vieillissement de la population: Valoriser les éléments de preuves de notre positionnement intergénérationnel: Relaimoi
+
+ENVIRONNEMENT
+- Dérèglement climatique: des conséquences dramatiques en vue pour les populations les plus faibles
+  - Sensibiliser aux effets de la canicule et aux bons réflexes: que faire mise à part acheter une climatisation
+  - Nouveau calendrier des maladies (ex: bronchiolite 2022 en début d’automne)
+  - Mêler santé et bien-être: cleanwalks à la plage, en campagne, avec le concours des Élus Groupama
+- « Mieux manger »: aspect bio et locavore émergent depuis quelques années
+  - Favoriser le manger local: partenariat avec des producteurs assurés chez nous
+
+ÉCONOMIE
+- Difficulté d’accès aux soins et un système de santé fragilisé: Offrir des services qui permettent aux personnes ayant des difficultés d’accès aux soins de recourir à des soins:
+  - Ex: téléconsultation renforcée, géolocalisation de box de télémédecine en pharmacie,...
+
+==================================================
+
+ANNEXES
+Ce qui a déjà été livré
+
+Groupama
+
+==================================================
+
+Focus sur nos cibles
+
+Cibles Principales:
+- Entre 18 et 29 ans
+- Entre 30 et 44 ans
+- Entre 45 et 54 ans
+- Entre 55 et 64 ans
+- Entre 65 et 74 ans
+- Plus de 75 ans
+
+Cibles Secondaires:
+- Les jeunes séniors: 55 - 65 ans
+- Les aidants: 50 - 70 ans
+- (PRO) TNS/Exploitants agricole*: 18 - 75 ans
+- Les cibles hors ANI*: 18 - 75 ans
+- Étudiants: 18 - 29 ans
+
+Notes:
+- TNS: Agriculteur (32%*); Auto-entrepreneur (18%), Artisan (15%), Chef d’entreprise (14%), Profession libérale (10%), Commerçant (4%), Travailleur indépendant, hors statut auto-entrepreneur (3%) et une autre situation d’emploi (5%)
+- Cible Hors ANI: Assistante maternelle, Professeurs des écoles & Salariés de la fonction publique
+
+* Chiffres de l’étude sur l’adhésion santé / Avril 2021
+
+Groupements étudiés:
+- Étudiants
+- Actifs
+- Retraités
+  - JEUNES SÉNIORS
+  - AIDANTS
+  - (PRO) TNS/Exploit Agri
+  - CIBLES HORS ANI
+
+==================================================
+
+SONIA - 32 ANS / ENCEINTE DE SON PREMIER ENFANT
+- Détentrice d'une formule ÉQUILIBRÉE 1, Sonia a pu mettre en jeu plusieurs garanties du contrat :
+  - la prise en charge de sa chambre particulière de 50 € par jour (qui n'est pas remboursée par la Sécurité sociale) lors de son séjour en maternité,
+  - le remboursement de ses médicaments, y compris ceux remboursés à 15 % par la Sécurité sociale,
+  - de retour chez elle, Sonia est rassurée grâce aux prestations d'assistance dont elle bénéficie : une aide ménagère et un intervenant qualifié à son domicile pour faciliter l'acquisition des premiers gestes liés à la maternité,
+  - d'un conseil médical à l'occasion d'une téléconsultation pour son enfant malade un dimanche,
+  - pour son bien-être physique, les 2 séances d'ostéopathie de Sonia ont été prises en charge dans le cadre de son contrat à raison de 35 € par séance,
+  - en déclarant son enfant auprès de sa mutuelle, Sonia a appris avec joie le versement d'une prime naissance de 100 €. Elle va en profiter pour acheter un lit parapluie pour les séjours de l'enfant chez ses grands-parents.
+
+CLÉMENT - 22 ANS / ÉTUDIANT
+- Ayant souscrit la formule ÉCONOMIQUE 1, Clément apprend qu'il doit subir une intervention chirurgicale pour l'extraction de ses 4 dents de sagesse qui le font souffrir. L'intervention se fera en ambulatoire. Il bénéficiera des garanties :
+  - la prise en charge des honoraires chirurgicaux,
+  - grâce à sa carte de tiers payant, Clément n'aura pas à faire l'avance de ses frais de santé que ce soit à l'hôpital ou à la pharmacie pour les traitements remboursés à 65 % par la Sécurité sociale. La mère de Clément pourra venir de Normandie pour accompagner son fils à l'hôpital et prendre soin de lui. Son billet Aller/Retour sera pris en charge.
+
+MARIE - 68 ANS / RETRAITÉE / VIT SEULE À SON DOMICILE
+- À la suite d'une chute dans l'escalier, Marie a dû être hospitalisée 6 jours pour une opération de la hanche. Grâce à sa formule ÉTENDUE 2, Marie a bénéficié :
+  - de la prise en charge de ses frais d'hospitalisation : forfait journalier hospitalier, honoraires du chirurgien, kinésithérapeute, radiologie, analyses...
+  - d'un forfait "Chambre Particulière" de 70 € par jour pour plus de confort et un meilleur repos,
+  - de la prise en charge de ses frais de transport en ambulance pour rentrer chez elle,
+  - de l'appel d'une infirmière en sortie d'hospitalisation qui lui a permis de vérifier son ordonnance et l'adaptation de son activité quotidienne,
+  - de l'organisation et la prise en charge du déplacement Aller/Retour de sa fille habitant dans le sud de la France,
+  - de l'intervention d'une auxiliaire de vie dès son retour au domicile,
+  - d'un transport aux rendez-vous médicaux,
+  - de la livraison de courses et de médicaments.
+
+Ce qui a permis à sa fille de repartir plus sereine.
+
+==================================================
+
+RETOURS ATELIERS : ATTENTES ET BESOINS SELON LES TYPOLOGIES DE CLIENTS
+
+Étudiants:
+- Humain: Engagement RSE dans l’avenir des jeunes
+- Conseil: Être conseillé de manière ludique pour comprendre l’offre GSA en montrant les préoccupations actuelles des jeunes et y répondre
+- Prévention: Prévention sur des thématiques concernant les jeunes comme la sensibilisation au tabac, à la drogue, la précarité menstruelle, la hausse de l’obésité, l’alimentation, la santé mentale, la médecine douce et la psychologie, l’accompagnement à la vie étudiante
+- Sport: Être accompagné dans ma santé à travers la prise en charge de mes activités sportives (abonnement/sponsoring?). Prise en charge des abonnements sportifs selon conditions
+- Moments de vie personnalisé: Besoin d’un contrat qui évolue avec l’âge du client et qui répond aux nouveaux besoins. Espace client personnalisé pour les jeunes
+- Accès aux soins: J’ai besoin que les outils me permettant d’avoir accès aux soins soient aussi efficaces que les réseaux sociaux
+
+Actifs:
+- Conseil: Être aidé à personnaliser mes offres selon mes besoins de santé et budget. Être guidé pour avoir un meilleur rapport coût/protection pour toute la famille
+- Prévention: Être conseillé pour éviter des sinistres
+- Personnalisation: Besoin d’une couverture complémentaire pour les contrats collectifs s’adaptant aux métiers et à ses contraintes
+- Sport: Être accompagné dans la reprise d’une activité sportive pour mêler vie pro/famille/sport
+- Moments de vie personnalisé: Être conseillé en fonction des années de vie
+- Images: Casser l’image d’assureur radin en mettant en avant les avantages que peut bénéficier le client
+- Equipements Santé: Renouvellement des équipements santé du foyer
+- Parcours de soin: Avoir de la visibilité sur mon parcours de soin (étapes, délai, services post soin)
+
+Retraités:
+- Conseil: Être aidé à personnaliser mes offres selon mes besoins de santé
+- Prévention: Être conseillé pour éviter des sinistres
+- Sport: Être conseiller sur des activités sportifs adapté à mon état de santé
+- Médecine douce: Être couvert sur mes besoins en médecine douce
+- Téléconsultation: Avoir accès à des téléconsultations facile en cas de problème de mobilité
+- Déserts médicaux: Avoir accès à un médecin spécialiste à tout moment
+- Moment de vie personnalisé: Être accompagné par Groupama tout au long de mon parcours de soin de manière proactive
+- Plateforme de suivi: Accompagnement concernant l’accès à l’espace client et son utilisation
+
+Tous:
+- Qualité: Réactivité, un service qui répond vite. Des remboursements correspondants à mes attentes
+- Conseil: Vulgarisation/Lisibilité/Pédagogie/Comprendre ce pourquoi je suis couvert. Être conseiller pour personnaliser mon contrat. Gérer un budget dédié à mes soins. Être accompagné dans le mieux vieillir
+- Sport: Conseil et prise en charge des activités sportives adapté à l’état de santé
+- Prévention: Conseil pour éviter les sinistres
+
+==================================================
+
+PARTIS PRIS : DÉFINITION D’ENGAGEMENTS ET DE PREUVES
+
+Étudiants:
+- Humain : Engagement RSE dans l’avenir des jeunes
+- Conseil : Être conseillé pour comprendre l’offre GSA en montrant les préoccupations actuelles des jeunes et y répondre
+- Prévention/Sport : Engagement dans la prévention/sensibilisation sur les bienfaits du sport, Prise en charge des abonnements sportifs selon conditions
+- Parcours de vie personnalisé : Conseil et accompagnement au moment de l’entrée sur le marché du travail post étude
+- Médecin par tchat : Proposer des outils accessibles et dans l’air du temps
+
+Actifs:
+- Conseil : Être conseiller sur ce dont pourquoi je suis assuré afin de comprendre le coût
+- Médecine douce : Être remboursé de toutes mes séances selon mes besoins sans être fixé à un nombre maximum
+- Sport : Conseil concernant la reprise sportive du client
+- Parcours de vie personnalisé : Valorisation de la proximité et qualité de conseil en personnalisant la GSA en fonction des moments de vie du sociétaire
+- Accès au soin et plateforme : Proposer un réseau Sévéane présent dans tous les territoires, Outils pour simulation de remboursement
+- Communication : Envoi d’une communication ressentant tous les services à disposition (ex: remboursement...) pour faciliter la vie du sociétaire, Podcast de professionnels de santé pour se renseigner
+- Communication post-soin : Appel systématique post opération
+
+Retraités:
+- Conseil : Fournir des explications claires dans un langage que le client connait, Être aidé à personnaliser mes offres selon mes besoins de santé
+- Prévention : Être conseillé pour éviter des sinistres
+- Sport et personnalisation : Proposer des activité sportives en fonction de l’âge et de l’état de santé de mon client
+- Médecine douce : Proposition large de médecine douce pour améliorer la qualité de vie de nos sociétaires, Remboursement des 3 séances à 60€ selon formule souscrite
+
+TOUS:
+- Conseil : Vulgarisation/ Lisibilité/ Pédagogie/ Comprendre : Ce pourquoi je suis couvert, Être conseiller pour personnaliser mon contrat
+- Sport : Conseil, accompagnement et prise en charge des activité sportives adaptés aux besoins du sociétaire
+- Parcours de vie personnalisé : Valorisation du conseil en personnalisant l’offre en fonction des moment de vie du sociétaire
+- Médecine douce : Proposition large de séance sans restreinte de remboursement en personnalisant selon les besoins
+
+==================================================
+
+Les Personaes:
+
+1. Aidant:
+   - Nom: Anne
+   - Âge: 48 ans
+   - Profession: Assistante maternelle
+   - Localisation: Saint-Malo (35)
+   - Contrat: Équipée d'un contrat GSA chez Groupama
+   - Proximité: Est proche de ses parents
+   - Loisirs: Aime les balades à vélo
+   - Situation familiale: Mariée, deux enfants (13 et 15 ans)
+
+2. Aidé:
+   - Nom: Philippe
+   - Âge: 75 ans
+   - Statut: Retraité
+   - Localisation: Saint-Malo (35)
+   - Contrat: Équipé d'un contrat décès chez Groupama
+   - Résidence: A toujours vécu en Bretagne
+   - Situation familiale: Veuf
+   - Loisirs: Aimer se balader en bord de mer
+
+3. Jeune Senior:
+   - Nom: Jean
+   - Âge: 62 ans
+   - Profession: Agent comptable
+   - Localisation: Sarlat (24)
+   - Contrat: Équipé d'un contrat GAV chez Groupama
+   - Résidence: A toujours vécu à la campagne
+   - Situation familiale: Marié avec les enfants ayant quitté le foyer
+   - Loisirs: Bricolage, jardinage et chasse
+
+4. Famille:
+   - Noms: Serge et Virginie
+   - Âges: 56 et 53 ans
+   - Professions: Ingénieur et Institutrice
+   - Localisation: Montpellier (34)
+   - Contrat: Possèdent un contrat Desirio et auto
+   - Résidence: Propriétaires de leur maison avec un crédit en cours
+   - Situation familiale: Mariés, 2 enfants Aurélie et Clémentine
+   - Loisirs: Serge : Rugby, Virginie : Yoga
+
+5. Jeune Client:
+   - Nom: Pierre
+   - Âge: 30 ans
+   - Profession: Enseignant
+   - Localisation: Nice (06)
+   - Contrat: Possède déjà un contrat emprunteur
+   - Résidence: A toujours vécu dans le sud de la France
+   - Situation familiale: Célibataire
+   - Loisirs: Aimer se balader en bord de mer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================
+
+DES OFFRES & SERVICES ADAPTÉS À NOS PERSONAES
+
+Quelques exemples de garanties/services en fonction de nos cibles
+
+Aidants:
+- Relaimoi: faire bénéficier ses proches de ses garanties d'assistance (et notamment 11 mois de TAP offert)
+- Accompagnement administratif de l'aidant en cas d'accident de l'aidé assuré
+- Dispositif d'accompagnement de l'aidant pour l'adaptation du logement de l'aidé
+- Service d'accompagnement administratif en cas de décès jusqu'au règlement de la succession
+- Groupama sérénité Obsèques
+- Groupama sécurité (Décès)
+
+Aidés:
+- TAP NOÉ: Téléconsultation médicale gratuite, Plateforme d'écoute 4/7
+- Soutien psychologique: 3 entretiens téléphoniques/an
+- Service de garde d'enfants: 2h consécutives/jour jusqu'à 20h, 3h consécutives/jour jusqu'à 20h, 2h consécutives/jour jusqu'à 10h
+- Livraison de repas/médicament: repas pour 2 jours, dans la limite de 15 portages et de 2 livraisons de médicaments prescrits
+- Versement anticipé du capital en cas de perte d'autonomie
+- Enveloppe de service annuelle composée de 30 heures + transport, venue d'un proche à hauteur de 150€
+- Avance possible sur le capital décès jusqu'à 3000€
+- Bilan situationnel par un ergothérapeute à domicile et Prise en charge des travaux d'adaptation du domicile (jusqu'à 360€)
+
+Jeunes seniors:
+- Pack de prévention: Forfait pédicure/podologue pour les + de 55 ans (de 40€ à 60€) (à partir de la formule 2) et prise en charge du vaccin antigrippe (toutes formules)
+- Réseau Sévéane: des tarifs privilégiés et 100% santé pour l'optique, le dentaire et l'audioprothèse (inclura les services et prix négociés)
+- Dentaire: suppression du plafond dentaire pour nos clients > 2 ans d'ancienneté
+
+Familles:
+- GSA - QARE: 6 téléconsultations médicales offertes
+- Simulateur de remboursement en ligne: remboursement par le RO
+- Réduction famille: 15% dès le 2ème assuré, -20% à partir du 2ème enfant et gratuité de la cotisation pour le 3ème enfant et les suivants
+- Espace client et application mobile Groupama
+- Jeunes parents: forfait naissance (jusqu'à 200€) à l'arrivée d'un enfant avec une auxiliaire puéricultrice à la sortie de la maternité (à partir de la formule 2)
+- Financer vos projets de réaménagement de votre habitation avec un crédit à la consommation à un taux fixe et compétitif
+
+Jeunes clients:
+- Mon assurance voyage: Protéger les voyages de vos enfants à l'étranger
+- Choix du capital versé pour les frais d'obsèques
+- Aide psychologique et Protection contre le harcèlement scolaire
+- Sports et activités physiques
+- GAV: Aide psychologique et Protection contre le harcèlement scolaire
+- Emprunteur: Jusqu'à 15 000€ d'économies
+- Protéger vos enfants avec la Rente Éducation: versement à chaque enfant désigné, pour permettre de couvrir, notamment, les frais de scolarité
+- Médecines douces (ostéo, acupuncture,...): Jusqu'à 3 séances à 60 euros par an selon la formule souscrite
+- Ma santé dans ma poche: l'application mobile et toutes ses fonctionnalités
+- Qare: téléconsultation avec QARE: consultez un médecin chez vous sans vous déplacer, même depuis l'étranger
+
+==================================================
+
+Les cibles principales:
+- Les jeunes seniors: 55 - 65 ans
+- Les aidants: 50 - 70 ans
+
+Les cibles secondaires:
+- Les cibles hors ANI:
+  - Professeurs des écoles
+  - Assistante maternelle
+  - Salariés de la fonction publique
+- Les clients santé:
+  - Les clients en A1 ou H1 pour de la montée en gamme A2/H2
+
+Autres cibles identifiées pour des actions régionales:
+- Les clients en sortie de contrat Groupe
+- Les clients/prospects adhérents des associations en lien avec Joinly
+- Les ex clients santé: pousser une communication ex client santé depuis 2020 environ (~ des 2ans)
+- Clients "fragiles" (les monoéquipés/contrats non responsables): étudier un budget rétention ?
+- Les clients Désirio (Prévoyance), avec une assurance prêt Désirio soit 30% de personnes potentiellement intéressées car par nature prévoyantes.
+- Recyclage du contrat décès en Obsèques (clients: 73-75 ans équipés décès Capital santé, Groupama sécurité et non équipés Obsèques)
+- Ex client Amaguiz
+- Le moment de vie Retraite en lien avec les Caisses et GGVIE à instruire
+
+==================================================
+
+Acquisition de nouveaux clients : quel est le profil de nos nouveaux clients santé ?
+
+Age:
+- Vos clients:
+  - 15% Entre 18 et 29 ans
+  - 14% Entre 30 et 44 ans
+  - 10% Entre 45 et 54 ans
+  - 28% Entre 55 et 64 ans
+  - 23% Entre 65 et 74 ans
+  - 10% Plus de 75 ans
+
+- Vos prospects santé (Sociétaires ayant réalisé un devis mais n'ayant pas souscrit):
+  - 5% Entre 18 et 29 ans
+  - 13% Entre 30 et 44 ans
+  - 10% Entre 45 et 54 ans
+  - 27% Entre 55 et 64 ans
+  - 32% Entre 65 et 74 ans
+  - 12% Plus de 75 ans
+
+Genre:
+- 56% Femmes
+- 44% Hommes
+
+Situation professionnelle:
+- 46% des assurés en santé sont actifs
+  - Dont 48% sont salariés de la fonction publique
+- 45% sont à la retraite
+
+- 38% se sont vus proposer un contrat collectif d'entreprise par leur employeur et 22% n'ont pas souscrit le contrat collectif en grande partie car le contrat ne leur convenait pas.
+
+Vision portefeuille:
+- Nos nouveaux clients santé sont pour la plupart en portefeuille depuis plusieurs années.
+- En moyenne sur nos nouveaux clients 2020 et 2021 :
+  - 30,5% sont de nouveaux clients
+  - 19,1% ont une ancienneté comprise entre 1 et 4 ans
+  - 50,4% ont une ancienneté de plus de 5 ans
+
+Tableau Vision portefeuille:
+{
+  "Ancienneté Groupama": {
+    "0": {
+      "2020": "30,0%",
+      "2021": "31,0%",
+      "Total général": "30,5%"
+    },
+    "1": {
+      "2020": "7,6%",
+      "2021": "5,9%",
+      "Total général": "6,9%"
+    },
+    "2": {
+      "2020": "4,9%",
+      "2021": "5,0%",
+      "Total général": "4,9%"
+    },
+    "3": {
+      "2020": "3,9%",
+      "2021": "4,3%",
+      "Total général": "4,1%"
+    },
+    "4": {
+      "2020": "3,0%",
+      "2021": "3,5%",
+      "Total général": "3,2%"
+    },
+    "5-9": {
+      "2020": "10,8%",
+      "2021": "10,6%",
+      "Total général": "10,7%"
+    },
+    "10-14": {
+      "2020": "8,6%",
+      "2021": "7,9%",
+      "Total général": "8,3%"
+    },
+    "15-19": {
+      "2020": "6,8%",
+      "2021": "7,1%",
+      "Total général": "6,9%"
+    },
+    "20-24": {
+      "2020": "7,5%",
+      "2021": "6,2%",
+      "Total général": "6,9%"
+    },
+    "25 et +": {
+      "2020": "9,9%",
+      "2021": "9,5%",
+      "Total général": "9,7%"
+    }
+  }
+}
+
+Axe d'amélioration évoqué par la communauté marketing le 09/12/2021 :
+- Abaisser nos marges techniques sur des cibles 55/60 ans pour maintenir notre dynamique de développement (CEG de février).
+
+==================================================
+
+Assurés entre 55 et 64 ans:
+- La qualité relationnelle et proximité géographique: 43% ont souscrit un autre contrat en plus du contrat Santé.
+- Complémentaire santé seule: 51%
+- Complémentaire santé et un autre contrat: 15%
+- Complémentaire santé et plusieurs autres contrats: 34%
+- Habitation: 75%
+- Auto: 75%
+- Garantie des Accidents de la vie: 52%
+- Protection juridique: 4%
+- Assurance vie: 6%
+- Un autre contrat: 1%
+- Mutuelle santé: 1%
+- Obsèques: 2%
+- Agricole: 1%
+
+Couples avec enfants:
+- Le tarif et le niveau de garanties: 72% Habitation, 52% Garanties Accidents de la vie, 70% Auto.
+
+Assurés entre 18 et 44 ans:
+- Regroupement de contrat et recommandation de l’entourage.
+- Complémentaire santé seule: 69% (18-29 ans), 57% (30-44 ans)
+- Complémentaire santé et un autre contrat: 17% (18-29 ans), 17% (30-44 ans)
+- Complémentaire santé et plusieurs autres contrats: 14% (18-29 ans), 27% (30-44 ans)
+- Habitation: 61% (18-29 ans), 63% (30-44 ans)
+- Auto: 57% (18-29 ans), 61% (30-44 ans)
+- Garantie des Accidents de la vie: 55% (18-29 ans), 64% (30-44 ans)
+- Protection juridique: 5% (18-29 ans), 4% (30-44 ans)
+- Assurance vie: 3% (18-29 ans), 4% (30-44 ans)
+- Un autre contrat: 3% (18-29 ans), 1% (30-44 ans)
+- Mutuelle santé: 3% (18-29 ans), 1% (30-44 ans)
+- Obsèques: 2% (18-29 ans), 2% (30-44 ans)
+- Agricole: 1% (18-29 ans), 1% (30-44 ans)
+
+Clients Groupama - Nouveaux assurés Santé:
+- Proximité géographique: 38%
+- Rapport qualité / prix: 29%
+- Montant des cotisations, le prix: 22%
+- Qualité de l'entretien avec le conseiller: 22%
+- Regroupement de tous vos contrats chez Groupama: 12%
+
+==================================================
+
+Vision portefeuille : 
+42% de nos clients restent mono équipés, dont 200k clients mono équipés en santé ce qui les fragilise compte tenu de la RIA.
+
+1. 42% de nos clients en PTF sont mono équipés (1 193 034) ; la découverte globale et le soutien de NEO avec les suggestions doivent nous permettre de les saturer.
+   - GOI : 57 384, 92 381, 62%
+   - GRAA : 203 514, 439 129, 46%
+   - GPVL : 123 105, 276 841, 44%
+   - GOC : 136 824, 345 582, 40%
+   - GNE : 62 132, 166 833, 37%
+   - GMED : 146 981, 319 174, 46%
+   - GLBR : 172 047, 470 418, 37%
+   - GGE : 114 362, 278 978, 41%
+   - GCM : 85 285, 218 116, 39%
+   - GCA : 91 400, 265 729, 34%
+
+2. 200k clients sont mono équipés en santé. Compte tenu de la cotisation moyenne à 1 455 €, cela représente 291 MC de cotisations à sécuriser. Nb : 29% en Auto, 49% en MRH, 6% en GAV et 17% en santé.
+   - GOI : 11%, 6 573
+   - GRAA : 14%, 29 302
+   - GPVL : 16%, 19 695
+   - GOC : 23%, 31 250
+   - GNE : 17%, 10 275
+   - GMED : 11%, 16 851
+   - GLBR : 16%, 27 728
+   - GGE : 23%, 26 226
+   - GCM : 15%, 12 421
+   - GCA : 22%, 19 822
+
+3. La RIA lisse la production de Santé sur toute l’année et parallèlement les résiliations enregistrées. Il est donc essentiel de pousser une dynamique très forte en santé dès le début d’année.
+   - Graphique : Nombre d’affaires potentielles par semaine
+     - 2019, 2020, 2021
+
+56% des nouveaux clients santé sont âgés de plus de 55 ans.
+
+==================================================
+
+Les services inclus dans notre offre doivent être connus et valorisés pour avoir un impact client (2/2)
+
+L'INTÉRÊT POUR LES SERVICES GROUPAMA
+
+Les services qui ont retenu le plus d'intérêt de la part de nos nouveaux clients santé:
+- Un service de téléassistance (+65 ans).
+- Envoi de facture et devis sur l'espace client et l'application.
+- Espace client pour suivre ses remboursements.
+- Simulateur de remboursement.
+- Accès à des applications de bien-être.
+- Service et avantages réseau de soins (75 ans et plus).
+
+Les services qui ont retenu le moins d'intérêt de la part de nos nouveaux clients santé selon l'étude MOAI à destination de nos nouveaux clients santé:
+- Soutien psychologique sans condition d'accès (-30 ans).
+- Assistance à domicile.
+- Téléconsultations.
+- Essayer des lunettes en ligne (-30 ans).
+- Relaimoi.
+- Aide à l'automédication.
+- Accès à un programme de nutrition.
+
+Méconnaissance du service (seulement 16% sont intéressés).
+
+CONCURRENCE
+
+- AÉSIO Mutuelle: Propose dans la version Google de son application, l'accès au réseau Kalixia Ostéo.
+- Santéclair: S'est enrichi de 500 nouveaux praticiens en médecines douces en 2021 dans son réseau (sophrologues et naturopathes).
+- Carte Blanche Partenaires: A lancé en 2020 un service de décryptage des devis optiques « Mon devis décrypté ».
+- Caisse d'Épargne: Le cyberharcèlement touche 20% des jeunes. La Caisse d'Épargne a décidé de les accompagner en intégrant une assistance psychologique dans ses assurances scolaire et santé.
+
+Source: Étude nouveaux clients santé 2021 - MOAI
+
+==================================================
+
+Attentes client dans la gestion de leur contrat
+
+Irritants:
+- Problème de fiabilité des données (n° sécurité sociale / code organisme) à la souscription (erreurs de saisie)
+- Espace client / application : de nombreuses anomalies non traitées / problèmes de connexion
+- Un manque de clarté sur les modalités de fonctionnement des services à distance
+- Carte tiers payant envoyée séparément de la carte verte et de l’attestation RC
+- De nombreuses erreurs d’adresse (cartes de tiers payant retournées)
+- Trop de documents à fournir
+- Perte de documents lors des changements d’interlocuteur
+- Problèmes de transmission (double facturation)
+
+Solutions:
+- Déploiement des lecteurs de carte vitale
+- Avoir un compte fictif de démonstration
+- Avoir une hotline dédiée pour remonter les bugs et aider à la prise en charge
+- Avoir un coach digital (une aide à la prise en main) pour nos seniors moins adeptes de ces outils
+- Lors d’appels PRP, confirmer les informations personnelles
+
+Réduire les délais et/ou les faire accepter en renforçant la visibilité sur le traitement des dossiers:
+- Des délais de réponse, de traitement et de remboursement trop longs (un irritant d’autant plus fort lorsque de gros montants sont engagés) associés à un manque de visibilité sur la gestion du dossier
+
+Solutions:
+- Envoyer automatiquement un message pour accuser réception de la demande « Votre mail a bien été reçu et est en cours de traitement »
+- Un appel de « compassion » pour prendre et donner des nouvelles
+- Un mail / SMS pour notifier du remboursement (service à la main du service prestation santé)
+- Avoir des alertes et notifications dans l’espace client et l’appli dès qu’il y a un nouveau remboursement santé
+- Disposer du même principe que Myosofie pour visionner ses remboursements avec la part Groupama/ la part RO/ son RAC et celui de sa « tribu »
+
+Un besoin de pédagogie et de lisibilité des contrats:
+- Faire des contrats compréhensibles et non jargonneux. Des grilles de tarifs comparables les unes avec les autres – client Malakoff Humanis
+- Avoir un contrat clair et bien détaillé sans avoir des pages à lire... Une simplification de la présentation des contrats serait bien – client Groupama, Crédit Mutuel
+
+Il est toujours nécessaire d’expliquer au client les montants qu’il payera et ce qui est compris dans le contrat – client Direct Assurance, Banque Populaire
+
+Rendre les contrats plus lisibles en supprimant les clauses d’exclusion peu compréhensibles et ou peu lisible en proscrivant l’usage de tout petits caractères – client GMF
+
+==================================================
+
+Reconnaissance de la fidélité
+
+Une reconnaissance de la fidélité qui doit se concrétiser en cas de coup dur, de sinistre ou dépense santé et lors du paiement des cotisations.
+
+Une attente des répondants en termes des services et avantages financiers liés à leur assurance plutôt qu’au quotidien ou lors d’étapes importantes de leur vie.
+
+Davantage priorisé par les clients uniquement Groupama (78%).
+
+Top 3 :
+- 74% : Un accès à des services non compris dans le contrat (aménagement du domicile, aide-ménagère...) en cas de coup dur (accident, hospitalisation...).
+- 74% : Une indemnisation au-delà de la couverture prévue dans le contrat en cas de sinistre ou dépense santé.
+- 67% : Des réductions tarifaires lors du paiement des cotisations ou d’une nouvelle souscription.
+
+Concurrence
+
+Programme « Les années qui comptent » : Les garanties optiques, dentaires, hospitalisation ou médecine douce augmentent au fil du temps.
+
+Bonus fidélité Formule Intégrale : 50€ supplémentaire à valoir sur les forfaits (dentaire optique, cure, et autres prothèses) si fidélité d’au moins 3 ans.
+
+Plus de 3 ans d'ancienneté : - 5 % de cotisation par rapport au tarif d'un nouvel adhérent.
+Plus de 5 ans d'ancienneté : - 9 % de cotisation par rapport au tarif d'un nouvel adhérent.
+
+Le manque de reconnaissance de la fidélité est un irritant fort chez nos clients.
+
+Les bonus particulièrement plébiscités par nos clients :
+- Bonus sur les garanties dentaires.
+- Bonus qui augmente la prise en charge optique lorsque l’on change peu souvent de lunettes.
+- Bonus sur le remboursement des médecines douces.
+- Forfait de remboursement pharmacie non prise en charge.
+
+Source : Étude preuves de l’humain 2021
+Source : Étude nouveaux clients santé MOAI 2021
+
+==================================================
+
+Les motifs principaux de résiliations à l'initiative des clients en santé individuelle sont les suivants :
+
+Les raisons de résiliation du contrat santé :
+- 59,6% : Le tarif
+- 27,5% : Les garanties / remboursements
+- 15,2% : La relation avec le conseiller
+
+Les motifs de résiliations sont variables d'une tranche d'âge à l'autre :
+- Pour les moins de 40 ans et les plus de 75 ans, les motifs autres (respectivement disparition de risque et décès) sont majeurs.
+- Pour les 50-64 ans et les 65-75 ans, les résiliations concurrence sont majoritaires.
+
+Les analyses menées à ce stade nous conduisent à relever des enjeux différents selon les tranches d'âge :
+- Multi-équiper les moins de 40 ans de moins de 4 ans d'ancienneté, notamment ceux qui risquent de résilier pour adhérer à un contrat collectif.
+- Fidéliser les 60-64 ans de 5 à 10 ans d'ancienneté et de les multi-équiper.
+- Fidéliser les 65-74 ans de 5 à 10 ans d'ancienneté.
+
+Les résiliants qui ont répondu aux dernières enquêtes de satisfaction mentionnent des insatisfactions sur le tarif trop élevé, des remboursements et une reconnaissance de la fidélité insuffisants.
+
+Les S/P des contrats perdus sont plus élevés que celui du portefeuille Santé.
+
+==================================================
+
+En synthèse des principaux enseignements des deux études (2/2):
+
+Pourquoi nous sont-ils fidèles ?
+- Les services qui recueillent le plus d'intérêt par nos clients sont les services en ligne pour faciliter les démarches et les avantages financiers du réseau de soins Sévéane.
+  - 1er : Les services en ligne pour faciliter les démarches :
+    1. Consulter et suivre mes remboursements
+    2. Envoyer mes factures de soins et devis
+    3. Le simulateur de remboursements
+  - 2ème : Les services et avantages proposés par le réseau de soins (Sévéane)
+
+- En spontanée, le remboursement des médecines douces et plus particulièrement de l'ostéopathie, ressort nettement (principalement pour les cibles plus jeunes) y compris pour les conseillers commerciaux.
+  - 74% regardent le niveau de prise en charge des séances d'ostéopathie
+
+- La médecine douce est également l'une des attentes dans les actions de récompense de la fidélité.
+
+Pourquoi partent-ils/ne souscrivent-ils pas ?
+- La compétitivité tarifaire de l'offre Groupama est la principale raison évoquée par les clients qui ont réalisé un devis santé mais n'ont pas souscrit.
+- Les concurrents principaux sur nos cibles restent Crédit Agricole et Harmonie Mutuelle.
+
+- Des axes d'amélioration suggérés par nos clients et conseillers commerciaux qui se recoupent sur l'amélioration de la prise en charge des médecines douces et de la pharmacie non remboursée.
+
+- À noter que les verbatims liés à Sévéane expriment pour la plupart une déception (faible maillage, manque de mise à jour des partenaires,...).

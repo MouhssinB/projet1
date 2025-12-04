@@ -1,0 +1,90 @@
+include:
+  - project: "ia-factory/to-be-continuous/docker"
+    ref: "6.1.6"
+    file: "templates/gitlab-ci-docker.yml"
+default:
+  tags:
+    - docker # <-- J'ajoute le tag 'docker' par défaut pour tous les jobs
+
+variables:
+  # Définissez ici les variables spécifiques à votre projet.
+  DOCKER_FILE: "Dockerfile"
+  DOCKER_ACR_NAME: g2sacrsp01.azurecr.io
+  DOCKER_SNAPSHOT_IMAGE: "$DOCKER_ACR_NAME/gma-training-bot:snapshot-$CI_COMMIT_REF_SLUG"
+  DOCKER_RELEASE_IMAGE: "$DOCKER_ACR_NAME/gma-training-bot:$CI_COMMIT_SHA"
+  DOCKER_BUILD_TOOL: buildah
+  DOCKER_PROD_PUBLISH_STRATEGY: "manual" # Définit la stratégie de publication globale à "manual"
+  HTTP_PROXY: http://proxy-g2s.intra.groupama.fr:8080/
+  HTTPS_PROXY: http://proxy-g2s.intra.groupama.fr:8080/
+  NO_PROXY: .privatelink.api.azureml.ms,.privatelink.blob.core.windows.net,.privatelink.file.core.windows.net,.privatelink.vault.azure.net,notused,.intra.groupama.fr,.dmzinternet.fr,.sig,.default,.svc,.cluster,.local,.localdomain,localhost,127.0.0.1,127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,172.30.0.1
+  APP_NAME: app-gma-training-bot-d-fc
+  RG_APP_NAME: rg-gma-training-bot-d-fc
+  SUBSCRIPTION_ID: 05381c1c-7b12-4287-8895-c8c956398009
+
+stages:
+  - build
+  - test
+  - package-build
+  - package-test
+  - infra
+  - deploy
+  - acceptance
+  - publish
+  - config-app
+  - infra-prod
+  - production
+
+docker-trivy:
+  rules:
+    - when: never # Désactive le job de scan Trivy pour Docker
+
+docker-sbom:
+  rules:
+    - when: never # Désactive le job sbom pour Docker
+
+docker-publish:
+  stage: deploy
+  rules:
+    - when: never
+
+
+# docker-publish:
+#   stage: publish # S'assure qu'il est dans le bon stage
+#   script:
+#     - echo "Le job de publication Docker est géré par le template inclus."
+#     - echo "Cette commande est un placeholder pour satisfaire la validation de GitLab CI."
+#   tags:
+#     - docker # <-- J'ajoute le tag 'docker' ici
+docker-deploy-integration:
+  extends: docker-publish
+  environment:
+    name: d
+  rules:
+    # on tag: if semrel info not enabled or semrel integration disabled
+    - if: '$CI_COMMIT_TAG && ($SEMREL_INFO_ON == null || $SEMREL_INFO_ON == "" || $DOCKER_SEMREL_RELEASE_DISABLED == "true")'
+    # exclude if snapshot is same as release image and semrel info not enabled or semrel integration disabled
+    - if: '$DOCKER_SNAPSHOT_IMAGE == $DOCKER_RELEASE_IMAGE && ($SEMREL_INFO_ON == null || $SEMREL_INFO_ON == "" || $DOCKER_SEMREL_RELEASE_DISABLED == "true")'
+      when: never
+    # exclude staging and production branches
+    - if: '$CI_COMMIT_REF_NAME =~ $PROD_REF'
+      when: never
+    - if: $CI_COMMIT_TAG
+    # on integration branch(es): auto & failing
+    - if: '$CI_COMMIT_REF_NAME =~ $INTEG_REF'
+      when: manual
+      allow_failure: true
+    # early stage (dev branch, no MR): manual & non-failing
+    - if: '$CI_MERGE_REQUEST_ID == null && $CI_OPEN_MERGE_REQUESTS == null'
+      when: manual
+      allow_failure: true
+
+configure-webapp-image:
+  image: g2sacrsp01.azurecr.io/gitlab-ci/india-local-runner:test4
+  stage: config-app
+  script:
+    - az login --service-principal --username $AZURE_CLIENT_ID --password $AZURE_CLIENT_SECRET --tenant $AZURE_TENANT_ID
+    - az account list
+    - az account set -s $SUBSCRIPTION_ID
+    - az webapp config container set --name $APP_NAME --resource-group $RG_APP_NAME --docker-custom-image-name $DOCKER_RELEASE_IMAGE --docker-registry-server-url https://$DOCKER_ACR_NAME
+  needs:
+    - docker-deploy-integration

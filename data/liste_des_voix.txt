@@ -1,0 +1,16 @@
+sexe;nom_voix
+Femme;fr-FR-DeniseNeural
+Homme;fr-FR-HenriNeural
+Homme;fr-FR-AlainNeural
+Femme;fr-FR-BrigitteNeural
+Femme;fr-FR-CelesteNeural
+Homme;fr-FR-ClaudeNeural
+Femme;fr-FR-CoralieNeural
+Femme;fr-FR-JacquelineNeural
+Homme;fr-FR-JeromeNeural
+Femme;fr-FR-JosephineNeural
+Homme;fr-FR-MauriceNeural
+Homme;fr-FR-YvesNeural
+Femme;fr-FR-YvetteNeural
+Homme;fr-FR-Remy:DragonHDLatestNeural
+Femme;fr-FR-Vivienne:DragonHDLatestNeural

@@ -1,0 +1,10 @@
+{
+  "groupes_habilites": [
+    "GR_SIMSAN_ADMIN",
+    "GR_SIMSAN_UTILISATEURS_PVL",
+    "GR_SIMSAN_UTILISATEURS_GOC",
+    "GR_SIMSAN_UTILISATEURS_GCM"
+  ],
+  "derniere_modification": "2025-11-27T16:26:41.602451",
+  "modifie_par": "gs8678"
+}

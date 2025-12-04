@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Charger Conversations - Administration</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f8f2;
+            color: #4a4a4a;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #007a33, #005a24);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 300;
+        }
+        
+        .header p {
+            margin: 10px 0 0;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .tabs {
+            display: flex;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .tab-button {
+            flex: 1;
+            padding: 15px 20px;
+            border: none;
+            background: #f0f0f0;
+            color: #666;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .tab-button.active {
+            background: #007a33;
+            color: white;
+        }
+        
+        .tab-button:hover:not(.active) {
+            background: #e0e0e0;
+        }
+        
+        .tab-content {
+            display: none;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .conversations-list {
+            max-height: 400px;
+            overflow-y: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            background: #f9f9f9;
+        }
+        
+        .conversation-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+            margin-bottom: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .conversation-item:hover {
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        
+        .conversation-info h4 {
+            margin: 0 0 5px;
+            color: #333;
+            font-size: 1rem;
+        }
+        
+        .conversation-info p {
+            margin: 0;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .load-btn {
+            background: #007a33;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 8px 20px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .load-btn:hover {
+            background: #005a24;
+            transform: scale(1.05);
+        }
+        
+        .upload-zone {
+            border: 2px dashed #007a33;
+            border-radius: 15px;
+            padding: 40px 20px;
+            text-align: center;
+            background: #f8f9fa;
+            transition: all 0.3s ease;
+            margin-bottom: 20px;
+        }
+        
+        .upload-zone:hover {
+            border-color: #005a24;
+            background: #f0f8f0;
+        }
+        
+        .upload-zone.dragover {
+            border-color: #005a24;
+            background: #e8f0e8;
+            transform: scale(1.02);
+        }
+        
+        .upload-icon {
+            font-size: 3rem;
+            color: #007a33;
+            margin-bottom: 15px;
+        }
+        
+        .upload-text {
+            color: #666;
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .file-input {
+            display: none;
+        }
+        
+        .select-file-btn {
+            background: #007a33;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 12px 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .select-file-btn:hover {
+            background: #005a24;
+            transform: scale(1.05);
+        }
+        
+        .selected-file {
+            margin-top: 15px;
+            padding: 10px 15px;
+            background: #e8f5e8;
+            border-radius: 8px;
+            color: #007a33;
+            font-weight: 500;
+        }
+        
+        .upload-btn {
+            width: 100%;
+            background: #007a33;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            padding: 15px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            margin-top: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .upload-btn:hover:not(:disabled) {
+            background: #005a24;
+            transform: scale(1.02);
+        }
+        
+        .upload-btn:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+        }
+        
+        .status-message {
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 500;
+        }
+        
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #6c757d;
+            color: white;
+            text-decoration: none;
+            border-radius: 20px;
+            transition: all 0.3s ease;
+        }
+        
+        .back-link:hover {
+            background: #5a6268;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 Administration - Charger Conversations</h1>
+            <p>Interface réservée aux administrateurs pour charger des conversations</p>
+        </div>
+        
+        <div class="content">
+            <div class="tabs">
+                <button class="tab-button active" data-tab="server">Depuis le serveur</button>
+                <button class="tab-button" data-tab="file">Depuis un fichier</button>
+            </div>
+            
+            <div id="server-content" class="tab-content active">
+                <h3>Conversations disponibles sur le serveur</h3>
+                <div id="conversations-list" class="conversations-list">
+                    <div style="text-align: center; padding: 20px; color: #666;">
+                        Chargement des conversations...
+                    </div>
+                </div>
+            </div>
+            
+            <div id="file-content" class="tab-content">
+                <h3>Charger depuis un fichier JSON</h3>
+                <div class="upload-zone" id="upload-zone">
+                    <div class="upload-icon">📁</div>
+                    <div class="upload-text">
+                        Glissez votre fichier JSON ici ou cliquez pour le sélectionner
+                    </div>
+                    <button type="button" class="select-file-btn" onclick="document.getElementById('file-input').click()">
+                        Choisir un fichier
+                    </button>
+                    <input type="file" id="file-input" class="file-input" accept=".json">
+                    <div id="selected-file" class="selected-file" style="display: none;"></div>
+                </div>
+                
+                <button id="upload-btn" class="upload-btn" disabled>
+                    Charger la conversation
+                </button>
+                
+                <div id="status" class="status-message" style="display: none;"></div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="/" class="back-link">← Retour au chat</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Gestion des onglets
+        document.querySelectorAll('.tab-button').forEach(button => {
+            button.addEventListener('click', () => {
+                const tabName = button.dataset.tab;
+                
+                // Mettre à jour les boutons
+                document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+                button.classList.add('active');
+                
+                // Mettre à jour le contenu
+                document.querySelectorAll('.tab-content').forEach(content => {
+                    content.classList.remove('active');
+                });
+                document.getElementById(`${tabName}-content`).classList.add('active');
+                
+                // Charger les conversations si nécessaire
+                if (tabName === 'server' && !window.conversationsLoaded) {
+                    loadConversations();
+                }
+            });
+        });
+        
+        // Charger les conversations depuis le serveur
+        async function loadConversations() {
+            const listContainer = document.getElementById('conversations-list');
+            listContainer.innerHTML = '<div style="text-align: center; padding: 20px; color: #666;">Chargement des conversations...</div>';
+            
+            try {
+                const response = await fetch('/list_conversations');
+                const data = await response.json();
+                
+                if (data.error) {
+                    listContainer.innerHTML = `<div style="text-align: center; color: #dc3545; padding: 20px;">${data.error}</div>`;
+                    return;
+                }
+                
+                if (!data.conversations || data.conversations.length === 0) {
+                    listContainer.innerHTML = '<div style="text-align: center; padding: 20px; color: #666;">Aucune conversation disponible</div>';
+                    return;
+                }
+                
+                let html = '';
+                data.conversations.forEach(conv => {
+                    html += `
+                        <div class="conversation-item">
+                            <div class="conversation-info">
+                                <h4>${conv.name}</h4>
+                                <p>Date: ${conv.date} | Taille: ${conv.size} bytes</p>
+                            </div>
+                            <button class="load-btn" onclick="loadConversation('${conv.id}')">
+                                Charger
+                            </button>
+                        </div>
+                    `;
+                });
+                
+                listContainer.innerHTML = html;
+                window.conversationsLoaded = true;
+                
+            } catch (error) {
+                listContainer.innerHTML = `<div style="text-align: center; color: #dc3545; padding: 20px;">Erreur: ${error.message}</div>`;
+            }
+        }
+        
+        // Charger une conversation spécifique
+        async function loadConversation(blobPath) {
+            try {
+                const response = await fetch('/load_conversation', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ blob_path: blobPath })
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    alert(`Erreur: ${data.error}`);
+                    return;
+                }
+                
+                alert('Conversation chargée avec succès! Retournez au chat pour la voir.');
+                
+            } catch (error) {
+                alert(`Erreur: ${error.message}`);
+            }
+        }
+        
+        // Gestion de l'upload de fichier
+        const fileInput = document.getElementById('file-input');
+        const uploadZone = document.getElementById('upload-zone');
+        const selectedFile = document.getElementById('selected-file');
+        const uploadBtn = document.getElementById('upload-btn');
+        const statusDiv = document.getElementById('status');
+        
+        fileInput.addEventListener('change', handleFileSelect);
+        uploadZone.addEventListener('dragover', handleDragOver);
+        uploadZone.addEventListener('dragleave', handleDragLeave);
+        uploadZone.addEventListener('drop', handleDrop);
+        uploadBtn.addEventListener('click', uploadFile);
+        
+        function handleFileSelect(e) {
+            const file = e.target.files[0];
+            if (file) {
+                validateAndShowFile(file);
+            }
+        }
+        
+        function handleDragOver(e) {
+            e.preventDefault();
+            uploadZone.classList.add('dragover');
+        }
+        
+        function handleDragLeave(e) {
+            e.preventDefault();
+            uploadZone.classList.remove('dragover');
+        }
+        
+        function handleDrop(e) {
+            e.preventDefault();
+            uploadZone.classList.remove('dragover');
+            
+            const files = e.dataTransfer.files;
+            if (files.length > 0) {
+                validateAndShowFile(files[0]);
+            }
+        }
+        
+        function validateAndShowFile(file) {
+            if (!file.name.endsWith('.json')) {
+                showStatus('Erreur: Le fichier doit être au format JSON', 'error');
+                selectedFile.style.display = 'none';
+                uploadBtn.disabled = true;
+                return;
+            }
+            
+            selectedFile.textContent = `Fichier sélectionné: ${file.name}`;
+            selectedFile.style.display = 'block';
+            uploadBtn.disabled = false;
+            hideStatus();
+            
+            // Stocker le fichier pour l'upload
+            window.selectedFile = file;
+        }
+        
+        async function uploadFile() {
+            if (!window.selectedFile) {
+                showStatus('Aucun fichier sélectionné', 'error');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', window.selectedFile);
+            
+            uploadBtn.textContent = 'Chargement en cours...';
+            uploadBtn.disabled = true;
+            
+            try {
+                const response = await fetch('/upload_conversation', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.success) {
+                    showStatus('Conversation chargée avec succès! Retournez au chat pour la voir.', 'success');
+                    resetFileInput();
+                } else {
+                    showStatus(`Erreur: ${data.error}`, 'error');
+                }
+                
+            } catch (error) {
+                showStatus(`Erreur: ${error.message}`, 'error');
+            } finally {
+                uploadBtn.textContent = 'Charger la conversation';
+                uploadBtn.disabled = false;
+            }
+        }
+        
+        function showStatus(message, type) {
+            statusDiv.textContent = message;
+            statusDiv.className = `status-message status-${type}`;
+            statusDiv.style.display = 'block';
+        }
+        
+        function hideStatus() {
+            statusDiv.style.display = 'none';
+        }
+        
+        function resetFileInput() {
+            fileInput.value = '';
+            selectedFile.style.display = 'none';
+            uploadBtn.disabled = true;
+            window.selectedFile = null;
+        }
+        
+        // Charger les conversations au chargement de la page
+        loadConversations();
+    </script>
+</body>
+</html>

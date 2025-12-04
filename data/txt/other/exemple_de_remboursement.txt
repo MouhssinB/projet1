@@ -1,0 +1,509 @@
+==================================================
+
+Exemple 1 : Soins Courants (remboursés par le Régime Obligatoire)
+
+Famille sans enfant - Garanties CR Métropole
+
+Une consultation chez un gynécologue avec dépassement d'honoraires maîtrisé (OPTAM)
+
+Montant de la consultation : 65€
+
+Niveau 1:
+- Assurance maladie: 26€
+- Groupama: 12€
+- Reste à charge: 27€
+
+Niveau 2:
+- Assurance maladie: 26€
+- Groupama: 32€
+- Reste à charge: 7€
+
+Niveau 3:
+- Assurance maladie: 26€
+- Groupama: 37€
+- Reste à charge: 2€
+
+Niveau 4:
+- Assurance maladie: 26€
+- Groupama: 37€
+- Reste à charge: 2€
+
+Détail du calcul:
+- Tarif: 65€
+- BR: 40€
+- Tx remb. RO: 70%
+- Remb. RO brut: 28€
+- Part. forfaitaire: 2€
+- TMGF Niv. 1: 100%BR
+
+Formules de calcul:
+- (Tx remb. RO*BR) - Part. forfaitaire = 70%*40 - 2 = 26€
+- TMGF - Remb. RO brut = 100%*40 - 28 = 12€
+- Tarif - Part RO - Part Groupama = 65 - 26 - 12 = 27€
+
+==================================================
+
+Exemple 2 : Soins Courants (remboursés par le Régime Obligatoire)
+
+Famille sans enfant - Garanties CR Métropole
+
+Une consultation chez un ophtalmologue avec dépassement d'honoraires maîtrisé (OPTAM)
+
+Montant de la consultation : 44€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "20,05€",
+    "groupama": "9,45€",
+    "reste_a_charge": "14,50€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "20,05€",
+    "groupama": "21,95€",
+    "reste_a_charge": "2€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "20,05€",
+    "groupama": "21,95€",
+    "reste_a_charge": "2€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "20,05€",
+    "groupama": "21,95€",
+    "reste_a_charge": "2€"
+  }
+}
+
+==================================================
+
+Exemple 3 : Soins Courants (remboursés par le Régime Obligatoire)
+
+Famille avec enfant(s) - Garanties CR Métropole
+
+Une consultation chez un pédiatre pour un enfant de moins de 2 ans avec dépassement d'honoraires (non OPTAM)
+
+Montant de la consultation : 60€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "28€",
+    "groupama": "12€",
+    "reste_a_charge": "20€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "28€",
+    "groupama": "24€",
+    "reste_a_charge": "8€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "28€",
+    "groupama": "32€",
+    "reste_a_charge": "0€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "28€",
+    "groupama": "32€",
+    "reste_a_charge": "0€"
+  }
+}
+
+==================================================
+
+Exemple 4 : Soins Courants (remboursés par le Régime Obligatoire)
+
+Senior - Garanties CR Métropole
+
+Consultation chez un cardiologue avec dépassement d'honoraires maîtrisé (OPTAM)
+
+Montant de la consultation : 90€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "34,75€",
+    "groupama": "15,75€",
+    "reste_a_charge": "39,50€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "34,75€",
+    "groupama": "42€",
+    "reste_a_charge": "13,25€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "34,75€",
+    "groupama": "52,50€",
+    "reste_a_charge": "2,75€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "34,75€",
+    "groupama": "53,25€",
+    "reste_a_charge": "2€"
+  }
+}
+
+Détail du calcul:
+- Tarif: 90€
+- BR: 52,50€
+- Tx remb. RO: 70%
+- Remb. RO brut: 36,75€
+- Part. forfaitaire: 2€
+- TMGF Niv. 2: 150%BR
+
+Formules de calcul:
+- (Tx remb. RO*BR) - Part. forfaitaire = 70%*52,50 - 2 = 34,75€
+- TMGF - Remb. RO brut = 150%*52,50 - 36,75 = 42€
+- Tarif - Part RO - Part Groupama = 90 - 34,75 - 42 = 13,25€
+
+==================================================
+
+Exemple 5 : Médecine Douce
+
+Famille sans & avec enfant(s) / Senior - Garanties CR Métropole
+
+Une séance chez l’ostéopathe et un traitement homéopathique
+
+Montant total : 60€ + 70€ = 130€
+
+Niveau 1:
+- Assurance maladie: 0€
+- Groupama: 0€
+- Reste à charge: 130€
+
+Niveau 2:
+- Assurance maladie: 0€
+- Groupama: 90€
+- Reste à charge: 40€
+
+Niveau 3:
+- Assurance maladie: 0€
+- Groupama: 100€
+- Reste à charge: 30€
+
+Niveau 4:
+- Assurance maladie: 0€
+- Groupama: 130€
+- Reste à charge: 0€
+
+Détail du calcul:
+- Tarif: 130€
+- Remb. Niv 3 pour la séance: 50€
+- Remb. Niv 3 pour le traitement: 50€
+- Tarif - Remb Groupama: 130 - 100 = 30€
+
+==================================================
+
+Exemple 1 : Optique et Audiologie
+
+Famille sans & avec enfant(s) / Senior - Garanties CR Métropole
+
+Paire de lunettes choisie dans la sélection Sévéane
+
+Montant total : 700€ (100€ monture + 600€ verres progressifs)
+
+Niveau 1:
+- Assurance maladie: 0,09€
+- Groupama: 0,06€
+- Reste à charge: 699,85€
+
+Niveau 2:
+- Assurance maladie: 0,09€
+- Groupama: 665€
+- Reste à charge: 34,91€
+
+Niveau 3:
+- Assurance maladie: 0,09€
+- Groupama: 699,91€
+- Reste à charge: 0€
+
+Niveau 4:
+- Assurance maladie: 0,09€
+- Groupama: 699,91€
+- Reste à charge: 0€
+
+Détail du calcul:
+- Tarif: 100€ monture / 600€ verres
+- BR: 0,15€
+- Tx remb. RO: 60%
+- Remb Niv 4 monture: 100€
+- Remb Niv 4 verres: PEC intégrale
+
+Formules de calcul:
+- Tx remb. RO*BR = 60%*0,15 = 0,09
+- (Remb monture + Remb verres) - Remb RO = (100+600) - 0,09 = 699,91€
+
+==================================================
+
+Exemple 2 : Optique et Audiologie
+
+Famille sans & avec enfant(s) / Senior - Garanties CR Métropole
+
+Appareil auditif pour un patient adulte (hors 100 % santé)
+
+Montant total : 1565€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "240€",
+    "groupama": "160€",
+    "reste_a_charge": "1165€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "240€",
+    "groupama": "260€",
+    "reste_a_charge": "1065€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "240€",
+    "groupama": "510€",
+    "reste_a_charge": "815€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "240€",
+    "groupama": "760€",
+    "reste_a_charge": "565€"
+  }
+}
+
+Détail du calcul:
+- Tarif: 1565€
+- BR: 400€
+- Tx remb. RO: 60%
+- TMGF Niv. 1: 400€ / oreille (part RO incluse)
+
+Formules de calcul:
+- (Tx remb. RO*BR) = 60%*400 = 240€
+- Total TMGV - part RO = 400 - 240 = 160€
+- Tarif - Part RO - Part Groupama = 1565 - 240 - 160 = 1165€
+
+==================================================
+
+Exemple 1 : Hospitalisation (remboursée par le Régime Obligatoire)
+
+Famille sans & avec enfant(s) - Garanties CR Métropole
+
+Honoraires du chirurgien avec dépassement d'honoraires maîtrisés (OPTAM) pour une opération d'une hernie discale
+
+Montant total : 1200€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "261,10€",
+    "groupama": "24€",
+    "reste_a_charge": "914,90€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "261,10€",
+    "groupama": "223,57€",
+    "reste_a_charge": "715,33€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "261,10€",
+    "groupama": "366,12€",
+    "reste_a_charge": "572,78€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "261,10€",
+    "groupama": "879,30€",
+    "reste_a_charge": "59,60€"
+  }
+}
+
+Détail du calcul:
+- Tarif: 1200€
+- BR: 285,10€
+- Tx remb. RO: 100%
+- Remb. RO brut: 285,10€
+- Part. forfaitaire: 24€
+- TMGF Niv. 1: 170%BR
+
+Formules de calcul:
+- (Tx remb. RO*BR) - Part. forfaitaire = (285,10*100%) - 24 = 261,10€
+- TMGF - Part RO = (285,10*170%) - 261,10 = 223,57€
+- Tarif - Part RO - Part Groupama = 1200 - 261,10 - 223,57 = 715,33€
+
+==================================================
+
+Exemple 2 : Hospitalisation (remboursée par le Régime Obligatoire)
+
+Senior - Garanties CR Métropole
+
+Honoraires du chirurgien avec dépassement d’honoraires maîtrisé (OPTAM) pour une opération chirurgicale de la cataracte
+
+Montant total : 700€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "247,70€",
+    "groupama": "24€",
+    "reste_a_charge": "428,30€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "247,70€",
+    "groupama": "214,19€",
+    "reste_a_charge": "238,11€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "247,70€",
+    "groupama": "350,04€",
+    "reste_a_charge": "102,26€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "247,70€",
+    "groupama": "452,30€",
+    "reste_a_charge": "0€"
+  }
+}
+
+Détail du calcul:
+- Tarif: 700€
+- BR: 271,70€
+- Tx remb. RO: 100%
+- Part forfaitaire: 24€
+- TMGF Niv. 2: 170%BR
+
+Formules de calcul:
+- (Tx remb. RO*BR) - Part forfaitaire = 271,70*100% - 24 = 247,70€
+- TMGF - Part RO = 170%*271,70 - 247,70 = 214,19€
+- Tarif - Part RO - Part Groupama = 700 - 247,70 - 214,19 = 238,11€
+
+==================================================
+
+Exemple 3 : Hospitalisation Confort & Assistance
+
+Famille sans & avec enfant(s) / Senior - Garanties CR Métropole
+
+2 nuits d’une chambre particulière à l’hôpital
+
+Montant total : 150€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "0€",
+    "groupama": "0€",
+    "reste_a_charge": "150€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "0€",
+    "groupama": "70€",
+    "reste_a_charge": "80€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "0€",
+    "groupama": "130€",
+    "reste_a_charge": "20€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "0€",
+    "groupama": "150€",
+    "reste_a_charge": "0€"
+  }
+}
+
+==================================================
+
+Exemple 1 : Dentaire
+
+Famille sans & avec enfant(s) / Senior - Garanties CR Métropole
+
+Couronne céramo-métallique sur molaires hors 100% santé
+
+Montant total : 554€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "72€",
+    "groupama": "48€",
+    "reste_a_charge": "434€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "72€",
+    "groupama": "168€",
+    "reste_a_charge": "314€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "72€",
+    "groupama": "228€",
+    "reste_a_charge": "254€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "72€",
+    "groupama": "348€",
+    "reste_a_charge": "134€"
+  }
+}
+
+Détail du calcul:
+- Tarif: 554€
+- BR: 120€
+- Tx remb. RO: 70%
+- TMGF Niv. 1: 100%BR
+
+Formules de calcul:
+- (Tx remb. RO*BR) = 70%*120 = 72€
+- TMGF - Remb. RO = 100%*120 - 72 = 48€
+- Tarif - Part RO - Part Groupama = 554 - 72 - 48 = 434€
+
+==================================================
+
+Exemple 2 : Dentaire
+
+Famille sans enfant / Senior - Garanties CR Métropole
+
+Pose d'un implant
+
+Montant total : 1500€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "0€",
+    "groupama": "0€",
+    "reste_a_charge": "1500€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "0€",
+    "groupama": "100€",
+    "reste_a_charge": "1400€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "0€",
+    "groupama": "300€",
+    "reste_a_charge": "1200€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "0€",
+    "groupama": "600€",
+    "reste_a_charge": "900€"
+  }
+}
+
+==================================================
+
+Exemple 3 : Dentaire
+
+Famille avec enfant(s) - Garanties CR Métropole
+
+Un semestre d'orthodontie enfant
+
+Montant total : 900€
+
+{
+  "niveau_1": {
+    "assurance_maladie": "193,50€",
+    "groupama": "0€",
+    "reste_a_charge": "760,50€"
+  },
+  "niveau_2": {
+    "assurance_maladie": "193,50€",
+    "groupama": "193,50€",
+    "reste_a_charge": "513€"
+  },
+  "niveau_3": {
+    "assurance_maladie": "193,50€",
+    "groupama": "387€",
+    "reste_a_charge": "319,50€"
+  },
+  "niveau_4": {
+    "assurance_maladie": "193,50€",
+    "groupama": "580,50€",
+    "reste_a_charge": "126€"
+  }
+}

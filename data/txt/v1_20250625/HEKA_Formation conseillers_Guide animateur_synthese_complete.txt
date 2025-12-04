@@ -1,0 +1,547 @@
+SYNTHÈSE COMPLÈTE DU DOCUMENT: HEKA_Formation conseillers_Guide animateur.pdf
+==================================================
+Groupama c'est plus de 25 ans d'expérience dans la santé individuelle
+
+2000  --> Groupama Santé Active
+Une offre déjà révolutionnaire à l'époque
+Une offre modulaire permettant de s'adapter à la consommation de soins de chaque client, sur les trois marchés couverts par Groupama
+
+2008  --> Groupama Santé Active 2
+2025  --> Nouvelle offre : Groupama Santé
+
+Une offre enrichie au fil du temps
+Montée en puissance du digital et du selfcare, ajouts de nouveaux services et de garanties d'assistance...
+
+==================================================
+Combien de clients sont actuellement assurés en santé individuelle chez Groupama ? 1 Million d'assurés en santé individuelle (Chiffres 2024)
+Quel est le S/P* de la santé individuelle chez Groupama ?
+*Part des primes reversée aux assurés sous forme de prestations. Le S/P est une composante importante de la rentabilité d’un produit d’assurance.
+Une source de rentabilité : 76% de S/P en moyenne* et 20% du chiffre d'affaires des Caisses régionales en moyenne (Chiffres 2024)
+
+Que représente aujourd'hui la santé pour Groupama ? Un levier majeur d'acquisition
+Pour quelle part des clients la santé est le 1er contrat chez Groupama ? 26,5% des nouveaux clients entrent chez Groupama par la santé (Chiffres 2024)
+==================================================
+
+Module 1 - Introduction
+
+1.2 - Contexte de la nouvelle offre
+==================================================
+
+Ces dernières années les attentes et les habitudes des Français ont évolué
+
+- Développement de la médecine ambulatoire
+- Recherches de praticiens, comparaison des tarifs et prises de rendez-vous sur internet
+- Forte augmentation du recours aux médecines douces et aux soins préventifs
+- Utilisation du selfcare, et notamment des applications mobiles pour obtenir des remboursements
+- Développement du recours aux téléconsultations médicales
+
+==================================================
+
+En parallèle, le désengagement de la Sécurité Sociale est de plus en plus prononcé.
+
+Augmentations des tarifs de base des médecins généralistes et spécialistes:
+- Médecin généraliste : 26,50€ → 30€
+- Consultation en gériatrie : 31,50€ → 37€
+- Consultation chez un psychiatre : 51,70€ → 55€
+- Consultation de gynécologie : 33,50€ → 40€
+
+Baisse du taux de remboursement de certains actes médicaux et/ou certaines spécialités:
+- Doublement de la contribution forfaitaire de 1€ à 2€ pour les consultations, de 0,5€ à 1€ par boîte de médicament
+- Projets récurrents de déremboursement de médicaments ou de baisse du taux de remboursement des consultations
+
+Difficultés d’accès aux soins et pénurie de médecins:
+- Nombreux médecins généralistes refusant les nouveaux patients
+- Parfois plus d’un an d’attente pour un rendez-vous chez un spécialiste dans certaines régions
+
+Conséquences pour les clients:
+- Augmentation du coût global des dépenses de santé des foyers et/ou baisse de la fréquence des soins
+- Forte sensibilité au prix pour le choix d’une complémentaire santé
+
+Conséquences pour les complémentaires:
+- Accroissement de la part des dépenses de santé à la charge des assureurs
+- Augmentation des tarifs des contrats santé individuels comme collectifs
+
+==================================================
+
+Dans ce contexte, Groupama innove avec une nouvelle offre pour répondre aux enjeux actuels et futurs de la santé individuelle.
+
+Pour les clients:
+- Une offre plus simple et plus lisible
+- Des garanties plus flexibles et adaptables aux besoins de chacun
+- Des interfaces digitales et des services performants pour une expérience fluide
+
+Pour les réseaux:
+- Une prise en compte des remontées de terrain concernant la structure, les garanties et les lourdeurs techniques de l’offre actuelle
+- Une omnicanalité au service des commerciaux
+- Des outils fluides qui simplifient la vie
+
+Pour Groupama:
+- Une offre renouvelée pour renforcer la position de leader de Groupama
+- Une offre ajustable en continu, rapidement et facilement
+- RSE : moins de déplacements des clients, moins de papier
+
+==================================================
+
+Module 2 – Découverte de la nouvelle offre
+
+2.1 – Les nouveautés de l’offre Groupama Santé
+==================================================
+Avec cette nouvelle offre, c'est tout l'univers santé de Groupama qui évolue
+
+- Nouveau produit: pensé pour garantir une plus grande modularité de l’offre avec une structure de tarif communautaire avec un zonier au niveau communes.
+- Selfcare client: amélioré offrant de nouveaux services et une plus grande transparence dans les traitements des dossiers clients.
+- Espace de démonstration: de l’espace client et de l’application mobile facilitant la démarche de vente par la valorisation des services disponibles.
+- Une offre omnicanale: facilement évolutive avec une cohérence du parcours client avec une même offre, un même prix, la même documentation via l’ensemble des canaux de contact.
+- Nouvel OAV: Fini Smart ! Adoptez une découverte santé optimisée et rapide pensée en fonction de votre parcours utilisateur.
+- Nouveau tunnel santé: favorisant une meilleure clarté de l’offre en garantissant l’omnicanalité de l’offre.
+
+==================================================
+Des évolutions de la structure de l'offre ont été réalisées.
+
+Garanties ACTIV2:
+- 3 blocs:
+  - Module A: Soins Courants
+  - Module B: Optique/Dentaire
+  - Module H: Hospitalisation
+
+Garanties ACTIV3:
+- 6 blocs:
+  - Soins Courants (soins couverts par le régime obligatoire)
+  - Médecine Douce (soins non couverts par le régime obligatoire)
+  - Optique et Audiologie
+  - Dentaire
+  - Hospitalisation (frais couverts par le régime obligatoire)
+  - Hospitalisation confort (frais non couverts par le régime obligatoire)
+
+4 niveaux de couverture:
+- Niveau 1
+- Niveau 2
+- Niveau 3
+- Niveau 4
+
+Note: Disparition de l'offre spécifique SENIOR. La nouvelle offre s'adapte aux différents profils client.
+
+==================================================
+
+La construction d'une proposition suit deux règles principales:
+
+1. Tous les blocs sont obligatoires:
+   - Aucun des blocs de l'offre Groupama Santé n'est optionnel. Il est impossible de ne souscrire qu'à 4 ou 5 des 6 blocs.
+   - Les blocs sont:
+     - Soins Courants (soins couverts par le régime obligatoire)
+     - Médecine Douce (soins non couverts par le régime obligatoire)
+     - Optique et Audiologie
+     - Dentaire
+     - Hospitalisation (frais couverts par le régime obligatoire)
+     - Hospitalisation confort (frais non couverts par le régime obligatoire)
+
+2. Certaines formules sont "interdites":
+   - Il n'est pas possible de souscrire une formule pour laquelle les garanties des différents blocs présentent plus de 2 niveaux d'écart.
+   - Exemple:
+     - Niveau 1, Niveau 2, Niveau 3, Niveau 4
+     - Dans cet exemple, le prospect souhaite une couverture à minima des soins dentaires mais une très forte couverture en cas d'hospitalisation.
+     - Cette formule ne peut pas être vendue car il existe plus de 2 niveaux d'écart entre certains blocs.
+     - Il suffit d'augmenter d'un niveau la couverture dentaire du prospect pour débloquer la situation.
+     - Il n'existe pas de risque d'erreur, l'OAV vous avertit et bloque la souscription des formules "interdites".
+
+Ces règles s'appliquent de la même manière dans l'OAV et le tunnel digital.
+
+==================================================
+
+Structure des garanties SOINS COURANTS
+
+ACTIV2:
+- Module A: Soins Courants
+
+Groupama Santé:
+- Soins Courants (soins couverts par le régime obligatoire)
+- Médecine Douce (soins non couverts par le régime obligatoire)
+
+Les évolutions de structure:
+- Séparation des soins courants en 2 modules distincts : les soins couverts par le régime obligatoire, et les soins non couverts
+- L’audiologie ne fait plus partie des garanties soins courants (nouveau module Optique et Audiologie)
+
+Les nouveautés à retenir sur les garanties:
+- Ajout des diététiciens et pédicures podologues à la liste des professions couvertes pour tous les profils d’assurés (à partir du niveau 2 du module « Médecine Douce »)
+- Un forfait de remboursement des prescriptions non prises en charge (dont homéopathie, contraception, vaccins etc.) en remplacement du forfait « Prévention »
+- Forfait naissance pour toutes les cibles à l’exception des assurés séniors
+- Suppression de l’audiologie dans le module soins courants pour intégration dans le module optique
+
+La séparation des soins courants en deux modules indépendants permet à l’assuré d’adapter plus finement sa couverture à ses besoins réels.
+
+==================================================
+
+Structure des garanties Optique & Audiologie
+
+ACTIV2:
+- Module B: Optique/Dentaire
+
+Groupama Santé:
+- Optique et Audiologie
+- Dentaire
+
+Les évolutions de structure:
+- Séparation de l'Optique et du Dentaire en deux modules indépendants
+- Rattachement de l'Audiologie au module Optique, ces garanties étant souvent portées par les mêmes professionnels
+
+Les nouveautés à retenir sur les garanties:
+- Optique: le forfait de remboursement comprend désormais les verres et les montures (pour les opticiens hors réseau Sévéane)
+- Rapprochement de l'optique et de l'audiologie au sein d'un même module
+- Suppression de la distinction entre les appareils auditifs à piles et à batterie (simplicité de lecture, réduction de la fraude)
+- Les garanties adultes et enfants sont désormais rédigées de la même manière pour une lecture plus simple
+
+La séparation de l'optique et du dentaire permet une plus grande modularité sur deux postes de dépenses importants qui ne concernent pas tous les assurés.
+
+==================================================
+
+Structure des garanties DENTAIRE
+
+ACTIV2:
+- Module B: Optique/Dentaire
+
+Groupama Santé:
+- Optique et Audiologie
+- Dentaire
+
+Les évolutions de structure:
+- Séparation des garanties Dentaire de l’optique (demande du réseau)
+- Un module exclusivement dédié au Dentaire
+
+Les nouveautés à retenir sur les garanties:
+- Suppression des niveaux de remboursement différents Sévéane / hors Sévéane (notamment pour les inlays/onlays) pour répondre aux irritants remontés par les conseillers et gestionnaires
+- Amélioration de la prise en charge de l’orthodontie remboursée ou non
+- Simplification générale de la rédaction des garanties et forte amélioration de la lisibilité de l’offre
+- Déplafonnement des remboursements de prothèses dentaires après 2 ans d’ancienneté*
+
+Le module dentaire est désormais indépendant de l’optique. La rédaction des garanties a été simplifiée pour une lecture et une gestion des prestations plus facile.
+
+*Certaines Caisses Régionales ont mis en place des dispositifs de reconnaissance de la fidélité plus avantageux.
+
+==================================================
+
+Structure des garanties HOSPITALISATION & ASSISTANCE
+
+ACTIV2:
+- Module H: Hospitalisation
+
+Groupama Santé:
+- Hospitalisation (frais couverts par le régime obligatoire)
+- Hospi Confort et Assistance (frais non couverts par le régime obligatoire)
+
+Les évolutions de structure:
+- Séparation des garanties liées aux frais pris en charge par le régime obligatoire et des frais de confort à l’hôpital
+- Les garanties d’assistance sont intégrées au second module et sont peu variables entre les niveaux de couverture
+
+Les nouveautés à retenir sur les garanties:
+- Le forfait chambre particulière est revalorisé et les frais annexes (wifi, journaux, TV etc.) sont désormais intégrés au forfait pour faciliter la gestion
+- Le forfait chambre particulière est désormais différent pour une hospitalisation ambulatoire ou une nuitée
+- Cagnotte de 400€ de remboursements de frais de confort à l’hôpital après 3 ans d’ancienneté*
+
+La séparation des forfaits d’hospitalisation et de confort permet au client de différencier le remboursement des soins à proprement parler et des éléments de confort selon ses besoins
+
+*Certaines Caisses Régionales ont mis en place des dispositifs de reconnaissance de la fidélité plus avantageux.
+
+==================================================
+
+La nouvelle offre s'accompagne d'un nouvel OAV
+
+Un parcours simple et intuitif qui reprend celui du tunnel digital utilisé par les clients
+
+Des questions intégrées à l'outil pour générer une première proposition directement pertinente
+
+Un outil qui facilite la vie avec la possibilité d'ajout d'un bénéficiaire hors foyer, la possibilité de générer un avenant dès l'avis d'échéance, les TMGF et des illustrations de remboursements disponibles dans l'OAV etc.
+
+Un devis client réellement omnicanal
+- Reprise et modification d'un devis internet
+- Validation d'un devis réalisé par téléphone
+
+==================================================
+
+Module 2 – Découverte de la nouvelle offre
+
+2.3 – Les points forts conservés
+
+Sévéane : partenaire de Groupama depuis 15 ans pour les équipements Optique et Audiologie
+
+5 000 opticiens partenaires*
+4 600 audioprothésistes partenaires*
+
+De nombreux avantages tarifaires :
+- Jusqu’à -40% sur les verres (y compris les verres progressifs) et jusqu’à -20% sur les montures solaires sans correction
+- -10% sur les lentilles, les accessoires et les solaires sans correction
+- -50% sur les verres d’une 2e paire non remboursée avec la même correction
+- -20% à -40% sur les appareils auditifs
+- -5% sur les accessoires
+
+Un service après-vente renforcé :
+- Garantie casse sans franchise
+- Garantie « satisfait ou remboursé » pendant 6 mois sur les verres en cas d’inadaption ou d’intolérance
+- Adaptation, réglage et entretien gratuit des appareils auditifs tout au long de leur durée de vie
+
+Tiers payant chez l’ensemble des partenaires du réseau Sévéane
+Aucune avance de frais nécessaire
+
+* En France métropolitaine, hors Corse
+
+==================================================
+
+Toutes les opérations importantes sont réalisables sur l'application mobile.
+
+- Envoyer des factures, devis ou autres documents et suivre l'état des remboursements.
+- Prendre rendez-vous avec un médecin généraliste ou spécialiste pour une téléconsultation.
+- Localiser un professionnel de santé Sévéane à proximité pour bénéficier de tarifs avantageux.
+
+Groupama et moi: Une application utile, simple et fluide. Nos clients le disent.
+
+- Note sur Google Play: 4,6 étoiles, 27K avis.
+- Note sur l'App Store: 4,7 étoiles, 21K avis.
+
+==================================================
+
+Des services et des assistances qui simplifient vraiment la vie
+
+- Téléconsultations: Jusqu'à 6 par an et par bénéficiaire
+- Aide ménagère: Jusqu'à 35h/an, 2 fois par an et par bénéficiaire
+- Garde à domicile d'enfant ou de personne dépendante: Jusqu'à 35h, 2 fois par an et par bénéficiaire
+- Livraison de médicaments et de repas: Jusqu'à 300€, 2 fois par an et par bénéficiaire
+- Garde d'animaux: Jusqu'à 300€, 2 fois par an et par bénéficiaire
+- Assistance médicale en déplacement: En France ou à l'étranger (dont rapatriement)
+
+RELAIMOI: un vrai + pour les assurés et un moyen de faire la différence en rendez-vous
+
+Grâce au service unique RELAIMOI, nos assurés ont la possibilité de faire bénéficier un proche* immobilisé d'une de leurs garanties d'aide à domicile
+- Le bénéficiaire (proche* de l'assuré) n'a pas à être assuré chez Groupama
+- Ce service est activable une fois par an
+
+*Proche défini au sens "ascendants" (père, mère, grand-père, grand-mère) ou "descendants" (enfants, petits-enfants)
+
+Ces services sont opérés par la société MUTUAIDE pour le compte de Groupama. L'assuré ouvre son dossier en contactant Groupama Assistance depuis l'application ou par téléphone.
+
+==================================================
+
+Un contrat Responsable et Solidaire pour bénéficier d'une fiscalité allégée
+
+Une complémentaire Responsable
+- Les contrats "responsables" ont pour objectif de faire adopter une attitude raisonnable concernant les dépenses de santé en responsabilisant les patients et les professionnels de santé
+  - Respect des plafonds et de planchers de remboursements de soins, dispositif 100% Santé etc.
+  - Incitation au respect du parcours de soins
+
+Une complémentaire Solidaire
+- Absence de questionnaire médical soumis au client à la souscription du contrat
+  - La cotisation ne dépend pas de l'état de santé de l'assuré ou des autres bénéficiaires du contrat
+
+Qui permet de bénéficier des dispositifs suivants :
+
+1. TSA réduite (Taxe de Solidarité Additionnelle)
+   - 20,27% Contrat non responsable
+   - 13,27% Contrat Responsable
+   - Et même 6,27% pour les affiliés MSA (Mutualité Sociale Agricole)
+     - Exploitants et salariés agricoles
+     - Professions connexes à l'agriculture
+     - Résidents sur l'exploitation d'un membre de la famille**
+
+2. Loi Madelin
+   - Déduction des cotisations santé des revenus imposables des travailleurs indépendants
+   - Cette disposition concerne les :
+     - Professions libérales
+     - Gérants majoritaires
+     - Commerçants et artisans
+     - Conjoints collaborateurs
+   - A l'exclusion des :
+     - Micro-entrepreneurs (ex auto-entrepreneurs)
+     - Indépendants affiliés à la MSA (Mutualité Sociale Agricole)
+     - Détenteurs d'un contrat non responsable
+
+** Exploitations actives. Définition de "membre de la famille" : conjoint, ascendants, descendants, frères et sœurs. Attention l'avantage fiscal n'est pas maintenu au passage à la retraite
+
+La loi Madelin concerne les assurés physiques, la personne morale (entreprise) n'est pas le souscripteur du contrat. Si les primes sont payées par l'entreprise, le devoir de conseil impose de rappeler ces dispositions
+
+==================================================
+
+Module 2 – Découverte de la nouvelle offre
+
+2.4 – Les cibles de l’offre Groupama Santé
+
+quelles sont les attentes et les moments de vie liés à la santé les plus importants sur chaque marché ?
+
+Le marché des PARTICULIERS
+
+Les retraités:
+- Représentent 32% des affaires nouvelles (AN) et ont le meilleur taux de concrétisation prospect.
+
+Moments de vie et enjeux:
+- Le passage à la retraite et la sortie du contrat collectif sont des moments charnières nécessitant des conseils pour les nouveaux retraités.
+- La reprise à la concurrence est également un moment important après quelques années de retraite.
+
+Besoins et attentes:
+- Le prix est le critère principal pour les familles et les séniors. D'autres éléments sont pris en compte:
+  - Le niveau de couverture, notamment pour les soins des enfants (pour les familles).
+  - La prise en charge des soins liés à l'âge: implants dentaires, optiques, etc. (pour les séniors).
+  - La proximité et la relation avec l'assureur (pour les séniors).
+
+Les actifs installés et les familles (30 – 55 ans):
+- Représentent 15% des AN.
+
+Moments de vie et enjeux:
+- Remise en question de la couverture au moment de l'arrivée d'un enfant ou autre modification de la structure du foyer.
+- Enjeu de multi-équipement sur un potentiel assurable important (véhicules, logement, épargne).
+
+Les jeunes:
+- Avant le passage à une complémentaire collective.
+
+Moments de vie et enjeux:
+- Opportunité pendant la période entre la sortie de la complémentaire santé des parents (études et/ou limite d'âge) et le 1er emploi salarié stable (avec contrat collectif).
+- Enjeu de multi-équipement rapide avant l'entrée dans le 1er contrat collectif.
+
+Besoins et attentes:
+- Besoin d'une couverture "légère". La recherche principale concerne le prix le plus bas.
+- Souscription vue comme temporaire ou transitoire avant de bénéficier d'une meilleure couverture collective.
+
+De l'importance de capter les moments de vie de nos sociétaires avec Groupama+, 200€ d'avantage pour les contrats signés dans le contexte d'un passage à la retraite.
+
+==================================================
+
+Le marché des ACPS
+
+Les artisans, commerçants et professions libérales
+
+Moments de vie et enjeux:
+- Des moments de vie clés proches de ceux des particuliers:
+  - Évolution de la structure familiale
+  - Naissance d'un enfant
+  - Anticipation de la retraite
+- Des enjeux cependant parfois différents:
+  - Des implications fiscales de la complémentaire santé propres aux ACPS
+  - Des risques parfois plus importants que le reste de la population: risques psychosociaux, risques physiques selon les métiers
+
+Les chefs d'entreprise
+
+Besoins et attentes:
+- Un marché composé à 50% de micro-entrepreneurs (ex auto-entrepreneurs) ne bénéficiant pas d’avantages fiscaux sur leur complémentaire, le prix reste leur critère principal
+- Des ACPS sous d’autres statuts juridiques, bénéficiant des avantages de la loi Madelin et pour lesquels une moins forte sensibilité au prix est observée, au profit d’une couverture renforcée
+- Un besoin de réduire la charge administrative et donc une forte sensibilité aux outils digitaux performants
+- Des frais qui doivent s’adapter à d’éventuelles baisses ou augmentations de revenus
+
+Informations supplémentaires:
+- Une population préoccupée par le maintien de ses revenus en cas de maladie ou d’incapacité permanente → Rebond Prévoyance primordial
+- Une population sans uniformité des risques à couvrir. Une forte diversité de métiers avec des risques propres à chacun (chutes, produits chimiques, brûlures etc.)
+
+==================================================
+
+Le marché des AGRICULTEURS
+
+Pour la complémentaire santé, le marché AGRI comporte...
+
+Les AGRI en transmission
+- 55 – 64 ans, en anticipation de la retraite
+
+Les exploitants installés
+- 40 – 54 ans à sécuriser et multi-équiper
+
+Les jeunes AGRI
+- 20 à 39 ans à équiper en Santé
+
+... des points communs avec les autres marchés...
+
+- Des moments de vie similaires à ceux des particuliers (naissances, changement de la structure familiale, départ en retraite)
+- Des moments de vie proches de ceux des ACPS (lancement d’activité, rachats d’activités, augmentation ou baisse de revenus professionnels)
+- Un fort besoin de simplicité et de fluidité administrative (outils digitaux performants, délais de traitement réduits, réactivité globale de tous les interlocuteurs)
+
+... et quelques spécificités
+
+- Un régime obligatoire qui n’est la Sécurité Sociale mais la MSA*
+- Une population plus rurale et donc plus exposée aux déserts médicaux. Un réel intérêt de la téléconsultation pour les AGRI
+- Une surreprésentation de certains problèmes de santé : troubles musculosquelettiques, troubles psychosociaux (isolement, dépression), maladies liées à l’exposition à des produits chimiques
+
+Une population préoccupée par le maintien de ses revenus en cas de maladie ou d’incapacité permanente → Rebond Prévoyance primordial
+
+==================================================
+
+Module 3 - Découverte du nouvel OAV
+
+Nouvel OAV --> Une offre omnicanale
+
+==================================================
+
+Module 4 – Présentation de l’espace démo Explore Digital
+
+Selfcare client
+
+==================================================
+
+Module 5 – Zoom sur quelques offres concurrentes
+
+Comment se positionne Groupama Santé sur son marché ?
+
+MAAF VS Groupama Santé
+
+TOP 3 Différenciant:
+- Groupama Santé:
+  - Garanties d’assistance transférables aux proches même non assurés chez Groupama
+  - Verres adultes enfants, simples ou progressifs
+  - Enveloppe de confort pour couvrir les frais annexes suite à hospi de 6N/7J
+- MAAF:
+  - Proposé en cas d’hospitalisation suivie d’immobilisation: aide-ménagère, livraison de repas et de médicament… (Relaimoi)
+  - Verres intégralement remboursés via Sévéane (à partir du niv 2) sur une sélection de verres
+  - Cagnotte de 400€ ou 500€ selon les CR et les conditions
+
+Forfait Naissance:
+- Groupama Santé: Jusqu’à 200€
+- MAAF: Jusqu’à 120€
+
+Orthodontie prise en charge par le RO:
+- Groupama Santé: Jusqu’à 774€/semestre
+- MAAF: Jusqu’à 600€/semestre
+
+Orthodontie non prise en charge par le RO:
+- Groupama Santé: Jusqu’à 600€/an
+- MAAF: Jusqu’à 500€/an
+
+Honoraires hospitaliers (OPTAM):
+- Groupama Santé: Jusqu’à 400%BR
+- MAAF: Jusqu’à 310%BR avec les bonus fidélité
+
+Bilan annuel prévention dentaire:
+- Groupama Santé: 25€/an
+- MAAF: Non proposé
+
+Contrer MAAF:
+- Groupama Santé:
+  - Bonus fidélité après 2 ans jusqu’à +200€/prothèse (couronnes définitives et bridges) mais avec un plafond dentaire annuel global de 1500€ (niv 4 resp.) ou de 2000€ (niv 5 non resp.).
+  - Aide à la conception (FIV) non remboursée par le RO jusqu’à 800€/an pour les moins de 43 ans.
+- MAAF:
+  - Bonus fidélité également après 2 ans, mais sans plafond annuel.
+  - Les actes liés à une FIV sont pris en charge à 80% par le RO (6 inséminations et 4 tentatives de FIV). Groupama rembourse mieux les honoraires hospitaliers qui peuvent être occasionnés par la FIV. Concerne peu nos cibles prioritaires.
+
+==================================================
+
+Module 6 – Quiz sur l’offre Groupama Santé
+Quiz Time
+
+
+question : A partir de quel niveau de couverture du bloc "médecines douces" mon client peut-il bénéficier d'un remboursement de ses consultations de médecines douces ?
+réponse : Niveau 4
+
+Question : A quelles garanties l'audiologie (aides auditives etc.) est-elle désormais rattachée dans la nouvelle offre Groupama Santé ?
+Réponse : Garanties Optique
+
+Question : Pour un assuré, quels sont les avantages de se rendre chez un professionnel du réseau Sévéane ?
+Réponses : "Des réductions importantes sur les verres et les montures." "Des réductions importantes sur les appareils auditifs"  , "- L'absence totale d'avance de frais grâce au tiers payant"
+
+Question : Le contrat Groupama Santé étant responsable et solidaire, les assurés peuvent bénéficier des avantages suivants:
+Réponses : "Une fiscalité avantageuse" , "La déduction des cotisations de leurs revenus pour certains indépendants"
+
+Question : La nouvelle offre santé comporte 6 modules pour lesquels un niveau de couverture de 1 à 4 doit être défini. Parmi les formules ci-dessous, y en a-t-il qui ne peuvent pas être vendues ?
+réponses : "2-4-2-1-2-3" ,  "3-2-4-3-1-1"
+
+Question : Les garanties d'assistance du contrat Groupama Santé permettent à l'assuré de bénéficier des services suivants:
+Réponses : "Aide à la garde d'enfants et/ou d'animaux domestiques" "Rapatriement en cas de problème de santé pendant un déplacement à l'étranger" "Aide ménagère et livraison de repas à domicile pendant l'immobilisation"
+
+Question : Parmi ces propositions, qui peut bénéficier du dispositif Madelin ?
+Réponses : Les petits commerçants et artisans
+
+Question : Dans l'application Groupama, les clients peuvent :
+Réponses :  "Visualiser leur attestation de tiers payant" "Demander un remboursement" "Prendre RDV pour une téléconsultation médicale"
+
+Question : Tous marchés confondus, quel est le moment de vie le plus propice à la vente d’une complémentaire santé ?
+Réponse : Le passage à la retraite

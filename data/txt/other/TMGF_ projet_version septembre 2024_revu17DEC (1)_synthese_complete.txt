@@ -1,0 +1,355 @@
+SYNTHÈSE COMPLÈTE DU DOCUMENT: TMGF_ projet_version septembre 2024_revu17DEC (1).pdf
+================================================================================
+
+Document original: data/in/pdf/TMGF_ projet_version septembre 2024_revu17DEC (1).pdf
+Date d'analyse: 2025-05-05 13:16:58
+
+
+
+====================================================================================================
+
+VERSION 17
+DECEMBRE TMGF
+UNIQUE
+GROUPAMA SANTE
+
+{
+  "SOINS COURANTS": {
+    "Honoraires médicaux": {
+      "Généralistes et spécialistes conventionnés ou non (y compris radiologues)": {
+        "Médecin DPTAM": {
+          "Niveau 1": "100% BR",
+          "Niveau 2": "150% BR",
+          "Niveau 3": "170% BR",
+          "Niveau 4": "300% BR"
+        },
+        "Médecin non DPTAM": {
+          "Niveau 1": "100% BR",
+          "Niveau 2": "130% BR",
+          "Niveau 3": "150% BR",
+          "Niveau 4": "200% BR"
+        }
+      }
+    },
+    "Honoraires paramédicaux": {
+      "Psychologues référencés par le régime obligatoire": {
+        "Niveau 1": "100% BR",
+        "Niveau 2": "130% BR",
+        "Niveau 3": "150% BR",
+        "Niveau 4": "300% BR"
+      },
+      "Auxiliaires médicaux": {
+        "Niveau 1": "100% BR",
+        "Niveau 2": "130% BR",
+        "Niveau 3": "150% BR",
+        "Niveau 4": "200% BR"
+      }
+    },
+    "Médicaments prescrits et remboursés": {
+      "Niveau 1": "100% BR",
+      "Niveau 2": "100% BR",
+      "Niveau 3": "100% BR",
+      "Niveau 4": "100% BR"
+    },
+    "Analyses et examens de laboratoire": {
+      "Niveau 1": "100% BR",
+      "Niveau 2": "130% BR",
+      "Niveau 3": "150% BR",
+      "Niveau 4": "300% BR"
+    },
+    "Matériel médical": {
+      "Appareillage (hors optique, dentaire et aide auditive)": {
+        "Niveau 1": "100% BR",
+        "Niveau 2": "130% BR",
+        "Niveau 3": "150% BR",
+        "Niveau 4": "300% BR"
+      }
+    },
+    "Frais de transport médicaux": {
+      "Niveau 1": "100% BR",
+      "Niveau 2": "130% BR",
+      "Niveau 3": "150% BR",
+      "Niveau 4": "300% BR"
+    },
+    "Cures thermales": {
+      "Frais thermaux": {
+        "Niveau 1": "100% BR",
+        "Niveau 2": "130% BR",
+        "Niveau 3": "150% BR",
+        "Niveau 4": "300% BR"
+      },
+      "Frais d'hébergement et de transport (par an et par bénéficiaire, sur justificatifs)": {
+        "Niveau 1": "100% BR",
+        "Niveau 2": "100% BR + 80 €",
+        "Niveau 3": "100% BR + 100 €",
+        "Niveau 4": "100% BR + 185 €"
+      }
+    }
+  },
+  "MEDECINE DOUCE": {
+    "Médecines douces (par an et par bénéficiaire)": {
+      "séances pratiquées par un professionnel de santé référencé dans le RPPS": {
+        "Niveau 1": "-",
+        "Niveau 2": "2 séances à 50 €",
+        "Niveau 3": "3 séances à 50 €",
+        "Niveau 4": "3 séances à 60 €"
+      }
+    },
+    "Prescriptions non prises en charge par le RO (par an et par bénéficiaire)": {
+      "Pharmacie prescrite non remboursée": {
+        "Niveau 1": "-",
+        "Niveau 2": "40 €",
+        "Niveau 3": "50 €",
+        "Niveau 4": "100 €"
+      },
+      "Examen d'ostéodensitométrie": {
+        "Niveau 1": "-",
+        "Niveau 2": "40 €",
+        "Niveau 3": "50 €",
+        "Niveau 4": "100 €"
+      }
+    }
+  },
+  "NAISSANCE BIENVENUE": {
+    "Forfait en cas de naissance ou d'adoption (enfant moins de 11 ans)": {
+      "Niveau 1": "-",
+      "Niveau 2": "100 €",
+      "Niveau 3": "120 €",
+      "Niveau 4": "200 €"
+    }
+  }
+}
+
+Notes:
+(1) Soins courants pris en charge par le régime obligatoire. Les garanties exprimées en % de la BR (base de remboursement) incluent le remboursement du régime obligatoire (RO).
+(2) DPTAM (Dispositifs de pratique tarifaire maîtrisée) tels que définis aux conditions générales.
+(3) RPPS = Répertoire Partagé des Professionnels intervenants dans le système de Santé.
+(4) Médicaments, vaccins, moyens contraceptifs hors appareils nécessitant une alimentation électrique, référencés par le régime obligatoire, achetés en officine, prescrits par un médecin.
+
+==================================================
+
+OPTIQUE:
+Les équipements en optique sont remboursés à raison d'un équipement tous les deux ans sauf enfant de moins de 16 ans, l'équipement est alors remboursé une fois par an.
+
+Equipements 100% Santé:
+- Frais Réels dans la limite des Prix Limites de Vente définis par la réglementation
+
+Equipements hors 100% Santé:
+ADULTE:
+- Opticiens du réseau Sévéane : Monture
+  - Niveau 1: 100% BR
+  - Niveau 2: 65 €
+  - Niveau 3: 100 €
+  - Niveau 4: 100 €
+- Opticiens du réseau Sévéane : Verres
+  - Niveau 1: 100% BR
+  - Niveau 2: Prise en charge intégrale des verres parmi une sélection de verres Sévéane
+  - Niveau 3: Prise en charge intégrale des verres parmi une sélection de verres Sévéane
+  - Niveau 4: Prise en charge intégrale des verres parmi une sélection de verres Sévéane
+- Autres opticiens :
+  - Une monture et deux verres simples
+    - Niveau 1: 100% BR dont la monture 110 € 
+    - Niveau 2: 150 € dont la monture 200 €
+    - Niveau 3: 170 € dont la monture 230 €
+    - Niveau 4: 250 € dont la monture 250 €
+
+ENFANT:
+- Opticiens du réseau Sévéane : Monture
+  - Niveau 1: 100% BR
+  - Niveau 2: 30 €
+  - Niveau 3: 50 €
+  - Niveau 4: 100 €
+- Opticiens du réseau Sévéane : Verres
+  - Niveau 1: 100% BR
+  - Niveau 2: Prise en charge intégrale des verres parmi une sélection de verres Sévéane
+  - Niveau 3: Prise en charge intégrale des verres parmi une sélection de verres Sévéane
+  - Niveau 4: Prise en charge intégrale des verres parmi une sélection de verres Sévéane
+- Autres opticiens :
+  - Une monture et deux verres simples
+    - Niveau 1: 100% BR dont la monture 75 €
+    - Niveau 2: 100 € dont la monture 200 €
+    - Niveau 3: 155 € dont la monture 200 €
+    - Niveau 4: 200 € dont la monture 200 €
+
+Lentilles correctrices remboursées ou non par le Régime Obligatoire (forfait par an et par bénéficiaire):
+- Opticiens Sévéane
+  - Niveau 1: 100% BR
+  - Niveau 2: 80 €
+  - Niveau 3: 95 €
+  - Niveau 4: 155 €
+- Autres opticiens
+  - Niveau 1: 65 €
+  - Niveau 2: 80 €
+  - Niveau 3: 145 €
+  - Niveau 4: 145 €
+
+Opération des défauts visuels (2 forfaits par bénéficiaire sur la durée du contrat):
+- Niveau 1: -
+- Niveau 2: 155 €
+- Niveau 3: 230 €
+- Niveau 4: 460 €
+
+AUDIOLOGIE:
+Prise en charge d'une aide auditive par oreille par période de 4 ans
+
+Equipements 100% Santé:
+- Frais Réels dans la limite des Prix Limites de Vente définis par la réglementation
+
+Equipements hors 100% Santé:
+- Aide auditive adulte - par oreille (part RO incluse)
+  - Niveau 1: 400 €
+  - Niveau 2: 500 €
+  - Niveau 3: 750 €
+  - Niveau 4: 1000 €
+- Aide auditive enfant et patient souffrant d'un handicap visuel - par oreille (part RO incluse)
+  - Niveau 1: 1400 €
+  - Niveau 2: 1600 €
+  - Niveau 3: 1700 €
+  - Niveau 4: 1700 €
+- Piles et accessoires
+  - Niveau 1: 100% BR
+  - Niveau 2: 130% BR
+  - Niveau 3: 150% BR
+  - Niveau 4: 300% BR
+- Diminution du coût auprès des audioprothésistes Sévéane sur les équipements, les piles et les accessoires.
+  - Niveau 1: Inclus
+  - Niveau 2: Inclus
+  - Niveau 3: Inclus
+  - Niveau 4: Inclus
+
+DENTAIRE:
+Soins:
+- Consultations, soins conservateurs (hors inlay/onlay), radiographies, extractions (y compris actes de prévention)
+  - Niveau 1: 100% BR
+  - Niveau 2: 100% BR
+  - Niveau 3: 100% BR
+  - Niveau 4: 100% BR
+- Inlay/Onlay
+  - Niveau 1: 100% BR
+  - Niveau 2: 100% BR + 35 €
+  - Niveau 3: 100% BR + 70 €
+  - Niveau 4: 100% BR + 100 €
+
+Orthodontie:
+- Prise en charge par le RO : soit par semestre de traitement (part RO incluse)
+  - Niveau 1: 100% BR
+  - Niveau 2: 200% BR
+  - Niveau 3: 300% BR
+  - Niveau 4: 400% BR
+- Non prise en charge par le RO, forfait par an et par bénéficiaire de plus de 18 ans
+  - Niveau 1: -
+  - Niveau 2: -
+  - Niveau 3: 300 €
+  - Niveau 4: 600 €
+
+Actes prothétiques pris en charge par le RO:
+- Soins et prothèses 100% santé y compris panier maîtrisé
+  - Frais Réels dans la limite des Honoraires Limites de Facturation (HLF) définis par la réglementation
+- Actes prothétiques, par exemple : prothèse dentaire, appareil amovible, bridges, inlay-core
+  - Niveau 1: 100% BR
+  - Niveau 2: 200% BR
+  - Niveau 3: 250% BR
+  - Niveau 4: 350% BR
+
+==================================================
+
+Montant maximum de l'intégralité des remboursements de prothèses (100% santé, panier maîtrisé et panier libre) par an et par bénéficiaire:
+- Niveau 1: -
+- Niveau 2: 400 €
+- Niveau 3: 600 €
+- Niveau 4: 900 €
+
+Bonus fidélité: après deux ans, suppression de la limite annuelle
+
+Implant:
+- Pose d'implant par bénéficiaire: 2 implants par période de deux ans
+  - Niveau 1: -
+  - Niveau 2: 100 €
+  - Niveau 3: 300 €
+  - Niveau 4: 600 €
+
+Accès au réseau Implantologues Sévéane:
+- Niveau 1: Service inclus
+- Niveau 2: Service inclus
+- Niveau 3: Service inclus
+- Niveau 4: Service inclus
+
+Prévention dentaire:
+- Bilan annuel de prévention dentaire au-delà de 24 ans (forfait annuel par bénéficiaire): 25 € pour tous les niveaux
+
+Traitement parodontal sous anesthésie locale (soins, dents et gencives):
+- Niveau 1: -
+- Niveau 2: 30 €
+- Niveau 3: 60 €
+- Niveau 4: 100 €
+
+HOSPITALISATION:
+- Prise en charge dès le 1er jour
+  - Honoraires de soins:
+    - Médecin DPTAM:
+      - Niveau 1: 100% BR
+      - Niveau 2: 170% BR
+      - Niveau 3: 220% BR
+      - Niveau 4: 400% BR
+    - Médecin non DPTAM:
+      - Niveau 1: 100% BR
+      - Niveau 2: 150% BR
+      - Niveau 3: 200% BR
+      - Niveau 4: 200% BR
+  - Frais de séjour: 100% BR pour tous les niveaux
+  - Forfait journalier hospitalier: Frais réels pour tous les niveaux
+
+HOSPITALISATION CONFORT:
+- Chambre particulière avec nuitée:
+  - Niveau 1: -
+  - Niveau 2: 35 €/jour
+  - Niveau 3: 65 €/jour
+  - Niveau 4: 95 €/jour
+- Chambre particulière en ambulatoire:
+  - Niveau 1: -
+  - Niveau 2: 20 €/jour
+  - Niveau 3: 35 €/jour
+  - Niveau 4: 50 €/jour
+- Frais de TV, wifi, téléphone et journaux (sur justificatifs) inclus dans le forfait chambre particulière:
+  - Niveau 1: -
+  - Niveau 2: -
+  - Niveau 3: 5 €/jour
+  - Niveau 4: 15 €/jour
+- Lit et repas d'accompagnant:
+  - Niveau 1: -
+  - Niveau 2: 20 €/jour
+  - Niveau 3: 25 €/jour
+  - Niveau 4: 50 €/jour
+
+ASSISTANCE ET SERVICES:
+- Assistance opérée par Mutuaide: Inclus pour tous les niveaux
+- Limites de prestation définies en fonction de la situation du bénéficiaire:
+  - Aide-ménagère:
+    - Niveau 1: Jusqu'à 20 heures
+    - Niveau 2: Jusqu'à 25 heures
+    - Niveau 3: Jusqu'à 30 heures
+    - Niveau 4: Jusqu'à 35 heures
+  - Garde à domicile (enfant, personne dépendante), 2 fois par an et par bénéficiaire:
+    - Niveau 1: 300 €
+    - Niveau 2: 300 €
+    - Niveau 3: 300 €
+    - Niveau 4: 300 €
+  - Relai moi: Inclus pour tous les niveaux
+
+Téléconsultation médicale (par an et par bénéficiaire majeur): accès par groupama.fr
+- 6 téléconsultations
+
+Espace client santé sécurisé:
+- Consultation des remboursements: Inclus pour tous les niveaux
+- Attestation tiers payant téléchargeable: Inclus pour tous les niveaux
+- Accès Mon kiosque santé: Inclus pour tous les niveaux
+
+Notes:
+(1) Les garanties exprimées en % de la BR (base de remboursement) incluent le remboursement du régime obligatoire (RO).
+(2) DPTAM (Dispositifs de pratique tarifaire maîtrisée) tels que définis aux conditions générales.
+(3) La prise en charge est limitée à 30 jours par an et par bénéficiaire en cas d'hospitalisation psychiatrique et neuro psychiatrique sauf pour le forfait journalier hospitalier, les honoraires et les frais de séjour pour lesquels la prise en charge est illimitée. Elle intervient pour les séjours en maison de repos et de convalescence uniquement suite à une hospitalisation et sur prescription médicale. Elle n'est pas acquise pour les séjours en maison d'accueil spécialisée.
+(4) Le forfait couvrant les frais de télévision, wifi, téléphone et journaux est versé en cas de séjour en chambre double.
+(5) Chambre particulière utilisée lors d'une chirurgie ambulatoire
+
+Les remboursements visés au tableau sont accordés dans la limite des frais réels.
+Signification d'abréviations: BR : Base de remboursement du régime obligatoire - RO : Régime obligatoire - FR : Frais réels : remboursement intégral des dépenses de santé

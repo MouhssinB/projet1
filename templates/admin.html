@@ -1,0 +1,139 @@
+<!-- À ajouter dans votre fichier templates/admin.html existant -->
+<!-- Placez cette section après les autres cartes de téléchargement -->
+
+<div style="background: linear-gradient(135deg, #007a33 0%, #28a745 100%); 
+            border-radius: 15px; 
+            padding: 25px; 
+            margin-top: 20px; 
+            box-shadow: 0 8px 20px rgba(0, 122, 51, 0.3);
+            text-align: center;
+            position: relative;
+            overflow: hidden;">
+    
+    <!-- Effet de brillance -->
+    <div style="position: absolute; 
+                top: -50%; 
+                right: -50%; 
+                width: 200%; 
+                height: 200%; 
+                background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+                pointer-events: none;"></div>
+    
+    <div style="position: relative; z-index: 1;">
+        <div style="font-size: 48px; margin-bottom: 15px;">🗂️</div>
+        
+        <h3 style="color: white; 
+                   margin-bottom: 10px; 
+                   font-size: 1.5em; 
+                   font-weight: 600;
+                   text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+            Explorateur FileShare
+        </h3>
+        
+        <p style="color: rgba(255,255,255,0.9); 
+                  margin-bottom: 20px; 
+                  font-size: 1em;
+                  text-shadow: 0 1px 2px rgba(0,0,0,0.1);">
+            Naviguez dans l'arborescence complète du FileShare Azure<br>
+            Accédez aux logs, journaux et fichiers utilisateurs
+        </p>
+        
+        
+        <a href="{{ url_for('admin_fileshare_browser') }}" 
+           style="display: inline-block;
+                  background: white;
+                  color: #007a33;
+                  text-decoration: none;
+                  padding: 12px 30px;
+                  border-radius: 25px;
+                  font-weight: 700;
+                  font-size: 16px;
+                  transition: all 0.3s ease;
+                  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                  border: 2px solid transparent;"
+           onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; 
+                        this.style.boxShadow='0 8px 25px rgba(0,0,0,0.3)';
+                        this.style.borderColor='white';"
+           onmouseout="this.style.transform='translateY(0) scale(1)'; 
+                       this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';
+                       this.style.borderColor='transparent';">
+            🚀 Ouvrir l'explorateur
+        </a>
+        
+        <div style="margin-top: 15px; 
+                    color: rgba(255,255,255,0.8); 
+                    font-size: 0.85em;
+                    font-style: italic;">
+            💡 Téléchargez, parcourez et gérez tous vos fichiers
+        </div>
+    </div>
+</div>
+
+<!-- Nouvelle section : Gestion des Habilitations -->
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            border-radius: 15px; 
+            padding: 25px; 
+            margin-top: 20px; 
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+            text-align: center;
+            position: relative;
+            overflow: hidden;">
+    
+    <!-- Effet de brillance -->
+    <div style="position: absolute; 
+                top: -50%; 
+                right: -50%; 
+                width: 200%; 
+                height: 200%; 
+                background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+                pointer-events: none;"></div>
+    
+    <div style="position: relative; z-index: 1;">
+        <div style="font-size: 48px; margin-bottom: 15px;">🔐</div>
+        
+        <h3 style="color: white; 
+                   margin-bottom: 10px; 
+                   font-size: 1.5em; 
+                   font-weight: 600;
+                   text-shadow: 0 2px 4px rgba(0,0,0,0.2);">
+            Gestion des Habilitations
+        </h3>
+        
+        <p style="color: rgba(255,255,255,0.9); 
+                  margin-bottom: 20px; 
+                  font-size: 1em;
+                  text-shadow: 0 1px 2px rgba(0,0,0,0.1);">
+            Contrôlez les groupes autorisés à accéder à l'application<br>
+            Gérez les permissions par entité et groupe d'habilitation
+        </p>
+        
+        <a href="{{ url_for('admin_habilitations_page') }}" 
+           style="display: inline-block;
+                  background: white;
+                  color: #667eea;
+                  text-decoration: none;
+                  padding: 12px 30px;
+                  border-radius: 25px;
+                  font-weight: 700;
+                  font-size: 16px;
+                  transition: all 0.3s ease;
+                  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+                  border: 2px solid transparent;"
+           onmouseover="this.style.transform='translateY(-3px) scale(1.05)'; 
+                        this.style.boxShadow='0 8px 25px rgba(0,0,0,0.3)';
+                        this.style.borderColor='white';"
+           onmouseout="this.style.transform='translateY(0) scale(1)'; 
+                       this.style.boxShadow='0 4px 15px rgba(0,0,0,0.2)';
+                       this.style.borderColor='transparent';">
+            ⚙️ Gérer les habilitations
+        </a>
+        
+        <div style="margin-top: 15px; 
+                    color: rgba(255,255,255,0.8); 
+                    font-size: 0.85em;
+                    font-style: italic;">
+            🛡️ Sécurisez l'accès à votre application
+        </div>
+    </div>
+</div>
+

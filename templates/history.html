@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Historique des conversations</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f8f2;
+            color: #4a4a4a;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            color: #007a33;
+            font-size: 2em;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+        .btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            color: #fff;
+            background-color: #007a33;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0, 122, 51, 0.2);
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #005a24;
+            transform: translateY(-1px);
+            box-shadow: 0 4px 8px rgba(0, 122, 51, 0.3);
+        }
+        .btn-secondary {
+            background-color: #28a745;
+        }
+        .btn-secondary:hover {
+            background-color: #1e7e34;
+        }
+        .btn-back {
+            background-color: #007bff;
+        }
+        .btn-back:hover {
+            background-color: #0056b3;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.07);
+            padding: 30px 30px 20px 30px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 0 auto 20px auto;
+            background: #eaf4eb;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.07);
+        }
+        th, td {
+            border: 1px solid #cde3d6;
+            padding: 12px 10px;
+            text-align: center;
+        }
+        th {
+            background: #f5f5f5;
+            color: #007a33;
+            font-weight: 600;
+            font-size: 1.1em;
+        }
+        tr:nth-child(even) {
+            background-color: #f3f7f1;
+        }
+        tr:hover {
+            background-color: #d6f5e3;
+        }
+        .error {
+            color: #b30000;
+            background: #ffeaea;
+            border: 1px solid #ffb3b3;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 15px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        @media (max-width: 700px) {
+            .container { padding: 10px; }
+            table, th, td { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Historique des conversations</h1>
+        <div style="text-align:center; margin-bottom: 20px;">
+            <a href="{{ url_for('suivi_evaluations') }}" class="btn btn-secondary">
+                ⬅️ Retour au suivi des évaluations
+            </a>
+        </div>
+        {% if error %}
+            <div class="error">{{ error }}</div>
+        {% endif %}
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Fichier</th>
+                <th>Taille</th>
+            </tr>
+            {% for conv in conversations %}
+            <tr>
+                <td>{{ conv.date }}</td>
+                <td><a href="{{ conv.url }}" target="_blank">{{ conv.fichier }}</a></td>
+                <td>{{ "%.2f"|format(conv.taille/1024) }} Ko</td>
+            </tr>
+            {% endfor %}
+            {% if not conversations %}
+            <tr><td colspan="3">Aucune conversation trouvée.</td></tr>
+            {% endif %}
+        </table>
+        <div style="text-align:center;">
+            <a href="{{ url_for('index') }}" class="btn btn-back">Retour</a>
+        </div>
+    </div>
+</body>
+</html>

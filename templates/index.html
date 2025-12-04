@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chatbot Vocal avec Azure OpenAI</title>
+    <!-- Chargement du SDK Azure Speech pour navigateur -->
+    <script src="https://aka.ms/csspeech/jsbrowserpackageraw"></script>
+    <style>
+      body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f8f2;
+        color: #4a4a4a;
+        height: 100vh;
+        overflow: hidden;
+      }
+
+      .main-container {
+        display: flex;
+        height: 100vh;
+        width: 100%;
+      }
+
+      .sidebar {
+        width: 400px;
+        background-color: #ffffff;
+        padding: 20px;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: relative;
+      }
+
+      /* Style pour le lien en bas de la sidebar */
+      .sidebar-footer {
+        margin-top: auto;
+        padding-top: 20px;
+        border-top: 1px solid #e0e0e0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .load-conversation-link {
+        display: inline-block;
+        color: #007a33;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 8px 12px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        background-color: transparent;
+        border: 1px solid transparent;
+      }
+
+      .load-conversation-link:hover {
+        background-color: #f3f7f1;
+        border-color: #007a33;
+        text-decoration: none;
+        color: #005a24;
+        transform: translateY(-1px);
+      }
+
+      .load-conversation-link:active {
+        transform: translateY(0);
+      }
+
+      /* Icône pour le lien */
+      .load-conversation-link::before {
+        content: "📁";
+        margin-right: 6px;
+        font-size: 16px;
+      }
+
+      /* Style pour le bouton admin */
+      .admin-button {
+        display: none; /* Caché par défaut */
+        color: #d32f2f;
+        text-decoration: none;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 16px;
+        border-radius: 20px;
+        transition: all 0.3s ease;
+        background: linear-gradient(135deg, #fff5f5 0%, #ffebee 100%);
+        border: 2px solid #d32f2f;
+      }
+
+      .admin-button:hover {
+        background: linear-gradient(135deg, #ffebee 0%, #ffcdd2 100%);
+        border-color: #b71c1c;
+        text-decoration: none;
+        color: #b71c1c;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(211, 47, 47, 0.3);
+      }
+
+      .admin-button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 4px rgba(211, 47, 47, 0.2);
+      }
+
+      /* Icône pour le bouton admin */
+      .admin-button::before {
+        content: "🔒";
+        margin-right: 8px;
+        font-size: 16px;
+      }
+
+      .logo {
+        display: block;
+        width: 70%;
+        max-width: 160px;
+        margin: -5px auto 10px auto;
+      }
+
+      .logo-g2s {
+        display: block;
+        width: 100px;
+        max-width: 120px;
+        margin: -20px auto -65px auto;
+      }
+
+      .chat-container {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        overflow: hidden;
+      }
+
+      #conversation {
+        flex: 1;
+        padding: 15px;
+        background-color: #eaf4eb;
+        position: relative;
+        border-radius: 12px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 15px;
+      }
+
+      /* Message d'avertissement conversation fictive */
+      
+      .conversation-disclaimer {
+        position: sticky;
+        top: 0;
+        background: #f5f5f5;
+        border-left: 3px solid #bdbdbd;
+        border-radius: 4px;
+        padding: 8px 12px;
+        margin-bottom: 12px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        color: #757575;
+        opacity: 0.9;
+        z-index: 100;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .conversation-disclaimer-icon {
+        font-size: 14px;
+        flex-shrink: 0;
+        opacity: 0.7;
+      }
+
+      .conversation-disclaimer-text {
+        flex: 1;
+        line-height: 1.4;
+      }
+
+      .conversation-disclaimer-text strong {
+        font-weight: 500;
+        color: #757575;
+      }
+
+      .conversation-disclaimer-text strong {
+        color: #e65100;
+        font-weight: 600;
+      }
+
+      #conversation::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+        height: 50%;
+        background-image: url('{{ url_for('static', filename='img/Logo_Groupama_2024.svg') }}');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        opacity: 0.1;
+        pointer-events: none;
+        z-index: 0;
+      }
+
+      .message {
+        max-width: 70%;
+        padding: 12px 16px;
+        border-radius: 20px;
+        margin: 4px 0;
+        line-height: 1.4;
+        background-color: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(3px);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+
+      .user-message {
+        align-self: flex-end;
+        background-color: #007a33;
+        color: #ffffff;
+        border-bottom-right-radius: 5px;
+      }
+
+      .bot-message {
+        align-self: flex-start;
+        background-color: #f7e9d7;
+        color: #4a4a4a;
+        border-bottom-left-radius: 5px;
+      }
+
+      .evaluator-message {
+        align-self: center;
+        background-color: #e8f0ff;
+        color: #2c3e50;
+        border-radius: 10px;
+        width: 90%;
+        border: 1px solid #b8d4ff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        padding: 15px;
+        margin: 12px 0;
+      }
+
+      .evaluation-score {
+        font-size: 1.2em;
+        font-weight: bold;
+        margin: 10px 0;
+        padding: 8px;
+        background-color: #f0f7ff;
+        border-radius: 6px;
+        border-left: 4px solid #0056b3;
+        color: #0056b3;
+      }
+
+      .evaluation-suggestion-title {
+        font-weight: bold;
+        margin-top: 12px;
+        margin-bottom: 5px;
+        color: #006400;
+      }
+
+      .control-buttons {
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      button {
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #007a33;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 2px 5px rgba(0, 122, 51, 0.2);
+      }
+
+      button:hover {
+        background-color: #005a24;
+        transform: translateY(-1px);
+        box-shadow: 0 4px 8px rgba(0, 122, 51, 0.3);
+      }
+
+      button:active {
+        transform: translateY(0);
+        box-shadow: 0 2px 4px rgba(108, 99, 255, 0.2);
+      }
+
+      button:disabled {
+        background-color: #d3d3d3;
+        cursor: not-allowed;
+        transform: none;
+        box-shadow: none;
+      }
+
+      h1 {
+        text-align: center;
+        color: #007a33;
+        font-size: 2.2em;
+        margin-bottom: 5px;
+        font-weight: 600;
+      }
+
+      .input-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+      }
+
+      #userInput {
+        flex-grow: 1;
+        padding: 12px;
+        border-radius: 25px;
+        border: 1px solid #ddd;
+        font-size: 16px;
+      }
+
+      .status {
+        text-align: center;
+        margin-top: 10px;
+        font-style: italic;
+        color: #666;
+      }
+
+      .mode-selector {
+        background-color: #f3f7f1;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        margin-bottom: 8px;
+      }
+
+      .mode-title {
+        font-weight: bold;
+        margin-bottom: 6px;
+        color: #007a33;
+      }
+
+      .mode-options {
+        display: flex;
+        gap: 6px;
+        flex-wrap: wrap;
+      }
+
+      .mode-button {
+        flex: 1;
+        padding: 8px 12px;
+        font-size: 12px;
+        border-radius: 20px;
+        border: 2px solid #007a33;
+        background-color: white;
+        color: #007a33;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-align: center;
+        min-width: 120px;
+        white-space: nowrap;
+      }
+
+      .mode-button.active {
+        background-color: #007a33;
+        color: white;
+      }
+
+      .input-mode {
+        display: none;
+      }
+
+      .input-mode.active {
+        display: block;
+      }
+
+      .sidebar-section {
+        margin-bottom: 8px;
+      }
+
+      #voiceInputMode .control-buttons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+      }
+
+      #voiceInputMode button {
+        flex: 1;
+        min-width: 0;
+        padding: 10px 15px;
+        font-size: 14px;
+      }
+
+      .action-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        margin-top: 6px;
+      }
+
+      .action-buttons button {
+        padding: 10px;
+        font-size: 14px;
+      }
+
+      @media (max-width: 768px) {
+        .sidebar {
+          width: 300px;
+        }
+
+        .mode-button {
+          padding: 6px 10px;
+          font-size: 15px;
+        }
+
+        /* Masquer les instructions clavier sur mobile */
+        .voice-instruction-minimal {
+          display: none;
+        }
+
+        /* Afficher le bouton tactile sur mobile */
+        .mobile-ptt-container {
+          display: block !important;
+        }
+
+        /* Styles spécifiques pour le bouton tactile mobile */
+        .mobile-ptt-button {
+          width: 100%;
+          height: 80px;
+          font-size: 18px;
+          margin: 10px 0;
+        }
+      }
+
+      /* Bouton Push-to-Talk pour mobile */
+      .mobile-ptt-container {
+        display: none; /* Caché par défaut, affiché sur mobile */
+        text-align: center;
+        margin: 15px 0;
+      }
+
+      .mobile-ptt-button {
+        width: 200px;
+        height: 60px;
+        background: linear-gradient(135deg, #007a33 0%, #28a745 100%);
+        color: white;
+        border: none;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 122, 51, 0.3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin: 0 auto;
+        user-select: none;
+        -webkit-user-select: none;
+        -webkit-touch-callout: none;
+      }
+
+      .mobile-ptt-button:active,
+      .mobile-ptt-button.recording {
+        background: linear-gradient(135deg, #d32f2f 0%, #f44336 100%);
+        transform: scale(0.95);
+        box-shadow: 0 2px 8px rgba(211, 47, 47, 0.4);
+      }
+
+      .mobile-ptt-button .ptt-icon {
+        font-size: 20px;
+        animation: pulse 2s infinite;
+      }
+
+      .mobile-ptt-button.recording .ptt-icon {
+        animation: pulse 0.5s infinite;
+      }
+
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); }
+        50% { transform: scale(1.1); }
+      }
+
+      .mobile-ptt-hint {
+        margin-top: 10px;
+        color: #666;
+        font-size: 14px;
+        font-style: italic;
+      }
+
+      .history-container {
+        background-color: #f3f7f1;
+        border: 2px solid #007a33;
+        border-radius: 10px;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        transition: all 0.3s ease;
+      }
+
+      .history-container:hover {
+        background-color: #e8f0e8;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 8px rgba(0, 122, 51, 0.2);
+      }
+
+      .history-icon {
+        font-size: 24px;
+        color: #007a33;
+      }
+
+      .history-text {
+        flex: 1;
+      }
+
+      .history-title {
+        font-weight: 600;
+        color: #007a33;
+        margin-bottom: 4px;
+      }
+
+      .history-subtitle {
+        font-size: 0.9em;
+        color: #666;
+      }
+
+      .client-card {
+        background-color: #ffffff;
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+        padding: 8px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+      }
+      .client-card-title {
+        font-weight: 600;
+        color: #007a33;
+        margin-bottom: 5px;
+      }
+      .client-card-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px 12px;
+        font-size: 13px;
+      }
+      .client-card-label {
+        color: #666;
+      }
+      .client-card-value {
+        color: #2c3e50;
+        font-weight: 500;
+      }
+
+      .message .timestamp {
+        font-size: 0.75em;
+        color: #888;
+        margin-top: 4px;
+        font-style: italic;
+      }
+      .user-message .timestamp { color: rgba(255,255,255,0.85); }
+      .bot-message .timestamp { color: #555555; }
+
+      @keyframes pulse {
+        0% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.7; transform: scale(1.2); }
+        100% { opacity: 1; transform: scale(1); }
+      }
+
+      .voice-instruction-card {
+        position: relative;
+        background: linear-gradient(135deg, rgba(255,255,255,0.9) 0%, rgba(234,244,235,0.9) 100%);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(0,122,51,0.2);
+        border-radius: 16px;
+        padding: 20px 16px;
+        text-align: center;
+        box-shadow: 
+          0 8px 32px rgba(0,122,51,0.1),
+          inset 0 1px 0 rgba(255,255,255,0.5);
+        margin: 8px 0;
+        overflow: hidden;
+      }
+
+      .voice-instruction-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+        animation: shimmer 3s infinite;
+      }
+
+      @keyframes shimmer {
+        0% { left: -100%; }
+        100% { left: 100%; }
+      }
+
+      .voice-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 48px;
+        height: 48px;
+        background: linear-gradient(135deg, #007a33 0%, #28a745 100%);
+        border-radius: 50%;
+        color: white;
+        margin-bottom: 12px;
+        box-shadow: 0 4px 16px rgba(0,122,51,0.3);
+        animation: float 3s ease-in-out infinite;
+      }
+
+      @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-4px); }
+      }
+
+      .voice-instruction-text {
+        font-size: 16px;
+        font-weight: 600;
+        color: #007a33;
+        margin-bottom: 16px;
+        letter-spacing: 0.5px;
+      }
+
+      .space-key {
+        margin-bottom: 12px;
+      }
+
+      .key-visual {
+        position: relative;
+        display: inline-block;
+        background: linear-gradient(145deg, #ffffff 0%, #f0f0f0 100%);
+        border: 2px solid #007a33;
+        border-radius: 12px;
+        padding: 12px 24px;
+        box-shadow: 
+          0 6px 0 #005a24,
+          0 8px 16px rgba(0,122,51,0.2);
+        transform: translateY(0);
+        transition: all 0.15s ease;
+        overflow: hidden;
+      }
+
+      .key-visual:hover {
+        transform: translateY(2px);
+        box-shadow: 
+          0 4px 0 #005a24,
+          0 6px 12px rgba(0,122,51,0.3);
+      }
+
+      .key-text {
+        font-family: 'Courier New', monospace;
+        font-weight: bold;
+        font-size: 14px;
+        color: #007a33;
+        letter-spacing: 2px;
+        position: relative;
+        z-index: 2;
+      }
+
+      .key-shine {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,0.6), transparent);
+        animation: key-shine 2s infinite;
+      }
+
+      @keyframes key-shine {
+        0% { left: -100%; }
+        50% { left: 100%; }
+        100% { left: 100%; }
+      }
+
+      .voice-hint {
+        font-size: 12px;
+        color: #666;
+        font-style: italic;
+        margin-bottom: 8px;
+      }
+
+      .pulse-indicator {
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        width: 12px;
+        height: 12px;
+        background: #28a745;
+        border-radius: 50%;
+        animation: pulse-glow 2s infinite;
+      }
+
+      @keyframes pulse-glow {
+        0% { 
+          opacity: 1; 
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(40, 167, 69, 0.7);
+        }
+        50% { 
+          opacity: 0.8; 
+          transform: scale(1.1);
+          box-shadow: 0 0 0 8px rgba(40, 167, 69, 0);
+        }
+        100% { 
+          opacity: 1; 
+          transform: scale(1);
+          box-shadow: 0 0 0 0 rgba(40, 167, 69, 0);
+        }
+      }
+
+      /* Version alternative plus minimaliste */
+      .voice-instruction-minimal {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        background: #f8fff9;
+        border: 2px solid #007a33;
+        border-radius: 50px;
+        padding: 16px 20px;
+        margin: 8px 0;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .voice-instruction-minimal::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        background: linear-gradient(to bottom, #007a33, #28a745);
+        border-radius: 2px;
+      }
+
+      .minimal-icon {
+        font-size: 20px;
+        animation: bounce 2s infinite;
+      }
+
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+        40% { transform: translateY(-4px); }
+        60% { transform: translateY(-2px); }
+      }
+
+      .minimal-text {
+        flex: 1;
+        font-weight: 600;
+        color: #007a33;
+      }
+
+      .minimal-key {
+        background: #007a33;
+        color: white;
+        padding: 6px 16px;
+        border-radius: 20px;
+        font-family: monospace;
+        font-weight: bold;
+        font-size: 12px;
+        letter-spacing: 1px;
+      }
+
+      /* Animations pour l'overlay d'évaluation */
+      #evaluationOverlay {
+        display: none;
+        position: fixed;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(46, 46, 46, 0.3);
+        color: #fff;
+        font-size: 1.2em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      /* Animation de captation vocale */
+      .voice-recording-overlay {
+        position: fixed;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: rgba(255, 255, 255, 0.60);
+        border-radius: 20px;
+        padding: 30px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        display: none;
+        z-index: 1000;
+        text-align: center;
+        border: 3px solid #007a33;
+        min-width: 400px;
+        max-width: 90vw;
+        max-height: 80vh;
+        overflow-y: auto;
+      }
+
+      .voice-recording-overlay.active {
+        display: block;
+        animation: fadeInScale 0.2s ease-out;
+      }
+
+      .voice-recording-animation {
+        width: 96px;
+        height: 96px;
+        margin: 0 auto 15px;
+        border-radius: 50%;
+        overflow: hidden;
+        background: #f0f8f0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .voice-recording-animation img {
+        width: 80px;
+        height: 80px;
+        object-fit: contain;
+      }
+
+      .voice-recording-text {
+        color: #007a33;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px;
+      }
+
+      .voice-recording-hint {
+        color: #666;
+        font-size: 14px;
+        font-style: italic;
+      }
+
+      .voice-recording-live-text {
+        margin-top: 20px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.95);
+        border-radius: 12px;
+        border: 1px solid rgba(0, 122, 51, 0.3);
+        min-height: 120px;
+        max-width: 600px;
+        width: 95%;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+
+      .live-text-label {
+        color: #007a33;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 8px;
+        text-align: left;
+      }
+
+      .live-text-content {
+        background: #f8f9fa;
+        border: 1px solid #e9ecef;
+        border-radius: 8px;
+        padding: 16px;
+        min-height: 80px;
+        max-height: 300px;
+        overflow-y: auto;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+        text-align: left;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        resize: vertical;
+      }
+
+      .live-text-content:empty::before {
+        content: "Parlez maintenant...";
+        color: #999;
+        font-style: italic;
+      }
+
+      .live-text-partial {
+        color: #666;
+        font-style: italic;
+      }
+
+      .live-text-final {
+        color: #333;
+        font-weight: 500;
+      }
+
+      @keyframes fadeInScale {
+        from {
+          opacity: 0;
+          transform: translate(-100%, -100%) scale(0.8);
+        }
+        to {
+          opacity: 1;
+          transform: translate(-50%, -50%) scale(1);
+        }
+      }
+
+      .evaluation-loader {
+        position: relative;
+        margin-bottom: 20px;
+      }
+
+      /* Spinner principal */
+      .spinner {
+        width: 60px;
+        height: 60px;
+        border: 4px solid rgba(255,255,255,0.3);
+        border-top: 4px solid #ffffff;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px auto;
+      }
+
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+
+      /* Points pulsants */
+      .pulse-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .pulse-dots span {
+        width: 12px;
+        height: 12px;
+        background-color: #ffffff;
+        border-radius: 50%;
+        animation: pulse-animation 1.4s ease-in-out infinite both;
+      }
+
+      .pulse-dots span:nth-child(1) { animation-delay: -0.32s; }
+      .pulse-dots span:nth-child(2) { animation-delay: -0.16s; }
+      .pulse-dots span:nth-child(3) { animation-delay: 0s; }
+
+      @keyframes pulse-animation {
+        0%, 80%, 100% {
+          transform: scale(0.8);
+          opacity: 0.5;
+        }
+        40% {
+          transform: scale(1.2);
+          opacity: 1;
+        }
+      }
+
+      /* Barre de progression */
+      .progress-bar {
+        width: 250px;
+        height: 4px;
+        background-color: rgba(255,255,255,0.3);
+        border-radius: 2px;
+        margin-top: 25px;
+        overflow: hidden;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background: linear-gradient(90deg, #ffffff, rgba(255,255,255,0.7), #ffffff);
+        border-radius: 2px;
+        animation: progress-animation 2s ease-in-out infinite;
+      }
+
+      @keyframes progress-animation {
+        0% {
+          width: 0%;
+          transform: translateX(-100%);
+        }
+        50% {
+          width: 100%;
+          transform: translateX(0%);
+        }
+        100% {
+          width: 100%;
+          transform: translateX(100%);
+        }
+      }
+
+      /* Animation de pulsation pour le texte */
+      .pulsing-text {
+        animation: text-pulse 2s ease-in-out infinite;
+      }
+
+      @keyframes text-pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+
+      /* Particules flottantes */
+      .floating-particles {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+      }
+
+      .particle {
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background-color: rgba(255,255,255,0.6);
+        border-radius: 50%;
+        animation: float-up 4s ease-in-out infinite;
+      }
+
+      .particle:nth-child(1) { left: 20%; animation-delay: 0s; }
+      .particle:nth-child(2) { left: 40%; animation-delay: 1s; }
+      .particle:nth-child(3) { left: 60%; animation-delay: 2s; }
+      .particle:nth-child(4) { left: 80%; animation-delay: 3s; }
+
+      @keyframes float-up {
+        0% {
+          transform: translateY(100vh) scale(0);
+          opacity: 0;
+        }
+        10% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        90% {
+          opacity: 1;
+        }
+        100% {
+          transform: translateY(-100px) scale(0);
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-container">
+      <!-- Barre latérale pour tous les contrôles -->
+      <div class="sidebar">
+        <img src="{{ url_for('static', filename='img/logo-g2s-web-couleur.svg') }}" alt="Logo G2S" class="logo-g2s">
+        <img src="{{ url_for('static', filename='img/Logo_Groupama_2024.svg') }}" alt="Logo Groupama" class="logo" style="display: none;">
+        <h1>Simulateur d'entretien</h1>
+        <h2 style="text-align: center; color: #007a33; font-size: 1.3em; margin-top: -10px; margin-bottom: 10px;">Groupama santé active</h2>
+
+        <!-- Section supprimée : Sélecteur de mode de questions -->
+
+        <!-- Sélecteur de mode d'entrée -->
+        <div class="sidebar-section mode-selector">
+          <div class="mode-title">Mode d'entrée:</div>
+          <div class="mode-options">
+            <button id="textModeButton" class="mode-button active">Mode Texte</button>
+            <button id="voiceModeButton" class="mode-button">Mode Vocal</button>
+          </div>
+        </div>
+
+        <!-- Contrôles vocaux -->
+        <div id="voiceInputMode" class="sidebar-section input-mode">
+          <!-- Instructions pour desktop (clavier) -->
+          <div class="voice-instruction-minimal">
+            <div class="minimal-icon">🎤</div>
+            <div class="minimal-text">Pour parler, maintenez la touche</div>
+            <div class="minimal-key">ESPACE</div>
+          </div>
+          
+          <!-- Bouton tactile pour mobile -->
+          <div class="mobile-ptt-container">
+            <button id="mobilePttButton" class="mobile-ptt-button">
+              <span class="ptt-icon">🎤</span>
+              <span class="ptt-text">Maintenir pour parler</span>
+            </button>
+            <div class="mobile-ptt-hint">Maintenez appuyé et parlez</div>
+          </div>
+        </div>
+
+        <!-- Sélecteur de profil client -->
+        <div class="sidebar-section mode-selector">
+          <div class="mode-title">Profil client :</div>
+          <select id="profileSelector" style="width:100%;padding:8px;border-radius:8px;">
+            {% for profil in dico_profil %}
+            <option value="{{ profil.profile }}" {% if loop.first %}selected{% endif %}>{{ profil.profile|replace('_',' ')|capitalize }}</option>
+            {% endfor %}
+          </select>
+        </div>
+
+        <!-- Carte identité du client -->
+        <div class="sidebar-section client-card">
+          <div class="client-card-title">
+            Identité du client simulé
+            <div style="font-size: 11px; font-weight: normal; color: #888; margin-top: 2px; font-style: italic;">
+              (Client fictif généré par IA)
+            </div>
+          </div>
+          {% set p = (session.get('profile_data', {}).get('person_details') or session.get('profile_data', {}).get('profil_dict', {}).get('personne', {})) %}
+          {% if p %}
+          <div class="client-card-grid">
+            <div class="client-card-label">Nom</div>
+            <div class="client-card-value"><span id="clientName">{{ p.get('Nom','-') }}</span></div>
+
+            <div class="client-card-label">Âge</div>
+            <div class="client-card-value"><span id="clientAge">{{ p.get('Age','-') }}</span></div>
+
+            <div class="client-card-label">Sexe</div>
+            <div class="client-card-value"><span id="clientSexe">{{ p.get('Sexe','-') }}</span></div>
+
+ 
+          </div>
+          {% else %}
+          <div style="color:#666; font-size: 13px;">Aucune information client disponible.</div>
+          {% endif %}
+        </div>
+
+        <!-- Boutons d'actions regroupés - Suppression du bouton Sauvegarder -->
+        <div class="sidebar-section action-buttons">
+          <button id="evaluateButton">Analyser</button>
+          <button id="resetButton">Réinitialiser</button>
+        </div>
+
+        <div class="sidebar-section mode-selector">
+          <div class="mode-title">Historique des synthèses</div>
+          <div class="history-container" onclick="window.location.href='/suivi_syntheses'" style="cursor: pointer;">
+            <div class="history-icon">📊</div>
+            <div class="history-text">
+              <div class="history-title">Tableau de bord</div>
+              <div class="history-subtitle">Historique des synthèses</div>
+            </div>
+          </div>
+        </div>
+
+        <div id="status" class="status">Prêt</div>
+
+        <div id="voiceStatus" class="status">Mode vocal désactivé</div>
+
+        <!-- Section footer avec bouton admin (visible uniquement pour les admins) -->
+        <div class="sidebar-footer">
+          <a id="adminButton" href="/admin_suivis" class="admin-button">
+            Administration
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Conteneur principal du chat -->
+      <div class="chat-container">
+        <div id="conversation">
+          <!-- Message d'avertissement -->
+          <div class="conversation-disclaimer">
+            <div class="conversation-disclaimer-icon">ℹ️</div>
+            <div class="conversation-disclaimer-text">
+              Ce simulateur d'entretien s'appuie sur une intelligence artificielle. Pour plus d'informations, consultez le <a href="{{ url_for('serve_guide') }}" target="_blank" rel="noopener noreferrer" style="color: #007a33; font-weight: 600; text-decoration: underline;">Guide accessible ici</a>
+            </div>
+          </div>
+          <!-- Les messages seront ajoutés ici dynamiquement -->
+        </div>
+
+        <!-- Saisie manuelle (toujours en bas de la zone de chat) -->
+        <div id="textInputMode" class="input-mode active">
+          <div class="input-container">
+            <input id="userInput" type="text" placeholder="Écrivez votre message ici...">
+            <button id="sendButton">Envoyer</button>
+            <!-- TEMPORAIREMENT DÉSACTIVÉ - Bouton Réponse IA -->
+            <!-- <button id="ai-response-button">Réponse IA</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Overlay pour l'attente d'évaluation avec animations -->
+    <div id="evaluationOverlay">
+      <!-- Animation de chargement -->
+      <div class="evaluation-loader">
+        <div class="spinner"></div>
+        <div class="pulse-dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <!-- Message d'attente simplifié -->
+      <div style="margin-top: 30px; font-size: 1.3em; font-weight: 500;" class="pulsing-text">
+        Analyse de votre conversation en cours... Veuillez patienter.
+      </div>
+      
+      <!-- Barre de progression animée -->
+      <div class="progress-bar">
+        <div class="progress-fill"></div>
+      </div>
+    </div>
+
+    <!-- Overlay de captation vocale -->
+    <div id="voiceRecordingOverlay" class="voice-recording-overlay">
+      <div class="voice-recording-animation">
+        <img src="{{ url_for('static', filename='img/icons8-audio-wave-96.gif') }}" alt="Recording animation">
+      </div>
+      <div class="voice-recording-text">🎤 Enregistrement en cours...</div>
+      <div class="voice-recording-hint">Relâchez ESPACE pour envoyer</div>
+      <!-- Zone d'affichage du texte détecté en temps réel -->
+      <div id="voiceRecordingLiveText" class="voice-recording-live-text">
+        <div class="live-text-label">Texte détecté :</div>
+        <div id="liveTextContent" class="live-text-content"></div>
+      </div>
+    </div>
+
+    <!-- Popup de demande de note utilisateur -->
+    <div id="userRatingModal" style="
+      display: none;
+      position: fixed;
+      z-index: 15000;
+      left: 0; top: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.7);
+      align-items: center;
+      justify-content: center;
+    ">
+      <div style="
+        background: #fff;
+        color: #222;
+        border-radius: 15px;
+        padding: 30px 25px 20px 25px;
+        max-width: 350px;
+        margin: 10% auto;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+        text-align: center;
+        position: relative;
+      ">
+        <span id="closeUserRatingModal" style="position:absolute;top:10px;right:15px;font-size:22px;cursor:pointer;color:#888">&times;</span>
+        <h3 style="color:#007a33;margin-bottom:18px;">Votre avis sur la conversation</h3>
+        <div style="margin-bottom: 18px; font-size: 1.1em;">Merci de donner une note à cette conversation :</div>
+        <div id="ratingStars" style="margin-bottom: 18px;"></div>
+        <button id="ignoreRatingBtn" style="background:#ccc;color:#333;border:none;border-radius:20px;padding:8px 20px;cursor:pointer;">Ignorer</button>
+      </div>
+    </div>
+
+    <script>
+    // --- POPUP NOTE UTILISATEUR ---
+    function showUserRatingModal() {
+      const modal = document.getElementById('userRatingModal');
+      if (modal) modal.style.display = 'flex';
+    }
+    function hideUserRatingModal() {
+      const modal = document.getElementById('userRatingModal');
+      if (modal) modal.style.display = 'none';
+    }
+    function renderRatingStars() {
+      const container = document.getElementById('ratingStars');
+      if (!container) return;
+      container.innerHTML = '';
+      for (let i = 1; i <= 5; i++) {
+        const star = document.createElement('span');
+        star.textContent = '★';
+        star.style.fontSize = '2em';
+        star.style.cursor = 'pointer';
+        star.style.color = '#ccc';
+        star.setAttribute('data-value', i);
+        star.addEventListener('mouseenter', function() { highlightStars(i); });
+        star.addEventListener('mouseleave', function() { highlightStars(0); });
+        star.addEventListener('click', function() { submitUserRating(i); });
+        container.appendChild(star);
+      }
+    }
+    function highlightStars(n) {
+      const stars = document.querySelectorAll('#ratingStars span');
+      stars.forEach((star, idx) => {
+        star.style.color = (idx < n) ? '#FFD700' : '#ccc';
+      });
+    }
+    async function submitUserRating(note) {
+      hideUserRatingModal();
+      // Utilise l'historique de conversation avant reset (sauvegardé globalement)
+      let conversation = window.conversationHistory || [];
+      try {
+        await fetch('/save_user_rating', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ note_user: note, conversation_history: conversation })
+        });
+      } catch (e) {}
+    }
+    // Fermer la popup
+    document.getElementById('closeUserRatingModal').onclick = hideUserRatingModal;
+    document.getElementById('ignoreRatingBtn').onclick = hideUserRatingModal;
+    // La popup de notation sera affichée uniquement après une analyse réussie
+
+    // Fonctions pour gérer l'overlay d'évaluation avec animations
+    function showEvaluationOverlay() {
+      const overlay = document.getElementById("evaluationOverlay");
+      overlay.style.display = "flex";
+      
+      // Ajouter des particules flottantes (optionnel)
+      addFloatingParticles(overlay);
+    }
+
+    function hideEvaluationOverlay() {
+      const overlay = document.getElementById("evaluationOverlay");
+      overlay.style.display = "none";
+      
+      // Nettoyer les particules
+      const particles = overlay.querySelector('.floating-particles');
+      if (particles) {
+        particles.remove();
+      }
+    }
+
+    // Fonction pour ajouter des particules flottantes (optionnel)
+    function addFloatingParticles(overlay) {
+      const particlesContainer = document.createElement('div');
+      particlesContainer.className = 'floating-particles';
+      
+      for (let i = 0; i < 4; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particlesContainer.appendChild(particle);
+      }
+      
+      overlay.appendChild(particlesContainer);
+    }
+    </script>
+
+    <!-- Configuration Azure Speech - Plus de clés exposées ! -->
+    <script>
+      // Les clés ne sont plus exposées côté client
+      // Le token sera récupéré dynamiquement via /get_speech_token
+      let subscriptionKey = null;  // Ne sera plus utilisé
+      let serviceRegion = null;    // Récupéré via l'API
+      let speechEndpoint = null;   // Ne sera plus utilisé
+      let authToken = null;        // Token temporaire (10 min)
+      let tokenExpiryTime = null;  // Pour gérer le renouvellement
+    </script>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+    <script>
+      // Vérifier si l'utilisateur est admin et afficher le bouton si c'est le cas
+      async function checkAdminStatus() {
+        try {
+          const resp = await fetch('/check_admin', { method: 'GET' });
+          if (!resp.ok) {
+            console.log('Impossible de vérifier le statut admin');
+            return;
+          }
+          const data = await resp.json();
+          if (data.is_admin) {
+            const adminButton = document.getElementById('adminButton');
+            if (adminButton) {
+              adminButton.style.display = 'inline-block';
+              console.log('Bouton admin activé pour cet utilisateur');
+            }
+          }
+        } catch (e) {
+          console.error('Erreur lors de la vérification admin:', e);
+        }
+      }
+
+      // Appeler la vérification au chargement de la page
+      checkAdminStatus();
+
+      // Met à jour la carte identité côté client depuis l'API
+      async function updateClientCard() {
+        try {
+          const resp = await fetch('/get_person_details', { method: 'POST' });
+          if (!resp.ok) throw new Error('Impossible de récupérer les informations client');
+          const data = await resp.json();
+          const setText = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = (val ?? '-') }; 
+          setText('clientName', data.Nom);
+          setText('clientAge', data.Age);
+          setText('clientSexe', data.Sexe);
+          setText('clientProfession', data.Profession);
+          setText('clientLocalisation', data.Localisation);
+          setText('clientSituation', data.situation_maritale);
+          setText('clientEnfants', data.nombre_enfants);
+          setText('clientProfil', data.profil_passerelle);
+          setText('clientAidant', data.aidant);
+          setText('clientContrat', data.a_deja_contrat_gma);
+          setText('clientHobby', data.hobby);
+        } catch (e) {
+          // Optionnel: status message
+          const statusEl = document.getElementById('status');
+          if (statusEl) statusEl.textContent = 'Infos client non disponibles';
+        }
+      }
+
+      // Variable globale pour éviter l'initialisation multiple
+      let profileSelectorInitialized = false;
+
+      // Changement de profil => /set_profile puis rafraîchir carte + nettoyer UI
+      function initProfileSelector() {
+        if (profileSelectorInitialized) {
+          console.log('Profile selector déjà initialisé, ignorer.');
+          return;
+        }
+        
+        const profileSelector = document.getElementById('profileSelector');
+        if (profileSelector) {
+          // Supprimer tous les anciens gestionnaires d'événements
+          const newProfileSelector = profileSelector.cloneNode(true);
+          profileSelector.parentNode.replaceChild(newProfileSelector, profileSelector);
+          
+          // Ajouter un seul gestionnaire d'événement
+          newProfileSelector.addEventListener('change', async (e) => {
+            const profile = e.target.value;
+            console.log(`Changement de profil vers: ${profile}`);
+            
+            try {
+              const resp = await fetch('/set_profile', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ profile })
+              });
+              const data = await resp.json();
+              if (!resp.ok || !data.success) throw new Error(data.error || 'Erreur lors du changement de profil');
+              
+              // Nettoyer l'UI conversation mais préserver le message d'avertissement
+              const conversationDiv = document.getElementById('conversation');
+              if (conversationDiv) {
+                const disclaimer = conversationDiv.querySelector('.conversation-disclaimer');
+                conversationDiv.innerHTML = '';
+                if (disclaimer) conversationDiv.appendChild(disclaimer);
+              }
+              const statusEl = document.getElementById('status');
+              if (statusEl) statusEl.textContent = `Profil changé: ${profile} - Conversation réinitialisée`;
+              
+              // Mettre à jour la carte identité
+              await updateClientCard();
+              
+              // Appeler la fonction de app.js pour synchroniser l'état
+              if (window.handleProfileChange) {
+                window.handleProfileChange(profile);
+              }
+              
+              console.log(`Profil changé avec succès vers: ${profile}`);
+            } catch (err) {
+              console.error('Erreur lors du changement de profil:', err);
+              alert(`Erreur: ${err.message}`);
+            }
+          });
+          
+          profileSelectorInitialized = true;
+          console.log('Profile selector initialisé avec succès.');
+        }
+      }
+
+      // Initialiser le sélecteur de profil
+      initProfileSelector();
+
+      // Reset conversation: rafraîchir la carte sans recharger la page
+      const resetBtn = document.getElementById('resetButton');
+      if (resetBtn) {
+        resetBtn.addEventListener('click', async () => {
+          try {
+            const resp = await fetch('/reset_conversation', { method: 'POST' });
+            const data = await resp.json();
+            if (!resp.ok || !data.success) throw new Error(data.error || 'Erreur lors du reset');
+            const conversationDiv = document.getElementById('conversation');
+            if (conversationDiv) {
+              const disclaimer = conversationDiv.querySelector('.conversation-disclaimer');
+              conversationDiv.innerHTML = '';
+              if (disclaimer) conversationDiv.appendChild(disclaimer);
+            }
+            const statusEl = document.getElementById('status');
+            if (statusEl) statusEl.textContent = 'Conversation réinitialisée';
+            await updateClientCard();
+          } catch (e) {
+            alert(`Erreur: ${e.message}`);
+          }
+        });
+      }
+
+      // Lors du chargement d'une conversation depuis Azure ou un fichier, ajouter les timestamps si fournis
+      // (Le rendu est déjà géré par app.js via updateConversation, mais on s'assure d'inclure timestamp si on reconstruit manuellement)
+
+      document.getElementById("evaluateButton").addEventListener("click", async () => {
+        // Vérifier si la conversation contient au moins 6 messages
+        if (!window.conversationHistory || window.conversationHistory.length < 6) {
+          alert("⚠️ Conversation trop courte pour être analysée\n\nIl faut au moins 6 messages échangés (3 de chaque côté) pour pouvoir effectuer une analyse pertinente de la conversation.\n\nActuellement : " + (window.conversationHistory ? window.conversationHistory.length : 0) + " message(s)");
+          return;
+        }
+        
+        showEvaluationOverlay();
+        
+        // Afficher la popup d'évaluation dès le début de l'analyse
+        renderRatingStars();
+        showUserRatingModal();
+        
+        try {
+          const response = await fetch("/synthetiser", { method: "POST" });
+          if (!response.ok) {
+            alert("Erreur lors de la synthèse.");
+            hideEvaluationOverlay();
+            return;
+          }
+          
+          const data = await response.json();
+          hideEvaluationOverlay();
+          
+          if (data.error) {
+            alert(data.error);
+          } else if (data.filepath) {
+            // Vider l'interface de conversation après analyse réussie mais préserver le message d'avertissement
+            const conversationDiv = document.getElementById('conversation');
+            const disclaimer = conversationDiv.querySelector('.conversation-disclaimer');
+            conversationDiv.innerHTML = '';
+            if (disclaimer) conversationDiv.appendChild(disclaimer);
+            
+            // Afficher un message de notification si un nouveau profil a été généré
+            if (data.profile_reset && data.new_profile) {
+              const profileInfo = data.new_profile;
+              const profileMessage = `✅ Analyse terminée !\n\n🔄 Nouveau profil généré :\n📋 Type : ${profileInfo.type}\n👤 Nom : ${profileInfo.name}\n\nRedirection vers le tableau de bord...`;
+              alert(profileMessage);
+              console.log('✅ Nouveau profil après synthèse:', profileInfo);
+            } else if (data.reset_performed) {
+              console.log('✅ Conversation réinitialisée après synthèse');
+            }
+            
+            // Extraire le nom du fichier du chemin pour le passer en paramètre
+            const filename = data.filepath.split('/').pop();
+            
+            // Redirection vers le tableau de bord
+            setTimeout(() => {
+              window.location.href = `/suivi_syntheses?highlight=${encodeURIComponent(filename)}`;
+            }, 500);
+          }
+        } catch (error) {
+          hideEvaluationOverlay();
+          alert("Erreur: " + error);
+        }
+      });
+    </script>
+
+  </body>
+</html>
