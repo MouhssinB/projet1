@@ -37,17 +37,15 @@ fi
 
 echo ""
 echo "=========================================="
-echo "🌐 DÉMARRAGE GUNICORN (Production)"
+echo "🌐 DÉMARRAGE UVICORN (Production)"
 echo "=========================================="
 
-# Démarrer avec Gunicorn (serveur WSGI production)
-exec gunicorn \
-    --bind=0.0.0.0:${PORT:-5000} \
-    --workers=${GUNICORN_WORKERS:-4} \
-    --threads=${GUNICORN_THREADS:-2} \
-    --timeout=${GUNICORN_TIMEOUT:-600} \
-    --worker-class=sync \
-    --access-logfile=- \
-    --error-logfile=- \
+# Démarrer avec Uvicorn (serveur ASGI production)
+exec uvicorn main_fastapi:app \
+    --host=0.0.0.0 \
+    --port=${PORT:-8000} \
+    --workers=${UVICORN_WORKERS:-4} \
+    --timeout-keep-alive=600 \
     --log-level=info \
-    app:app
+    --access-log \
+    --no-use-colors
