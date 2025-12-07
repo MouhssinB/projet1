@@ -18,7 +18,7 @@ import openai
 from openai import AzureOpenAI
 # Flask removed - migrated to FastAPI
 from typing import Dict, Any
-from .prompt_synthese import construire_prompt_synthese
+from .prompt_synthese import construire_prompt_synthese, construire_prompt_dimension
 from .fonctions_fileshare import save_file_to_azure
 
 # Configuration du logger pour utiliser le système centralisé
@@ -250,11 +250,350 @@ def historique_remap_roles(history):
     return historique, historique_formate
 
 
+def evaluer_dimension(dimension_name, history, client, documents_reference,
+                     profil_manager, session_data: Dict[str, Any] = None):
+    """
+    Évalue UNE dimension spécifique de la conversation
+
+    Args:
+        dimension_name (str): Nom de la dimension à évaluer
+        history: Historique de la conversation
+        client: Client OpenAI configuré
+        documents_reference: Documents de référence chargés
+        profil_manager: Manager des profils clients
+        session_data: Dictionnaire de session FastAPI (optionnel)
+
+    Returns:
+        dict: Résultat de l'évaluation pour cette dimension
+    """
+    logger.info(f"Évaluation de la dimension: {dimension_name}")
+
+    # 1. Préparer l'historique
+    historique_complet = _preparer_historique_pour_synthese(history)
+
+    # 2. Charger le document profil spécifique
+    document_profil_specifique = _charger_document_profil_client(profil_manager)
+
+    # 3. Construire le prompt pour cette dimension
+    prompt_dimension = construire_prompt_dimension(
+        dimension_name,
+        documents_reference,
+        historique_complet,
+        document_profil_specifique,
+        profil_manager
+    )
+
+    # Ajouter header JSON strict
+    json_header = """
+⚠️ **CONSIGNES CRITIQUES DE FORMAT** ⚠️
+Vous DEVEZ répondre EXCLUSIVEMENT avec un objet JSON valide.
+- ❌ AUCUN texte explicatif avant le JSON
+- ❌ AUCUN texte explicatif après le JSON
+- ❌ AUCUNE balise markdown (pas de ```json ni ```)
+- ✅ Commencez DIRECTEMENT par le caractère {
+- ✅ Terminez DIRECTEMENT par le caractère }
+- ✅ Toutes les chaînes doivent être entre guillemets doubles "
+- ✅ Respectez EXACTEMENT la structure JSON fournie
+
+"""
+    prompt_complet = json_header + prompt_dimension
+
+    # 4. Appeler l'API avec retry
+    max_retries = 3
+
+    for attempt in range(1, max_retries + 1):
+        start_time = time.time()
+        logger.info(f"Tentative {attempt}/{max_retries} pour dimension {dimension_name}")
+
+        try:
+            response = client.chat.completions.create(
+                model=os.getenv("AZURE_OPENAI_DEPLOYMENT_m"),
+                messages=[
+                    {
+                        "role": "system",
+                        "content": prompt_complet
+                    },
+                    {
+                        "role": "user",
+                        "content": f"Évaluez la dimension {dimension_name} et répondez UNIQUEMENT avec le JSON structuré demandé."
+                    }
+                ],
+                response_format={"type": "json_object"},
+                temperature=0,
+                top_p=1,
+                seed=42,
+                max_tokens=2000,
+                n=1,
+                stream=False,
+                timeout=120
+            )
+
+            # Traiter la réponse
+            response_text = response.choices[0].message.content
+            logger.debug(f"Réponse brute pour {dimension_name} (100 premiers chars): {response_text[:100]}")
+
+            # Extraire le JSON
+            try:
+                resultat_json = extraire_json_robuste(response_text)
+                logger.info(f"✅ Dimension {dimension_name} évaluée avec succès")
+
+                # Ajouter métadonnées
+                resultat_json["_metadata"] = {
+                    "dimension": dimension_name,
+                    "tentative_reussie": attempt,
+                    "duree_secondes": round(time.time() - start_time, 2),
+                    "timestamp": datetime.now().isoformat()
+                }
+
+                return resultat_json
+
+            except ValueError as e:
+                logger.error(f"Échec extraction JSON pour {dimension_name} (tentative {attempt}): {e}")
+                if attempt == max_retries:
+                    return {
+                        "dimension": dimension_name,
+                        "erreur": "Échec extraction JSON",
+                        "details": str(e),
+                        "reponse_brute": response_text[:500],
+                        "timestamp": datetime.now().isoformat()
+                    }
+                time.sleep(2)
+                continue
+
+        except Exception as e:
+            logger.error(f"Erreur API pour {dimension_name} (tentative {attempt}): {e}")
+            if attempt == max_retries:
+                return {
+                    "dimension": dimension_name,
+                    "erreur": "Échec appel API",
+                    "details": str(e),
+                    "timestamp": datetime.now().isoformat()
+                }
+            time.sleep(2)
+
+    # Ne devrait jamais arriver ici
+    return {
+        "dimension": dimension_name,
+        "erreur": "Erreur inconnue",
+        "timestamp": datetime.now().isoformat()
+    }
+
+
+def agreger_resultats_dimensions(resultats_dimensions, history, profil_manager):
+    """
+    Agrège les résultats des 5 dimensions pour créer la synthèse finale
+
+    Args:
+        resultats_dimensions (dict): Dictionnaire avec les résultats de chaque dimension
+        history: Historique de conversation
+        profil_manager: Manager des profils
+
+    Returns:
+        dict: Synthèse complète structurée
+    """
+    logger.info("Agrégation des résultats des 5 dimensions")
+
+    # Vérifier s'il y a des erreurs
+    erreurs = []
+    for dim_name, resultat in resultats_dimensions.items():
+        if "erreur" in resultat:
+            erreurs.append(f"{dim_name}: {resultat.get('erreur')}")
+
+    if erreurs:
+        logger.warning(f"Erreurs détectées dans {len(erreurs)} dimensions: {erreurs}")
+
+    # Calculer le niveau général basé sur les niveaux individuels
+    niveaux_individuels = []
+    for dim_name, resultat in resultats_dimensions.items():
+        if "niveau" in resultat:
+            niveaux_individuels.append(resultat["niveau"])
+
+    # Logique de calcul du niveau général
+    niveau_general = _calculer_niveau_general(niveaux_individuels)
+
+    # Construire le commentaire global
+    commentaire_global = _construire_commentaire_global(resultats_dimensions)
+
+    # Construire les recommandations
+    recommandations = _construire_recommandations(resultats_dimensions)
+
+    # Construire la vision détaillée
+    vision_detaillee = {}
+    for dim_name, resultat in resultats_dimensions.items():
+        if "erreur" not in resultat:
+            vision_detaillee[dim_name] = {
+                "niveau": resultat.get("niveau", "À améliorer"),
+                "points_positifs": resultat.get("points_positifs", ""),
+                "points_negatifs": resultat.get("points_negatifs", ""),
+                "ce_qui_devrait_etre_dit": resultat.get("ce_qui_devrait_etre_dit", ""),
+                "reponse_suggeree": resultat.get("reponse_suggeree", "")
+            }
+        else:
+            # En cas d'erreur, créer une structure par défaut
+            vision_detaillee[dim_name] = {
+                "niveau": "À améliorer",
+                "points_positifs": "",
+                "points_negatifs": f"Erreur d'évaluation: {resultat.get('erreur')}",
+                "ce_qui_devrait_etre_dit": "",
+                "reponse_suggeree": "Impossible d'évaluer cette dimension"
+            }
+
+    # Construire le résultat final
+    synthese_finale = {
+        "synthese": {
+            "niveau_general": niveau_general,
+            "commentaire_global": commentaire_global,
+            "timestamp": datetime.now().isoformat()
+        },
+        "vision_detaillee": vision_detaillee,
+        "recommandations": recommandations,
+        "synthese_metadata": {
+            "method": "synthese_par_dimensions",
+            "timestamp": datetime.now().isoformat(),
+            "conversation_length": len(history),
+            "criteres_evalues": 5,
+            "dimensions_evaluees": list(resultats_dimensions.keys()),
+            "erreurs_evaluation": erreurs if erreurs else []
+        }
+    }
+
+    # Ajouter les détails du client
+    synthese_finale["details_client"] = _extraire_details_client_complet(profil_manager)
+
+    # Ajouter l'historique de conversation
+    synthese_finale["historique_conversation"] = _formater_historique_conversation(history)
+
+    logger.info("✅ Agrégation terminée avec succès")
+    return synthese_finale
+
+
+def _calculer_niveau_general(niveaux_individuels):
+    """
+    Calcule le niveau général basé sur les niveaux individuels
+    Logique: prend le niveau le plus fréquent, avec priorité aux niveaux bas en cas d'égalité
+
+    Args:
+        niveaux_individuels (list): Liste des niveaux individuels
+
+    Returns:
+        str: Niveau général calculé
+    """
+    if not niveaux_individuels:
+        return "Satisfaisant"
+
+    # Compter les occurrences
+    from collections import Counter
+    compteur = Counter(niveaux_individuels)
+
+    # Ordre de priorité (du plus bas au plus haut)
+    ordre_priorite = ["À améliorer", "Satisfaisant", "Bien", "Très bien"]
+
+    # Si un niveau "À améliorer" est présent, le niveau général ne peut pas être "Très bien"
+    if "À améliorer" in niveaux_individuels:
+        # Si plus de 2 "À améliorer", le niveau général est "À améliorer"
+        if compteur["À améliorer"] >= 2:
+            return "À améliorer"
+        else:
+            return "Satisfaisant"
+
+    # Si majorité de "Très bien"
+    if compteur.get("Très bien", 0) >= 3:
+        return "Très bien"
+
+    # Si majorité de "Bien"
+    if compteur.get("Bien", 0) >= 3:
+        return "Bien"
+
+    # Sinon "Satisfaisant"
+    return "Satisfaisant"
+
+
+def _construire_commentaire_global(resultats_dimensions):
+    """
+    Construit un commentaire global basé sur les résultats des dimensions
+
+    Args:
+        resultats_dimensions (dict): Résultats de chaque dimension
+
+    Returns:
+        str: Commentaire global
+    """
+    points_forts = []
+    points_faibles = []
+
+    for dim_name, resultat in resultats_dimensions.items():
+        if "erreur" in resultat:
+            continue
+
+        niveau = resultat.get("niveau", "")
+
+        if niveau in ["Très bien", "Bien"]:
+            points_forts.append(dim_name.replace("_", " ").title())
+        elif niveau == "À améliorer":
+            points_faibles.append(dim_name.replace("_", " ").title())
+
+    # Construire le commentaire
+    commentaire = ""
+
+    if points_forts:
+        commentaire += f"Points forts identifiés: {', '.join(points_forts)}. "
+
+    if points_faibles:
+        commentaire += f"Axes d'amélioration prioritaires: {', '.join(points_faibles)}. "
+
+    if not commentaire:
+        commentaire = "Performance globalement satisfaisante avec des axes d'amélioration identifiés."
+
+    return commentaire.strip()
+
+
+def _construire_recommandations(resultats_dimensions):
+    """
+    Construit les recommandations basées sur les résultats des dimensions
+
+    Args:
+        resultats_dimensions (dict): Résultats de chaque dimension
+
+    Returns:
+        dict: Recommandations structurées
+    """
+    principales_forces = []
+    axes_amelioration = []
+    actions_correctives = []
+
+    for dim_name, resultat in resultats_dimensions.items():
+        if "erreur" in resultat:
+            continue
+
+        niveau = resultat.get("niveau", "")
+        points_positifs = resultat.get("points_positifs", "")
+        points_negatifs = resultat.get("points_negatifs", "")
+        reponse_suggeree = resultat.get("reponse_suggeree", "")
+
+        # Principales forces
+        if niveau in ["Très bien", "Bien"] and points_positifs:
+            principales_forces.append(f"{dim_name.replace('_', ' ').title()}: {points_positifs[:100]}")
+
+        # Axes d'amélioration
+        if niveau in ["À améliorer", "Satisfaisant"] and points_negatifs:
+            axes_amelioration.append(f"{dim_name.replace('_', ' ').title()}: {points_negatifs[:100]}")
+
+        # Actions correctives
+        if niveau == "À améliorer" and reponse_suggeree and reponse_suggeree != "Rien à améliorer":
+            actions_correctives.append(f"{dim_name.replace('_', ' ').title()}: {reponse_suggeree[:100]}")
+
+    # Limiter à 3 éléments maximum pour chaque catégorie
+    return {
+        "principales_forces": principales_forces[:3] if principales_forces else ["Évaluation en cours"],
+        "axes_amelioration_prioritaires": axes_amelioration[:3] if axes_amelioration else ["Aucun axe majeur identifié"],
+        "actions_correctives_immediates": actions_correctives[:3] if actions_correctives else ["Continuer sur la même voie"]
+    }
+
+
 def synthese_2(history, client, documents_reference, profil_manager, session_data: Dict[str, Any] = None):
     """
-    Effectue une évaluation unique sur tout l'historique de la conversation
-    en utilisant les documents de référence Groupama.
-    VERSION AMÉLIORÉE avec garantie de JSON valide.
+    Effectue une évaluation en 5 appels séparés au LLM, un par dimension.
+    VERSION REFACTORISÉE avec évaluation par dimension.
 
     Args:
         history: Historique de la conversation
@@ -266,7 +605,75 @@ def synthese_2(history, client, documents_reference, profil_manager, session_dat
     Returns:
         dict: Résultats d'évaluation structurés pour automatisation
     """
-    logger.info("Début de l'évaluation complète avec synthese_2 (version améliorée)")
+    logger.info("Début de l'évaluation complète avec synthese_2 (version par dimensions)")
+
+    # Définir les 5 dimensions à évaluer
+    dimensions = [
+        "maitrise_produit_technique",
+        "decouverte_client_relationnel_conclusion",
+        "traitement_objections_argumentation",
+        "cross_selling_opportunites",
+        "posture_charte_relation_client"
+    ]
+
+    # Dictionnaire pour stocker les résultats de chaque dimension
+    resultats_dimensions = {}
+
+    # Évaluer chaque dimension séparément
+    start_time_total = time.time()
+
+    for dimension in dimensions:
+        logger.info(f"📊 Évaluation de la dimension: {dimension}")
+        start_time_dim = time.time()
+
+        resultat_dim = evaluer_dimension(
+            dimension,
+            history,
+            client,
+            documents_reference,
+            profil_manager,
+            session_data
+        )
+
+        resultats_dimensions[dimension] = resultat_dim
+
+        duree_dim = time.time() - start_time_dim
+        logger.info(f"✅ Dimension {dimension} évaluée en {duree_dim:.2f}s")
+
+    # Agréger les résultats pour créer la synthèse finale
+    logger.info("🔄 Agrégation des résultats des 5 dimensions")
+    synthese_finale = agreger_resultats_dimensions(resultats_dimensions, history, profil_manager)
+
+    # Ajouter les métadonnées d'exécution
+    duree_totale = time.time() - start_time_total
+    synthese_finale["_metadata_appel"] = {
+        "methode": "synthese_par_dimensions",
+        "nombre_dimensions": len(dimensions),
+        "duree_totale_secondes": round(duree_totale, 2),
+        "timestamp_completion": datetime.now().isoformat()
+    }
+
+    logger.info(f"✅ Évaluation complète terminée en {duree_totale:.2f}s")
+    return synthese_finale
+
+
+def synthese_2_ancienne_version(history, client, documents_reference, profil_manager, session_data: Dict[str, Any] = None):
+    """
+    ANCIENNE VERSION: Effectue une évaluation unique sur tout l'historique de la conversation
+    en utilisant les documents de référence Groupama.
+    Cette version est conservée pour compatibilité mais n'est plus utilisée par défaut.
+
+    Args:
+        history: Historique de la conversation
+        client: Client OpenAI configuré
+        documents_reference: Documents de référence chargés
+        profil_manager: Manager des profils clients
+        session_data: Dictionnaire de session FastAPI (optionnel)
+
+    Returns:
+        dict: Résultats d'évaluation structurés pour automatisation
+    """
+    logger.info("Début de l'évaluation complète avec synthese_2 (ancienne version - un seul appel)")
     
     # 1. Préparer l'historique complet de la conversation
     historique_complet = _preparer_historique_pour_synthese(history)
