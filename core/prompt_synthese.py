@@ -387,10 +387,10 @@ def construire_prompt_synthese(documents_reference, historique_complet, document
 def _extraire_infos_profil(profil_manager):
     """
     Extrait les informations du profil client depuis le ProfilManager
-    
+
     Args:
         profil_manager: Instance du ProfilManager
-        
+
     Returns:
         dict: Informations du profil formatées
     """
@@ -408,9 +408,9 @@ def _extraire_infos_profil(profil_manager):
             'nombre_enfants': 'Non spécifié',
             'hobby': 'Non spécifié'
         }
-    
+
     person_details = profil_manager.get_person_details() or {}
-    
+
     return {
         'nom': person_details.get('Nom', 'Non spécifié'),
         'age': person_details.get('Age', 'Non spécifié'),
@@ -424,4 +424,384 @@ def _extraire_infos_profil(profil_manager):
         'nombre_enfants': person_details.get('nombre_enfants', 'Non spécifié'),
         'hobby': person_details.get('hobby', 'Non spécifié')
     }
+
+
+# ========================================
+# NOUVELLE APPROCHE : ÉVALUATION PAR DIMENSION
+# ========================================
+
+def get_format_json_dimension():
+    """
+    Retourne le format JSON attendu pour l'évaluation d'UNE SEULE dimension
+
+    Returns:
+        str: Template JSON pour une dimension unique
+    """
+    return """
+    {
+        "dimension": "[nom de la dimension]",
+        "niveau": "[Très bien/Bien/Satisfaisant/À améliorer]",
+        "points_positifs": "[resumé de ce qui a été bien dit par le commercial dans ce domaine]",
+        "points_negatifs": "[liste exhaustive des erreurs identifiées]",
+        "ce_qui_devrait_etre_dit": "[resumé de ce que le conseiller aurait dû dire : corrige les erreurs]",
+        "reponse_suggeree": "[si le niveau est 'À améliorer': suggérer une réponse commerciale optimale concise, sinon renseigner 'Rien à améliorer']",
+        "timestamp": "TIMESTAMP_PLACEHOLDER"
+    }
+    """
+
+
+def get_instructions_dimension(dimension_name):
+    """
+    Retourne les instructions spécifiques pour une dimension donnée
+
+    Args:
+        dimension_name (str): Nom de la dimension à évaluer
+
+    Returns:
+        str: Instructions spécifiques pour cette dimension
+    """
+    instructions_specifiques = {
+        "maitrise_produit_technique": """
+        <instructions_dimension>
+            <dimension>Maîtrise produit & technique</dimension>
+            <description>Évaluer la capacité du conseiller à présenter correctement l'offre Groupama Santé 3 (GSA3)</description>
+
+            <criteres_evaluation>
+                <critere priority="CRITIQUE">L'EXACTITUDE prime sur la quantité d'informations.</critere>
+                <critere priority="CRITIQUE">TOUTE erreur factuelle (chiffres, garanties, structure) = AUTOMATIQUEMENT "À améliorer"</critere>
+                <critere>Vérifier l'exactitude de CHAQUE information donnée sur GSA3</critere>
+                <critere>Ne pas pénaliser si les détails techniques ne sont pas donnés spontanément SI les infos données sont EXACTES</critere>
+                <critere>Il est préférable de rester simple et clair, MAIS l'exactitude est NON NÉGOCIABLE</critere>
+                <critere priority="CRITIQUE">TOUT chiffre donné doit correspondre EXACTEMENT au TMGF</critere>
+                <critere priority="CRITIQUE">TOUTE garantie mentionnée doit exister dans la documentation GSA3</critere>
+            </criteres_evaluation>
+
+            <erreurs_automatiques_ameliorer>
+                <erreur>Erreur sur le nombre de blocs (doit être 6)</erreur>
+                <erreur>Erreur sur le nombre de niveaux (doit être 4)</erreur>
+                <erreur>Montant ne correspondant pas au TMGF</erreur>
+                <erreur>Mention d'une garantie inexistante dans GSA3</erreur>
+                <erreur>Information contradictoire avec les documents de référence</erreur>
+            </erreurs_automatiques_ameliorer>
+
+            <niveaux>
+                <niveau name="Très bien">Informations 100% exactes, simples et claires. ZÉRO erreur factuelle.</niveau>
+                <niveau name="Bien">Informations exactes avec quelques imprécisions mineures. ZÉRO erreur factuelle majeure.</niveau>
+                <niveau name="Satisfaisant">Informations globalement correctes avec 1 erreur mineure OU plusieurs manques.</niveau>
+                <niveau name="À améliorer">Au moins 1 erreur factuelle majeure OU plusieurs erreurs mineures.</niveau>
+            </niveaux>
+        </instructions_dimension>
+        """,
+
+        "decouverte_client_relationnel_conclusion": """
+        <instructions_dimension>
+            <dimension>Découverte client, relationnel & conclusion</dimension>
+            <description>Évaluer la qualité de la découverte client, la relation établie et la conclusion de l'entretien</description>
+
+            <criteres_evaluation>
+                <critere>Pertinence et qualité des questions posées pour comprendre les besoins</critere>
+                <critere>Courtoisie, empathie et professionnalisme dans les échanges</critere>
+                <critere>Personnalisation de l'approche selon le profil client</critere>
+                <critere>Qualité de l'écoute active et reformulation</critere>
+                <critere>Adaptation au contexte et à la situation du client</critere>
+                <critere>Qualité de la conclusion (synthèse, prochaines étapes)</critere>
+            </criteres_evaluation>
+
+            <niveaux>
+                <niveau name="Très bien">Découverte approfondie, excellente relation, conclusion claire et engageante</niveau>
+                <niveau name="Bien">Bonne découverte, relation professionnelle, conclusion satisfaisante</niveau>
+                <niveau name="Satisfaisant">Découverte basique, relation correcte, conclusion présente</niveau>
+                <niveau name="À améliorer">Découverte insuffisante, relation impersonnelle, conclusion faible ou absente</niveau>
+            </niveaux>
+        </instructions_dimension>
+        """,
+
+        "traitement_objections_argumentation": """
+        <instructions_dimension>
+            <dimension>Traitement des objections & argumentation</dimension>
+            <description>Évaluer la capacité à détecter, traiter les objections et à argumenter efficacement</description>
+
+            <criteres_evaluation>
+                <critere>Détection et identification des objections explicites et implicites</critere>
+                <critere>Utilisation de la méthode A.C.T.E (Accepter, Creuser, Traiter, Évaluer)</critere>
+                <critere>Reformulation pour valider la compréhension</critere>
+                <critere>Arguments adaptés, concrets et basés sur les documents de référence</critere>
+                <critere>Réponses personnalisées selon le profil et les besoins du client</critere>
+                <critere>Vérification de la satisfaction après traitement de l'objection</critere>
+            </criteres_evaluation>
+
+            <niveaux>
+                <niveau name="Très bien">Objections bien détectées, méthode A.C.T.E appliquée, arguments pertinents et personnalisés</niveau>
+                <niveau name="Bien">Objections traitées avec arguments adaptés, méthode partiellement appliquée</niveau>
+                <niveau name="Satisfaisant">Objections identifiées mais traitement basique</niveau>
+                <niveau name="À améliorer">Objections mal traitées, ignorées ou arguments inadaptés</niveau>
+            </niveaux>
+        </instructions_dimension>
+        """,
+
+        "cross_selling_opportunites": """
+        <instructions_dimension>
+            <dimension>Cross-selling & opportunités commerciales</dimension>
+            <description>Évaluer la capacité à identifier et proposer des produits complémentaires adaptés au profil client</description>
+
+            <criteres_evaluation>
+                <critere>Identification des besoins complémentaires selon le profil client</critere>
+                <critere>Utilisation des informations du profil pour proposer des produits Groupama pertinents</critere>
+                <critere>Adaptation des propositions au profil (âge, situation, profession, etc.)</critere>
+                <critere>Respect de la pertinence (ne pas proposer de garanties inadaptées)</critere>
+                <critere>Présentation naturelle des opportunités sans forcer</critere>
+                <critere>Lien avec les besoins exprimés ou le document profil spécifique</critere>
+            </criteres_evaluation>
+
+            <exemples_opportunites_manquees>
+                <exemple>Client avec enfants : ne pas mentionner la garantie assistance scolaire</exemple>
+                <exemple>Client senior : ne pas évoquer les services d'assistance adaptés</exemple>
+                <exemple>Client aidant : ne pas proposer les garanties spécifiques aidants</exemple>
+            </exemples_opportunites_manquees>
+
+            <interdictions>
+                <interdit>GAV pour les clients de plus de 65 ans</interdit>
+                <interdit>Garantie emprunteur pour demandeurs d'emploi</interdit>
+                <interdit>Produits inadaptés au profil ou à la situation</interdit>
+            </interdictions>
+
+            <niveaux>
+                <niveau name="Très bien">Opportunités identifiées et proposées de manière pertinente et personnalisée</niveau>
+                <niveau name="Bien">Quelques opportunités identifiées avec propositions adaptées</niveau>
+                <niveau name="Satisfaisant">Opportunités basiques identifiées</niveau>
+                <niveau name="À améliorer">Aucune opportunité identifiée OU propositions inadaptées au profil</niveau>
+            </niveaux>
+        </instructions_dimension>
+        """,
+
+        "posture_charte_relation_client": """
+        <instructions_dimension>
+            <dimension>Posture & respect de la charte relation client</dimension>
+            <description>Évaluer le respect des valeurs Groupama en matière de relation client</description>
+
+            <criteres_evaluation>
+                <critere>Empathie : écoute attentive, compréhension des émotions et besoins</critere>
+                <critere>Adaptation : personnalisation selon le profil et la situation</critere>
+                <critere>Facilitation : simplification, clarté, accessibilité des informations</critere>
+                <critere>Esprit collectif : références aux valeurs mutualistes Groupama</critere>
+                <critere>Respect du client : politesse, professionnalisme, considération</critere>
+                <critere>Ton et langage appropriés (ni moralisateur, ni infantilisant)</critere>
+            </criteres_evaluation>
+
+            <interdictions>
+                <interdit>Ton moralisateur ou infantilisant</interdit>
+                <interdit>Manque de respect ou d'empathie</interdit>
+                <interdit>Insistance excessive malgré un refus clair</interdit>
+                <interdit>Langage inapproprié ou trop technique sans explication</interdit>
+            </interdictions>
+
+            <niveaux>
+                <niveau name="Très bien">Parfaite incarnation des valeurs Groupama, posture exemplaire</niveau>
+                <niveau name="Bien">Bonne application de la charte relation client</niveau>
+                <niveau name="Satisfaisant">Respect basique de la charte</niveau>
+                <niveau name="À améliorer">Manquements à la charte ou posture inappropriée</niveau>
+            </niveaux>
+        </instructions_dimension>
+        """
+    }
+
+    return instructions_specifiques.get(dimension_name, "")
+
+
+def construire_prompt_dimension(dimension_name, documents_reference, historique_complet,
+                                document_profil_specifique, profil_manager):
+    """
+    Construit le prompt d'évaluation pour UNE dimension spécifique
+
+    Args:
+        dimension_name (str): Nom de la dimension à évaluer
+        documents_reference (dict): Documents de référence chargés
+        historique_complet (str): Historique de la conversation
+        document_profil_specifique (str): Document spécifique au profil client
+        profil_manager: Manager des profils clients
+
+    Returns:
+        str: Prompt d'évaluation pour cette dimension
+    """
+    # Récupérer les informations du profil client
+    profil_info = _extraire_infos_profil(profil_manager)
+
+    # Récupérer et formater le JSON avec timestamp
+    format_json = get_format_json_dimension()
+    format_json = format_json.replace("TIMESTAMP_PLACEHOLDER", datetime.now().isoformat())
+    format_json = format_json.replace('"[nom de la dimension]"', f'"{dimension_name}"')
+
+    # Construire la partie mission simplifiée pour une dimension
+    mission = f"""
+# 🎯 Mission
+Vous êtes **coach qualité-conseil** (assurance santé Groupama).
+Vous devez évaluer le conseiller Groupama UNIQUEMENT sur la dimension : **{dimension_name}**
+
+À partir de l'historique d'appel, générez une **analyse concise et personnalisée** pour cette dimension uniquement.
+
+### ⚖️ Principes clés
+- Adapter l'évaluation au **profil du client** (âge, profession, sexe, situation personnelle).
+- ❌ Ne jamais proposer de garanties inadaptées
+- ✅ Privilégier simplicité, naturel, respect des refus, et conseils actionnables.
+- ❌ Interdit : ton moralisateur ou infantilisant.
+- ⚠️ CRITIQUE: Vérifier que les informations fournies sont EXACTES et correspondent aux documents de référence.
+
+---
+
+# 👤 Profil client
+- Nom: {profil_info['nom']}
+- Âge: {profil_info['age']}
+- Profession: {profil_info['profession']}
+- Situation: {profil_info['situation_maritale']}
+- Localisation: {profil_info['localisation']}
+- Type de profil: {profil_info['type_personne']}
+- Profil passerelle: {profil_info['profil_passerelle']}
+- Aidant: {profil_info['aidant']}
+- Contrat GMA existant: {profil_info['a_deja_contrat_gma']}
+- Nombre d'enfants: {profil_info['nombre_enfants']}
+- Hobby: {profil_info['hobby']}
+
+---
+
+# 📞 Contexte
+Historique de la conversation :
+{historique_complet}
+
+---
+
+# 📝 Dimension à évaluer : {dimension_name}
+
+"""
+
+    # Instructions spécifiques à la dimension
+    instructions = get_instructions_dimension(dimension_name)
+
+    # Documents de référence (sélectionner ceux pertinents pour la dimension)
+    documents_ref = _get_documents_reference_pour_dimension(
+        dimension_name, documents_reference, document_profil_specifique
+    )
+
+    # Format JSON attendu
+    format_section = f"""
+---
+
+# 📤 Format de réponse attendu
+Réponds **uniquement** au format JSON suivant (aucun texte additionnel) :
+{format_json}
+
+⚠️ **CONSIGNES CRITIQUES DE FORMAT** ⚠️
+Vous DEVEZ répondre EXCLUSIVEMENT avec un objet JSON valide.
+- ❌ AUCUN texte explicatif avant le JSON
+- ❌ AUCUN texte explicatif après le JSON
+- ❌ AUCUNE balise markdown (pas de ```json ni ```)
+- ✅ Commencez DIRECTEMENT par le caractère {{
+- ✅ Terminez DIRECTEMENT par le caractère }}
+- ✅ Toutes les chaînes doivent être entre guillemets doubles "
+- ✅ Respectez EXACTEMENT la structure JSON fournie
+"""
+
+    # Assembler toutes les parties du prompt
+    prompt = mission + instructions + documents_ref + format_section
+
+    return prompt
+
+
+def _get_documents_reference_pour_dimension(dimension_name, documents_reference, document_profil_specifique):
+    """
+    Sélectionne les documents de référence pertinents pour une dimension donnée
+
+    Args:
+        dimension_name (str): Nom de la dimension
+        documents_reference (dict): Tous les documents de référence
+        document_profil_specifique (str): Document profil spécifique
+
+    Returns:
+        str: Documents de référence formatés pour cette dimension
+    """
+    docs = "\n<DocumentsReference>\n"
+
+    # Documents communs à toutes les dimensions
+    docs += f"""
+    <InfosCommerciales priority="CRITIQUE">
+        <description>Document officiel décrivant l'offre GSA3</description>
+        <contenu>
+        {documents_reference.get('description_offre', 'Non disponible')}
+        </contenu>
+    </InfosCommerciales>
+
+    <Tmgf priority="CRITIQUE">
+        <description>Tableau des Montants - SOURCE DE VÉRITÉ pour tous les chiffres</description>
+        <contenu>
+        {documents_reference.get('tmgf', 'Non disponible')}
+        </contenu>
+    </Tmgf>
+"""
+
+    # Documents spécifiques selon la dimension
+    if dimension_name == "maitrise_produit_technique":
+        docs += f"""
+    <ConditionsGenerales>
+        <Vocabulaire>{documents_reference.get('cg_vocabulaire', 'Non disponible')}</Vocabulaire>
+        <Garanties>{documents_reference.get('cg_garanties', 'Non disponible')}</Garanties>
+        <GarantiesAssistance>{documents_reference.get('cg_garanties_assistance', 'Non disponible')}</GarantiesAssistance>
+        <Contrat>{documents_reference.get('cg_contrat', 'Non disponible')}</Contrat>
+    </ConditionsGenerales>
+
+    <ExemplesRemboursement>
+        {documents_reference.get('exemples_remboursement', 'Non disponible')}
+    </ExemplesRemboursement>
+"""
+
+    elif dimension_name == "decouverte_client_relationnel_conclusion":
+        docs += f"""
+    <MethodesCommercialesRecommandees>
+        {documents_reference.get('methodes_commerciales_recommendees', 'Non disponible')}
+    </MethodesCommercialesRecommandees>
+
+    <CharteRelationClient>
+        {documents_reference.get('charte_relation_client', 'Non disponible')}
+    </CharteRelationClient>
+
+    <ProfilClientSpecifique>
+        {document_profil_specifique if document_profil_specifique else 'Profil générique'}
+    </ProfilClientSpecifique>
+"""
+
+    elif dimension_name == "traitement_objections_argumentation":
+        docs += f"""
+    <TraitementObjections>
+        {documents_reference.get('traitement_objections', 'Non disponible')}
+    </TraitementObjections>
+
+    <MethodesCommercialesRecommandees>
+        {documents_reference.get('methodes_commerciales_recommendees', 'Non disponible')}
+    </MethodesCommercialesRecommandees>
+"""
+
+    elif dimension_name == "cross_selling_opportunites":
+        docs += f"""
+    <ProfilClientSpecifique>
+        {document_profil_specifique if document_profil_specifique else 'Profil générique'}
+    </ProfilClientSpecifique>
+
+    <ConditionsGenerales>
+        <Garanties>{documents_reference.get('cg_garanties', 'Non disponible')}</Garanties>
+        <GarantiesAssistance>{documents_reference.get('cg_garanties_assistance', 'Non disponible')}</GarantiesAssistance>
+    </ConditionsGenerales>
+"""
+
+    elif dimension_name == "posture_charte_relation_client":
+        docs += f"""
+    <CharteRelationClient>
+        {documents_reference.get('charte_relation_client', 'Non disponible')}
+    </CharteRelationClient>
+
+    <MethodesCommercialesRecommandees>
+        {documents_reference.get('methodes_commerciales_recommendees', 'Non disponible')}
+    </MethodesCommercialesRecommandees>
+"""
+
+    docs += "\n</DocumentsReference>\n"
+
+    return docs
 
